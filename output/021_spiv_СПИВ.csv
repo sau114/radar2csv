@@ -1,0 +1,80 @@
+tag_full_name;description;data_type;direction;algoblock_type;algoblock_address;algoblock_offset;selector_mask_nzone;modbus_address
+SPIV.HA1_Rdy;Насос1 Готовность;BOOL (1 bit);Read;ИНР;0;0;&h01;0
+SPIV.HA1_Run;Насос1 Работа;BOOL (1 bit);Read;ИНР;0;0;&h02;0
+SPIV.HA1_Alr;Насос1 Авария;BOOL (1 bit);Read;ИНР;0;0;&h04;0
+SPIV.HA1_Rem;Насос1 Местное/Дистанционное;BOOL (1 bit);Read;ИНР;0;0;&h08;0
+SPIV.HA2_Rdy;Насос2 Готовность;BOOL (1 bit);Read;ИНР;0;0;&h10;0
+SPIV.HA2_Run;Насос2 Работа;BOOL (1 bit);Read;ИНР;0;0;&h20;0
+SPIV.HA2_Alr;Насос2 Авария;BOOL (1 bit);Read;ИНР;0;0;&h40;0
+SPIV.HA2_Rem;Насос2 Местное/Дистанционное;BOOL (1 bit);Read;ИНР;0;0;&h80;0
+SPIV.G1;Питание G1;BOOL (1 bit);Read;ИНР;0;1;&h01;1
+SPIV.G2;Питание G2;BOOL (1 bit);Read;ИНР;0;1;&h02;1
+SPIV.HA12_LUp;УправлениеН1Н2УровеньВерх;BOOL (1 bit);Read;ИНР;0;1;&h04;1
+SPIV.HA12_LHalf;УправлениеН1Н2УровеньСред;BOOL (1 bit);Read;ИНР;0;1;&h08;1
+SPIV.HA12_LMin;УправлениеН1Н2УровеньМин;BOOL (1 bit);Read;ИНР;0;1;&h10;1
+SPIV.HA3_Rdy;Насос3 Готовность;BOOL (1 bit);Read;ИНР;0;1;&h20;1
+SPIV.HA3_Run;Насос3 Работа;BOOL (1 bit);Read;ИНР;0;1;&h40;1
+SPIV.HA3_Alr;Насос3 Авария;BOOL (1 bit);Read;ИНР;0;1;&h80;1
+SPIV.DN1_Rdy;ДН1 Готовность;BOOL (1 bit);Read;ИНР;0;2;&h01;2
+SPIV.DN1_Run;ДН1 Работа;BOOL (1 bit);Read;ИНР;0;2;&h02;2
+SPIV.DN1_Alr;ДН1 Авария;BOOL (1 bit);Read;ИНР;0;2;&h04;2
+SPIV.DN1_Rem;ДН1 Местное/Дистанционное;BOOL (1 bit);Read;ИНР;0;2;&h08;2
+SPIV.DN2_Rdy;ДН2 Готовность;BOOL (1 bit);Read;ИНР;0;2;&h10;2
+SPIV.DN2_Run;ДН2 Работа;BOOL (1 bit);Read;ИНР;0;2;&h20;2
+SPIV.DN2_Alr;ДН2 Авария;BOOL (1 bit);Read;ИНР;0;2;&h40;2
+SPIV.DN2_Rem;ДН2 Местное/Дистанционное;BOOL (1 bit);Read;ИНР;0;2;&h80;2
+SPIV.HA1_Main;Насос1 Основной/Резервный;BOOL (1 bit);Read;ИНР;0;3;&h01;3
+SPIV.HA2_Main;Насос2 Основной/Резервный;BOOL (1 bit);Read;ИНР;0;3;&h02;3
+SPIV.DN1_Main;ДН1 Основной/Резервный;BOOL (1 bit);Read;ИНР;0;3;&h04;3
+SPIV.DN2_Main;ДН2 Основной/Резервный;BOOL (1 bit);Read;ИНР;0;3;&h08;3
+SPIV.AL1;Сигн-яАварийУровень1;BOOL (1 bit);Read;ИНР;0;3;&h10;3
+SPIV.DN12_LUp;УправлениеДН1ДН2УровеньВерх;BOOL (1 bit);Read;ИНР;0;3;&h20;3
+SPIV.DN12_LHalf;УправлениеДН1ДН2УровеньСред;BOOL (1 bit);Read;ИНР;0;3;&h40;3
+SPIV.DN12_LMin;УправлениеДН1ДН2УровеньМин;BOOL (1 bit);Read;ИНР;0;3;&h80;3
+SPIV.AL1_2;Сигн-яАварий2Уровень1;BOOL (1 bit);Read;ИНР;0;4;&h10;4
+SPIV.Z1_opn;Затвор 1 открыт;BOOL (1 bit);Read;ИНР;0;5;&h01;5
+SPIV.Z1_cls;Затвор 1 закрыт;BOOL (1 bit);Read;ИНР;0;5;&h02;5
+SPIV.Z1_rem;Затвор 1 Местное/Дистанционное;BOOL (1 bit);Read;ИНР;0;5;&h08;5
+SPIV.Z1_alr;Затвор 1 Авария;BOOL (1 bit);Read;ИНР;0;5;&h04;5
+SPIV.Z2_opn;Затвор 2 открыт;BOOL (1 bit);Read;ИНР;0;5;&h10;5
+SPIV.Z2_cls;Затвор 2 закрыт;BOOL (1 bit);Read;ИНР;0;5;&h20;5
+SPIV.Z2_rem;Затвор 2 Местное/Дистанционное;BOOL (1 bit);Read;ИНР;0;5;&h80;5
+SPIV.Z2_alr;Затвор 2 Авария;BOOL (1 bit);Read;ИНР;0;5;&h40;5
+SPIV.Z3_opn;Затвор 3 открыт;BOOL (1 bit);Read;ИНР;0;6;&h01;6
+SPIV.Z3_cls;Затвор 3 закрыт;BOOL (1 bit);Read;ИНР;0;6;&h02;6
+SPIV.Z3_rem;Затвор 3 Местное/Дистанционное;BOOL (1 bit);Read;ИНР;0;6;&h08;6
+SPIV.Z3_alr;Затвор 3 Авария;BOOL (1 bit);Read;ИНР;0;6;&h04;6
+SPIV.HA1_P;Давление после НА 1;FLOAT (4 bytes);Read;ИНР;0;40;;40
+SPIV.HA2_P;Давление после НА 2;FLOAT (4 bytes);Read;ИНР;0;44;;44
+SPIV.HA3_P;Давление после НА 3;FLOAT (4 bytes);Read;ИНР;0;48;;48
+SPIV.F1;Расходомер;FLOAT (4 bytes);Read;ИНР;0;52;;52
+SPIV.HA1_I;Ток НА1;FLOAT (4 bytes);Read;ИНР;0;56;;56
+SPIV.HA2_I;Ток НА2;FLOAT (4 bytes);Read;ИНР;0;60;;60
+SPIV.HA3_I;Ток НА3;FLOAT (4 bytes);Read;ИНР;0;64;;64
+SPIV.HA1;НА 1 состояние;INT (2 bytes);Read;ИНР;0;80;;80
+SPIV.HA2;НА 2 состояние;INT (2 bytes);Read;ИНР;0;82;;82
+SPIV.HA3;НА 3 состояние;INT (2 bytes);Read;ИНР;0;84;;84
+SPIV.DN1;DN 1 состояние;INT (2 bytes);Read;ИНР;0;88;;88
+SPIV.DN2;DN 2 состояние;INT (2 bytes);Read;ИНР;0;92;;92
+SPIV.Z1_pos;Затвор 1 положение;INT (2 bytes);Read;ИНР;0;104;;104
+SPIV.Z1_stat;Затвор 1 состояние;INT (2 bytes);Read;ИНР;0;106;;106
+SPIV.Z2_pos;Затвор 2 положение;INT (2 bytes);Read;ИНР;0;108;;108
+SPIV.Z2_stat;Затвор 2 состояние;INT (2 bytes);Read;ИНР;0;110;;110
+SPIV.Z3_pos;Затвор 3 положение;INT (2 bytes);Read;ИНР;0;112;;112
+SPIV.Z3_stat;Затвор 3 состояние;INT (2 bytes);Read;ИНР;0;114;;114
+SPIV.MCR_A1;МЦР1_аналог1;FLOAT (4 bytes);Read;ИНР;1;0;;256
+SPIV.MCR_A2;МЦР1_аналог2;FLOAT (4 bytes);Read;ИНР;1;4;;260
+SPIV.MCR_A3;МЦР1_аналог3;FLOAT (4 bytes);Read;ИНР;1;8;;264
+SPIV.MCR_A4;МЦР1_аналог4;FLOAT (4 bytes);Read;ИНР;1;12;;268
+SPIV.MCR_A5;МЦР1_аналог5;FLOAT (4 bytes);Read;ИНР;1;16;;272
+SPIV.MCR_A6;МЦР1_аналог6;FLOAT (4 bytes);Read;ИНР;1;20;;276
+SPIV.MCR_A7;МЦР1_аналог7;FLOAT (4 bytes);Read;ИНР;1;24;;280
+SPIV.MCR_A8;МЦР1_аналог8;FLOAT (4 bytes);Read;ИНР;1;28;;284
+SPIV.Z1_stat;Затвор 1 состояние;INT (2 bytes);Write;ДКМ;32;0;;-1
+SPIV.Z2_stat;Затвор 2 состояние;INT (2 bytes);Write;ДКМ;32;0;;-1
+SPIV.Z3_stat;Затвор 3 состояние;INT (2 bytes);Write;ДКМ;32;0;;-1
+SPIV.HA1;НА 1 состояние;INT (2 bytes);Write;ДКМ;32;0;;-1
+SPIV.HA2;НА 2 состояние;INT (2 bytes);Write;ДКМ;32;0;;-1
+SPIV.HA3;НА 3 состояние;INT (2 bytes);Write;ДКМ;32;0;;-1
+SPIV.DN1;DN 1 состояние;INT (2 bytes);Write;ДКМ;32;0;;-1
+SPIV.DN2;DN 2 состояние;INT (2 bytes);Write;ДКМ;32;0;;-1

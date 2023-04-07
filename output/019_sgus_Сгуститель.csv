@@ -1,0 +1,122 @@
+tag_full_name;description;data_type;direction;algoblock_type;algoblock_address;algoblock_offset;selector_mask_nzone;modbus_address
+SGUS.HA1_Rdy;Насос1 Готовность;BOOL (1 bit);Read;ИНР;0;0;&h01;0
+SGUS.HA1_Run;Насос1 Работа;BOOL (1 bit);Read;ИНР;0;0;&h02;0
+SGUS.HA1_Alr;Насос1 Авария;BOOL (1 bit);Read;ИНР;0;0;&h04;0
+SGUS.HA1_Rem;Насос1 Местное/Дистанционное;BOOL (1 bit);Read;ИНР;0;0;&h08;0
+SGUS.HA2_Rdy;Насос2 Готовность;BOOL (1 bit);Read;ИНР;0;0;&h10;0
+SGUS.HA2_Run;Насос2 Работа;BOOL (1 bit);Read;ИНР;0;0;&h20;0
+SGUS.HA2_Alr;Насос2 Авария;BOOL (1 bit);Read;ИНР;0;0;&h40;0
+SGUS.HA2_Rem;Насос2 Местное/Дистанционное;BOOL (1 bit);Read;ИНР;0;0;&h80;0
+SGUS.G1;Питание G1;BOOL (1 bit);Read;ИНР;0;1;&h01;1
+SGUS.G2;Питание G2;BOOL (1 bit);Read;ИНР;0;1;&h02;1
+SGUS.SGUS1_LUp;Сгуст.осадка1УровеньВерх;BOOL (1 bit);Read;ИНР;0;1;&h08;1
+SGUS.SGUS1_LCls;Сгуст.осадка1УровеньЗакр;BOOL (1 bit);Read;ИНР;0;1;&h10;1
+SGUS.SGUS1_LMin;Сгуст.осадка1УровеньМин;BOOL (1 bit);Read;ИНР;0;1;&h20;1
+SGUS.HA3_Rdy;Насос3 Готовность;BOOL (1 bit);Read;ИНР;0;1;&h40;1
+SGUS.HA3_Run;Насос3 Работа;BOOL (1 bit);Read;ИНР;0;1;&h80;1
+SGUS.HA3_Alr;Насос3 Авария;BOOL (1 bit);Read;ИНР;0;2;&h01;2
+SGUS.HA3_Rem;Насос3 Местное/Дистанционное;BOOL (1 bit);Read;ИНР;0;2;&h02;2
+SGUS.HA4_Rdy;Насос4 Готовность;BOOL (1 bit);Read;ИНР;0;2;&h04;2
+SGUS.HA4_Run;Насос4 Работа;BOOL (1 bit);Read;ИНР;0;2;&h08;2
+SGUS.HA4_Alr;Насос4 Авария;BOOL (1 bit);Read;ИНР;0;2;&h10;2
+SGUS.HA4_Rem;Насос4 Местное/Дистанционное;BOOL (1 bit);Read;ИНР;0;2;&h20;2
+SGUS.Mix1_Rdy;Мех. перем. 1 Работа;BOOL (1 bit);Read;ИНР;0;2;&h40;2
+SGUS.Mix1_Run;Мех. перем. 1 Авария;BOOL (1 bit);Read;ИНР;0;2;&h80;2
+SGUS.Mix1_Alr;Мех. перем. 1 Работа;BOOL (1 bit);Read;ИНР;0;3;&h01;3
+SGUS.Mix1_Rem;Мех. перем. 1 Авария;BOOL (1 bit);Read;ИНР;0;3;&h02;3
+SGUS.Mix2_Rdy;Мех. перем. 2 Работа;BOOL (1 bit);Read;ИНР;0;3;&h04;3
+SGUS.Mix2_Run;Мех. перем. 2 Авария;BOOL (1 bit);Read;ИНР;0;3;&h08;3
+SGUS.Mix2_Alr;Мех. перем. 2 Работа;BOOL (1 bit);Read;ИНР;0;3;&h10;3
+SGUS.Mix2_Rem;Мех. перем. 2 Авария;BOOL (1 bit);Read;ИНР;0;3;&h20;3
+SGUS.SGUS2_LUp;Сгуст.осадка1УровеньВерх;BOOL (1 bit);Read;ИНР;0;3;&h40;3
+SGUS.SGUS2_LCls;Сгуст.осадка1УровеньЗакр;BOOL (1 bit);Read;ИНР;0;3;&h80;3
+SGUS.SGUS2_LMin;Сгуст.осадка1УровеньМин;BOOL (1 bit);Read;ИНР;0;4;&h01;4
+SGUS.DR_Run;ДренажРелеРабота;BOOL (1 bit);Read;ИНР;0;4;&h04;4
+SGUS.DR_Max;ДренажРелеВерх;BOOL (1 bit);Read;ИНР;0;4;&h08;4
+SGUS.DN_Rdy;ДН Готов;BOOL (1 bit);Read;ИНР;0;4;&h40;4
+SGUS.DN_Run;ДН Работа;BOOL (1 bit);Read;ИНР;0;4;&h80;4
+SGUS.SG1_Fill;Сгус 1 заполнение;BOOL (1 bit);Read;ИНР;0;5;&h01;5
+SGUS.SG1_Pump;Сгус 1 перекачка;BOOL (1 bit);Read;ИНР;0;5;&h02;5
+SGUS.SG1_Flush;Сгус 1 сброс осадка;BOOL (1 bit);Read;ИНР;0;5;&h04;5
+SGUS.SG2_Fill;Сгус 2 заполнение;BOOL (1 bit);Read;ИНР;0;5;&h08;5
+SGUS.SG2_Pump;Сгус 2 перекачка;BOOL (1 bit);Read;ИНР;0;5;&h10;5
+SGUS.SG2_Flush;Сгус 2 сброс осадка;BOOL (1 bit);Read;ИНР;0;5;&h20;5
+SGUS.HA1_Main;НА1 основной;BOOL (1 bit);Read;ИНР;0;6;&h01;6
+SGUS.HA2_Main;НА2 основной;BOOL (1 bit);Read;ИНР;0;6;&h02;6
+SGUS.HA3_Main;НА3 основной;BOOL (1 bit);Read;ИНР;0;6;&h04;6
+SGUS.HA4_Main;НА4 основной;BOOL (1 bit);Read;ИНР;0;6;&h08;6
+SGUS.Z11_opn;Затвор 11 открыт;BOOL (1 bit);Read;ИНР;0;8;&h01;8
+SGUS.Z11_cls;Затвор 11 закрыт;BOOL (1 bit);Read;ИНР;0;8;&h02;8
+SGUS.Z11_alr;Резерв;BOOL (1 bit);Read;ИНР;0;8;&h08;8
+SGUS.Z11_rem;Резерв;BOOL (1 bit);Read;ИНР;0;8;&h04;8
+SGUS.Z21_opn;Затвор 21 открыт;BOOL (1 bit);Read;ИНР;0;8;&h10;8
+SGUS.Z21_cls;Затвор 21 закрыт;BOOL (1 bit);Read;ИНР;0;8;&h20;8
+SGUS.Z21_alr;Резерв;BOOL (1 bit);Read;ИНР;0;8;&h80;8
+SGUS.Z21_rem;Резерв;BOOL (1 bit);Read;ИНР;0;8;&h40;8
+SGUS.Z12_opn;Задв. 12 открыт;BOOL (1 bit);Read;ИНР;0;9;&h01;9
+SGUS.Z12_cls;Задв. 12 закрыт;BOOL (1 bit);Read;ИНР;0;9;&h02;9
+SGUS.Z12_alr;Резерв;BOOL (1 bit);Read;ИНР;0;9;&h08;9
+SGUS.Z12_rem;Резерв;BOOL (1 bit);Read;ИНР;0;9;&h04;9
+SGUS.Z13_opn;Задв. 13 открыт;BOOL (1 bit);Read;ИНР;0;9;&h10;9
+SGUS.Z13_cls;Задв. 13 закрыт;BOOL (1 bit);Read;ИНР;0;9;&h20;9
+SGUS.Z13_alr;Резерв;BOOL (1 bit);Read;ИНР;0;9;&h80;9
+SGUS.Z13_rem;Резерв;BOOL (1 bit);Read;ИНР;0;9;&h40;9
+SGUS.Z22_opn;Задв. 22 открыт;BOOL (1 bit);Read;ИНР;0;10;&h01;10
+SGUS.Z22_cls;Задв. 22 закрыт;BOOL (1 bit);Read;ИНР;0;10;&h02;10
+SGUS.Z22_alr;Резерв;BOOL (1 bit);Read;ИНР;0;10;&h08;10
+SGUS.Z22_rem;Резерв;BOOL (1 bit);Read;ИНР;0;10;&h04;10
+SGUS.Z23_opn;Задв. 23 открыт;BOOL (1 bit);Read;ИНР;0;10;&h10;10
+SGUS.Z23_cls;Задв. 23 закрыт;BOOL (1 bit);Read;ИНР;0;10;&h20;10
+SGUS.Z23_alr;Резерв;BOOL (1 bit);Read;ИНР;0;10;&h80;10
+SGUS.Z23_rem;Резерв;BOOL (1 bit);Read;ИНР;0;10;&h40;10
+SGUS.R1_S1;Сигн-р ила1 Реле1;BOOL (1 bit);Read;ИНР;0;11;&h01;11
+SGUS.R2_S1;Сигн-р ила2 Реле1;BOOL (1 bit);Read;ИНР;0;11;&h04;11
+SGUS.HA1_P;Давление после НА 1;FLOAT (4 bytes);Read;ИНР;0;40;;40
+SGUS.HA2_P;Давление после НА 2;FLOAT (4 bytes);Read;ИНР;0;44;;44
+SGUS.HA3_P;Давление после НА 3;FLOAT (4 bytes);Read;ИНР;0;48;;48
+SGUS.HA4_P;Давление после НА 4;FLOAT (4 bytes);Read;ИНР;0;52;;52
+SGUS.HA1_I;Ток НА1;FLOAT (4 bytes);Read;ИНР;0;56;;56
+SGUS.HA2_I;Ток НА2;FLOAT (4 bytes);Read;ИНР;0;60;;60
+SGUS.HA3_I;Ток НА3;FLOAT (4 bytes);Read;ИНР;0;64;;64
+SGUS.HA4_I;Ток НА4;FLOAT (4 bytes);Read;ИНР;0;68;;68
+SGUS.HA1;НА 1 состояние;INT (2 bytes);Read;ИНР;0;80;;80
+SGUS.HA2;НА 2 состояние;INT (2 bytes);Read;ИНР;0;82;;82
+SGUS.HA3;НА 3 состояние;INT (2 bytes);Read;ИНР;0;84;;84
+SGUS.HA4;HA 4 состояние;INT (2 bytes);Read;ИНР;0;86;;86
+SGUS.DN;DN  состояние;INT (2 bytes);Read;ИНР;0;88;;88
+SGUS.MIX1;MIX1  состояние;INT (2 bytes);Read;ИНР;0;90;;90
+SGUS.MIX2;MIX2  состояние;INT (2 bytes);Read;ИНР;0;92;;92
+SGUS.Z11_stat;Затвор 11 управление;INT (2 bytes);Read;ИНР;0;102;;102
+SGUS.Z11_pos;Затвор 11 положение;INT (2 bytes);Read;ИНР;0;104;;104
+SGUS.Z21_pos;Затвор 21 положение;INT (2 bytes);Read;ИНР;0;108;;108
+SGUS.Z21_stat;Затвор 21 управление;INT (2 bytes);Read;ИНР;0;110;;110
+SGUS.Z12_pos;Затвор 12 положение;INT (2 bytes);Read;ИНР;0;112;;112
+SGUS.Z12_stat;Затвор 12 управление;INT (2 bytes);Read;ИНР;0;114;;114
+SGUS.Z13_pos;Затвор 13 положение;INT (2 bytes);Read;ИНР;0;116;;116
+SGUS.Z13_stat;Затвор 13 управление;INT (2 bytes);Read;ИНР;0;118;;118
+SGUS.Z22_pos;Затвор 22 положение;INT (2 bytes);Read;ИНР;0;120;;120
+SGUS.Z22_stat;Затвор 22 управление;INT (2 bytes);Read;ИНР;0;122;;122
+SGUS.Z23_pos;Затвор 23 положение;INT (2 bytes);Read;ИНР;0;124;;124
+SGUS.Z23_stat;Затвор 23 управление;INT (2 bytes);Read;ИНР;0;126;;126
+SGUS.SG_mode;Режим откл. по мин. уровню 0-нет 1- Сг1. 2-Сг2. 3 - Сг1 и Сг2;FLOAT (4 bytes);Read;ИНР;0;156;;156
+SGUS.MCR_A1;МЦР1_аналог1;FLOAT (4 bytes);Read;ИНР;1;0;;256
+SGUS.MCR_A2;МЦР1_аналог2;FLOAT (4 bytes);Read;ИНР;1;4;;260
+SGUS.MCR_A3;МЦР1_аналог3;FLOAT (4 bytes);Read;ИНР;1;8;;264
+SGUS.MCR_A4;МЦР1_аналог4;FLOAT (4 bytes);Read;ИНР;1;12;;268
+SGUS.MCR_A5;МЦР1_аналог5;FLOAT (4 bytes);Read;ИНР;1;16;;272
+SGUS.MCR_A6;МЦР1_аналог6;FLOAT (4 bytes);Read;ИНР;1;20;;276
+SGUS.MCR_A7;МЦР1_аналог7;FLOAT (4 bytes);Read;ИНР;1;24;;280
+SGUS.MCR_A8;МЦР1_аналог8;FLOAT (4 bytes);Read;ИНР;1;28;;284
+SGUS.HA1;НА 1 состояние;INT (2 bytes);Write;ДКМ;32;0;;-1
+SGUS.HA2;НА 2 состояние;INT (2 bytes);Write;ДКМ;32;0;;-1
+SGUS.HA3;НА 3 состояние;INT (2 bytes);Write;ДКМ;32;0;;-1
+SGUS.HA4;HA 4 состояние;INT (2 bytes);Write;ДКМ;32;0;;-1
+SGUS.DN;DN  состояние;INT (2 bytes);Write;ДКМ;32;0;;-1
+SGUS.MIX1;MIX1  состояние;INT (2 bytes);Write;ДКМ;32;0;;-1
+SGUS.MIX2;MIX2  состояние;INT (2 bytes);Write;ДКМ;32;0;;-1
+SGUS.Z11_stat;Затвор 11 управление;INT (2 bytes);Write;ДКМ;33;0;;-1
+SGUS.Z21_stat;Затвор 21 управление;INT (2 bytes);Write;ДКМ;33;0;;-1
+SGUS.Z12_stat;Затвор 12 управление;INT (2 bytes);Write;ДКМ;33;0;;-1
+SGUS.Z13_stat;Затвор 13 управление;INT (2 bytes);Write;ДКМ;33;0;;-1
+SGUS.Z22_stat;Затвор 22 управление;INT (2 bytes);Write;ДКМ;33;0;;-1
+SGUS.Z23_stat;Затвор 23 управление;INT (2 bytes);Write;ДКМ;33;0;;-1

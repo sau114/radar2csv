@@ -1,0 +1,279 @@
+tag_full_name;description;data_type;direction;algoblock_type;algoblock_address;algoblock_offset;selector_mask_nzone;modbus_address
+tal.MZ_AI1;Расход скважина №1 %;FLOAT (4 bytes);Read;ИНР;0;0;;0
+tal.MZ_AI2;Резерв;FLOAT (4 bytes);Read;ИНР;0;4;;4
+tal.MZ_AI3;Резерв;FLOAT (4 bytes);Read;ИНР;0;8;;8
+tal.MZ_AI4;Резерв;FLOAT (4 bytes);Read;ИНР;0;12;;12
+tal.Tmk;Температура на MK500;FLOAT (4 bytes);Read;ИНР;0;16;;16
+tal.MZ_DI1;Готовность НА1;BOOL (1 bit);Read;ИНР;0;20;&h01;20
+tal.MZ_DI2;Вкл. НА1;BOOL (1 bit);Read;ИНР;0;24;&h01;24
+tal.MZ_DI3;Резерв;BOOL (1 bit);Read;ИНР;0;28;&h01;28
+tal.MZ_DI4;Резерв;BOOL (1 bit);Read;ИНР;0;32;&h01;32
+tal.MZ_DI5;Резерв;BOOL (1 bit);Read;ИНР;0;36;&h01;36
+tal.MZ_DI6;Резерв;BOOL (1 bit);Read;ИНР;0;40;&h01;40
+tal.MZ_DI7;Резерв;BOOL (1 bit);Read;ИНР;0;44;&h01;44
+tal.MZ_DI8;Резерв;BOOL (1 bit);Read;ИНР;0;48;&h01;48
+tal.MB_Er;ошибка ModBus;BOOL (1 bit);Read;ИНР;0;52;&h01;52
+tal.MB_rez;Резерв;BOOL (1 bit);Read;ИНР;0;56;&h01;56
+tal.rez1;Резерв;FLOAT (4 bytes);Read;ИНР;0;100;;100
+tal.E_SK1;Расход скв №1 30;FLOAT (4 bytes);Read;ИНР;0;104;;104
+tal.FE5;Мгновенный расход м3/час;FLOAT (4 bytes);Read;ИНР;0;104;;104
+tal.E_R;Резерв 30;FLOAT (4 bytes);Read;ИНР;0;108;;108
+tal.t_kont;температура контейнера;INT (4 bytes);Read;ИНР;0;116;;116
+tal.FE1;Расход FE1;FLOAT (4 bytes);Read;ИНР;1;0;;256
+tal.FE1;Мгновенный расход м3/час;FLOAT (4 bytes);Read;ИНР;1;0;;256
+tal.FE2;Расход FE2;FLOAT (4 bytes);Read;ИНР;1;4;;260
+tal.FE2;Мгновенный расход м3/час;FLOAT (4 bytes);Read;ИНР;1;4;;260
+tal.FE3;Расход FE3;FLOAT (4 bytes);Read;ИНР;1;8;;264
+tal.FE3;Мгновенный расход м3/час;FLOAT (4 bytes);Read;ИНР;1;8;;264
+tal.FE4;Расход FE4;FLOAT (4 bytes);Read;ИНР;1;12;;268
+tal.FE4;Мгновенный расход м3/час;FLOAT (4 bytes);Read;ИНР;1;12;;268
+tal.DD1;Давление ДД1;FLOAT (4 bytes);Read;ИНР;1;16;;272
+tal.DD2;Давление ДД2;FLOAT (4 bytes);Read;ИНР;1;20;;276
+tal.DD3;Давление ДД3;FLOAT (4 bytes);Read;ИНР;1;24;;280
+tal.E2;Уровень Е2;FLOAT (4 bytes);Read;ИНР;1;28;;284
+tal.E3;Уровень Е3;FLOAT (4 bytes);Read;ИНР;1;32;;288
+tal.Hz_H3;Частота ПЧ Н3;FLOAT (4 bytes);Read;ИНР;1;36;;292
+tal.Hz_H1;Частота ПЧ Н1;FLOAT (4 bytes);Read;ИНР;1;40;;296
+tal.Hz_H2;Частота ПЧ Н2;FLOAT (4 bytes);Read;ИНР;1;44;;300
+tal.V_FE1;Объём FE1;FLOAT (4 bytes);Read;ИНР;1;48;;304
+tal.V_FE2;Объём FE2;FLOAT (4 bytes);Read;ИНР;1;52;;308
+tal.V_FE3;Объём FE3;FLOAT (4 bytes);Read;ИНР;1;56;;312
+tal.V_FE5;Объём FE5;FLOAT (4 bytes);Read;ИНР;1;60;;316
+tal.DI1;Насос НА2;INT (1 byte);Read;ИНР;1;64;;320
+tal.DI1.DI_1;Включен;BOOL (1 bit);Read;ИНР;1;64;&h01;320
+tal.DI1.DI_2;Авария;BOOL (1 bit);Read;ИНР;1;64;&h02;320
+tal.DI1.DI_3;Резерв;BOOL (1 bit);Read;ИНР;1;64;&h04;320
+tal.DI1.DI_4;Резерв;BOOL (1 bit);Read;ИНР;1;64;&h08;320
+tal.DI1.DI_5;Резерв;BOOL (1 bit);Read;ИНР;1;64;&h10;320
+tal.DI1.DI_6;Резерв;BOOL (1 bit);Read;ИНР;1;64;&h20;320
+tal.DI1.DI_7;Резерв;BOOL (1 bit);Read;ИНР;1;64;&h40;320
+tal.DI1.DI_8;Резерв;BOOL (1 bit);Read;ИНР;1;64;&h80;320
+tal.DI2;Насос НА3;INT (1 byte);Read;ИНР;1;68;;324
+tal.DI2.DI_1;Включен;BOOL (1 bit);Read;ИНР;1;68;&h01;324
+tal.DI2.DI_2;Авария;BOOL (1 bit);Read;ИНР;1;68;&h02;324
+tal.DI2.DI_3;Резерв;BOOL (1 bit);Read;ИНР;1;68;&h04;324
+tal.DI2.DI_4;Резерв;BOOL (1 bit);Read;ИНР;1;68;&h08;324
+tal.DI2.DI_5;Резерв;BOOL (1 bit);Read;ИНР;1;68;&h10;324
+tal.DI2.DI_6;Резерв;BOOL (1 bit);Read;ИНР;1;68;&h20;324
+tal.DI2.DI_7;Резерв;BOOL (1 bit);Read;ИНР;1;68;&h40;324
+tal.DI2.DI_8;Резерв;BOOL (1 bit);Read;ИНР;1;68;&h80;324
+tal.DI3;ПЗэ1/1;INT (1 byte);Read;ИНР;1;72;;328
+tal.DI3.DI_1;Открыто;BOOL (1 bit);Read;ИНР;1;72;&h01;328
+tal.DI3.DI_2;Движение;BOOL (1 bit);Read;ИНР;1;72;&h02;328
+tal.DI3.DI_3;Резерв;BOOL (1 bit);Read;ИНР;1;72;&h04;328
+tal.DI3.DI_4;Резерв;BOOL (1 bit);Read;ИНР;1;72;&h08;328
+tal.DI3.DI_5;Резерв;BOOL (1 bit);Read;ИНР;1;72;&h10;328
+tal.DI3.DI_6;Резерв;BOOL (1 bit);Read;ИНР;1;72;&h20;328
+tal.DI3.DI_7;Резерв;BOOL (1 bit);Read;ИНР;1;72;&h40;328
+tal.DI3.DI_8;Резерв;BOOL (1 bit);Read;ИНР;1;72;&h80;328
+tal.DI4;ПЗэ4/1;INT (1 byte);Read;ИНР;1;76;;332
+tal.DI4.DI_1;Открыто;BOOL (1 bit);Read;ИНР;1;76;&h01;332
+tal.DI4.DI_2;Движение;BOOL (1 bit);Read;ИНР;1;76;&h02;332
+tal.DI4.DI_3;Резерв;BOOL (1 bit);Read;ИНР;1;76;&h04;332
+tal.DI4.DI_4;Резерв;BOOL (1 bit);Read;ИНР;1;76;&h08;332
+tal.DI4.DI_5;Резерв;BOOL (1 bit);Read;ИНР;1;76;&h10;332
+tal.DI4.DI_6;Резерв;BOOL (1 bit);Read;ИНР;1;76;&h20;332
+tal.DI4.DI_7;Резерв;BOOL (1 bit);Read;ИНР;1;76;&h40;332
+tal.DI4.DI_8;Резерв;BOOL (1 bit);Read;ИНР;1;76;&h80;332
+tal.DI5;ПЗэ4/2;INT (1 byte);Read;ИНР;1;80;;336
+tal.DI5.DI_1;Открыто;BOOL (1 bit);Read;ИНР;1;80;&h01;336
+tal.DI5.DI_2;Движение;BOOL (1 bit);Read;ИНР;1;80;&h02;336
+tal.DI5.DI_3;Резерв;BOOL (1 bit);Read;ИНР;1;80;&h04;336
+tal.DI5.DI_4;Резерв;BOOL (1 bit);Read;ИНР;1;80;&h08;336
+tal.DI5.DI_5;Резерв;BOOL (1 bit);Read;ИНР;1;80;&h10;336
+tal.DI5.DI_6;Резерв;BOOL (1 bit);Read;ИНР;1;80;&h20;336
+tal.DI5.DI_7;Резерв;BOOL (1 bit);Read;ИНР;1;80;&h40;336
+tal.DI5.DI_8;Резерв;BOOL (1 bit);Read;ИНР;1;80;&h80;336
+tal.DI6;КШэ1;INT (1 byte);Read;ИНР;1;84;;340
+tal.DI6.DI_1;Открыто;BOOL (1 bit);Read;ИНР;1;84;&h01;340
+tal.DI6.DI_2;Движение;BOOL (1 bit);Read;ИНР;1;84;&h02;340
+tal.DI6.DI_3;Резерв;BOOL (1 bit);Read;ИНР;1;84;&h04;340
+tal.DI6.DI_4;Резерв;BOOL (1 bit);Read;ИНР;1;84;&h08;340
+tal.DI6.DI_5;Резерв;BOOL (1 bit);Read;ИНР;1;84;&h10;340
+tal.DI6.DI_6;Резерв;BOOL (1 bit);Read;ИНР;1;84;&h20;340
+tal.DI6.DI_7;Резерв;BOOL (1 bit);Read;ИНР;1;84;&h40;340
+tal.DI6.DI_8;Резерв;BOOL (1 bit);Read;ИНР;1;84;&h80;340
+tal.DI7;ПЗэ2/1;INT (1 byte);Read;ИНР;1;88;;344
+tal.DI7.DI_1;Открыто;BOOL (1 bit);Read;ИНР;1;88;&h01;344
+tal.DI7.DI_2;Движение;BOOL (1 bit);Read;ИНР;1;88;&h02;344
+tal.DI7.DI_3;Резерв;BOOL (1 bit);Read;ИНР;1;88;&h04;344
+tal.DI7.DI_4;Резерв;BOOL (1 bit);Read;ИНР;1;88;&h08;344
+tal.DI7.DI_5;Резерв;BOOL (1 bit);Read;ИНР;1;88;&h10;344
+tal.DI7.DI_6;Резерв;BOOL (1 bit);Read;ИНР;1;88;&h20;344
+tal.DI7.DI_7;Резерв;BOOL (1 bit);Read;ИНР;1;88;&h40;344
+tal.DI7.DI_8;Резерв;BOOL (1 bit);Read;ИНР;1;88;&h80;344
+tal.DI8;ПЗэ2/2;INT (1 byte);Read;ИНР;1;92;;348
+tal.DI8.DI_1;Открыто;BOOL (1 bit);Read;ИНР;1;92;&h01;348
+tal.DI8.DI_2;Движение;BOOL (1 bit);Read;ИНР;1;92;&h02;348
+tal.DI8.DI_3;Резерв;BOOL (1 bit);Read;ИНР;1;92;&h04;348
+tal.DI8.DI_4;Резерв;BOOL (1 bit);Read;ИНР;1;92;&h08;348
+tal.DI8.DI_5;Резерв;BOOL (1 bit);Read;ИНР;1;92;&h10;348
+tal.DI8.DI_6;Резерв;BOOL (1 bit);Read;ИНР;1;92;&h20;348
+tal.DI8.DI_7;Резерв;BOOL (1 bit);Read;ИНР;1;92;&h40;348
+tal.DI8.DI_8;Резерв;BOOL (1 bit);Read;ИНР;1;92;&h80;348
+tal.DI10;ПЗэ2/3;INT (1 byte);Read;ИНР;1;96;;352
+tal.DI10.DI_1;Открыто;BOOL (1 bit);Read;ИНР;1;96;&h01;352
+tal.DI10.DI_2;Движение;BOOL (1 bit);Read;ИНР;1;96;&h02;352
+tal.DI10.DI_3;Резерв;BOOL (1 bit);Read;ИНР;1;96;&h04;352
+tal.DI10.DI_4;Резерв;BOOL (1 bit);Read;ИНР;1;96;&h08;352
+tal.DI10.DI_5;Резерв;BOOL (1 bit);Read;ИНР;1;96;&h10;352
+tal.DI10.DI_6;Резерв;BOOL (1 bit);Read;ИНР;1;96;&h20;352
+tal.DI10.DI_7;Резерв;BOOL (1 bit);Read;ИНР;1;96;&h40;352
+tal.DI10.DI_8;Резерв;BOOL (1 bit);Read;ИНР;1;96;&h80;352
+tal.DI11;ПЗэ2/4;INT (1 byte);Read;ИНР;1;100;;356
+tal.DI11.DI_1;Открыто;BOOL (1 bit);Read;ИНР;1;100;&h01;356
+tal.DI11.DI_2;Движение;BOOL (1 bit);Read;ИНР;1;100;&h02;356
+tal.DI11.DI_3;Резерв;BOOL (1 bit);Read;ИНР;1;100;&h04;356
+tal.DI11.DI_4;Резерв;BOOL (1 bit);Read;ИНР;1;100;&h08;356
+tal.DI12;ПЗэ3/1;INT (1 byte);Read;ИНР;1;104;;360
+tal.DI12.DI_1;Открыто;BOOL (1 bit);Read;ИНР;1;104;&h01;360
+tal.DI12.DI_2;Движение;BOOL (1 bit);Read;ИНР;1;104;&h02;360
+tal.DI12.DI_3;Резерв;BOOL (1 bit);Read;ИНР;1;104;&h04;360
+tal.DI12.DI_4;Резерв;BOOL (1 bit);Read;ИНР;1;104;&h08;360
+tal.DI13;ПЗэ3/2;INT (1 byte);Read;ИНР;1;108;;364
+tal.DI13.DI_1;Открыто;BOOL (1 bit);Read;ИНР;1;108;&h01;364
+tal.DI13.DI_2;Движение;BOOL (1 bit);Read;ИНР;1;108;&h02;364
+tal.DI13.DI_3;Резерв;BOOL (1 bit);Read;ИНР;1;108;&h04;364
+tal.DI13.DI_4;Резерв;BOOL (1 bit);Read;ИНР;1;108;&h08;364
+tal.DI14;ПЗэ3/3;INT (1 byte);Read;ИНР;1;112;;368
+tal.DI14.DI_1;Открыто;BOOL (1 bit);Read;ИНР;1;112;&h01;368
+tal.DI14.DI_2;Движение;BOOL (1 bit);Read;ИНР;1;112;&h02;368
+tal.DI14.DI_3;Резерв;BOOL (1 bit);Read;ИНР;1;112;&h04;368
+tal.DI14.DI_4;Резерв;BOOL (1 bit);Read;ИНР;1;112;&h08;368
+tal.DI15;ПЗэ3/4;INT (1 byte);Read;ИНР;1;116;;372
+tal.DI15.DI_1;Открыто;BOOL (1 bit);Read;ИНР;1;116;&h01;372
+tal.DI15.DI_2;Движение;BOOL (1 bit);Read;ИНР;1;116;&h02;372
+tal.DI15.DI_3;Резерв;BOOL (1 bit);Read;ИНР;1;116;&h04;372
+tal.DI15.DI_4;Резерв;BOOL (1 bit);Read;ИНР;1;116;&h08;372
+tal.DI16;ПЗэ1/2;INT (1 byte);Read;ИНР;1;120;;376
+tal.DI16.DI_1;Открыто;BOOL (1 bit);Read;ИНР;1;120;&h01;376
+tal.DI16.DI_2;Движение;BOOL (1 bit);Read;ИНР;1;120;&h02;376
+tal.DI16.DI_3;Резерв;BOOL (1 bit);Read;ИНР;1;120;&h04;376
+tal.DI16.DI_4;Резерв;BOOL (1 bit);Read;ИНР;1;120;&h08;376
+tal.DI17;адр old 4186;INT (1 byte);Read;ИНР;1;124;;380
+tal.DI17.DI_1;H1 вкл;BOOL (1 bit);Read;ИНР;1;124;&h01;380
+tal.DI17.DI_2;Авария;BOOL (1 bit);Read;ИНР;1;124;&h02;380
+tal.DI17.DI_3;Резерв;BOOL (1 bit);Read;ИНР;1;124;&h04;380
+tal.DI17.DI_4;Резерв;BOOL (1 bit);Read;ИНР;1;124;&h08;380
+tal.DI17.DI_5;Резерв;BOOL (1 bit);Read;ИНР;1;124;&h10;380
+tal.DI17.DI_6;Резерв;BOOL (1 bit);Read;ИНР;1;124;&h20;380
+tal.DI17.DI_7;Резерв;BOOL (1 bit);Read;ИНР;1;124;&h40;380
+tal.DI17.DI_8;Резерв;BOOL (1 bit);Read;ИНР;1;124;&h80;380
+tal.DI18;адр 4200;INT (1 byte);Read;ИНР;1;128;;384
+tal.DI18.DI_1;НД1 вкл;BOOL (1 bit);Read;ИНР;1;128;&h01;384
+tal.DI18.DI_2;НД2 вкл;BOOL (1 bit);Read;ИНР;1;128;&h02;384
+tal.DI18.DI_3;Общая авария;BOOL (1 bit);Read;ИНР;1;128;&h04;384
+tal.DI18.DI_4;Вытяжн 1 вкл;BOOL (1 bit);Read;ИНР;1;128;&h08;384
+tal.DI18.DI_5;Вытяжн 2 вкл;BOOL (1 bit);Read;ИНР;1;128;&h10;384
+tal.DI18.DI_6;Скваж насос Н0 вкл;BOOL (1 bit);Read;ИНР;1;128;&h20;384
+tal.DI18.DI_7;Режим Авт;BOOL (1 bit);Read;ИНР;1;128;&h40;384
+tal.DI18.DI_8;Резерв;BOOL (1 bit);Read;ИНР;1;128;&h80;384
+tal.DI19;адр old 1310;INT (1 byte);Read;ИНР;1;132;;388
+tal.DI19.DI_1;фильтр2/1 реген;BOOL (1 bit);Read;ИНР;1;132;&h01;388
+tal.DI19.DI_2;фильтр2/1 фильтр;BOOL (1 bit);Read;ИНР;1;132;&h02;388
+tal.DI19.DI_3;Резерв;BOOL (1 bit);Read;ИНР;1;132;&h04;388
+tal.DI19.DI_4;Резерв;BOOL (1 bit);Read;ИНР;1;132;&h08;388
+tal.DI19.DI_5;Резерв;BOOL (1 bit);Read;ИНР;1;132;&h10;388
+tal.DI19.DI_6;Резерв;BOOL (1 bit);Read;ИНР;1;132;&h20;388
+tal.DI19.DI_7;Резерв;BOOL (1 bit);Read;ИНР;1;132;&h40;388
+tal.DI19.DI_8;Резерв;BOOL (1 bit);Read;ИНР;1;132;&h80;388
+tal.DI20;адр old 1307;INT (1 byte);Read;ИНР;1;136;;392
+tal.DI20.DI_1;фильтр2/2 реген;BOOL (1 bit);Read;ИНР;1;136;&h01;392
+tal.DI20.DI_2;фильтр2/2 фильтр;BOOL (1 bit);Read;ИНР;1;136;&h02;392
+tal.DI21;адр old  4201;INT (1 byte);Read;ИНР;1;140;;396
+tal.DI21.DI_1;фильтр2/3 реген;BOOL (1 bit);Read;ИНР;1;140;&h01;396
+tal.DI21.DI_2;фильтр2/3 фильтр;BOOL (1 bit);Read;ИНР;1;140;&h02;396
+tal.DI21.DI_3;Резерв;BOOL (1 bit);Read;ИНР;1;140;&h04;396
+tal.DI21.DI_4;Резерв;BOOL (1 bit);Read;ИНР;1;140;&h08;396
+tal.DI21.DI_5;Резерв;BOOL (1 bit);Read;ИНР;1;140;&h10;396
+tal.DI21.DI_6;Резерв;BOOL (1 bit);Read;ИНР;1;140;&h20;396
+tal.DI21.DI_7;Резерв;BOOL (1 bit);Read;ИНР;1;140;&h40;396
+tal.DI21.DI_8;Резерв;BOOL (1 bit);Read;ИНР;1;140;&h80;396
+tal.PZ1_a;ПЗэ1 авария;BOOL (1 bit);Read;ИНР;1;144;;400
+tal.PZ41_a;ПЗэ4/1 авария;BOOL (1 bit);Read;ИНР;1;148;;404
+tal.PZ42_a;ПЗэ4/2 авария;BOOL (1 bit);Read;ИНР;1;152;;408
+tal.KSH1_a;КШэ1 авария;BOOL (1 bit);Read;ИНР;1;156;;412
+tal.KSH2/1_a;ПЗэ2/1 авария;BOOL (1 bit);Read;ИНР;1;160;;416
+tal.KSH2/2_a;ПЗэ2/2 авария;BOOL (1 bit);Read;ИНР;1;164;;420
+tal.KSH2/3_a;ПЗэ2/3 авария;BOOL (1 bit);Read;ИНР;1;168;;424
+tal.KSH2/4_a;ПЗэ2/4 авария;BOOL (1 bit);Read;ИНР;1;172;;428
+tal.KSH3/1_a;ПЗэ3/1 авария;BOOL (1 bit);Read;ИНР;1;176;;432
+tal.KSH3/2_a;ПЗэ3/2 авария;BOOL (1 bit);Read;ИНР;1;180;;436
+tal.KSH3/3_a;ПЗэ3/3 авария;BOOL (1 bit);Read;ИНР;1;184;;440
+tal.KSH3/4_a;ПЗэ3/4 авария;BOOL (1 bit);Read;ИНР;1;188;;444
+tal.KSH4_a;ПЗэ4/1 авария;BOOL (1 bit);Read;ИНР;1;192;;448
+tal.t_kont1;температура контейнера;INT (4 bytes);Read;ИНР;1;196;;452
+tal.V_FE4;Объём FE4;FLOAT (4 bytes);Read;ИНР;1;200;;456
+tal.DI22;адр old 4198R;INT (1 byte);Read;ИНР;1;204;;460
+tal.DI22.DI_1;фильтр2/4 реген;BOOL (1 bit);Read;ИНР;1;204;&h01;460
+tal.DI22.DI_2;фильтр2/4 фильтр;BOOL (1 bit);Read;ИНР;1;204;&h02;460
+tal.DI22.DI_3;Резерв;BOOL (1 bit);Read;ИНР;1;204;&h04;460
+tal.DI22.DI_4;Резерв;BOOL (1 bit);Read;ИНР;1;204;&h08;460
+tal.DI22.DI_5;Резерв;BOOL (1 bit);Read;ИНР;1;204;&h10;460
+tal.DI22.DI_6;Резерв;BOOL (1 bit);Read;ИНР;1;204;&h20;460
+tal.DI22.DI_7;Резерв;BOOL (1 bit);Read;ИНР;1;204;&h40;460
+tal.DI22.DI_8;Резерв;BOOL (1 bit);Read;ИНР;1;204;&h80;460
+tal.DI23;адр 4199f;INT (1 byte);Read;ИНР;1;208;;464
+tal.DI23.DI_1;ДВЕРЬ1;BOOL (1 bit);Read;ИНР;1;208;&h01;464
+tal.DI23.DI_2;ДВЕРЬ2;BOOL (1 bit);Read;ИНР;1;208;&h02;464
+tal.DI23.DI_3;ПОЖАР1;BOOL (1 bit);Read;ИНР;1;208;&h04;464
+tal.DI23.DI_4;ПОЖАР2;BOOL (1 bit);Read;ИНР;1;208;&h08;464
+tal.DI23.DI_5;Резерв;BOOL (1 bit);Read;ИНР;1;208;&h10;464
+tal.DI23.DI_6;Резерв;BOOL (1 bit);Read;ИНР;1;208;&h20;464
+tal.DI23.DI_7;Резерв;BOOL (1 bit);Read;ИНР;1;208;&h40;464
+tal.DI23.DI_8;Резерв;BOOL (1 bit);Read;ИНР;1;208;&h80;464
+tal.FE5;Расход FE5;FLOAT (4 bytes);Read;ИНР;1;212;;468
+tal.DD4;Давление ДД4;FLOAT (4 bytes);Read;ИНР;1;216;;472
+tal.DD5;Давление ДД5;FLOAT (4 bytes);Read;ИНР;1;220;;476
+tal.DD6;Давление ДД6;FLOAT (4 bytes);Read;ИНР;1;224;;480
+tal.E5;Уровень Е5;FLOAT (4 bytes);Read;ИНР;1;228;;484
+tal.E6;Уровень Е6;FLOAT (4 bytes);Read;ИНР;1;232;;488
+tal.t_kont2;температура контейнера;INT (4 bytes);Read;ИНР;1;236;;492
+tal.N1(HH);Мото1/час за текущий час;FLOAT (4 bytes);Read;ИНР;2;0;;512
+tal.N1(HH-1);Мото1/час за прошедший час;FLOAT (4 bytes);Read;ИНР;2;4;;516
+tal.N1(DD);Мото1/час за текущие сутки;FLOAT (4 bytes);Read;ИНР;2;8;;520
+tal.N1(DD-1);Мото1/час за прошедшие сутки;FLOAT (4 bytes);Read;ИНР;2;12;;524
+tal.N1(MM);Мото1/час за текущий месяц;FLOAT (4 bytes);Read;ИНР;2;16;;528
+tal.N1(MM-1);Мото1/час за прошедший месяц;FLOAT (4 bytes);Read;ИНР;2;20;;532
+tal.N1(GG);Мото1/час за текущий ГОД;FLOAT (4 bytes);Read;ИНР;2;24;;536
+tal.N1(GG-1);Мото1/час за прошедший ГОД;FLOAT (4 bytes);Read;ИНР;2;28;;540
+tal.FE5.Q(HH);Объем за текущий час;FLOAT (4 bytes);Read;ИНР;2;32;;544
+tal.FE5.Q(HH-1);Объем за прошедший час;FLOAT (4 bytes);Read;ИНР;2;36;;548
+tal.FE5.Q(DD);Объем за текущие сутки;FLOAT (4 bytes);Read;ИНР;2;40;;552
+tal.FE5.Q(DD-1);Объем за прошедшие сутки;FLOAT (4 bytes);Read;ИНР;2;44;;556
+tal.FE5.Q(MM);Объем за текущий месяц;FLOAT (4 bytes);Read;ИНР;2;48;;560
+tal.FE5.Q(MM-1);Объем за прошедший месяц;FLOAT (4 bytes);Read;ИНР;2;52;;564
+tal.FE5.Q(GG);Объем за текущий ГОД;FLOAT (4 bytes);Read;ИНР;2;56;;568
+tal.FE5.Q(GG-1);Объем за прошедший ГОД;FLOAT (4 bytes);Read;ИНР;2;60;;572
+tal.FE1.Q(HH);Объем за текущий час;FLOAT (4 bytes);Read;ИНР;2;64;;576
+tal.FE1.Q(HH-1);Объем за прошедший час;FLOAT (4 bytes);Read;ИНР;2;68;;580
+tal.FE1.Q(DD);Объем за текущие сутки;FLOAT (4 bytes);Read;ИНР;2;72;;584
+tal.FE1.Q(DD-1);Объем за прошедшие сутки;FLOAT (4 bytes);Read;ИНР;2;76;;588
+tal.FE1.Q(MM);Объем за текущий месяц;FLOAT (4 bytes);Read;ИНР;2;80;;592
+tal.FE1.Q(MM-1);Объем за прошедший месяц;FLOAT (4 bytes);Read;ИНР;2;84;;596
+tal.FE1.Q(GG);Объем за текущий ГОД;FLOAT (4 bytes);Read;ИНР;2;88;;600
+tal.FE1.Q(GG-1);Объем за прошедший ГОД;FLOAT (4 bytes);Read;ИНР;2;92;;604
+tal.FE2.Q(HH);Объем за текущий час;FLOAT (4 bytes);Read;ИНР;2;96;;608
+tal.FE2.Q(HH-1);Объем за прошедший час;FLOAT (4 bytes);Read;ИНР;2;100;;612
+tal.FE2.Q(DD);Объем за текущие сутки;FLOAT (4 bytes);Read;ИНР;2;104;;616
+tal.FE2.Q(DD-1);Объем за прошедшие сутки;FLOAT (4 bytes);Read;ИНР;2;108;;620
+tal.FE2.Q(MM);Объем за текущий месяц;FLOAT (4 bytes);Read;ИНР;2;112;;624
+tal.FE2.Q(MM-1);Объем за прошедший месяц;FLOAT (4 bytes);Read;ИНР;2;116;;628
+tal.FE2.Q(GG);Объем за текущий ГОД;FLOAT (4 bytes);Read;ИНР;2;120;;632
+tal.FE2.Q(GG-1);Объем за прошедший ГОД;FLOAT (4 bytes);Read;ИНР;2;124;;636
+tal.FE3.Q(HH);Объем за текущий час;FLOAT (4 bytes);Read;ИНР;2;128;;640
+tal.FE3.Q(HH-1);Объем за прошедший час;FLOAT (4 bytes);Read;ИНР;2;132;;644
+tal.FE3.Q(DD);Объем за текущие сутки;FLOAT (4 bytes);Read;ИНР;2;136;;648
+tal.FE3.Q(DD-1);Объем за прошедшие сутки;FLOAT (4 bytes);Read;ИНР;2;140;;652
+tal.FE3.Q(MM);Объем за текущий месяц;FLOAT (4 bytes);Read;ИНР;2;144;;656
+tal.FE3.Q(MM-1);Объем за прошедший месяц;FLOAT (4 bytes);Read;ИНР;2;148;;660
+tal.FE3.Q(GG);Объем за текущий ГОД;FLOAT (4 bytes);Read;ИНР;2;152;;664
+tal.FE3.Q(GG-1);Объем за прошедший ГОД;FLOAT (4 bytes);Read;ИНР;2;156;;668
+tal.FE4.Q(HH);Объем за текущий час;FLOAT (4 bytes);Read;ИНР;2;160;;672
+tal.FE4.Q(HH-1);Объем за прошедший час;FLOAT (4 bytes);Read;ИНР;2;164;;676
+tal.FE4.Q(DD);Объем за текущие сутки;FLOAT (4 bytes);Read;ИНР;2;168;;680
+tal.FE4.Q(DD-1);Объем за прошедшие сутки;FLOAT (4 bytes);Read;ИНР;2;172;;684
+tal.FE4.Q(MM);Объем за текущий месяц;FLOAT (4 bytes);Read;ИНР;2;176;;688
+tal.FE4.Q(MM-1);Объем за прошедший месяц;FLOAT (4 bytes);Read;ИНР;2;180;;692
+tal.FE4.Q(GG);Объем за текущий ГОД;FLOAT (4 bytes);Read;ИНР;2;184;;696
+tal.FE4.Q(GG-1);Объем за прошедший ГОД;FLOAT (4 bytes);Read;ИНР;2;188;;700

@@ -1,0 +1,443 @@
+tag_full_name;description;data_type;direction;algoblock_type;algoblock_address;algoblock_offset;selector_mask_nzone;modbus_address
+3P2.ADC1.AI_1;Резерв;FLOAT (4 bytes);Read;ИНР;0;0;;0
+3P2.P1_800;Давление D-800;FLOAT (4 bytes);Read;ИНР;0;0;;0
+3P2.ADC1.AI_2;Резерв;FLOAT (4 bytes);Read;ИНР;0;4;;4
+3P2.P2_800;Давление D-800;FLOAT (4 bytes);Read;ИНР;0;4;;4
+3P2.ADC1.AI_3;Резерв;FLOAT (4 bytes);Read;ИНР;0;8;;8
+3P2.P3_700;Давление D-700;FLOAT (4 bytes);Read;ИНР;0;8;;8
+3P2.ADC1.AI_4;Резерв;FLOAT (4 bytes);Read;ИНР;0;12;;12
+3P2.P4_700;Давление D-700;FLOAT (4 bytes);Read;ИНР;0;12;;12
+3P2.ADC1.AI_5;Резерв;FLOAT (4 bytes);Read;ИНР;0;16;;16
+3P2.ADC1.AI_6;уровень РЧВ1;FLOAT (4 bytes);Read;ИНР;0;20;;20
+3P2.RCV1;Уровень РЧВ 1;FLOAT (4 bytes);Read;ИНР;0;20;;20
+3P2.ADC1.AI_7;уровень РЧВ2;FLOAT (4 bytes);Read;ИНР;0;24;;24
+3P2.RCV2;Уровень РЧВ 2;FLOAT (4 bytes);Read;ИНР;0;24;;24
+3P2.NA2.H.Pos;Положение %;FLOAT (4 bytes);Read;ИНР;0;24;;24
+3P2.NA3.H.Pos;Положение %;FLOAT (4 bytes);Read;ИНР;0;24;;24
+3P2.NA4.H.Pos;Положение %;FLOAT (4 bytes);Read;ИНР;0;24;;24
+3P2.ADC1.AI_8;уровень РЧВ3;FLOAT (4 bytes);Read;ИНР;0;28;;28
+3P2.RCV3;Уровень РЧВ 3;FLOAT (4 bytes);Read;ИНР;0;28;;28
+3P2.NA1.I;Ток нагрузки;FLOAT (4 bytes);Read;ИНР;0;28;;28
+3P2.NA1.H.Pos;Положение %;FLOAT (4 bytes);Read;ИНР;0;28;;28
+3P2.NA2.I;Ток нагрузки;FLOAT (4 bytes);Read;ИНР;0;28;;28
+3P2.NA3.I;Ток нагрузки;FLOAT (4 bytes);Read;ИНР;0;28;;28
+3P2.NA4.I;Ток нагрузки;FLOAT (4 bytes);Read;ИНР;0;28;;28
+3P2.NA5.I;Ток нагрузки;FLOAT (4 bytes);Read;ИНР;0;28;;28
+3P2.NA5.H.Pos;Положение %;FLOAT (4 bytes);Read;ИНР;0;28;;28
+3P2.NA6.I;Ток нагрузки;FLOAT (4 bytes);Read;ИНР;0;28;;28
+3P2.NA6.H.Pos;Положение %;FLOAT (4 bytes);Read;ИНР;0;28;;28
+3P2.NA7.I;Ток нагрузки;FLOAT (4 bytes);Read;ИНР;0;28;;28
+3P2.NA7.H.Pos;Положение %;FLOAT (4 bytes);Read;ИНР;0;28;;28
+3P2.NA8.I;Ток нагрузки;FLOAT (4 bytes);Read;ИНР;0;28;;28
+3P2.NA8.H.Pos;Положение %;FLOAT (4 bytes);Read;ИНР;0;28;;28
+3P2.NA9.I;Ток нагрузки;FLOAT (4 bytes);Read;ИНР;0;28;;28
+3P2.NA9.H.Pos;Положение %;FLOAT (4 bytes);Read;ИНР;0;28;;28
+3P2.ADC2.AI_1;Расход ЧЗТП;FLOAT (4 bytes);Read;ИНР;0;32;;32
+3P2.E1_800;Расход ЧЗПТ D-1000;FLOAT (4 bytes);Read;ИНР;0;32;;32
+3P2.ADC2.AI_2;Расход Ник;FLOAT (4 bytes);Read;ИНР;0;36;;36
+3P2.E2_800;Расход ул.Николаева;FLOAT (4 bytes);Read;ИНР;0;36;;36
+3P2.ADC2.AI_3;Расход НЮР;FLOAT (4 bytes);Read;ИНР;0;40;;40
+3P2.E3_1000;"Расход ТЭЦ2 пнс ""НЮР""";FLOAT (4 bytes);Read;ИНР;0;40;;40
+3P2.ADC2.AI_4;Расход Южн;FLOAT (4 bytes);Read;ИНР;0;44;;44
+3P2.E4_700;Расход Южная промзона;FLOAT (4 bytes);Read;ИНР;0;44;;44
+3P2.ADC2.AI_5;Расход ПромЗона;FLOAT (4 bytes);Read;ИНР;0;48;;48
+3P2.E5_700;Расход РЧВ Мясокомбинат;FLOAT (4 bytes);Read;ИНР;0;48;;48
+3P2.ADC2.AI_6;Резерв;FLOAT (4 bytes);Read;ИНР;0;52;;52
+3P2.ADC2.AI_7;Резерв;FLOAT (4 bytes);Read;ИНР;0;56;;56
+3P2.ADC2.AI_8;Резерв;FLOAT (4 bytes);Read;ИНР;0;60;;60
+3P2.ADC1.DO_1;Резерв;BOOL (1 bit);Read;ИНР;0;64;&h01;64
+3P2.ADC1.DO_2;Резерв;BOOL (1 bit);Read;ИНР;0;64;&h02;64
+3P2.ADC1.DO_3;Резерв;BOOL (1 bit);Read;ИНР;0;64;&h04;64
+3P2.ADC1.DO_4;Резерв;BOOL (1 bit);Read;ИНР;0;64;&h08;64
+3P2.ADC2.DO_1;Резерв;BOOL (1 bit);Read;ИНР;0;64;&h10;64
+3P2.ADC2.DO_2;Резерв;BOOL (1 bit);Read;ИНР;0;64;&h20;64
+3P2.ADC2.DO_3;Резерв;BOOL (1 bit);Read;ИНР;0;64;&h40;64
+3P2.ADC2.DO_4;Резерв;BOOL (1 bit);Read;ИНР;0;64;&h80;64
+3P2.DI1.DI(1-8);Резерв;INT (1 byte);Read;ИНР;0;68;;68
+3P2.DI1.DI_1;Резерв;BOOL (1 bit);Read;ИНР;0;68;&h01;68
+3P2.DI1.DI_2;Резерв;BOOL (1 bit);Read;ИНР;0;68;&h02;68
+3P2.DI1.DI_3;Резерв;BOOL (1 bit);Read;ИНР;0;68;&h04;68
+3P2.DI1.DI_4;Резерв;BOOL (1 bit);Read;ИНР;0;68;&h08;68
+3P2.DI1.DI_5;Резерв;BOOL (1 bit);Read;ИНР;0;68;&h10;68
+3P2.DI1.DI_6;Резерв;BOOL (1 bit);Read;ИНР;0;68;&h20;68
+3P2.DI1.DI_7;Резерв;BOOL (1 bit);Read;ИНР;0;68;&h40;68
+3P2.DI1.DI_8;Резерв;BOOL (1 bit);Read;ИНР;0;68;&h80;68
+3P2.NA1;Насосный агрегат;BOOL (1 bit);Read;ИНР;0;68;&h10;68
+3P2.NA1.B;Всасывающая задвижка;BOOL (1 bit);Read;ИНР;0;68;&h10;68
+3P2.NA1.H;Напорная задвижка;BOOL (1 bit);Read;ИНР;0;68;&h10;68
+3P2.NA1.H.Motor;Привод;BOOL (1 bit);Read;ИНР;0;68;&h10;68
+3P2.NA2;Насосный агрегат;BOOL (1 bit);Read;ИНР;0;68;&h20;68
+3P2.NA2.B;Всасывающая задвижка;BOOL (1 bit);Read;ИНР;0;68;&h20;68
+3P2.NA2.H;Напорная задвижка;BOOL (1 bit);Read;ИНР;0;68;&h20;68
+3P2.NA2.H.Motor;Привод;BOOL (1 bit);Read;ИНР;0;68;&h20;68
+3P2.NA3;Насосный агрегат;BOOL (1 bit);Read;ИНР;0;68;&h40;68
+3P2.NA3.B;Всасывающая задвижка;BOOL (1 bit);Read;ИНР;0;68;&h40;68
+3P2.NA3.H;Напорная задвижка;BOOL (1 bit);Read;ИНР;0;68;&h40;68
+3P2.NA3.H.Motor;Привод;BOOL (1 bit);Read;ИНР;0;68;&h40;68
+3P2.NA4;Насосный агрегат;BOOL (1 bit);Read;ИНР;0;68;&h80;68
+3P2.NA4.B;Всасывающая задвижка;BOOL (1 bit);Read;ИНР;0;68;&h80;68
+3P2.NA4.H;Напорная задвижка;BOOL (1 bit);Read;ИНР;0;68;&h80;68
+3P2.NA4.H.Motor;Привод;BOOL (1 bit);Read;ИНР;0;68;&h80;68
+3P2.DI1.DI(9-16);Резерв;INT (1 byte);Read;ИНР;0;69;;69
+3P2.DI1.DI_9;Резерв;BOOL (1 bit);Read;ИНР;0;69;&h01;69
+3P2.DI1.DI_10;Резерв;BOOL (1 bit);Read;ИНР;0;69;&h02;69
+3P2.DI1.DI_11;Резерв;BOOL (1 bit);Read;ИНР;0;69;&h04;69
+3P2.DI1.DI_12;Резерв;BOOL (1 bit);Read;ИНР;0;69;&h08;69
+3P2.DI1.DI_13;Резерв;BOOL (1 bit);Read;ИНР;0;69;&h10;69
+3P2.DI1.DI_14;Резерв;BOOL (1 bit);Read;ИНР;0;69;&h20;69
+3P2.DI1.DI_15;Резерв;BOOL (1 bit);Read;ИНР;0;69;&h40;69
+3P2.DI1.DI_16;Резерв;BOOL (1 bit);Read;ИНР;0;69;&h80;69
+3P2.DIG1.DI_1(1-8);Резерв;INT (1 byte);Read;ИНР;0;72;;72
+3P2.DIG1.DI_1_1;Резерв;BOOL (1 bit);Read;ИНР;0;72;&h01;72
+3P2.DIG1.DI_1_2;Резерв;BOOL (1 bit);Read;ИНР;0;72;&h02;72
+3P2.DIG1.DI_1_3;Резерв;BOOL (1 bit);Read;ИНР;0;72;&h04;72
+3P2.DIG1.DI_1_4;Резерв;BOOL (1 bit);Read;ИНР;0;72;&h08;72
+3P2.DIG1.DI_1_5;Резерв;BOOL (1 bit);Read;ИНР;0;72;&h10;72
+3P2.DIG1.DI_1_6;Резерв;BOOL (1 bit);Read;ИНР;0;72;&h20;72
+3P2.DIG1.DI_1_7;Резерв;BOOL (1 bit);Read;ИНР;0;72;&h40;72
+3P2.DIG1.DI_1_8;Резерв;BOOL (1 bit);Read;ИНР;0;72;&h80;72
+3P2.DIG1.DI_2(1-8);Резерв;INT (1 byte);Read;ИНР;0;73;;73
+3P2.DIG1.DI_2_1;Резерв;BOOL (1 bit);Read;ИНР;0;73;&h01;73
+3P2.DIG1.DI_2_2;Резерв;BOOL (1 bit);Read;ИНР;0;73;&h02;73
+3P2.DIG1.DI_2_3;Резерв;BOOL (1 bit);Read;ИНР;0;73;&h04;73
+3P2.DIG1.DI_2_4;Резерв;BOOL (1 bit);Read;ИНР;0;73;&h08;73
+3P2.DIG1.DI_2_5;Резерв;BOOL (1 bit);Read;ИНР;0;73;&h10;73
+3P2.DIG1.DI_2_6;Резерв;BOOL (1 bit);Read;ИНР;0;73;&h20;73
+3P2.DIG1.DI_2_7;Резерв;BOOL (1 bit);Read;ИНР;0;73;&h40;73
+3P2.DIG1.DI_2_8;Резерв;BOOL (1 bit);Read;ИНР;0;73;&h80;73
+3P2.DIG1.DI_3(1-8);Резерв;INT (1 byte);Read;ИНР;0;74;;74
+3P2.DIG1.DI_3_1;Резерв;BOOL (1 bit);Read;ИНР;0;74;&h01;74
+3P2.DIG1.DI_3_2;Резерв;BOOL (1 bit);Read;ИНР;0;74;&h02;74
+3P2.DIG1.DI_3_3;Резерв;BOOL (1 bit);Read;ИНР;0;74;&h04;74
+3P2.DIG1.DI_3_4;Резерв;BOOL (1 bit);Read;ИНР;0;74;&h08;74
+3P2.DIG1.DI_3_5;Резерв;BOOL (1 bit);Read;ИНР;0;74;&h10;74
+3P2.DIG1.DI_3_6;Резерв;BOOL (1 bit);Read;ИНР;0;74;&h20;74
+3P2.DIG1.DI_3_7;Резерв;BOOL (1 bit);Read;ИНР;0;74;&h40;74
+3P2.DIG1.DI_3_8;Резерв;BOOL (1 bit);Read;ИНР;0;74;&h80;74
+3P2.DIG1.DI_4(1-8);Резерв;INT (1 byte);Read;ИНР;0;75;;75
+3P2.DIG1.DI_4_1;Резерв;BOOL (1 bit);Read;ИНР;0;75;&h01;75
+3P2.DIG1.DI_4_2;Резерв;BOOL (1 bit);Read;ИНР;0;75;&h02;75
+3P2.DIG1.DI_4_3;Резерв;BOOL (1 bit);Read;ИНР;0;75;&h04;75
+3P2.DIG1.DI_4_4;Резерв;BOOL (1 bit);Read;ИНР;0;75;&h08;75
+3P2.DIG1.DI_4_5;Резерв;BOOL (1 bit);Read;ИНР;0;75;&h10;75
+3P2.DIG1.DI_4_6;Резерв;BOOL (1 bit);Read;ИНР;0;75;&h20;75
+3P2.DIG1.DI_4_7;Резерв;BOOL (1 bit);Read;ИНР;0;75;&h40;75
+3P2.DIG1.DI_4_8;Резерв;BOOL (1 bit);Read;ИНР;0;75;&h80;75
+3P2.DIG1.DI_5(1-8);Резерв;INT (1 byte);Read;ИНР;0;76;;76
+3P2.DIG1.DI_5_1;Резерв;BOOL (1 bit);Read;ИНР;0;76;&h01;76
+3P2.DIG1.DI_5_2;Резерв;BOOL (1 bit);Read;ИНР;0;76;&h02;76
+3P2.DIG1.DI_5_3;Резерв;BOOL (1 bit);Read;ИНР;0;76;&h04;76
+3P2.DIG1.DI_5_4;Резерв;BOOL (1 bit);Read;ИНР;0;76;&h08;76
+3P2.DIG1.DI_5_5;Резерв;BOOL (1 bit);Read;ИНР;0;76;&h10;76
+3P2.DIG1.DI_5_6;Резерв;BOOL (1 bit);Read;ИНР;0;76;&h20;76
+3P2.DIG1.DI_5_7;Резерв;BOOL (1 bit);Read;ИНР;0;76;&h40;76
+3P2.DIG1.DI_5_8;Резерв;BOOL (1 bit);Read;ИНР;0;76;&h80;76
+3P2.DIG1.DI_6(1-8);Резерв;INT (1 byte);Read;ИНР;0;77;;77
+3P2.DIG1.DI_6_1;Резерв;BOOL (1 bit);Read;ИНР;0;77;&h01;77
+3P2.DIG1.DI_6_2;Резерв;BOOL (1 bit);Read;ИНР;0;77;&h02;77
+3P2.DIG1.DI_6_3;Резерв;BOOL (1 bit);Read;ИНР;0;77;&h04;77
+3P2.DIG1.DI_6_4;Резерв;BOOL (1 bit);Read;ИНР;0;77;&h08;77
+3P2.DIG1.DI_6_5;Резерв;BOOL (1 bit);Read;ИНР;0;77;&h10;77
+3P2.DIG1.DI_6_6;Резерв;BOOL (1 bit);Read;ИНР;0;77;&h20;77
+3P2.DIG1.DI_6_7;Резерв;BOOL (1 bit);Read;ИНР;0;77;&h40;77
+3P2.DIG1.DI_6_8;Резерв;BOOL (1 bit);Read;ИНР;0;77;&h80;77
+3P2.DIG1.DI_7(1-8);Резерв;INT (1 byte);Read;ИНР;0;78;;78
+3P2.DIG1.DI_7_1;Резерв;BOOL (1 bit);Read;ИНР;0;78;&h01;78
+3P2.DIG1.DI_7_2;Резерв;BOOL (1 bit);Read;ИНР;0;78;&h02;78
+3P2.DIG1.DI_7_3;Резерв;BOOL (1 bit);Read;ИНР;0;78;&h04;78
+3P2.DIG1.DI_7_4;Резерв;BOOL (1 bit);Read;ИНР;0;78;&h08;78
+3P2.DIG1.DI_7_5;Резерв;BOOL (1 bit);Read;ИНР;0;78;&h10;78
+3P2.DIG1.DI_7_6;Резерв;BOOL (1 bit);Read;ИНР;0;78;&h20;78
+3P2.DIG1.DI_7_7;Резерв;BOOL (1 bit);Read;ИНР;0;78;&h40;78
+3P2.DIG1.DI_7_8;Резерв;BOOL (1 bit);Read;ИНР;0;78;&h80;78
+3P2.DIG1.DI_8(1-8);Резерв;INT (1 byte);Read;ИНР;0;79;;79
+3P2.DIG1.DI_8_1;Резерв;BOOL (1 bit);Read;ИНР;0;79;&h01;79
+3P2.DIG1.DI_8_2;Резерв;BOOL (1 bit);Read;ИНР;0;79;&h02;79
+3P2.DIG1.DI_8_3;Резерв;BOOL (1 bit);Read;ИНР;0;79;&h04;79
+3P2.DIG1.DI_8_4;Резерв;BOOL (1 bit);Read;ИНР;0;79;&h08;79
+3P2.DIG1.DI_8_5;Резерв;BOOL (1 bit);Read;ИНР;0;79;&h10;79
+3P2.DIG1.DI_8_6;Резерв;BOOL (1 bit);Read;ИНР;0;79;&h20;79
+3P2.DIG1.DI_8_7;Резерв;BOOL (1 bit);Read;ИНР;0;79;&h40;79
+3P2.DIG1.DI_8_8;Резерв;BOOL (1 bit);Read;ИНР;0;79;&h80;79
+3P2.ADC3.AI_1;Резерв;FLOAT (4 bytes);Read;ИНР;0;80;;80
+3P2.ADC3.AI_2;Резерв;FLOAT (4 bytes);Read;ИНР;0;84;;84
+3P2.ADC3.AI_3;Резерв;FLOAT (4 bytes);Read;ИНР;0;88;;88
+3P2.ADC3.AI_4;Резерв;FLOAT (4 bytes);Read;ИНР;0;92;;92
+3P2.ADC3.AI_5;Резерв;FLOAT (4 bytes);Read;ИНР;0;96;;96
+3P2.ADC3.AI_6;Резерв;FLOAT (4 bytes);Read;ИНР;0;100;;100
+3P2.ADC3.AI_7;Резерв;FLOAT (4 bytes);Read;ИНР;0;104;;104
+3P2.ADC3.AI_8;Резерв;FLOAT (4 bytes);Read;ИНР;0;108;;108
+3P2.P5;Давление после РЧВ;FLOAT (4 bytes);Read;ИНР;0;108;;108
+3P2.ADC3.DO_1;Резерв;BOOL (1 bit);Read;ИНР;0;112;&h01;112
+3P2.ADC3.DO_2;Резерв;BOOL (1 bit);Read;ИНР;0;112;&h02;112
+3P2.ADC3.DO_3;Резерв;BOOL (1 bit);Read;ИНР;0;112;&h04;112
+3P2.ADC3.DO_4;Резерв;BOOL (1 bit);Read;ИНР;0;112;&h08;112
+3P2.DI2.DI(1-8);Резерв;INT (1 byte);Read;ИНР;0;116;;116
+3P2.DI2.DI_1;Резерв;BOOL (1 bit);Read;ИНР;0;116;&h01;116
+3P2.DI2.DI_2;Резерв;BOOL (1 bit);Read;ИНР;0;116;&h02;116
+3P2.DI2.DI_3;Резерв;BOOL (1 bit);Read;ИНР;0;116;&h04;116
+3P2.DI2.DI_4;Резерв;BOOL (1 bit);Read;ИНР;0;116;&h08;116
+3P2.DI2.DI_5;Резерв;BOOL (1 bit);Read;ИНР;0;116;&h10;116
+3P2.DI2.DI_6;Резерв;BOOL (1 bit);Read;ИНР;0;116;&h20;116
+3P2.DI2.DI_7;Резерв;BOOL (1 bit);Read;ИНР;0;116;&h40;116
+3P2.DI2.DI_8;Резерв;BOOL (1 bit);Read;ИНР;0;116;&h80;116
+3P2.NA5;Насосный агрегат;BOOL (1 bit);Read;ИНР;0;116;&h10;116
+3P2.NA5.B;Всасывающая задвижка;BOOL (1 bit);Read;ИНР;0;116;&h10;116
+3P2.NA5.H;Напорная задвижка;BOOL (1 bit);Read;ИНР;0;116;&h10;116
+3P2.NA5.H.Motor;Привод;BOOL (1 bit);Read;ИНР;0;116;&h10;116
+3P2.NA6;Насосный агрегат;BOOL (1 bit);Read;ИНР;0;116;&h20;116
+3P2.NA6.B;Всасывающая задвижка;BOOL (1 bit);Read;ИНР;0;116;&h20;116
+3P2.NA6.H;Напорная задвижка;BOOL (1 bit);Read;ИНР;0;116;&h20;116
+3P2.NA6.H.Motor;Привод;BOOL (1 bit);Read;ИНР;0;116;&h20;116
+3P2.NA7;Насосный агрегат;BOOL (1 bit);Read;ИНР;0;116;&h40;116
+3P2.NA7.B;Всасывающая задвижка;BOOL (1 bit);Read;ИНР;0;116;&h40;116
+3P2.NA7.H;Напорная задвижка;BOOL (1 bit);Read;ИНР;0;116;&h40;116
+3P2.NA7.H.Motor;Привод;BOOL (1 bit);Read;ИНР;0;116;&h40;116
+3P2.NA8;Насосный агрегат;BOOL (1 bit);Read;ИНР;0;116;&h80;116
+3P2.NA8.B;Всасывающая задвижка;BOOL (1 bit);Read;ИНР;0;116;&h80;116
+3P2.NA8.H;Напорная задвижка;BOOL (1 bit);Read;ИНР;0;116;&h80;116
+3P2.NA8.H.Motor;Привод;BOOL (1 bit);Read;ИНР;0;116;&h80;116
+3P2.DI2.DI(9-16);Резерв;INT (1 byte);Read;ИНР;0;117;;117
+3P2.DI2.DI_9;Резерв;BOOL (1 bit);Read;ИНР;0;117;&h01;117
+3P2.DI2.DI_10;Резерв;BOOL (1 bit);Read;ИНР;0;117;&h02;117
+3P2.DI2.DI_11;Резерв;BOOL (1 bit);Read;ИНР;0;117;&h04;117
+3P2.DI2.DI_12;Резерв;BOOL (1 bit);Read;ИНР;0;117;&h08;117
+3P2.DI2.DI_13;Резерв;BOOL (1 bit);Read;ИНР;0;117;&h10;117
+3P2.DI2.DI_14;Резерв;BOOL (1 bit);Read;ИНР;0;117;&h20;117
+3P2.DI2.DI_15;Резерв;BOOL (1 bit);Read;ИНР;0;117;&h40;117
+3P2.DI2.DI_16;Резерв;BOOL (1 bit);Read;ИНР;0;117;&h80;117
+3P2.NA9;Насосный агрегат;BOOL (1 bit);Read;ИНР;0;117;&h01;117
+3P2.NA9.B;Всасывающая задвижка;BOOL (1 bit);Read;ИНР;0;117;&h01;117
+3P2.NA9.H;Напорная задвижка;BOOL (1 bit);Read;ИНР;0;117;&h01;117
+3P2.NA9.H.Motor;Привод;BOOL (1 bit);Read;ИНР;0;117;&h01;117
+3P2.DIG2.DI_1(1-8);Резерв;INT (1 byte);Read;ИНР;0;120;;120
+3P2.DIG2.DI_1_1;Резерв;BOOL (1 bit);Read;ИНР;0;120;&h01;120
+3P2.DIG2.DI_1_2;Резерв;BOOL (1 bit);Read;ИНР;0;120;&h02;120
+3P2.DIG2.DI_1_3;Резерв;BOOL (1 bit);Read;ИНР;0;120;&h04;120
+3P2.DIG2.DI_1_4;Резерв;BOOL (1 bit);Read;ИНР;0;120;&h08;120
+3P2.DIG2.DI_1_5;Резерв;BOOL (1 bit);Read;ИНР;0;120;&h10;120
+3P2.DIG2.DI_1_6;Резерв;BOOL (1 bit);Read;ИНР;0;120;&h20;120
+3P2.DIG2.DI_1_7;Резерв;BOOL (1 bit);Read;ИНР;0;120;&h40;120
+3P2.DIG2.DI_1_8;Резерв;BOOL (1 bit);Read;ИНР;0;120;&h80;120
+3P2.DIG2.DI_2(1-8);Резерв;INT (1 byte);Read;ИНР;0;121;;121
+3P2.DIG2.DI_2_1;Резерв;BOOL (1 bit);Read;ИНР;0;121;&h01;121
+3P2.DIG2.DI_2_2;Резерв;BOOL (1 bit);Read;ИНР;0;121;&h02;121
+3P2.DIG2.DI_2_3;Резерв;BOOL (1 bit);Read;ИНР;0;121;&h04;121
+3P2.DIG2.DI_2_4;Резерв;BOOL (1 bit);Read;ИНР;0;121;&h08;121
+3P2.DIG2.DI_2_5;Резерв;BOOL (1 bit);Read;ИНР;0;121;&h10;121
+3P2.DIG2.DI_2_6;Резерв;BOOL (1 bit);Read;ИНР;0;121;&h20;121
+3P2.DIG2.DI_2_7;Резерв;BOOL (1 bit);Read;ИНР;0;121;&h40;121
+3P2.DIG2.DI_2_8;Резерв;BOOL (1 bit);Read;ИНР;0;121;&h80;121
+3P2.DIG2.DI_3(1-8);Резерв;INT (1 byte);Read;ИНР;0;122;;122
+3P2.DIG2.DI_3_1;Резерв;BOOL (1 bit);Read;ИНР;0;122;&h01;122
+3P2.DIG2.DI_3_2;Резерв;BOOL (1 bit);Read;ИНР;0;122;&h02;122
+3P2.DIG2.DI_3_3;Резерв;BOOL (1 bit);Read;ИНР;0;122;&h04;122
+3P2.DIG2.DI_3_4;Резерв;BOOL (1 bit);Read;ИНР;0;122;&h08;122
+3P2.DIG2.DI_3_5;Резерв;BOOL (1 bit);Read;ИНР;0;122;&h10;122
+3P2.DIG2.DI_3_6;Резерв;BOOL (1 bit);Read;ИНР;0;122;&h20;122
+3P2.DIG2.DI_3_7;Резерв;BOOL (1 bit);Read;ИНР;0;122;&h40;122
+3P2.DIG2.DI_3_8;Резерв;BOOL (1 bit);Read;ИНР;0;122;&h80;122
+3P2.DIG2.DI_4(1-8);Резерв;INT (1 byte);Read;ИНР;0;123;;123
+3P2.DIG2.DI_4_1;Резерв;BOOL (1 bit);Read;ИНР;0;123;&h01;123
+3P2.DIG2.DI_4_2;Резерв;BOOL (1 bit);Read;ИНР;0;123;&h02;123
+3P2.DIG2.DI_4_3;Резерв;BOOL (1 bit);Read;ИНР;0;123;&h04;123
+3P2.DIG2.DI_4_4;Резерв;BOOL (1 bit);Read;ИНР;0;123;&h08;123
+3P2.DIG2.DI_4_5;Резерв;BOOL (1 bit);Read;ИНР;0;123;&h10;123
+3P2.DIG2.DI_4_6;Резерв;BOOL (1 bit);Read;ИНР;0;123;&h20;123
+3P2.DIG2.DI_4_7;Резерв;BOOL (1 bit);Read;ИНР;0;123;&h40;123
+3P2.DIG2.DI_4_8;Резерв;BOOL (1 bit);Read;ИНР;0;123;&h80;123
+3P2.DIG2.DI_5(1-8);Резерв;INT (1 byte);Read;ИНР;0;124;;124
+3P2.DIG2.DI_5_1;Резерв;BOOL (1 bit);Read;ИНР;0;124;&h01;124
+3P2.DIG2.DI_5_2;Резерв;BOOL (1 bit);Read;ИНР;0;124;&h02;124
+3P2.DIG2.DI_5_3;Резерв;BOOL (1 bit);Read;ИНР;0;124;&h04;124
+3P2.DIG2.DI_5_4;Резерв;BOOL (1 bit);Read;ИНР;0;124;&h08;124
+3P2.DIG2.DI_5_5;Резерв;BOOL (1 bit);Read;ИНР;0;124;&h10;124
+3P2.DIG2.DI_5_6;Резерв;BOOL (1 bit);Read;ИНР;0;124;&h20;124
+3P2.DIG2.DI_5_7;Резерв;BOOL (1 bit);Read;ИНР;0;124;&h40;124
+3P2.DIG2.DI_5_8;Резерв;BOOL (1 bit);Read;ИНР;0;124;&h80;124
+3P2.DIG2.DI_6(1-8);Резерв;INT (1 byte);Read;ИНР;0;125;;125
+3P2.DIG2.DI_6_1;Резерв;BOOL (1 bit);Read;ИНР;0;125;&h01;125
+3P2.DIG2.DI_6_2;Резерв;BOOL (1 bit);Read;ИНР;0;125;&h02;125
+3P2.DIG2.DI_6_3;Резерв;BOOL (1 bit);Read;ИНР;0;125;&h04;125
+3P2.DIG2.DI_6_4;Резерв;BOOL (1 bit);Read;ИНР;0;125;&h08;125
+3P2.DIG2.DI_6_5;Резерв;BOOL (1 bit);Read;ИНР;0;125;&h10;125
+3P2.DIG2.DI_6_6;Резерв;BOOL (1 bit);Read;ИНР;0;125;&h20;125
+3P2.DIG2.DI_6_7;Резерв;BOOL (1 bit);Read;ИНР;0;125;&h40;125
+3P2.DIG2.DI_6_8;Резерв;BOOL (1 bit);Read;ИНР;0;125;&h80;125
+3P2.DIG2.DI_7(1-8);Резерв;INT (1 byte);Read;ИНР;0;126;;126
+3P2.DIG2.DI_7_1;Резерв;BOOL (1 bit);Read;ИНР;0;126;&h01;126
+3P2.DIG2.DI_7_2;Резерв;BOOL (1 bit);Read;ИНР;0;126;&h02;126
+3P2.DIG2.DI_7_3;Резерв;BOOL (1 bit);Read;ИНР;0;126;&h04;126
+3P2.DIG2.DI_7_4;Резерв;BOOL (1 bit);Read;ИНР;0;126;&h08;126
+3P2.DIG2.DI_7_5;Резерв;BOOL (1 bit);Read;ИНР;0;126;&h10;126
+3P2.DIG2.DI_7_6;Резерв;BOOL (1 bit);Read;ИНР;0;126;&h20;126
+3P2.DIG2.DI_7_7;Резерв;BOOL (1 bit);Read;ИНР;0;126;&h40;126
+3P2.DIG2.DI_7_8;Резерв;BOOL (1 bit);Read;ИНР;0;126;&h80;126
+3P2.DIG2.DI_8(1-8);Резерв;INT (1 byte);Read;ИНР;0;127;;127
+3P2.DIG2.DI_8_1;Резерв;BOOL (1 bit);Read;ИНР;0;127;&h01;127
+3P2.DIG2.DI_8_2;Резерв;BOOL (1 bit);Read;ИНР;0;127;&h02;127
+3P2.DIG2.DI_8_3;Резерв;BOOL (1 bit);Read;ИНР;0;127;&h04;127
+3P2.DIG2.DI_8_4;Резерв;BOOL (1 bit);Read;ИНР;0;127;&h08;127
+3P2.DIG2.DI_8_5;Резерв;BOOL (1 bit);Read;ИНР;0;127;&h10;127
+3P2.DIG2.DI_8_6;Резерв;BOOL (1 bit);Read;ИНР;0;127;&h20;127
+3P2.DIG2.DI_8_7;Резерв;BOOL (1 bit);Read;ИНР;0;127;&h40;127
+3P2.DIG2.DI_8_8;Резерв;BOOL (1 bit);Read;ИНР;0;127;&h80;127
+3P2.NA1.T;Время за текущий час;INT (4 bytes);Read;ИНР;1;0;;256
+3P2.NA1.T.(HH);Время за текущий час;INT (4 bytes);Read;ИНР;1;0;;256
+3P2.NA1.T.(HH-1);Время за прошедший час;INT (4 bytes);Read;ИНР;1;4;;260
+3P2.NA1.T.(DD);Время за текущие сутки;INT (4 bytes);Read;ИНР;1;8;;264
+3P2.NA1.T.(DD-1);Время за прошедшие сутки;INT (4 bytes);Read;ИНР;1;12;;268
+3P2.NA1.T.(MM);Время за текущие месяц;INT (4 bytes);Read;ИНР;1;16;;272
+3P2.NA1.T.(MM-1);Время за прошедший месяц;INT (4 bytes);Read;ИНР;1;20;;276
+3P2.NA1.T.(GG);Время за текущие год;INT (4 bytes);Read;ИНР;1;24;;280
+3P2.NA1.T.(GG-1);Время за прошедший год;INT (4 bytes);Read;ИНР;1;28;;284
+3P2.NA1.T.(YY);Время;INT (4 bytes);Read;ИНР;1;32;;288
+3P2.NA2.T;Время за текущий час;INT (4 bytes);Read;ИНР;1;36;;292
+3P2.NA2.T.(HH);Время за текущий час;INT (4 bytes);Read;ИНР;1;36;;292
+3P2.NA2.T.(HH-1);Время за прошедший час;INT (4 bytes);Read;ИНР;1;40;;296
+3P2.NA2.T.(DD);Время за текущие сутки;INT (4 bytes);Read;ИНР;1;44;;300
+3P2.NA2.T.(DD-1);Время за прошедшие сутки;INT (4 bytes);Read;ИНР;1;48;;304
+3P2.NA2.T.(MM);Время за текущие месяц;INT (4 bytes);Read;ИНР;1;52;;308
+3P2.NA2.T.(MM-1);Время за прошедший месяц;INT (4 bytes);Read;ИНР;1;56;;312
+3P2.NA2.T.(GG);Время за текущие год;INT (4 bytes);Read;ИНР;1;60;;316
+3P2.NA2.T.(GG-1);Время за прошедший год;INT (4 bytes);Read;ИНР;1;64;;320
+3P2.NA2.T.(YY);Время;INT (4 bytes);Read;ИНР;1;68;;324
+3P2.NA3.T;Время за текущий час;INT (4 bytes);Read;ИНР;1;72;;328
+3P2.NA3.T.(HH);Время за текущий час;INT (4 bytes);Read;ИНР;1;72;;328
+3P2.NA3.T.(HH-1);Время за прошедший час;INT (4 bytes);Read;ИНР;1;76;;332
+3P2.NA3.T.(DD);Время за текущие сутки;INT (4 bytes);Read;ИНР;1;80;;336
+3P2.NA3.T.(DD-1);Время за прошедшие сутки;INT (4 bytes);Read;ИНР;1;84;;340
+3P2.NA3.T.(MM);Время за текущие месяц;INT (4 bytes);Read;ИНР;1;88;;344
+3P2.NA3.T.(MM-1);Время за прошедший месяц;INT (4 bytes);Read;ИНР;1;92;;348
+3P2.NA3.T.(GG);Время за текущие год;INT (4 bytes);Read;ИНР;1;96;;352
+3P2.NA3.T.(GG-1);Время за прошедший год;INT (4 bytes);Read;ИНР;1;100;;356
+3P2.NA3.T.(YY);Время;INT (4 bytes);Read;ИНР;1;104;;360
+3P2.NA4.T;Время за текущий час;INT (4 bytes);Read;ИНР;1;108;;364
+3P2.NA4.T.(HH);Время за текущий час;INT (4 bytes);Read;ИНР;1;108;;364
+3P2.NA4.T.(HH-1);Время за прошедший час;INT (4 bytes);Read;ИНР;1;112;;368
+3P2.NA4.T.(DD);Время за текущие сутки;INT (4 bytes);Read;ИНР;1;116;;372
+3P2.NA4.T.(DD-1);Время за прошедшие сутки;INT (4 bytes);Read;ИНР;1;120;;376
+3P2.NA4.T.(MM);Время за текущие месяц;INT (4 bytes);Read;ИНР;1;124;;380
+3P2.NA4.T.(MM-1);Время за прошедший месяц;INT (4 bytes);Read;ИНР;1;128;;384
+3P2.NA4.T.(GG);Время за текущие год;INT (4 bytes);Read;ИНР;1;132;;388
+3P2.NA4.T.(GG-1);Время за прошедший год;INT (4 bytes);Read;ИНР;1;136;;392
+3P2.NA4.T.(YY);Время;INT (4 bytes);Read;ИНР;1;140;;396
+3P2.NA5.T;Время за текущий час;INT (4 bytes);Read;ИНР;1;144;;400
+3P2.NA5.T.(HH);Время за текущий час;INT (4 bytes);Read;ИНР;1;144;;400
+3P2.NA5.T.(HH-1);Время за прошедший час;INT (4 bytes);Read;ИНР;1;148;;404
+3P2.NA5.T.(DD);Время за текущие сутки;INT (4 bytes);Read;ИНР;1;152;;408
+3P2.NA5.T.(DD-1);Время за прошедшие сутки;INT (4 bytes);Read;ИНР;1;156;;412
+3P2.NA5.T.(MM);Время за текущие месяц;INT (4 bytes);Read;ИНР;1;160;;416
+3P2.NA5.T.(MM-1);Время за прошедший месяц;INT (4 bytes);Read;ИНР;1;164;;420
+3P2.NA5.T.(GG);Время за текущие год;INT (4 bytes);Read;ИНР;1;168;;424
+3P2.NA5.T.(GG-1);Время за прошедший год;INT (4 bytes);Read;ИНР;1;172;;428
+3P2.NA5.T.(YY);Время;INT (4 bytes);Read;ИНР;1;176;;432
+3P2.NA6.T;Время за текущий час;INT (4 bytes);Read;ИНР;1;180;;436
+3P2.NA6.T.(HH);Время за текущий час;INT (4 bytes);Read;ИНР;1;180;;436
+3P2.NA6.T.(HH-1);Время за прошедший час;INT (4 bytes);Read;ИНР;1;184;;440
+3P2.NA6.T.(DD);Время за текущие сутки;INT (4 bytes);Read;ИНР;1;188;;444
+3P2.NA6.T.(DD-1);Время за прошедшие сутки;INT (4 bytes);Read;ИНР;1;192;;448
+3P2.NA6.T.(MM);Время за текущие месяц;INT (4 bytes);Read;ИНР;1;196;;452
+3P2.NA6.T.(MM-1);Время за прошедший месяц;INT (4 bytes);Read;ИНР;1;200;;456
+3P2.NA6.T.(GG);Время за текущие год;INT (4 bytes);Read;ИНР;1;204;;460
+3P2.NA6.T.(GG-1);Время за прошедший год;INT (4 bytes);Read;ИНР;1;208;;464
+3P2.NA6.T.(YY);Время;INT (4 bytes);Read;ИНР;1;212;;468
+3P2.NA7.T;Время за текущий час;INT (4 bytes);Read;ИНР;1;216;;472
+3P2.NA7.T.(HH);Время за текущий час;INT (4 bytes);Read;ИНР;1;216;;472
+3P2.NA7.T.(HH-1);Время за прошедший час;INT (4 bytes);Read;ИНР;1;220;;476
+3P2.NA7.T.(DD);Время за текущие сутки;INT (4 bytes);Read;ИНР;1;224;;480
+3P2.NA7.T.(DD-1);Время за прошедшие сутки;INT (4 bytes);Read;ИНР;1;228;;484
+3P2.NA7.T.(MM);Время за текущие месяц;INT (4 bytes);Read;ИНР;1;232;;488
+3P2.NA7.T.(MM-1);Время за прошедший месяц;INT (4 bytes);Read;ИНР;1;236;;492
+3P2.NA7.T.(GG);Время за текущие год;INT (4 bytes);Read;ИНР;1;240;;496
+3P2.NA7.T.(GG-1);Время за прошедший год;INT (4 bytes);Read;ИНР;1;244;;500
+3P2.NA7.T.(YY);Время;INT (4 bytes);Read;ИНР;1;248;;504
+3P2.NA8.T;Время за текущий час;INT (4 bytes);Read;ИНР;1;252;;508
+3P2.NA8.T.(HH);Время за текущий час;INT (4 bytes);Read;ИНР;1;252;;508
+3P2.NA8.T.(HH-1);Время за прошедший час;INT (4 bytes);Read;ИНР;1;256;;512
+3P2.NA8.T.(DD);Время за текущие сутки;INT (4 bytes);Read;ИНР;1;260;;516
+3P2.NA8.T.(DD-1);Время за прошедшие сутки;INT (4 bytes);Read;ИНР;1;264;;520
+3P2.NA8.T.(MM);Время за текущие месяц;INT (4 bytes);Read;ИНР;1;268;;524
+3P2.NA8.T.(MM-1);Время за прошедший месяц;INT (4 bytes);Read;ИНР;1;272;;528
+3P2.NA8.T.(GG);Время за текущие год;INT (4 bytes);Read;ИНР;1;276;;532
+3P2.NA8.T.(GG-1);Время за прошедший год;INT (4 bytes);Read;ИНР;1;280;;536
+3P2.NA9.T;Время за текущий час;INT (4 bytes);Read;ИНР;1;304;;560
+3P2.NA9.T.(HH);Время за текущий час;INT (4 bytes);Read;ИНР;1;308;;564
+3P2.NA9.T.(HH-1);Время за прошедший час;INT (4 bytes);Read;ИНР;1;312;;568
+3P2.NA9.T.(DD);Время за текущие сутки;INT (4 bytes);Read;ИНР;1;316;;572
+3P2.NA9.T.(DD-1);Время за прошедшие сутки;INT (4 bytes);Read;ИНР;1;320;;576
+3P2.NA9.T.(MM);Время за текущие месяц;INT (4 bytes);Read;ИНР;1;324;;580
+3P2.NA9.T.(MM-1);Время за прошедший месяц;INT (4 bytes);Read;ИНР;1;328;;584
+3P2.NA9.T.(GG);Время за текущие год;INT (4 bytes);Read;ИНР;1;332;;588
+3P2.NA9.T.(GG-1);Время за прошедший год;INT (4 bytes);Read;ИНР;1;336;;592
+3P2.NA9.T.(YY);Время;INT (4 bytes);Read;ИНР;1;340;;596
+3P2.NA8.T.(YY);Время;INT (4 bytes);Read;ИНР;1;384;;640
+3P2.P1_800.P(HH);Давление за текущий час;FLOAT (4 bytes);Read;ИНР;2;0;;512
+3P2.P1_800.P(HH-1);Давление за прошедший час;FLOAT (4 bytes);Read;ИНР;2;4;;516
+3P2.P2_800.P(HH);Давление за текущий час;FLOAT (4 bytes);Read;ИНР;2;8;;520
+3P2.P2_800.P(HH-1);Давление за прошедший час;FLOAT (4 bytes);Read;ИНР;2;12;;524
+3P2.P3_700.P(HH);Давление за текущий час;FLOAT (4 bytes);Read;ИНР;2;16;;528
+3P2.P3_700.P(HH-1);Давление за прошедший час;FLOAT (4 bytes);Read;ИНР;2;20;;532
+3P2.P4_700.P(HH);Давление за текущий час;FLOAT (4 bytes);Read;ИНР;2;24;;536
+3P2.P4_700.P(HH-1);Давление за прошедший час;FLOAT (4 bytes);Read;ИНР;2;28;;540
+3P2.E1_800.Q(HH);Объем за текущий час;FLOAT (4 bytes);Read;ИНР;2;32;;544
+3P2.E1_800.Q(HH-1);Объем за прошедший час;FLOAT (4 bytes);Read;ИНР;2;36;;548
+3P2.E1_800.Q(DD);Объем за текущие сутки;FLOAT (4 bytes);Read;ИНР;2;40;;552
+3P2.E1_800.Q(DD-1);Объем за прошедшие сутки;FLOAT (4 bytes);Read;ИНР;2;44;;556
+3P2.E1_800.Q(MM);Объем за текущие месяц;FLOAT (4 bytes);Read;ИНР;2;48;;560
+3P2.E1_800.Q(MM-1);Объем за прошедший месяц;FLOAT (4 bytes);Read;ИНР;2;52;;564
+3P2.E1_800.Q(GG);Объем за текущие год;FLOAT (4 bytes);Read;ИНР;2;56;;568
+3P2.E1_800.Q(GG-1);Объем за прошедший год;FLOAT (4 bytes);Read;ИНР;2;60;;572
+3P2.E1_800.Q(YY);Объем;FLOAT (4 bytes);Read;ИНР;2;64;;576
+3P2.E2_800.Q(HH);Объем за текущий час;FLOAT (4 bytes);Read;ИНР;2;68;;580
+3P2.E2_800.Q(HH-1);Объем за прошедший час;FLOAT (4 bytes);Read;ИНР;2;72;;584
+3P2.E2_800.Q(DD);Объем за текущие сутки;FLOAT (4 bytes);Read;ИНР;2;76;;588
+3P2.E2_800.Q(DD-1);Объем за прошедшие сутки;FLOAT (4 bytes);Read;ИНР;2;80;;592
+3P2.E2_800.Q(MM);Объем за текущие месяц;FLOAT (4 bytes);Read;ИНР;2;84;;596
+3P2.E2_800.Q(MM-1);Объем за прошедший месяц;FLOAT (4 bytes);Read;ИНР;2;88;;600
+3P2.E2_800.Q(GG);Объем за текущие год;FLOAT (4 bytes);Read;ИНР;2;92;;604
+3P2.E2_800.Q(GG-1);Объем за прошедший год;FLOAT (4 bytes);Read;ИНР;2;96;;608
+3P2.E2_800.Q(YY);Объем;FLOAT (4 bytes);Read;ИНР;2;100;;612
+3P2.E3_1000.Q(HH);Объем за текущий час;FLOAT (4 bytes);Read;ИНР;2;104;;616
+3P2.E3_1000.Q(HH-1);Объем за прошедший час;FLOAT (4 bytes);Read;ИНР;2;108;;620
+3P2.E3_1000.Q(DD);Объем за текущие сутки;FLOAT (4 bytes);Read;ИНР;2;112;;624
+3P2.E3_1000.Q(DD-1);Объем за прошедшие сутки;FLOAT (4 bytes);Read;ИНР;2;116;;628
+3P2.E3_1000.Q(MM);Объем за текущие месяц;FLOAT (4 bytes);Read;ИНР;2;120;;632
+3P2.E3_1000.Q(MM-1);Объем за прошедший месяц;FLOAT (4 bytes);Read;ИНР;2;124;;636
+3P2.E3_1000.Q(GG);Объем за текущие год;FLOAT (4 bytes);Read;ИНР;2;128;;640
+3P2.E3_1000.Q(GG-1);Объем за прошедший год;FLOAT (4 bytes);Read;ИНР;2;132;;644
+3P2.E3_1000.Q(YY);Объем;FLOAT (4 bytes);Read;ИНР;2;136;;648
+3P2.E4_700.Q(HH);Объем за текущий час;FLOAT (4 bytes);Read;ИНР;2;140;;652
+3P2.E4_700.Q(HH-1);Объем за прошедший час;FLOAT (4 bytes);Read;ИНР;2;144;;656
+3P2.E4_700.Q(DD);Объем за текущие сутки;FLOAT (4 bytes);Read;ИНР;2;148;;660
+3P2.E4_700.Q(DD-1);Объем за прошедшие сутки;FLOAT (4 bytes);Read;ИНР;2;152;;664
+3P2.E4_700.Q(MM);Объем за текущие месяц;FLOAT (4 bytes);Read;ИНР;2;156;;668
+3P2.E4_700.Q(MM-1);Объем за прошедший месяц;FLOAT (4 bytes);Read;ИНР;2;160;;672
+3P2.E4_700.Q(GG);Объем за текущие год;FLOAT (4 bytes);Read;ИНР;2;164;;676
+3P2.E4_700.Q(GG-1);Объем за прошедший год;FLOAT (4 bytes);Read;ИНР;2;168;;680
+3P2.E4_700.Q(YY);Объем;FLOAT (4 bytes);Read;ИНР;2;172;;684
+3P2.E5_700.Q(HH);Объем за текущий час;FLOAT (4 bytes);Read;ИНР;2;176;;688
+3P2.E5_700.Q(HH-1);Объем за прошедший час;FLOAT (4 bytes);Read;ИНР;2;180;;692
+3P2.E5_700.Q(DD);Объем за текущие сутки;FLOAT (4 bytes);Read;ИНР;2;184;;696
+3P2.E5_700.Q(DD-1);Объем за прошедшие сутки;FLOAT (4 bytes);Read;ИНР;2;188;;700
+3P2.E5_700.Q(MM);Объем за текущие месяц;FLOAT (4 bytes);Read;ИНР;2;192;;704
+3P2.E5_700.Q(MM-1);Объем за прошедший месяц;FLOAT (4 bytes);Read;ИНР;2;196;;708
+3P2.E5_700.Q(GG);Объем за текущие год;FLOAT (4 bytes);Read;ИНР;2;200;;712
+3P2.E5_700.Q(GG-1);Объем за прошедший год;FLOAT (4 bytes);Read;ИНР;2;204;;716
+3P2.E5_700.Q(YY);Объем;FLOAT (4 bytes);Read;ИНР;2;208;;720
+3P2.RCV1p;Уровень мин-макс;BOOL (1 bit);Read;ИНР;2;216;&h01;728
+3P2.RCV1(DD);Ур время тек сутки;FLOAT (4 bytes);Read;ИНР;2;220;;732
+3P2.RCV1(DD-1);Ур время прош сутки;FLOAT (4 bytes);Read;ИНР;2;224;;736
+3P2.RCV2p;Уровень мин-макс;BOOL (1 bit);Read;ИНР;2;228;&h01;740
+3P2.RCV2(DD);Ур время тек сутки;FLOAT (4 bytes);Read;ИНР;2;232;;744
+3P2.RCV2(DD-1);Ур время прош сутки;FLOAT (4 bytes);Read;ИНР;2;236;;748
+3P2.RCV3p;Уровень мин-макс;BOOL (1 bit);Read;ИНР;2;240;&h01;752
+3P2.RCV3(DD);Ур время тек сутки;FLOAT (4 bytes);Read;ИНР;2;244;;756
+3P2.RCV3(DD-1);Ур время прош сутки;FLOAT (4 bytes);Read;ИНР;2;248;;760
+3P2.E_Sum;Суммарный расход;FLOAT (4 bytes);Read;ИНР;3;12;;780
+3P2.E_800;Расход ЧЗПТ D-1000;FLOAT (4 bytes);Read;ИНР;3;20;;788
+3P2.E_800-1;Расход ул.Николаева;FLOAT (4 bytes);Read;ИНР;3;24;;792
+3P2.E_1000;"Расход ТЭЦ2 пнс ""НЮР""";FLOAT (4 bytes);Read;ИНР;3;28;;796
+3P2.E_700;Расход Южная промзона;FLOAT (4 bytes);Read;ИНР;3;32;;800
+3P2.E_700-1;Расход РЧВ Мясокомбинат;FLOAT (4 bytes);Read;ИНР;3;36;;804
+3P2.ES_Sum;Расход суммарный;FLOAT (4 bytes);Read;ИНР;3;40;;808

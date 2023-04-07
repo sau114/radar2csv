@@ -1,0 +1,142 @@
+tag_full_name;description;data_type;direction;algoblock_type;algoblock_address;algoblock_offset;selector_mask_nzone;modbus_address
+ctpM38.MZ_AI9;Расход1;FLOAT (4 bytes);Read;ИНР;0;0;;0
+ctpM38.P1_IN1;Давление Вход 1;FLOAT (4 bytes);Read;ИНР;0;0;;0
+ctpM38.MZ_AI10;Расход2;FLOAT (4 bytes);Read;ИНР;0;4;;4
+ctpM38.P2_IN2;Давление Вход 2;FLOAT (4 bytes);Read;ИНР;0;4;;4
+ctpM38.MZ_AI11;Резерв AI11;FLOAT (4 bytes);Read;ИНР;0;8;;8
+ctpM38.P3_OUT1;Давление Выход 1;FLOAT (4 bytes);Read;ИНР;0;8;;8
+ctpM38.MZ_AI12;Резерв AI12;FLOAT (4 bytes);Read;ИНР;0;12;;12
+ctpM38.P4_OUT2;Давление Выход 2;FLOAT (4 bytes);Read;ИНР;0;12;;12
+ctpM38.Tmk;Температура на MK500;FLOAT (4 bytes);Read;ИНР;0;16;;16
+ctpM38.MZ_DI1;Готовность НА1;BOOL (1 bit);Read;ИНР;0;20;&h01;20
+ctpM38.MZ_DI2;Вкл. НА1;BOOL (1 bit);Read;ИНР;0;24;&h01;24
+ctpM38.MZ_DI3;Готовность НА2;BOOL (1 bit);Read;ИНР;0;28;&h01;28
+ctpM38.MZ_DI4;Вкл. НА2;BOOL (1 bit);Read;ИНР;0;32;&h01;32
+ctpM38.MZ_DI5;Готовность НА3;BOOL (1 bit);Read;ИНР;0;36;&h01;36
+ctpM38.MZ_DI6;Вкл. НА3;BOOL (1 bit);Read;ИНР;0;40;&h01;40
+ctpM38.MZ_DI7;Готовность НА4;BOOL (1 bit);Read;ИНР;0;44;&h01;44
+ctpM38.MZ_DI8;Вкл. НА4;BOOL (1 bit);Read;ИНР;0;48;&h01;48
+ctpM38.P1_IN1.P(HH);Давление за текущий час;FLOAT (4 bytes);Read;ИНР;0;60;;60
+ctpM38.P1_IN1.P(HH-1);Давление за прошедший час;FLOAT (4 bytes);Read;ИНР;0;64;;64
+ctpM38.P2_IN2.P(HH);Давление за текущий час;FLOAT (4 bytes);Read;ИНР;0;68;;68
+ctpM38.P2_IN2.P(HH-1);Давление за прошедший час;FLOAT (4 bytes);Read;ИНР;0;72;;72
+ctpM38.P3_OUT1.P(HH);Давление за текущий час;FLOAT (4 bytes);Read;ИНР;0;76;;76
+ctpM38.P3_OUT1.P(HH-1);Давление за прошедший час;FLOAT (4 bytes);Read;ИНР;0;80;;80
+ctpM38.P4_OUT2.P(HH);Давление за текущий час;FLOAT (4 bytes);Read;ИНР;0;84;;84
+ctpM38.P4_OUT2.P(HH-1);Давление за прошедший час;FLOAT (4 bytes);Read;ИНР;0;88;;88
+ctpM38.MP_AI1;Давление Pвх1 коллектор MP;FLOAT (4 bytes);Read;ИНР;1;0;;256
+ctpM38.MP_AI2;Давление Pвх2 коллектор MP;FLOAT (4 bytes);Read;ИНР;1;4;;260
+ctpM38.MP_AI3;Давление Pвых1 коллектор MP;FLOAT (4 bytes);Read;ИНР;1;8;;264
+ctpM38.MP_AI4;Давление Pвых2 коллектор MP;FLOAT (4 bytes);Read;ИНР;1;12;;268
+ctpM38.MP_AI5;Давление Pвых1;FLOAT (4 bytes);Read;ИНР;1;16;;272
+ctpM38.MP_AI6;Давление Pвых1;FLOAT (4 bytes);Read;ИНР;1;20;;276
+ctpM38.MP_AI7;Температура машзал;FLOAT (4 bytes);Read;ИНР;1;24;;280
+ctpM38.MP_AI8;Резерв AI8;FLOAT (4 bytes);Read;ИНР;1;28;;284
+ctpM38.MP_DI1;Питание ПТК;BOOL (1 bit);Read;ИНР;1;32;&h01;288
+ctpM38.MP_DI2;АВР;BOOL (1 bit);Read;ИНР;1;36;&h01;292
+ctpM38.MP_DI3;Резерв;BOOL (1 bit);Read;ИНР;1;40;&h01;296
+ctpM38.MP_DI4;Резерв;BOOL (1 bit);Read;ИНР;1;44;&h01;300
+ctpM38.MP_DI5;Резерв;BOOL (1 bit);Read;ИНР;1;48;&h01;304
+ctpM38.MP_DI6;Резерв;BOOL (1 bit);Read;ИНР;1;52;&h01;308
+ctpM38.MP_DI7;Резерв;BOOL (1 bit);Read;ИНР;1;56;&h01;312
+ctpM38.MP_DI8;Резерв;BOOL (1 bit);Read;ИНР;1;60;&h01;316
+ctpM38.MP_DI9;РКФ1;BOOL (1 bit);Read;ИНР;1;64;&h01;320
+ctpM38.MP_DI10;РКФ2;BOOL (1 bit);Read;ИНР;1;68;&h01;324
+ctpM38.MP_DI11;Охрана;BOOL (1 bit);Read;ИНР;1;72;&h01;328
+ctpM38.MP_DI12;Пожар;BOOL (1 bit);Read;ИНР;1;76;&h01;332
+ctpM38.MP_DI13;Резерв;BOOL (1 bit);Read;ИНР;1;80;&h01;336
+ctpM38.MP_DI14;Резерв;BOOL (1 bit);Read;ИНР;1;84;&h01;340
+ctpM38.MP_DI15;Резерв;BOOL (1 bit);Read;ИНР;1;88;&h01;344
+ctpM38.MP_DI16;Резерв;BOOL (1 bit);Read;ИНР;1;92;&h01;348
+ctpM38.MPp_AI7;Темп машзал -40+80;FLOAT (4 bytes);Read;ИНР;1;96;;352
+ctpM38.N1(HH);Мото/час за текущий час;INT (4 bytes);Read;ИНР;2;0;;512
+ctpM38.N1(HH-1);Мото/час за прошедший час;INT (4 bytes);Read;ИНР;2;4;;516
+ctpM38.N1(DD);Мото/час за текущие сутки;INT (4 bytes);Read;ИНР;2;8;;520
+ctpM38.N1(DD-1);Мото/час за прошедшие сутки;INT (4 bytes);Read;ИНР;2;12;;524
+ctpM38.N1(MM);Мото/час за текущий мес.;INT (4 bytes);Read;ИНР;2;16;;528
+ctpM38.N1(MM-1);Мото/час за прошедший мес.;INT (4 bytes);Read;ИНР;2;20;;532
+ctpM38.N1(YY);Мото/час за текущий год;INT (4 bytes);Read;ИНР;2;24;;536
+ctpM38.N1(YY-1);Мото/час за прошедший год;INT (4 bytes);Read;ИНР;2;28;;540
+ctpM38.N2(HH);Мото/час за текущий час;INT (4 bytes);Read;ИНР;2;32;;544
+ctpM38.N2(HH-1);Мото/час за прошедший час;INT (4 bytes);Read;ИНР;2;36;;548
+ctpM38.N2(DD);Мото/час за текущие сутки;INT (4 bytes);Read;ИНР;2;40;;552
+ctpM38.N2(DD-1);Мото/час за прошедшие сутки;INT (4 bytes);Read;ИНР;2;44;;556
+ctpM38.N2(MM);Мото/час за текущий мес.;INT (4 bytes);Read;ИНР;2;48;;560
+ctpM38.N2(MM-1);Мото/час за прошедший мес.;INT (4 bytes);Read;ИНР;2;52;;564
+ctpM38.N2(YY);Мото/час за текущий год;INT (4 bytes);Read;ИНР;2;56;;568
+ctpM38.N2(YY-1);Мото/час за прошедший год;INT (4 bytes);Read;ИНР;2;60;;572
+ctpM38.N3(HH);Мото/час за текущий час;INT (4 bytes);Read;ИНР;2;64;;576
+ctpM38.N3(HH-1);Мото/час за прошедший час;INT (4 bytes);Read;ИНР;2;68;;580
+ctpM38.N3(DD);Мото/час за текущие сутки;INT (4 bytes);Read;ИНР;2;72;;584
+ctpM38.N3(DD-1);Мото/час за прошедшие сутки;INT (4 bytes);Read;ИНР;2;76;;588
+ctpM38.N3(MM);Мото/час за текущий мес.;INT (4 bytes);Read;ИНР;2;80;;592
+ctpM38.N3(MM-1);Мото/час за прошедший мес.;INT (4 bytes);Read;ИНР;2;84;;596
+ctpM38.N3(YY);Мото/час за текущий год;INT (4 bytes);Read;ИНР;2;88;;600
+ctpM38.N3(YY-1);Мото/час за прошедший год;INT (4 bytes);Read;ИНР;2;92;;604
+ctpM38.N4(HH);Мото/час за текущий час;INT (4 bytes);Read;ИНР;2;96;;608
+ctpM38.N4(HH-1);Мото/час за прошедший час;INT (4 bytes);Read;ИНР;2;100;;612
+ctpM38.N4(DD);Мото/час за текущие сутки;INT (4 bytes);Read;ИНР;2;104;;616
+ctpM38.N4(DD-1);Мото/час за прошедшие сутки;INT (4 bytes);Read;ИНР;2;108;;620
+ctpM38.N4(MM);Мото/час за текущий мес.;INT (4 bytes);Read;ИНР;2;112;;624
+ctpM38.N4(MM-1);Мото/час за прошедший мес.;INT (4 bytes);Read;ИНР;2;116;;628
+ctpM38.N4(YY);Мото/час за текущий год;INT (4 bytes);Read;ИНР;2;120;;632
+ctpM38.N4(YY-1);Мото/час за прошедший год;INT (4 bytes);Read;ИНР;2;124;;636
+ctpM38.N1S(DD);Мото/час за текущие сутки;FLOAT (4 bytes);Read;ИНР;2;132;;644
+ctpM38.N1S(DD-1);Мото/час за прошедшие сутки;FLOAT (4 bytes);Read;ИНР;2;136;;648
+ctpM38.N1S(MM);Мото/час за текущий мес.;FLOAT (4 bytes);Read;ИНР;2;140;;652
+ctpM38.N1S(MM-1);Мото/час за прошедший мес.;FLOAT (4 bytes);Read;ИНР;2;144;;656
+ctpM38.N1S(YY);Мото/час за текущий год;FLOAT (4 bytes);Read;ИНР;2;148;;660
+ctpM38.N1S(YY-1);Мото/час за прошедший год;FLOAT (4 bytes);Read;ИНР;2;152;;664
+ctpM38.N2S(DD);Мото/час за текущие сутки;FLOAT (4 bytes);Read;ИНР;2;160;;672
+ctpM38.N2S(DD-1);Мото/час за прошедшие сутки;FLOAT (4 bytes);Read;ИНР;2;164;;676
+ctpM38.N2S(MM);Мото/час за текущий мес.;FLOAT (4 bytes);Read;ИНР;2;168;;680
+ctpM38.N2S(MM-1);Мото/час за прошедший мес.;FLOAT (4 bytes);Read;ИНР;2;172;;684
+ctpM38.N2S(YY);Мото/час за текущий год;FLOAT (4 bytes);Read;ИНР;2;176;;688
+ctpM38.N2S(YY-1);Мото/час за прошедший год;FLOAT (4 bytes);Read;ИНР;2;180;;692
+ctpM38.N3S(DD);Мото/час за текущие сутки;FLOAT (4 bytes);Read;ИНР;2;188;;700
+ctpM38.N3S(DD-1);Мото/час за прошедшие сутки;FLOAT (4 bytes);Read;ИНР;2;192;;704
+ctpM38.N3S(MM);Мото/час за текущий мес.;FLOAT (4 bytes);Read;ИНР;2;196;;708
+ctpM38.N3S(MM-1);Мото/час за прошедший мес.;FLOAT (4 bytes);Read;ИНР;2;200;;712
+ctpM38.N3S(YY);Мото/час за текущий год;FLOAT (4 bytes);Read;ИНР;2;204;;716
+ctpM38.N3S(YY-1);Мото/час за прошедший год;FLOAT (4 bytes);Read;ИНР;2;208;;720
+ctpM38.A0_DI1;управл в авт НА1;BOOL (1 bit);Read;ИНР;3;0;&h01;768
+ctpM38.A0_DI2;управл в авт НА2;BOOL (1 bit);Read;ИНР;3;4;&h01;772
+ctpM38.A0_DI3;управл в авт НА3;BOOL (1 bit);Read;ИНР;3;8;&h01;776
+ctpM38.A3_DI12;wilo в работе;BOOL (1 bit);Read;ИНР;3;16;&h01;784
+ctpM38.A3_DI13;wilo?;BOOL (1 bit);Read;ИНР;3;20;&h01;788
+ctpM38.A3_DI14;wilo авария;BOOL (1 bit);Read;ИНР;3;24;&h01;792
+ctpM38.A3_DI15;wilo гот к автом;BOOL (1 bit);Read;ИНР;3;28;&h01;796
+ctpM38.A3_DI16;wilo в ручном режиме;BOOL (1 bit);Read;ИНР;3;32;&h01;800
+ctpM38.MB_NET;Ошибка MB;BOOL (1 bit);Read;ИНР;3;36;&h01;804
+ctpM38.A17_fN1;частота НА1;FLOAT (4 bytes);Read;ИНР;3;44;&h01;812
+ctpM38.A33_fN2;частота НА2;FLOAT (4 bytes);Read;ИНР;3;52;&h01;820
+ctpM38.A49_fN3;частота НА3;FLOAT (4 bytes);Read;ИНР;3;60;&h01;828
+ctpM38.A1_DI1;неисправность НА1;BOOL (1 bit);Read;ИНР;3;68;&h01;836
+ctpM38.A1_DI2;неисправность НА2;BOOL (1 bit);Read;ИНР;3;72;&h01;840
+ctpM38.A1_DI3;неисправность НА3;BOOL (1 bit);Read;ИНР;3;76;&h01;844
+ctpM38.A1_DI9;работа НА1;BOOL (1 bit);Read;ИНР;3;100;&h01;868
+ctpM38.A1_DI10;работа НА2;BOOL (1 bit);Read;ИНР;3;104;&h01;872
+ctpM38.A1_DI11;работа НА3;BOOL (1 bit);Read;ИНР;3;108;&h01;876
+ctpM38.A1_DI12;работа НА4;BOOL (1 bit);Read;ИНР;3;112;&h01;880
+ctpM38.A32_DI10;работа НА2 ручн;BOOL (1 bit);Read;ИНР;3;116;&h01;884
+ctpM38.A32_DI11;работа НА2 рег f;BOOL (1 bit);Read;ИНР;3;120;&h01;888
+ctpM38.A32_DI12;работа НА2;BOOL (1 bit);Read;ИНР;3;124;&h01;892
+ctpM38.A32_DI13;работа НА2 автом;BOOL (1 bit);Read;ИНР;3;128;&h01;896
+ctpM38.A32_DI14;НА2 ошибка;BOOL (1 bit);Read;ИНР;3;132;&h01;900
+ctpM38.A32_DI15;контроллер НА2 гот;BOOL (1 bit);Read;ИНР;3;136;&h01;904
+ctpM38.A32_DI16;контроллер НА2 раб;BOOL (1 bit);Read;ИНР;3;140;&h01;908
+ctpM38.A48_DI10;работа НА3 ручн;BOOL (1 bit);Read;ИНР;3;144;&h01;912
+ctpM38.A48_DI11;работа НА3 рег f;BOOL (1 bit);Read;ИНР;3;148;&h01;916
+ctpM38.A48_DI12;работа НА3;BOOL (1 bit);Read;ИНР;3;152;&h01;920
+ctpM38.A48_DI13;работа НА3 автом;BOOL (1 bit);Read;ИНР;3;156;&h01;924
+ctpM38.A48_DI14;НА3 ошибка;BOOL (1 bit);Read;ИНР;3;160;&h01;928
+ctpM38.A48_DI15;контроллер НА3 гот;BOOL (1 bit);Read;ИНР;3;164;&h01;932
+ctpM38.A48_DI16;контроллер НА3 раб;BOOL (1 bit);Read;ИНР;3;168;&h01;936
+ctpM38.A16_DI10;работа НА1 ручн;BOOL (1 bit);Read;ИНР;3;172;&h01;940
+ctpM38.A16_DI11;работа НА1 рег f;BOOL (1 bit);Read;ИНР;3;176;&h01;944
+ctpM38.A16_DI12;работа НА1;BOOL (1 bit);Read;ИНР;3;180;&h01;948
+ctpM38.A16_DI13;работа НА1 автом;BOOL (1 bit);Read;ИНР;3;184;&h01;952
+ctpM38.A16_DI14;НА1 ошибка;BOOL (1 bit);Read;ИНР;3;188;&h01;956
+ctpM38.A16_DI15;контроллер НА1 гот;BOOL (1 bit);Read;ИНР;3;192;&h01;960
+ctpM38.A16_DI16;контроллер НА1 раб;BOOL (1 bit);Read;ИНР;3;196;&h01;964
+ctpM38.A4_PK;Давление выходной коллектор;FLOAT (4 bytes);Read;ИНР;3;208;;976
