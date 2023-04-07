@@ -1,344 +1,346 @@
-tag_full_name;description;data_type;direction;algoblock_type;algoblock_address;algoblock_offset;selector_mask_nzone;modbus_address
-mkBG.PKI_1;Давления вход 1;FLOAT (4 bytes);Read;ИНР;0;0;;0
-mkBG.PKO_1;Давления выход 1;FLOAT (4 bytes);Read;ИНР;0;4;;4
-mkBG.PKI_2;Давления вход 2;FLOAT (4 bytes);Read;ИНР;0;8;;8
-mkBG.PKO_2;Давления выход 2;FLOAT (4 bytes);Read;ИНР;0;12;;12
-mkBG.PN_1;Давления НА1;FLOAT (4 bytes);Read;ИНР;0;16;;16
-mkBG.PN_2;Давления НА2;FLOAT (4 bytes);Read;ИНР;0;20;;20
-mkBG.PN_3;Давления НА3;FLOAT (4 bytes);Read;ИНР;0;24;;24
-mkBG.PN_4;Давления НА4;FLOAT (4 bytes);Read;ИНР;0;28;;28
-mkBG.PN_5;Давления НА5;FLOAT (4 bytes);Read;ИНР;0;32;;32
-mkBG.PN_6;Давления НА6;FLOAT (4 bytes);Read;ИНР;0;36;;36
-mkBG.PN_7;Давления НА7;FLOAT (4 bytes);Read;ИНР;0;40;;40
-mkBG.PN_8;Давления НА8;FLOAT (4 bytes);Read;ИНР;0;44;;44
-mkBG.PN_9;Давления НА9;FLOAT (4 bytes);Read;ИНР;0;48;;48
-mkBG.PN_10;Давления НА10;FLOAT (4 bytes);Read;ИНР;0;52;;52
-mkBG.EK_1;Расход 1;FLOAT (4 bytes);Read;ИНР;0;56;;56
-mkBG.EK_2;Расход 2;FLOAT (4 bytes);Read;ИНР;0;60;;60
-mkBG.T_M;Температура машзал;FLOAT (4 bytes);Read;ИНР;0;64;;64
-mkBG.T_SH;Температура в шкафу;FLOAT (4 bytes);Read;ИНР;0;68;;68
-mkBG.PH_1;ПЧ1%;FLOAT (4 bytes);Read;ИНР;0;72;;72
-mkBG.PH_2;ПЧ2%;FLOAT (4 bytes);Read;ИНР;0;76;;76
-mkBG.IN_1;Нагрузка НА1;FLOAT (4 bytes);Read;ИНР;0;80;;80
-mkBG.IN_2;Нагрузка НА2;FLOAT (4 bytes);Read;ИНР;0;84;;84
-mkBG.IN_3;Нагрузка НА3;FLOAT (4 bytes);Read;ИНР;0;88;;88
-mkBG.IN_4;Нагрузка НА4;FLOAT (4 bytes);Read;ИНР;0;92;;92
-mkBG.IN_5;Нагрузка НА5;FLOAT (4 bytes);Read;ИНР;0;96;;96
-mkBG.IN_6;Нагрузка НА6;FLOAT (4 bytes);Read;ИНР;0;100;;100
-mkBG.IN_7;Нагрузка НА7;FLOAT (4 bytes);Read;ИНР;0;104;;104
-mkBG.IN_8;Нагрузка НА8;FLOAT (4 bytes);Read;ИНР;0;108;;108
-mkBG.IN_9;Нагрузка НА9;FLOAT (4 bytes);Read;ИНР;0;112;;112
-mkBG.IN_10;Нагрузка НА10;FLOAT (4 bytes);Read;ИНР;0;116;;116
-mkBG.NA1_g;NA1 готов;BOOL (1 bit);Read;ИНР;0;120;&h01;120
-mkBG.NA2_g;NA2 готов;BOOL (1 bit);Read;ИНР;0;120;&h02;120
-mkBG.NA3_g;NA3 готов;BOOL (1 bit);Read;ИНР;0;120;&h04;120
-mkBG.NA4_g;NA4 готов;BOOL (1 bit);Read;ИНР;0;120;&h08;120
-mkBG.NA5_g;NA5 готов;BOOL (1 bit);Read;ИНР;0;120;&h10;120
-mkBG.NA6_g;NA6 готов;BOOL (1 bit);Read;ИНР;0;120;&h20;120
-mkBG.NA7_g;NA7 готов;BOOL (1 bit);Read;ИНР;0;120;&h40;120
-mkBG.NA8_g;NA8 готов;BOOL (1 bit);Read;ИНР;0;120;&h80;120
-mkBG.NA9_g;NA9 готов;BOOL (1 bit);Read;ИНР;0;121;&h01;121
-mkBG.NA10_g;NA10 готов;BOOL (1 bit);Read;ИНР;0;121;&h02;121
-mkBG.NA1_w;NA1 включен;BOOL (1 bit);Read;ИНР;0;124;&h01;124
-mkBG.NA2_w;NA2 включен;BOOL (1 bit);Read;ИНР;0;124;&h02;124
-mkBG.NA3_w;NA3 включен;BOOL (1 bit);Read;ИНР;0;124;&h04;124
-mkBG.NA4_w;NA4 включен;BOOL (1 bit);Read;ИНР;0;124;&h08;124
-mkBG.NA5_w;NA5 включен;BOOL (1 bit);Read;ИНР;0;124;&h10;124
-mkBG.NA6_w;NA6 включен;BOOL (1 bit);Read;ИНР;0;124;&h20;124
-mkBG.NA7_w;NA7 включен;BOOL (1 bit);Read;ИНР;0;124;&h40;124
-mkBG.NA8_w;NA8 включен;BOOL (1 bit);Read;ИНР;0;124;&h80;124
-mkBG.NA9_w;NA9 включен;BOOL (1 bit);Read;ИНР;0;125;&h01;125
-mkBG.NA10_w;NA10 включен;BOOL (1 bit);Read;ИНР;0;125;&h02;125
-mkBG.NA1_r;NA1 режим Авт;BOOL (1 bit);Read;ИНР;0;128;&h01;128
-mkBG.NA2_r;NA2 режим Авт;BOOL (1 bit);Read;ИНР;0;128;&h02;128
-mkBG.NA3_r;NA3 режим Авт;BOOL (1 bit);Read;ИНР;0;128;&h04;128
-mkBG.NA4_r;NA4 режим Авт;BOOL (1 bit);Read;ИНР;0;128;&h08;128
-mkBG.NA5_r;NA5 режим Авт;BOOL (1 bit);Read;ИНР;0;128;&h10;128
-mkBG.NA6_r;NA6 режим Авт;BOOL (1 bit);Read;ИНР;0;128;&h20;128
-mkBG.NA7_r;NA7 режим Авт;BOOL (1 bit);Read;ИНР;0;128;&h40;128
-mkBG.NA8_r;NA8 режим Авт;BOOL (1 bit);Read;ИНР;0;128;&h80;128
-mkBG.NA9_r;NA9 режим Авт;BOOL (1 bit);Read;ИНР;0;129;&h01;129
-mkBG.NA10_r;NA10 режим Авт;BOOL (1 bit);Read;ИНР;0;129;&h02;129
-mkBG.NA1_a;NA1 авария;BOOL (1 bit);Read;ИНР;0;132;&h01;132
-mkBG.NA2_a;NA2 авария;BOOL (1 bit);Read;ИНР;0;132;&h02;132
-mkBG.NA3_a;NA3 авария;BOOL (1 bit);Read;ИНР;0;132;&h04;132
-mkBG.NA4_a;NA4 авария;BOOL (1 bit);Read;ИНР;0;132;&h08;132
-mkBG.NA5_a;NA5 авария;BOOL (1 bit);Read;ИНР;0;132;&h10;132
-mkBG.NA6_a;NA6 авария;BOOL (1 bit);Read;ИНР;0;132;&h20;132
-mkBG.NA7_a;NA7 авария;BOOL (1 bit);Read;ИНР;0;132;&h40;132
-mkBG.NA8_a;NA8 авария;BOOL (1 bit);Read;ИНР;0;132;&h80;132
-mkBG.NA9_a;NA9 авария;BOOL (1 bit);Read;ИНР;0;133;&h01;133
-mkBG.NA10_a;NA10 авария;BOOL (1 bit);Read;ИНР;0;133;&h02;133
-mkBG.UPP1_a;УПП1 авария;BOOL (1 bit);Read;ИНР;0;133;&h04;133
-mkBG.PCH1_a;ПЧ1 авария;BOOL (1 bit);Read;ИНР;0;133;&h08;133
-mkBG.UPP2_a;УПП2 авария;BOOL (1 bit);Read;ИНР;0;133;&h10;133
-mkBG.PCH2_a;ПЧ2 авария;BOOL (1 bit);Read;ИНР;0;133;&h20;133
-mkBG.H1_o;Задв H1 откр;BOOL (1 bit);Read;ИНР;0;136;&h01;136
-mkBG.H2_o;Задв H2 откр;BOOL (1 bit);Read;ИНР;0;136;&h02;136
-mkBG.H3_o;Задв H3 откр;BOOL (1 bit);Read;ИНР;0;136;&h04;136
-mkBG.H4_o;Задв H4 откр;BOOL (1 bit);Read;ИНР;0;136;&h08;136
-mkBG.H5_o;Задв H5 откр;BOOL (1 bit);Read;ИНР;0;136;&h10;136
-mkBG.H6_o;Задв H6 откр;BOOL (1 bit);Read;ИНР;0;136;&h20;136
-mkBG.H7_o;Задв H7 откр;BOOL (1 bit);Read;ИНР;0;136;&h40;136
-mkBG.H8_o;Задв H8 откр;BOOL (1 bit);Read;ИНР;0;136;&h80;136
-mkBG.H9_o;Задв H9 откр;BOOL (1 bit);Read;ИНР;0;137;&h01;137
-mkBG.H10_o;Задв H10 откр;BOOL (1 bit);Read;ИНР;0;137;&h02;137
-mkBG.B1_o;Задв B1 откр;BOOL (1 bit);Read;ИНР;0;140;&h01;140
-mkBG.B2_o;Задв B2 откр;BOOL (1 bit);Read;ИНР;0;140;&h02;140
-mkBG.B3_o;Задв B3 откр;BOOL (1 bit);Read;ИНР;0;140;&h04;140
-mkBG.B4_o;Задв B4 откр;BOOL (1 bit);Read;ИНР;0;140;&h08;140
-mkBG.B5_o;Задв B5 откр;BOOL (1 bit);Read;ИНР;0;140;&h10;140
-mkBG.B6_o;Задв B6 откр;BOOL (1 bit);Read;ИНР;0;140;&h20;140
-mkBG.B7_o;Задв B7 откр;BOOL (1 bit);Read;ИНР;0;140;&h40;140
-mkBG.B8_o;Задв B8 откр;BOOL (1 bit);Read;ИНР;0;140;&h80;140
-mkBG.B9_o;Задв B9 откр;BOOL (1 bit);Read;ИНР;0;141;&h01;141
-mkBG.B10_o;Задв B10 откр;BOOL (1 bit);Read;ИНР;0;141;&h02;141
-mkBG.KH13_o;Задв KH13 откр;BOOL (1 bit);Read;ИНР;0;144;&h01;144
-mkBG.KH1_o;Задв KH1 откр;BOOL (1 bit);Read;ИНР;0;144;&h02;144
-mkBG.KH2_o;Задв KH2 откр;BOOL (1 bit);Read;ИНР;0;144;&h04;144
-mkBG.KH3_o;Задв KH3 откр;BOOL (1 bit);Read;ИНР;0;144;&h08;144
-mkBG.KH4_o;Задв KH4 откр;BOOL (1 bit);Read;ИНР;0;144;&h10;144
-mkBG.KH5_o;Задв KH5 откр;BOOL (1 bit);Read;ИНР;0;144;&h20;144
-mkBG.KB1_o;Задв KB1 откр;BOOL (1 bit);Read;ИНР;0;144;&h40;144
-mkBG.KB2_o;Задв KB2 откр;BOOL (1 bit);Read;ИНР;0;144;&h80;144
-mkBG.KB3_o;Задв KB3 откр;BOOL (1 bit);Read;ИНР;0;145;&h01;145
-mkBG.KB4_o;Задв KB4 откр;BOOL (1 bit);Read;ИНР;0;145;&h02;145
-mkBG.KB5_o;Задв KB5 откр;BOOL (1 bit);Read;ИНР;0;145;&h04;145
-mkBG.KH6_o;Задв KH6 откр;BOOL (1 bit);Read;ИНР;0;145;&h08;145
-mkBG.KB6_o;Задв KB6 откр;BOOL (1 bit);Read;ИНР;0;145;&h10;145
-mkBG.KX1_o;резерв;BOOL (1 bit);Read;ИНР;0;145;&h20;145
-mkBG.KX2_o;резерв;BOOL (1 bit);Read;ИНР;0;145;&h40;145
-mkBG.KX3_o;резерв;BOOL (1 bit);Read;ИНР;0;145;&h80;145
-mkBG.KH12_o;Задв KH12 откр;BOOL (1 bit);Read;ИНР;0;148;&h01;148
-mkBG.KH7_o;Задв KH7 откр;BOOL (1 bit);Read;ИНР;0;148;&h02;148
-mkBG.KH8_o;Задв KH8 откр;BOOL (1 bit);Read;ИНР;0;148;&h04;148
-mkBG.KH9_o;Задв KH9 откр;BOOL (1 bit);Read;ИНР;0;148;&h08;148
-mkBG.KH10_o;Задв KH10 откр;BOOL (1 bit);Read;ИНР;0;148;&h10;148
-mkBG.KH11_o;Задв KH11 откр;BOOL (1 bit);Read;ИНР;0;148;&h20;148
-mkBG.KB7_o;Задв KB7 откр;BOOL (1 bit);Read;ИНР;0;148;&h40;148
-mkBG.KB8_o;Задв KB8 откр;BOOL (1 bit);Read;ИНР;0;148;&h80;148
-mkBG.KB9_o;Задв KB9 откр;BOOL (1 bit);Read;ИНР;0;149;&h01;149
-mkBG.KB10_o;Задв KB10 откр;BOOL (1 bit);Read;ИНР;0;149;&h02;149
-mkBG.KB11_o;Задв KB11 откр;BOOL (1 bit);Read;ИНР;0;149;&h04;149
-mkBG.KH6r_o;Задв KH6 откр;BOOL (1 bit);Read;ИНР;0;149;&h08;149
-mkBG.KB6r_o;Задв KB6 откр;BOOL (1 bit);Read;ИНР;0;149;&h10;149
-mkBG.KX4_o;резерв;BOOL (1 bit);Read;ИНР;0;149;&h20;149
-mkBG.KX5_o;резерв;BOOL (1 bit);Read;ИНР;0;149;&h40;149
-mkBG.KX6_o;резерв;BOOL (1 bit);Read;ИНР;0;149;&h80;149
-mkBG.VENT;Вентил вклюена;BOOL (1 bit);Read;ИНР;0;152;&h01;152
-mkBG.OXR;Охрана;BOOL (1 bit);Read;ИНР;0;152;&h02;152
-mkBG.PIT;Питание;BOOL (1 bit);Read;ИНР;0;152;&h04;152
-mkBG.ZATOP;Затопление;BOOL (1 bit);Read;ИНР;0;152;&h08;152
-mkBG.POGAR;Пожар;BOOL (1 bit);Read;ИНР;0;152;&h10;152
-mkBG.AVR;АВР;BOOL (1 bit);Read;ИНР;0;152;&h20;152
-mkBG.PLK_7;резерв;BOOL (1 bit);Read;ИНР;0;152;&h40;152
-mkBG.PLK_8;резерв;BOOL (1 bit);Read;ИНР;0;152;&h80;152
-mkBG.PLK_9;резерв;BOOL (1 bit);Read;ИНР;0;153;&h01;153
-mkBG.PLK_10;резерв;BOOL (1 bit);Read;ИНР;0;153;&h02;153
-mkBG.PLK_11;резерв;BOOL (1 bit);Read;ИНР;0;153;&h04;153
-mkBG.PLK_12;резерв;BOOL (1 bit);Read;ИНР;0;153;&h08;153
-mkBG.PLK_13;резерв;BOOL (1 bit);Read;ИНР;0;153;&h10;153
-mkBG.PLK_14;резерв;BOOL (1 bit);Read;ИНР;0;153;&h20;153
-mkBG.PLK_15;резерв;BOOL (1 bit);Read;ИНР;0;153;&h40;153
-mkBG.PLK_16;резерв;BOOL (1 bit);Read;ИНР;0;153;&h80;153
-mkBG.MB_no;нет обмена ModBus;BOOL (1 bit);Read;ИНР;0;156;&h01;156
-mkBG.N1S(DD);Мото/час за текущие сутки;FLOAT (4 bytes);Read;ИНР;1;0;;256
-mkBG.N1S(DD-1);Мото/час за прошедшие сутки;FLOAT (4 bytes);Read;ИНР;1;4;;260
-mkBG.N1S(MM);Мото/час за текущий мес.;FLOAT (4 bytes);Read;ИНР;1;8;;264
-mkBG.N1S(MM-1);Мото/час за прошедший мес.;FLOAT (4 bytes);Read;ИНР;1;12;;268
-mkBG.N1S(YY);Мото/час за текущий год;FLOAT (4 bytes);Read;ИНР;1;16;;272
-mkBG.N1S(YY-1);Мото/час за прошедший год;FLOAT (4 bytes);Read;ИНР;1;20;;276
-mkBG.N2S(DD);Мото/час за текущие сутки;FLOAT (4 bytes);Read;ИНР;1;24;;280
-mkBG.N2S(DD-1);Мото/час за прошедшие сутки;FLOAT (4 bytes);Read;ИНР;1;28;;284
-mkBG.N2S(MM);Мото/час за текущий мес.;FLOAT (4 bytes);Read;ИНР;1;32;;288
-mkBG.N2S(MM-1);Мото/час за прошедший мес.;FLOAT (4 bytes);Read;ИНР;1;36;;292
-mkBG.N2S(YY);Мото/час за текущий год;FLOAT (4 bytes);Read;ИНР;1;40;;296
-mkBG.N2S(YY-1);Мото/час за прошедший год;FLOAT (4 bytes);Read;ИНР;1;44;;300
-mkBG.N3S(DD);Мото/час за текущие сутки;FLOAT (4 bytes);Read;ИНР;1;48;;304
-mkBG.N3S(DD-1);Мото/час за прошедшие сутки;FLOAT (4 bytes);Read;ИНР;1;52;;308
-mkBG.N3S(MM);Мото/час за текущий мес.;FLOAT (4 bytes);Read;ИНР;1;56;;312
-mkBG.N3S(MM-1);Мото/час за прошедший мес.;FLOAT (4 bytes);Read;ИНР;1;60;;316
-mkBG.N3S(YY);Мото/час за текущий год;FLOAT (4 bytes);Read;ИНР;1;64;;320
-mkBG.N3S(YY-1);Мото/час за прошедший год;FLOAT (4 bytes);Read;ИНР;1;68;;324
-mkBG.N4S(DD);Мото/час за текущие сутки;FLOAT (4 bytes);Read;ИНР;1;72;;328
-mkBG.N4S(DD-1);Мото/час за прошедшие сутки;FLOAT (4 bytes);Read;ИНР;1;76;;332
-mkBG.N4S(MM);Мото/час за текущий мес.;FLOAT (4 bytes);Read;ИНР;1;80;;336
-mkBG.N4S(MM-1);Мото/час за прошедший мес.;FLOAT (4 bytes);Read;ИНР;1;84;;340
-mkBG.N4S(YY);Мото/час за текущий год;FLOAT (4 bytes);Read;ИНР;1;88;;344
-mkBG.N4S(YY-1);Мото/час за прошедший год;FLOAT (4 bytes);Read;ИНР;1;92;;348
-mkBG.N5S(DD);Мото/час за текущие сутки;FLOAT (4 bytes);Read;ИНР;1;96;;352
-mkBG.N5S(DD-1);Мото/час за прошедшие сутки;FLOAT (4 bytes);Read;ИНР;1;100;;356
-mkBG.N5S(MM);Мото/час за текущий мес.;FLOAT (4 bytes);Read;ИНР;1;104;;360
-mkBG.N5S(MM-1);Мото/час за прошедший мес.;FLOAT (4 bytes);Read;ИНР;1;108;;364
-mkBG.N5S(YY);Мото/час за текущий год;FLOAT (4 bytes);Read;ИНР;1;112;;368
-mkBG.N5S(YY-1);Мото/час за прошедший год;FLOAT (4 bytes);Read;ИНР;1;116;;372
-mkBG.N6S(DD);Мото/час за текущие сутки;FLOAT (4 bytes);Read;ИНР;1;120;;376
-mkBG.N6S(DD-1);Мото/час за прошедшие сутки;FLOAT (4 bytes);Read;ИНР;1;124;;380
-mkBG.N6S(MM);Мото/час за текущий мес.;FLOAT (4 bytes);Read;ИНР;1;128;;384
-mkBG.N6S(MM-1);Мото/час за прошедший мес.;FLOAT (4 bytes);Read;ИНР;1;132;;388
-mkBG.N6S(YY);Мото/час за текущий год;FLOAT (4 bytes);Read;ИНР;1;136;;392
-mkBG.N6S(YY-1);Мото/час за прошедший год;FLOAT (4 bytes);Read;ИНР;1;140;;396
-mkBG.N7S(DD);Мото/час за текущие сутки;FLOAT (4 bytes);Read;ИНР;1;144;;400
-mkBG.N7S(DD-1);Мото/час за прошедшие сутки;FLOAT (4 bytes);Read;ИНР;1;148;;404
-mkBG.N7S(MM);Мото/час за текущий мес.;FLOAT (4 bytes);Read;ИНР;1;152;;408
-mkBG.N7S(MM-1);Мото/час за прошедший мес.;FLOAT (4 bytes);Read;ИНР;1;156;;412
-mkBG.N7S(YY);Мото/час за текущий год;FLOAT (4 bytes);Read;ИНР;1;160;;416
-mkBG.N7S(YY-1);Мото/час за прошедший год;FLOAT (4 bytes);Read;ИНР;1;164;;420
-mkBG.N8S(DD);Мото/час за текущие сутки;FLOAT (4 bytes);Read;ИНР;1;168;;424
-mkBG.N8S(DD-1);Мото/час за прошедшие сутки;FLOAT (4 bytes);Read;ИНР;1;172;;428
-mkBG.N8S(MM);Мото/час за текущий мес.;FLOAT (4 bytes);Read;ИНР;1;176;;432
-mkBG.N8S(MM-1);Мото/час за прошедший мес.;FLOAT (4 bytes);Read;ИНР;1;180;;436
-mkBG.N8S(YY);Мото/час за текущий год;FLOAT (4 bytes);Read;ИНР;1;184;;440
-mkBG.N8S(YY-1);Мото/час за прошедший год;FLOAT (4 bytes);Read;ИНР;1;188;;444
-mkBG.N9S(DD);Мото/час за текущие сутки;FLOAT (4 bytes);Read;ИНР;1;192;;448
-mkBG.N9S(DD-1);Мото/час за прошедшие сутки;FLOAT (4 bytes);Read;ИНР;1;196;;452
-mkBG.N9S(MM);Мото/час за текущий мес.;FLOAT (4 bytes);Read;ИНР;1;200;;456
-mkBG.N9S(MM-1);Мото/час за прошедший мес.;FLOAT (4 bytes);Read;ИНР;1;204;;460
-mkBG.N9S(YY);Мото/час за текущий год;FLOAT (4 bytes);Read;ИНР;1;208;;464
-mkBG.N9S(YY-1);Мото/час за прошедший год;FLOAT (4 bytes);Read;ИНР;1;212;;468
-mkBG.N10S(DD);Мото/час за текущие сутки;FLOAT (4 bytes);Read;ИНР;1;216;;472
-mkBG.N10S(DD-1);Мото/час за прошедшие сутки;FLOAT (4 bytes);Read;ИНР;1;220;;476
-mkBG.N10S(MM);Мото/час за текущий мес.;FLOAT (4 bytes);Read;ИНР;1;224;;480
-mkBG.N10S(MM-1);Мото/час за прошедший мес.;FLOAT (4 bytes);Read;ИНР;1;228;;484
-mkBG.N10S(YY);Мото/час за текущий год;FLOAT (4 bytes);Read;ИНР;1;232;;488
-mkBG.N10S(YY-1);Мото/час за прошедший год;FLOAT (4 bytes);Read;ИНР;1;236;;492
-mkBG.M1F_A;U Фаза А M1;FLOAT (4 bytes);Read;ИНР;2;0;;512
-mkBG.M1F_B;U Фаза B M1;FLOAT (4 bytes);Read;ИНР;2;4;;516
-mkBG.M1F_C;U Фаза C M1;FLOAT (4 bytes);Read;ИНР;2;8;;520
-mkBG.M1I_A;ток Фаза А M1;FLOAT (4 bytes);Read;ИНР;2;12;;524
-mkBG.M1I_B;ток Фаза B M1;FLOAT (4 bytes);Read;ИНР;2;16;;528
-mkBG.M1I_C;ток Фаза C M1;FLOAT (4 bytes);Read;ИНР;2;20;;532
-mkBG.M2F_A;U Фаза А M2;FLOAT (4 bytes);Read;ИНР;2;24;;536
-mkBG.M2F_B;U Фаза B M2;FLOAT (4 bytes);Read;ИНР;2;28;;540
-mkBG.M2F_C;U Фаза C M2;FLOAT (4 bytes);Read;ИНР;2;32;;544
-mkBG.M2I_A;ток Фаза А M2;FLOAT (4 bytes);Read;ИНР;2;36;;548
-mkBG.M2I_B;ток Фаза B M2;FLOAT (4 bytes);Read;ИНР;2;40;;552
-mkBG.M2I_C;ток Фаза C M2;FLOAT (4 bytes);Read;ИНР;2;44;;556
-mkBG.M1C_M;секунды минуты М1;INT (4 bytes);Read;ИНР;2;48;;560
-mkBG.M1H_D;час и дата М1;INT (4 bytes);Read;ИНР;2;52;;564
-mkBG.M1M_Y;месяц и год М1;INT (4 bytes);Read;ИНР;2;56;;568
-mkBG.M2C_M;секунды минуты М2;INT (4 bytes);Read;ИНР;2;60;;572
-mkBG.M2H_D;час и дата М2;INT (4 bytes);Read;ИНР;2;64;;576
-mkBG.M2M_Y;месяц и год М2;INT (4 bytes);Read;ИНР;2;68;;580
-mkBG.M1F_Hz;Частота сети М1;FLOAT (4 bytes);Read;ИНР;2;72;;584
-mkBG.M2F_Hz;Частота сети М2;FLOAT (4 bytes);Read;ИНР;2;76;;588
-mkBG.M1_AD;адрес М1;INT (4 bytes);Read;ИНР;2;80;;592
-mkBG.M2_AD;адрес М2;INT (4 bytes);Read;ИНР;2;84;;596
-mkBG.M1_P;мощность Р М1;INT (4 bytes);Read;ИНР;2;88;;600
-mkBG.M1_Q;мощность Q М1;INT (4 bytes);Read;ИНР;2;92;;604
-mkBG.M1_S;мощность S М1;INT (4 bytes);Read;ИНР;2;96;;608
-mkBG.M2_P;мощность Р М2;INT (4 bytes);Read;ИНР;2;100;;612
-mkBG.M2_Q;мощность Q М2;INT (4 bytes);Read;ИНР;2;104;;616
-mkBG.M2_S;мощность S М2;INT (4 bytes);Read;ИНР;2;108;;620
-mkBG.M1_A;электроэнергия А+ М1;INT (4 bytes);Read;ИНР;2;112;;624
-mkBG.M1_TD;электроэнергия М1 текущий день;INT (4 bytes);Read;ИНР;2;116;;628
-mkBG.M2_A;электроэнергия А+ М2;INT (4 bytes);Read;ИНР;2;120;;632
-mkBG.M1_D-1;электроэнергия М1 прошедш день;INT (4 bytes);Read;ИНР;2;124;;636
-mkBG.FW1;ответ от FASTWELL 1 получен;BOOL (1 bit);Read;ИНР;2;128;&h01;640
-mkBG.FW2;ответ от FASTWELL 2 получен;BOOL (1 bit);Read;ИНР;2;128;&h02;640
-mkBG.MBA8;ответ от МВА8 получен;BOOL (1 bit);Read;ИНР;2;128;&h04;640
-mkBG.MERK1;ответ от Меркурия 1 получен;BOOL (1 bit);Read;ИНР;2;128;&h08;640
-mkBG.MERK2;ответ от Меркурия 2 получен;BOOL (1 bit);Read;ИНР;2;128;&h10;640
-mkBG.Rez1;резерв;BOOL (1 bit);Read;ИНР;2;128;&h20;640
-mkBG.Rez2;резерв;BOOL (1 bit);Read;ИНР;2;128;&h40;640
-mkBG.Rez3;резерв;BOOL (1 bit);Read;ИНР;2;128;&h80;640
-mkBG.Rez4;резерв;BOOL (1 bit);Read;ИНР;2;129;&h01;641
-mkBG.Rez5;резерв;BOOL (1 bit);Read;ИНР;2;129;&h02;641
-mkBG.Rez6;резерв;BOOL (1 bit);Read;ИНР;2;129;&h04;641
-mkBG.Rez7;резерв;BOOL (1 bit);Read;ИНР;2;129;&h08;641
-mkBG.Rez8;резерв;BOOL (1 bit);Read;ИНР;2;129;&h10;641
-mkBG.Rez9;резерв;BOOL (1 bit);Read;ИНР;2;129;&h20;641
-mkBG.Rez10;резерв;BOOL (1 bit);Read;ИНР;2;129;&h40;641
-mkBG.Rez11;резерв;BOOL (1 bit);Read;ИНР;2;129;&h80;641
-mkBG.M1_TM;электроэнергия М1 текущий месяц;INT (4 bytes);Read;ИНР;2;132;;644
-mkBG.M1_M-1;электроэнергия М1 прошедш месяц;INT (4 bytes);Read;ИНР;2;136;;648
-mkBG.M1_TG;электроэнергия М1 текущий год;INT (4 bytes);Read;ИНР;2;140;;652
-mkBG.M2_TD;электроэнергия М2 текущий день;INT (4 bytes);Read;ИНР;2;144;;656
-mkBG.M2_D-1;электроэнергия М2 прошедш день;INT (4 bytes);Read;ИНР;2;148;;660
-mkBG.M2_TM;электроэнергия М2 текущий месяц;INT (4 bytes);Read;ИНР;2;152;;664
-mkBG.M2_M-1;электроэнергия М2 прошедш месяц;INT (4 bytes);Read;ИНР;2;156;;668
-mkBG.M2_TG;электроэнергия М2 текущий год;INT (4 bytes);Read;ИНР;2;160;;672
-mkBG.Modbus_OVEN1;Адрес 0;INT (4 bytes);Read;ИНР;3;0;;768
-mkBG.Modbus_OVEN2;Адрес 1;INT (4 bytes);Read;ИНР;3;4;;772
-mkBG.Modbus_OVEN3;Адрес 2;INT (4 bytes);Read;ИНР;3;8;;776
-mkBG.Modbus_OVEN4;Адрес 3;INT (4 bytes);Read;ИНР;3;12;;780
-mkBG.Modbus_OVEN5;Адрес 4;INT (4 bytes);Read;ИНР;3;16;;784
-mkBG.Modbus_OVEN6;Адрес 5;INT (4 bytes);Read;ИНР;3;20;;788
-mkBG.Modbus_OVEN7;Адрес 6;INT (4 bytes);Read;ИНР;3;24;;792
-mkBG.Modbus_OVEN8;Адрес 7;INT (4 bytes);Read;ИНР;3;28;;796
-mkBG.Modbus_OVEN9;Адрес 8;INT (4 bytes);Read;ИНР;3;32;;800
-mkBG.Modbus_OVEN10;Адрес 9;INT (4 bytes);Read;ИНР;3;36;;804
-mkBG.Modbus_OVEN11;Адрес 10;INT (4 bytes);Read;ИНР;3;40;;808
-mkBG.Modbus_OVEN12;Адрес 11;INT (4 bytes);Read;ИНР;3;44;;812
-mkBG.Modbus_OVEN13;Адрес 12;INT (4 bytes);Read;ИНР;3;48;;816
-mkBG.Modbus_OVEN14;Адрес 13;INT (4 bytes);Read;ИНР;3;52;;820
-mkBG.Modbus_OVEN15;Адрес 14;INT (4 bytes);Read;ИНР;3;56;;824
-mkBG.Modbus_OVEN16;Адрес 15;INT (4 bytes);Read;ИНР;3;60;;828
-mkBG.Modbus_OVEN17;Адрес 16;INT (4 bytes);Read;ИНР;3;64;;832
-mkBG.Modbus_OVEN18;Адрес 17;INT (4 bytes);Read;ИНР;3;68;;836
-mkBG.Modbus_OVEN19;Адрес 18;INT (4 bytes);Read;ИНР;3;72;;840
-mkBG.Modbus_OVEN20;Адрес 180;INT (4 bytes);Read;ИНР;3;76;;844
-mkBG.Modbus_OVEN21;Адрес 20;INT (4 bytes);Read;ИНР;3;80;;848
-mkBG.Modbus_OVEN22;Адрес 21;INT (4 bytes);Read;ИНР;3;84;;852
-mkBG.Modbus_OVEN23;Адрес 22;INT (4 bytes);Read;ИНР;3;88;;856
-mkBG.Modbus_OVEN24;Адрес 23;INT (4 bytes);Read;ИНР;3;92;;860
-mkBG.Modbus_OVEN25;Адрес 24;INT (4 bytes);Read;ИНР;3;96;;864
-mkBG.Modbus_OVEN26;Адрес 25;INT (4 bytes);Read;ИНР;3;100;;868
-mkBG.Modbus_OVEN27;Адрес 26;INT (4 bytes);Read;ИНР;3;104;;872
-mkBG.Modbus_OVEN28;Адрес 27;INT (4 bytes);Read;ИНР;3;108;;876
-mkBG.Modbus_OVEN29;Адрес 28;INT (4 bytes);Read;ИНР;3;112;;880
-mkBG.Modbus_OVEN30;Адрес 29;INT (4 bytes);Read;ИНР;3;116;;884
-mkBG.Modbus_OVEN31;Адрес 30;INT (4 bytes);Read;ИНР;3;120;;888
-mkBG.Modbus_OVEN32;Адрес 31;INT (4 bytes);Read;ИНР;3;124;;892
-mkBG.Modbus_OVEN33;Адрес 32;INT (4 bytes);Read;ИНР;3;128;;896
-mkBG.Modbus_OVEN34;Адрес 33;INT (4 bytes);Read;ИНР;3;132;;900
-mkBG.Modbus_OVEN35;Адрес 34;INT (4 bytes);Read;ИНР;3;136;;904
-mkBG.Modbus_OVEN36;Адрес 35;INT (4 bytes);Read;ИНР;3;140;;908
-mkBG.Modbus_OVEN37;Адрес 36;INT (4 bytes);Read;ИНР;3;144;;912
-mkBG.Modbus_OVEN38;Адрес 37;INT (4 bytes);Read;ИНР;3;148;;916
-mkBG.Modbus_OVEN39;Адрес 38;INT (4 bytes);Read;ИНР;3;152;;920
-mkBG.Modbus_OVEN40;Адрес 164;INT (4 bytes);Read;ИНР;3;156;;924
-mkBG.Modbus_OVEN41;Адрес 40;INT (4 bytes);Read;ИНР;3;160;;928
-mkBG.Modbus_OVEN42;Адрес 41;INT (4 bytes);Read;ИНР;3;164;;932
-mkBG.Modbus_OVEN43;Адрес 42;INT (4 bytes);Read;ИНР;3;168;;936
-mkBG.Modbus_OVEN44;Адрес 43;INT (4 bytes);Read;ИНР;3;172;;940
-mkBG.Modbus_OVEN45;Адрес 44;INT (4 bytes);Read;ИНР;3;176;;944
-mkBG.Modbus_OVEN46;Адрес 45;INT (4 bytes);Read;ИНР;3;180;;948
-mkBG.Modbus_OVEN47;Адрес 46;INT (4 bytes);Read;ИНР;3;184;;952
-mkBG.Modbus_OVEN48;Адрес 47;INT (4 bytes);Read;ИНР;3;188;;956
-mkBG.Modbus_OVEN49;Адрес 48;INT (4 bytes);Read;ИНР;3;192;;960
-mkBG.Modbus_OVEN50;Адрес 49;INT (4 bytes);Read;ИНР;3;196;;964
-mkBG.Modbus_OVEN51;Адрес 50;INT (4 bytes);Read;ИНР;3;200;;968
-mkBG.Modbus_OVEN52;Адрес 51;INT (4 bytes);Read;ИНР;3;204;;972
-mkBG.Modbus_OVEN53;Адрес 52;INT (4 bytes);Read;ИНР;3;208;;976
-mkBG.Modbus_OVEN54;Адрес 53;INT (4 bytes);Read;ИНР;3;212;;980
-mkBG.Modbus_OVEN55;Адрес 54;INT (4 bytes);Read;ИНР;3;216;;984
-mkBG.Modbus_OVEN56;Адрес 55;INT (4 bytes);Read;ИНР;3;220;;988
-mkBG.Modbus_OVEN57;Адрес 56;INT (4 bytes);Read;ИНР;3;224;;992
-mkBG.Modbus_OVEN58;Адрес 57;INT (4 bytes);Read;ИНР;3;228;;996
-mkBG.Modbus_OVEN59;Адрес 58;INT (4 bytes);Read;ИНР;3;232;;1000
-mkBG.Modbus_OVEN60;Адрес 59;INT (4 bytes);Read;ИНР;3;236;;1004
-mkBG.Modbus_OVEN61;Адрес 60;INT (4 bytes);Read;ИНР;3;240;;1008
-mkBG.Modbus_OVEN62;Адрес 61;INT (4 bytes);Read;ИНР;3;244;;1012
-mkBG.Modbus_OVEN63;Адрес 62;INT (4 bytes);Read;ИНР;3;248;;1016
-mkBG.Modbus_OVEN64;Адрес 63;INT (4 bytes);Read;ИНР;3;252;;1020
-mkBG.Modbus_OVEN65;Адрес 64;INT (4 bytes);Read;ИНР;3;256;;1024
-mkBG.Modbus_OVEN66;Адрес 65;INT (4 bytes);Read;ИНР;3;260;;1028
-mkBG.Modbus_OVEN67;Адрес 66;INT (4 bytes);Read;ИНР;3;264;;1032
-mkBG.Modbus_OVEN68;Адрес 67;INT (4 bytes);Read;ИНР;3;268;;1036
-mkBG.Modbus_OVEN69;Адрес 69;INT (4 bytes);Read;ИНР;3;272;;1040
-mkBG.Modbus_OVEN70;Адрес 71;INT (4 bytes);Read;ИНР;3;276;;1044
-mkBG.Modbus_OVEN71;Адрес 73;INT (4 bytes);Read;ИНР;3;280;;1048
-mkBG.Modbus_OVEN72;Адрес 75;INT (4 bytes);Read;ИНР;3;284;;1052
-mkBG.Modbus_OVEN73;Адрес 77;INT (4 bytes);Read;ИНР;3;288;;1056
-mkBG.Modbus_OVEN74;Адрес 112;INT (4 bytes);Read;ИНР;3;292;;1060
-mkBG.Modbus_OVEN75;Адрес 160;INT (4 bytes);Read;ИНР;3;296;;1064
-mkBG.Modbus_OVEN76;Адрес 152;INT (4 bytes);Read;ИНР;3;300;;1068
-mkBG.Modbus_OVEN77;Адрес 162;INT (4 bytes);Read;ИНР;3;304;;1072
-mkBG.Modbus_OVEN78;Адрес 166;INT (4 bytes);Read;ИНР;3;308;;1076
-mkBG.Modbus_OVEN79;Адрес 168;INT (4 bytes);Read;ИНР;3;412;;1180
-mkBG.Modbus_OVEN80;Адрес 170;INT (4 bytes);Read;ИНР;3;416;;1184
-mkBG.Modbus_OVEN81;Адрес 172;INT (4 bytes);Read;ИНР;3;420;;1188
-mkBG.Modbus_OVEN82;Адрес 174;INT (4 bytes);Read;ИНР;3;424;;1192
-mkBG.Modbus_OVEN83;Адрес 176;INT (4 bytes);Read;ИНР;3;428;;1196
-mkBG.Modbus_OVEN84;Адрес 178;INT (4 bytes);Read;ИНР;3;432;;1200
+tag_full_name;description;data_type;direction;ab_type;ab_addr;ab_off;selector;other
+mkBG.PKI_1;Давления вход 1;FLOAT (4 bytes);R;ИНР;0;0;;0.01, 0, , 0, 10, , 
+mkBG.PKO_1;Давления выход 1;FLOAT (4 bytes);R;ИНР;0;4;;0.01, 0, , 0, 10, , 
+mkBG.PKI_2;Давления вход 2;FLOAT (4 bytes);R;ИНР;0;8;;0.01, 0, , 0, 10, , 
+mkBG.PKO_2;Давления выход 2;FLOAT (4 bytes);R;ИНР;0;12;;0.01, 0, , 0, 10, , 
+mkBG.PN_1;Давления НА1;FLOAT (4 bytes);R;ИНР;0;16;;0.01, 0, , 0, 10, , 
+mkBG.PN_2;Давления НА2;FLOAT (4 bytes);R;ИНР;0;20;;0.01, 0, , 0, 10, , 
+mkBG.PN_3;Давления НА3;FLOAT (4 bytes);R;ИНР;0;24;;0.01, 0, , 0, 10, , 
+mkBG.PN_4;Давления НА4;FLOAT (4 bytes);R;ИНР;0;28;;0.01, 0, , 0, 10, , 
+mkBG.PN_5;Давления НА5;FLOAT (4 bytes);R;ИНР;0;32;;0.01, 0, , 0, 10, , 
+mkBG.PN_6;Давления НА6;FLOAT (4 bytes);R;ИНР;0;36;;0.01, 0, , 0, 10, , 
+mkBG.PN_7;Давления НА7;FLOAT (4 bytes);R;ИНР;0;40;;0.01, 0, , 0, 10, , 
+mkBG.PN_8;Давления НА8;FLOAT (4 bytes);R;ИНР;0;44;;0.01, 0, , 0, 10, , 
+mkBG.PN_9;Давления НА9;FLOAT (4 bytes);R;ИНР;0;48;;0.01, 0, , 0, 10, , 
+mkBG.PN_10;Давления НА10;FLOAT (4 bytes);R;ИНР;0;52;;0.01, 0, , 0, 10, , 
+mkBG.EK_1;Расход 1;FLOAT (4 bytes);R;ИНР;0;56;;0.124, 0, , 0, 100, , 
+mkBG.EK_2;Расход 2;FLOAT (4 bytes);R;ИНР;0;60;;0.124, 0, , 0, 100, , 
+mkBG.T_M;Температура машзал;FLOAT (4 bytes);R;ИНР;0;64;;0.01, 0, , 0, 50, , 
+mkBG.T_SH;Температура в шкафу;FLOAT (4 bytes);R;ИНР;0;68;;0.01, 0, , 0, 50, , 
+mkBG.PH_1;ПЧ1%;FLOAT (4 bytes);R;ИНР;0;72;;0.005, 0, , 0, 100, , 
+mkBG.PH_2;ПЧ2%;FLOAT (4 bytes);R;ИНР;0;76;;0.005, 0, , 0, 100, , 
+mkBG.IN_1;Нагрузка НА1;FLOAT (4 bytes);R;ИНР;0;80;;0.005, 0, , 0, 100, , 
+mkBG.IN_2;Нагрузка НА2;FLOAT (4 bytes);R;ИНР;0;84;;0.005, 0, , 0, 100, , 
+mkBG.IN_3;Нагрузка НА3;FLOAT (4 bytes);R;ИНР;0;88;;0.005, 0, , 0, 100, , 
+mkBG.IN_4;Нагрузка НА4;FLOAT (4 bytes);R;ИНР;0;92;;0.005, 0, , 0, 100, , 
+mkBG.IN_5;Нагрузка НА5;FLOAT (4 bytes);R;ИНР;0;96;;0.005, 0, , 0, 100, , 
+mkBG.IN_6;Нагрузка НА6;FLOAT (4 bytes);R;ИНР;0;100;;0.005, 0, , 0, 100, , 
+mkBG.IN_7;Нагрузка НА7;FLOAT (4 bytes);R;ИНР;0;104;;0.005, 0, , 0, 100, , 
+mkBG.IN_8;Нагрузка НА8;FLOAT (4 bytes);R;ИНР;0;108;;0.005, 0, , 0, 100, , 
+mkBG.IN_9;Нагрузка НА9;FLOAT (4 bytes);R;ИНР;0;112;;0.005, 0, , 0, 100, , 
+mkBG.IN_10;Нагрузка НА10;FLOAT (4 bytes);R;ИНР;0;116;;0.005, 0, , 0, 100, , 
+mkBG.NA1_g;NA1 готов;BOOL (1 bit);R;ИНР;0;120;&h01;, , , , , , 
+mkBG.NA2_g;NA2 готов;BOOL (1 bit);R;ИНР;0;120;&h02;, , , , , , 
+mkBG.NA3_g;NA3 готов;BOOL (1 bit);R;ИНР;0;120;&h04;, , , , , , 
+mkBG.NA4_g;NA4 готов;BOOL (1 bit);R;ИНР;0;120;&h08;, , , , , , 
+mkBG.NA5_g;NA5 готов;BOOL (1 bit);R;ИНР;0;120;&h10;, , , , , , 
+mkBG.NA6_g;NA6 готов;BOOL (1 bit);R;ИНР;0;120;&h20;, , , , , , 
+mkBG.NA7_g;NA7 готов;BOOL (1 bit);R;ИНР;0;120;&h40;, , , , , , 
+mkBG.NA8_g;NA8 готов;BOOL (1 bit);R;ИНР;0;120;&h80;, , , , , , 
+mkBG.NA9_g;NA9 готов;BOOL (1 bit);R;ИНР;0;121;&h01;, , , , , , 
+mkBG.NA10_g;NA10 готов;BOOL (1 bit);R;ИНР;0;121;&h02;, , , , , , 
+mkBG.NA1_w;NA1 включен;BOOL (1 bit);R;ИНР;0;124;&h01;, , , , , , 
+mkBG.NA2_w;NA2 включен;BOOL (1 bit);R;ИНР;0;124;&h02;, , , , , , 
+mkBG.NA3_w;NA3 включен;BOOL (1 bit);R;ИНР;0;124;&h04;, , , , , , 
+mkBG.NA4_w;NA4 включен;BOOL (1 bit);R;ИНР;0;124;&h08;, , , , , , 
+mkBG.NA5_w;NA5 включен;BOOL (1 bit);R;ИНР;0;124;&h10;, , , , , , 
+mkBG.NA6_w;NA6 включен;BOOL (1 bit);R;ИНР;0;124;&h20;, , , , , , 
+mkBG.NA7_w;NA7 включен;BOOL (1 bit);R;ИНР;0;124;&h40;, , , , , , 
+mkBG.NA8_w;NA8 включен;BOOL (1 bit);R;ИНР;0;124;&h80;, , , , , , 
+mkBG.NA9_w;NA9 включен;BOOL (1 bit);R;ИНР;0;125;&h01;, , , , , , 
+mkBG.NA10_w;NA10 включен;BOOL (1 bit);R;ИНР;0;125;&h02;, , , , , , 
+mkBG.NA1_r;NA1 режим Авт;BOOL (1 bit);R;ИНР;0;128;&h01;, , , , , , 
+mkBG.NA2_r;NA2 режим Авт;BOOL (1 bit);R;ИНР;0;128;&h02;, , , , , , 
+mkBG.NA3_r;NA3 режим Авт;BOOL (1 bit);R;ИНР;0;128;&h04;, , , , , , 
+mkBG.NA4_r;NA4 режим Авт;BOOL (1 bit);R;ИНР;0;128;&h08;, , , , , , 
+mkBG.NA5_r;NA5 режим Авт;BOOL (1 bit);R;ИНР;0;128;&h10;, , , , , , 
+mkBG.NA6_r;NA6 режим Авт;BOOL (1 bit);R;ИНР;0;128;&h20;, , , , , , 
+mkBG.NA7_r;NA7 режим Авт;BOOL (1 bit);R;ИНР;0;128;&h40;, , , , , , 
+mkBG.NA8_r;NA8 режим Авт;BOOL (1 bit);R;ИНР;0;128;&h80;, , , , , , 
+mkBG.NA9_r;NA9 режим Авт;BOOL (1 bit);R;ИНР;0;129;&h01;, , , , , , 
+mkBG.NA10_r;NA10 режим Авт;BOOL (1 bit);R;ИНР;0;129;&h02;, , , , , , 
+mkBG.NA1_a;NA1 авария;BOOL (1 bit);R;ИНР;0;132;&h01;, , , , , , 
+mkBG.NA2_a;NA2 авария;BOOL (1 bit);R;ИНР;0;132;&h02;, , , , , , 
+mkBG.NA3_a;NA3 авария;BOOL (1 bit);R;ИНР;0;132;&h04;, , , , , , 
+mkBG.NA4_a;NA4 авария;BOOL (1 bit);R;ИНР;0;132;&h08;, , , , , , 
+mkBG.NA5_a;NA5 авария;BOOL (1 bit);R;ИНР;0;132;&h10;, , , , , , 
+mkBG.NA6_a;NA6 авария;BOOL (1 bit);R;ИНР;0;132;&h20;, , , , , , 
+mkBG.NA7_a;NA7 авария;BOOL (1 bit);R;ИНР;0;132;&h40;, , , , , , 
+mkBG.NA8_a;NA8 авария;BOOL (1 bit);R;ИНР;0;132;&h80;, , , , , , 
+mkBG.NA9_a;NA9 авария;BOOL (1 bit);R;ИНР;0;133;&h01;, , , , , , 
+mkBG.NA10_a;NA10 авария;BOOL (1 bit);R;ИНР;0;133;&h02;, , , , , , 
+mkBG.UPP1_a;УПП1 авария;BOOL (1 bit);R;ИНР;0;133;&h04;, , , , , , 
+mkBG.PCH1_a;ПЧ1 авария;BOOL (1 bit);R;ИНР;0;133;&h08;, , , , , , 
+mkBG.UPP2_a;УПП2 авария;BOOL (1 bit);R;ИНР;0;133;&h10;, , , , , , 
+mkBG.PCH2_a;ПЧ2 авария;BOOL (1 bit);R;ИНР;0;133;&h20;, , , , , , 
+mkBG.H1_o;Задв H1 откр;BOOL (1 bit);R;ИНР;0;136;&h01;, , , , , , 
+mkBG.H2_o;Задв H2 откр;BOOL (1 bit);R;ИНР;0;136;&h02;, , , , , , 
+mkBG.H3_o;Задв H3 откр;BOOL (1 bit);R;ИНР;0;136;&h04;, , , , , , 
+mkBG.H4_o;Задв H4 откр;BOOL (1 bit);R;ИНР;0;136;&h08;, , , , , , 
+mkBG.H5_o;Задв H5 откр;BOOL (1 bit);R;ИНР;0;136;&h10;, , , , , , 
+mkBG.H6_o;Задв H6 откр;BOOL (1 bit);R;ИНР;0;136;&h20;, , , , , , 
+mkBG.H7_o;Задв H7 откр;BOOL (1 bit);R;ИНР;0;136;&h40;, , , , , , 
+mkBG.H8_o;Задв H8 откр;BOOL (1 bit);R;ИНР;0;136;&h80;, , , , , , 
+mkBG.H9_o;Задв H9 откр;BOOL (1 bit);R;ИНР;0;137;&h01;, , , , , , 
+mkBG.H10_o;Задв H10 откр;BOOL (1 bit);R;ИНР;0;137;&h02;, , , , , , 
+mkBG.B1_o;Задв B1 откр;BOOL (1 bit);R;ИНР;0;140;&h01;, , , , , , 
+mkBG.B2_o;Задв B2 откр;BOOL (1 bit);R;ИНР;0;140;&h02;, , , , , , 
+mkBG.B3_o;Задв B3 откр;BOOL (1 bit);R;ИНР;0;140;&h04;, , , , , , 
+mkBG.B4_o;Задв B4 откр;BOOL (1 bit);R;ИНР;0;140;&h08;, , , , , , 
+mkBG.B5_o;Задв B5 откр;BOOL (1 bit);R;ИНР;0;140;&h10;, , , , , , 
+mkBG.B6_o;Задв B6 откр;BOOL (1 bit);R;ИНР;0;140;&h20;, , , , , , 
+mkBG.B7_o;Задв B7 откр;BOOL (1 bit);R;ИНР;0;140;&h40;, , , , , , 
+mkBG.B8_o;Задв B8 откр;BOOL (1 bit);R;ИНР;0;140;&h80;, , , , , , 
+mkBG.B9_o;Задв B9 откр;BOOL (1 bit);R;ИНР;0;141;&h01;, , , , , , 
+mkBG.B10_o;Задв B10 откр;BOOL (1 bit);R;ИНР;0;141;&h02;, , , , , , 
+mkBG.KH13_o;Задв KH13 откр;BOOL (1 bit);R;ИНР;0;144;&h01;, , , , , , 
+mkBG.KH1_o;Задв KH1 откр;BOOL (1 bit);R;ИНР;0;144;&h02;, , , , , , 
+mkBG.KH2_o;Задв KH2 откр;BOOL (1 bit);R;ИНР;0;144;&h04;, , , , , , 
+mkBG.KH3_o;Задв KH3 откр;BOOL (1 bit);R;ИНР;0;144;&h08;, , , , , , 
+mkBG.KH4_o;Задв KH4 откр;BOOL (1 bit);R;ИНР;0;144;&h10;, , , , , , 
+mkBG.KH5_o;Задв KH5 откр;BOOL (1 bit);R;ИНР;0;144;&h20;, , , , , , 
+mkBG.KB1_o;Задв KB1 откр;BOOL (1 bit);R;ИНР;0;144;&h40;, , , , , , 
+mkBG.KB2_o;Задв KB2 откр;BOOL (1 bit);R;ИНР;0;144;&h80;, , , , , , 
+mkBG.KB3_o;Задв KB3 откр;BOOL (1 bit);R;ИНР;0;145;&h01;, , , , , , 
+mkBG.KB4_o;Задв KB4 откр;BOOL (1 bit);R;ИНР;0;145;&h02;, , , , , , 
+mkBG.KB5_o;Задв KB5 откр;BOOL (1 bit);R;ИНР;0;145;&h04;, , , , , , 
+mkBG.KH6_o;Задв KH6 откр;BOOL (1 bit);R;ИНР;0;145;&h08;, , , , , , 
+mkBG.KB6_o;Задв KB6 откр;BOOL (1 bit);R;ИНР;0;145;&h10;, , , , , , 
+mkBG.KX1_o;резерв;BOOL (1 bit);R;ИНР;0;145;&h20;, , , , , , 
+mkBG.KX2_o;резерв;BOOL (1 bit);R;ИНР;0;145;&h40;, , , , , , 
+mkBG.KX3_o;резерв;BOOL (1 bit);R;ИНР;0;145;&h80;, , , , , , 
+mkBG.KH12_o;Задв KH12 откр;BOOL (1 bit);R;ИНР;0;148;&h01;, , , , , , 
+mkBG.KH7_o;Задв KH7 откр;BOOL (1 bit);R;ИНР;0;148;&h02;, , , , , , 
+mkBG.KH8_o;Задв KH8 откр;BOOL (1 bit);R;ИНР;0;148;&h04;, , , , , , 
+mkBG.KH9_o;Задв KH9 откр;BOOL (1 bit);R;ИНР;0;148;&h08;, , , , , , 
+mkBG.KH10_o;Задв KH10 откр;BOOL (1 bit);R;ИНР;0;148;&h10;, , , , , , 
+mkBG.KH11_o;Задв KH11 откр;BOOL (1 bit);R;ИНР;0;148;&h20;, , , , , , 
+mkBG.KB7_o;Задв KB7 откр;BOOL (1 bit);R;ИНР;0;148;&h40;, , , , , , 
+mkBG.KB8_o;Задв KB8 откр;BOOL (1 bit);R;ИНР;0;148;&h80;, , , , , , 
+mkBG.KB9_o;Задв KB9 откр;BOOL (1 bit);R;ИНР;0;149;&h01;, , , , , , 
+mkBG.KB10_o;Задв KB10 откр;BOOL (1 bit);R;ИНР;0;149;&h02;, , , , , , 
+mkBG.KB11_o;Задв KB11 откр;BOOL (1 bit);R;ИНР;0;149;&h04;, , , , , , 
+mkBG.KH6r_o;Задв KH6 откр;BOOL (1 bit);R;ИНР;0;149;&h08;, , , , , , 
+mkBG.KB6r_o;Задв KB6 откр;BOOL (1 bit);R;ИНР;0;149;&h10;, , , , , , 
+mkBG.KX4_o;резерв;BOOL (1 bit);R;ИНР;0;149;&h20;, , , , , , 
+mkBG.KX5_o;резерв;BOOL (1 bit);R;ИНР;0;149;&h40;, , , , , , 
+mkBG.KX6_o;резерв;BOOL (1 bit);R;ИНР;0;149;&h80;, , , , , , 
+mkBG.VENT;Вентил вклюена;BOOL (1 bit);R;ИНР;0;152;&h01;, , , , , , 
+mkBG.OXR;Охрана;BOOL (1 bit);R;ИНР;0;152;&h02;, , , , , , 
+mkBG.PIT;Питание;BOOL (1 bit);R;ИНР;0;152;&h04;, , , , , , 
+mkBG.ZATOP;Затопление;BOOL (1 bit);R;ИНР;0;152;&h08;, , , , , , 
+mkBG.POGAR;Пожар;BOOL (1 bit);R;ИНР;0;152;&h10;, , , , , , 
+mkBG.AVR;АВР;BOOL (1 bit);R;ИНР;0;152;&h20;, , , , , , 
+mkBG.PLK_7;резерв;BOOL (1 bit);R;ИНР;0;152;&h40;, , , , , , 
+mkBG.PLK_8;резерв;BOOL (1 bit);R;ИНР;0;152;&h80;, , , , , , 
+mkBG.PLK_9;резерв;BOOL (1 bit);R;ИНР;0;153;&h01;, , , , , , 
+mkBG.PLK_10;резерв;BOOL (1 bit);R;ИНР;0;153;&h02;, , , , , , 
+mkBG.PLK_11;резерв;BOOL (1 bit);R;ИНР;0;153;&h04;, , , , , , 
+mkBG.PLK_12;резерв;BOOL (1 bit);R;ИНР;0;153;&h08;, , , , , , 
+mkBG.PLK_13;резерв;BOOL (1 bit);R;ИНР;0;153;&h10;, , , , , , 
+mkBG.PLK_14;резерв;BOOL (1 bit);R;ИНР;0;153;&h20;, , , , , , 
+mkBG.PLK_15;резерв;BOOL (1 bit);R;ИНР;0;153;&h40;, , , , , , 
+mkBG.PLK_16;резерв;BOOL (1 bit);R;ИНР;0;153;&h80;, , , , , , 
+mkBG.MB_no;нет обмена ModBus;BOOL (1 bit);R;ИНР;0;156;&h01;, , , , , , 
+mkBG.N1S(DD);Мото/час за текущие сутки;FLOAT (4 bytes);R;ИНР;1;0;;1, 0, , , , , 
+mkBG.N1S(DD-1);Мото/час за прошедшие сутки;FLOAT (4 bytes);R;ИНР;1;4;;1, 0, , , , , 
+mkBG.N1S(MM);Мото/час за текущий мес.;FLOAT (4 bytes);R;ИНР;1;8;;1, 0, , , , , 
+mkBG.N1S(MM-1);Мото/час за прошедший мес.;FLOAT (4 bytes);R;ИНР;1;12;;1, 0, , , , , 
+mkBG.N1S(YY);Мото/час за текущий год;FLOAT (4 bytes);R;ИНР;1;16;;1, 0, , , , , 
+mkBG.N1S(YY-1);Мото/час за прошедший год;FLOAT (4 bytes);R;ИНР;1;20;;1, 0, , , , , 
+mkBG.N2S(DD);Мото/час за текущие сутки;FLOAT (4 bytes);R;ИНР;1;24;;1, 0, , , , , 
+mkBG.N2S(DD-1);Мото/час за прошедшие сутки;FLOAT (4 bytes);R;ИНР;1;28;;1, 0, , , , , 
+mkBG.N2S(MM);Мото/час за текущий мес.;FLOAT (4 bytes);R;ИНР;1;32;;1, 0, , , , , 
+mkBG.N2S(MM-1);Мото/час за прошедший мес.;FLOAT (4 bytes);R;ИНР;1;36;;1, 0, , , , , 
+mkBG.N2S(YY);Мото/час за текущий год;FLOAT (4 bytes);R;ИНР;1;40;;1, 0, , , , , 
+mkBG.N2S(YY-1);Мото/час за прошедший год;FLOAT (4 bytes);R;ИНР;1;44;;1, 0, , , , , 
+mkBG.N3S(DD);Мото/час за текущие сутки;FLOAT (4 bytes);R;ИНР;1;48;;1, 0, , , , , 
+mkBG.N3S(DD-1);Мото/час за прошедшие сутки;FLOAT (4 bytes);R;ИНР;1;52;;1, 0, , , , , 
+mkBG.N3S(MM);Мото/час за текущий мес.;FLOAT (4 bytes);R;ИНР;1;56;;1, 0, , , , , 
+mkBG.N3S(MM-1);Мото/час за прошедший мес.;FLOAT (4 bytes);R;ИНР;1;60;;1, 0, , , , , 
+mkBG.N3S(YY);Мото/час за текущий год;FLOAT (4 bytes);R;ИНР;1;64;;1, 0, , , , , 
+mkBG.N3S(YY-1);Мото/час за прошедший год;FLOAT (4 bytes);R;ИНР;1;68;;1, 0, , , , , 
+mkBG.N4S(DD);Мото/час за текущие сутки;FLOAT (4 bytes);R;ИНР;1;72;;1, 0, , , , , 
+mkBG.N4S(DD-1);Мото/час за прошедшие сутки;FLOAT (4 bytes);R;ИНР;1;76;;1, 0, , , , , 
+mkBG.N4S(MM);Мото/час за текущий мес.;FLOAT (4 bytes);R;ИНР;1;80;;1, 0, , , , , 
+mkBG.N4S(MM-1);Мото/час за прошедший мес.;FLOAT (4 bytes);R;ИНР;1;84;;1, 0, , , , , 
+mkBG.N4S(YY);Мото/час за текущий год;FLOAT (4 bytes);R;ИНР;1;88;;1, 0, , , , , 
+mkBG.N4S(YY-1);Мото/час за прошедший год;FLOAT (4 bytes);R;ИНР;1;92;;1, 0, , , , , 
+mkBG.N5S(DD);Мото/час за текущие сутки;FLOAT (4 bytes);R;ИНР;1;96;;1, 0, , , , , 
+mkBG.N5S(DD-1);Мото/час за прошедшие сутки;FLOAT (4 bytes);R;ИНР;1;100;;1, 0, , , , , 
+mkBG.N5S(MM);Мото/час за текущий мес.;FLOAT (4 bytes);R;ИНР;1;104;;1, 0, , , , , 
+mkBG.N5S(MM-1);Мото/час за прошедший мес.;FLOAT (4 bytes);R;ИНР;1;108;;1, 0, , , , , 
+mkBG.N5S(YY);Мото/час за текущий год;FLOAT (4 bytes);R;ИНР;1;112;;1, 0, , , , , 
+mkBG.N5S(YY-1);Мото/час за прошедший год;FLOAT (4 bytes);R;ИНР;1;116;;1, 0, , , , , 
+mkBG.N6S(DD);Мото/час за текущие сутки;FLOAT (4 bytes);R;ИНР;1;120;;1, 0, , , , , 
+mkBG.N6S(DD-1);Мото/час за прошедшие сутки;FLOAT (4 bytes);R;ИНР;1;124;;1, 0, , , , , 
+mkBG.N6S(MM);Мото/час за текущий мес.;FLOAT (4 bytes);R;ИНР;1;128;;1, 0, , , , , 
+mkBG.N6S(MM-1);Мото/час за прошедший мес.;FLOAT (4 bytes);R;ИНР;1;132;;1, 0, , , , , 
+mkBG.N6S(YY);Мото/час за текущий год;FLOAT (4 bytes);R;ИНР;1;136;;1, 0, , , , , 
+mkBG.N6S(YY-1);Мото/час за прошедший год;FLOAT (4 bytes);R;ИНР;1;140;;1, 0, , , , , 
+mkBG.N7S(DD);Мото/час за текущие сутки;FLOAT (4 bytes);R;ИНР;1;144;;1, 0, , , , , 
+mkBG.N7S(DD-1);Мото/час за прошедшие сутки;FLOAT (4 bytes);R;ИНР;1;148;;1, 0, , , , , 
+mkBG.N7S(MM);Мото/час за текущий мес.;FLOAT (4 bytes);R;ИНР;1;152;;1, 0, , , , , 
+mkBG.N7S(MM-1);Мото/час за прошедший мес.;FLOAT (4 bytes);R;ИНР;1;156;;1, 0, , , , , 
+mkBG.N7S(YY);Мото/час за текущий год;FLOAT (4 bytes);R;ИНР;1;160;;1, 0, , , , , 
+mkBG.N7S(YY-1);Мото/час за прошедший год;FLOAT (4 bytes);R;ИНР;1;164;;1, 0, , , , , 
+mkBG.N8S(DD);Мото/час за текущие сутки;FLOAT (4 bytes);R;ИНР;1;168;;1, 0, , , , , 
+mkBG.N8S(DD-1);Мото/час за прошедшие сутки;FLOAT (4 bytes);R;ИНР;1;172;;1, 0, , , , , 
+mkBG.N8S(MM);Мото/час за текущий мес.;FLOAT (4 bytes);R;ИНР;1;176;;1, 0, , , , , 
+mkBG.N8S(MM-1);Мото/час за прошедший мес.;FLOAT (4 bytes);R;ИНР;1;180;;1, 0, , , , , 
+mkBG.N8S(YY);Мото/час за текущий год;FLOAT (4 bytes);R;ИНР;1;184;;1, 0, , , , , 
+mkBG.N8S(YY-1);Мото/час за прошедший год;FLOAT (4 bytes);R;ИНР;1;188;;1, 0, , , , , 
+mkBG.N9S(DD);Мото/час за текущие сутки;FLOAT (4 bytes);R;ИНР;1;192;;1, 0, , , , , 
+mkBG.N9S(DD-1);Мото/час за прошедшие сутки;FLOAT (4 bytes);R;ИНР;1;196;;1, 0, , , , , 
+mkBG.N9S(MM);Мото/час за текущий мес.;FLOAT (4 bytes);R;ИНР;1;200;;1, 0, , , , , 
+mkBG.N9S(MM-1);Мото/час за прошедший мес.;FLOAT (4 bytes);R;ИНР;1;204;;1, 0, , , , , 
+mkBG.N9S(YY);Мото/час за текущий год;FLOAT (4 bytes);R;ИНР;1;208;;1, 0, , , , , 
+mkBG.N9S(YY-1);Мото/час за прошедший год;FLOAT (4 bytes);R;ИНР;1;212;;1, 0, , , , , 
+mkBG.N10S(DD);Мото/час за текущие сутки;FLOAT (4 bytes);R;ИНР;1;216;;1, 0, , , , , 
+mkBG.N10S(DD-1);Мото/час за прошедшие сутки;FLOAT (4 bytes);R;ИНР;1;220;;1, 0, , , , , 
+mkBG.N10S(MM);Мото/час за текущий мес.;FLOAT (4 bytes);R;ИНР;1;224;;1, 0, , , , , 
+mkBG.N10S(MM-1);Мото/час за прошедший мес.;FLOAT (4 bytes);R;ИНР;1;228;;1, 0, , , , , 
+mkBG.N10S(YY);Мото/час за текущий год;FLOAT (4 bytes);R;ИНР;1;232;;1, 0, , , , , 
+mkBG.N10S(YY-1);Мото/час за прошедший год;FLOAT (4 bytes);R;ИНР;1;236;;1, 0, , , , , 
+mkBG.M1F_A;U Фаза А M1;FLOAT (4 bytes);R;ИНР;2;0;;0.01, 0, , 0, 250, , 
+mkBG.M1F_B;U Фаза B M1;FLOAT (4 bytes);R;ИНР;2;4;;0.01, 0, , 0, 250, , 
+mkBG.M1F_C;U Фаза C M1;FLOAT (4 bytes);R;ИНР;2;8;;0.01, 0, , 0, 250, , 
+mkBG.M1I_A;ток Фаза А M1;FLOAT (4 bytes);R;ИНР;2;12;;0.01, 0, , 0, 50, , 
+mkBG.M1I_B;ток Фаза B M1;FLOAT (4 bytes);R;ИНР;2;16;;0.01, 0, , 0, 50, , 
+mkBG.M1I_C;ток Фаза C M1;FLOAT (4 bytes);R;ИНР;2;20;;0.01, 0, , 0, 50, , 
+mkBG.M2F_A;U Фаза А M2;FLOAT (4 bytes);R;ИНР;2;24;;0.01, 0, , 0, 250, , 
+mkBG.M2F_B;U Фаза B M2;FLOAT (4 bytes);R;ИНР;2;28;;0.01, 0, , 0, 250, , 
+mkBG.M2F_C;U Фаза C M2;FLOAT (4 bytes);R;ИНР;2;32;;0.01, 0, , 0, 250, , 
+mkBG.M2I_A;ток Фаза А M2;FLOAT (4 bytes);R;ИНР;2;36;;0.01, 0, , 0, 50, , 
+mkBG.M2I_B;ток Фаза B M2;FLOAT (4 bytes);R;ИНР;2;40;;0.01, 0, , 0, 50, , 
+mkBG.M2I_C;ток Фаза C M2;FLOAT (4 bytes);R;ИНР;2;44;;0.01, 0, , 0, 50, , 
+mkBG.M1C_M;секунды минуты М1;INT (4 bytes);R;ИНР;2;48;;1, 0, , , , , 
+mkBG.M1H_D;час и дата М1;INT (4 bytes);R;ИНР;2;52;;1, 0, , , , , 
+mkBG.M1M_Y;месяц и год М1;INT (4 bytes);R;ИНР;2;56;;1, 0, , , , , 
+mkBG.M2C_M;секунды минуты М2;INT (4 bytes);R;ИНР;2;60;;1, 0, , , , , 
+mkBG.M2H_D;час и дата М2;INT (4 bytes);R;ИНР;2;64;;1, 0, , , , , 
+mkBG.M2M_Y;месяц и год М2;INT (4 bytes);R;ИНР;2;68;;1, 0, , , , , 
+mkBG.M1F_Hz;Частота сети М1;FLOAT (4 bytes);R;ИНР;2;72;;0.01, 0, , 0, 60, , 
+mkBG.M2F_Hz;Частота сети М2;FLOAT (4 bytes);R;ИНР;2;76;;0.01, 0, , 0, 60, , 
+mkBG.M1_AD;адрес М1;INT (4 bytes);R;ИНР;2;80;;1, 0, , , , , 
+mkBG.M2_AD;адрес М2;INT (4 bytes);R;ИНР;2;84;;1, 0, , , , , 
+mkBG.M1_P;мощность Р М1;INT (4 bytes);R;ИНР;2;88;;1, 0, , , , , 
+mkBG.M1_Q;мощность Q М1;INT (4 bytes);R;ИНР;2;92;;1, 0, , , , , 
+mkBG.M1_S;мощность S М1;INT (4 bytes);R;ИНР;2;96;;1, 0, , , , , 
+mkBG.M2_P;мощность Р М2;INT (4 bytes);R;ИНР;2;100;;1, 0, , , , , 
+mkBG.M2_Q;мощность Q М2;INT (4 bytes);R;ИНР;2;104;;1, 0, , , , , 
+mkBG.M2_S;мощность S М2;INT (4 bytes);R;ИНР;2;108;;1, 0, , , , , 
+mkBG.M1_A;электроэнергия А+ М1;INT (4 bytes);R;ИНР;2;112;;1, 0, , , , , 
+mkBG.M1_TD;электроэнергия М1 текущий день;INT (4 bytes);R;ИНР;2;116;;1, 0, , , , , 
+mkBG.M2_A;электроэнергия А+ М2;INT (4 bytes);R;ИНР;2;120;;1, 0, , , , , 
+mkBG.M1_D-1;электроэнергия М1 прошедш день;INT (4 bytes);R;ИНР;2;124;;1, 0, , , , , 
+mkBG.FW1;ответ от FASTWELL 1 получен;BOOL (1 bit);R;ИНР;2;128;&h01;, , , , , , 
+mkBG.FW2;ответ от FASTWELL 2 получен;BOOL (1 bit);R;ИНР;2;128;&h02;, , , , , , 
+mkBG.MBA8;ответ от МВА8 получен;BOOL (1 bit);R;ИНР;2;128;&h04;, , , , , , 
+mkBG.MERK1;ответ от Меркурия 1 получен;BOOL (1 bit);R;ИНР;2;128;&h08;, , , , , , 
+mkBG.MERK2;ответ от Меркурия 2 получен;BOOL (1 bit);R;ИНР;2;128;&h10;, , , , , , 
+mkBG.Rez1;резерв;BOOL (1 bit);R;ИНР;2;128;&h20;, , , , , , 
+mkBG.Rez2;резерв;BOOL (1 bit);R;ИНР;2;128;&h40;, , , , , , 
+mkBG.Rez3;резерв;BOOL (1 bit);R;ИНР;2;128;&h80;, , , , , , 
+mkBG.Rez4;резерв;BOOL (1 bit);R;ИНР;2;129;&h01;, , , , , , 
+mkBG.Rez5;резерв;BOOL (1 bit);R;ИНР;2;129;&h02;, , , , , , 
+mkBG.Rez6;резерв;BOOL (1 bit);R;ИНР;2;129;&h04;, , , , , , 
+mkBG.Rez7;резерв;BOOL (1 bit);R;ИНР;2;129;&h08;, , , , , , 
+mkBG.Rez8;резерв;BOOL (1 bit);R;ИНР;2;129;&h10;, , , , , , 
+mkBG.Rez9;резерв;BOOL (1 bit);R;ИНР;2;129;&h20;, , , , , , 
+mkBG.Rez10;резерв;BOOL (1 bit);R;ИНР;2;129;&h40;, , , , , , 
+mkBG.Rez11;резерв;BOOL (1 bit);R;ИНР;2;129;&h80;, , , , , , 
+mkBG.M1_TM;электроэнергия М1 текущий месяц;INT (4 bytes);R;ИНР;2;132;;1, 0, , , , , 
+mkBG.M1_M-1;электроэнергия М1 прошедш месяц;INT (4 bytes);R;ИНР;2;136;;1, 0, , , , , 
+mkBG.M1_TG;электроэнергия М1 текущий год;INT (4 bytes);R;ИНР;2;140;;1, 0, , , , , 
+mkBG.M2_TD;электроэнергия М2 текущий день;INT (4 bytes);R;ИНР;2;144;;1, 0, , , , , 
+mkBG.M2_D-1;электроэнергия М2 прошедш день;INT (4 bytes);R;ИНР;2;148;;1, 0, , , , , 
+mkBG.M2_TM;электроэнергия М2 текущий месяц;INT (4 bytes);R;ИНР;2;152;;1, 0, , , , , 
+mkBG.M2_M-1;электроэнергия М2 прошедш месяц;INT (4 bytes);R;ИНР;2;156;;1, 0, , , , , 
+mkBG.M2_TG;электроэнергия М2 текущий год;INT (4 bytes);R;ИНР;2;160;;1, 0, , , , , 
+mkBG.Timer;Таймер/календарь;date;R;TIME;;0;;, , , , , , 
+mkBG.Timer;Таймер/календарь;date;W;TIME;;0;;, , , , , , 
+mkBG.Modbus_OVEN1;Адрес 0;INT (4 bytes);R;ИНР;3;0;;1, 0, , , , , 
+mkBG.Modbus_OVEN2;Адрес 1;INT (4 bytes);R;ИНР;3;4;;1, 0, , , , , 
+mkBG.Modbus_OVEN3;Адрес 2;INT (4 bytes);R;ИНР;3;8;;1, 0, , , , , 
+mkBG.Modbus_OVEN4;Адрес 3;INT (4 bytes);R;ИНР;3;12;;1, 0, , , , , 
+mkBG.Modbus_OVEN5;Адрес 4;INT (4 bytes);R;ИНР;3;16;;1, 0, , , , , 
+mkBG.Modbus_OVEN6;Адрес 5;INT (4 bytes);R;ИНР;3;20;;1, 0, , , , , 
+mkBG.Modbus_OVEN7;Адрес 6;INT (4 bytes);R;ИНР;3;24;;1, 0, , , , , 
+mkBG.Modbus_OVEN8;Адрес 7;INT (4 bytes);R;ИНР;3;28;;1, 0, , , , , 
+mkBG.Modbus_OVEN9;Адрес 8;INT (4 bytes);R;ИНР;3;32;;1, 0, , , , , 
+mkBG.Modbus_OVEN10;Адрес 9;INT (4 bytes);R;ИНР;3;36;;1, 0, , , , , 
+mkBG.Modbus_OVEN11;Адрес 10;INT (4 bytes);R;ИНР;3;40;;1, 0, , , , , 
+mkBG.Modbus_OVEN12;Адрес 11;INT (4 bytes);R;ИНР;3;44;;1, 0, , , , , 
+mkBG.Modbus_OVEN13;Адрес 12;INT (4 bytes);R;ИНР;3;48;;1, 0, , , , , 
+mkBG.Modbus_OVEN14;Адрес 13;INT (4 bytes);R;ИНР;3;52;;1, 0, , , , , 
+mkBG.Modbus_OVEN15;Адрес 14;INT (4 bytes);R;ИНР;3;56;;1, 0, , , , , 
+mkBG.Modbus_OVEN16;Адрес 15;INT (4 bytes);R;ИНР;3;60;;1, 0, , , , , 
+mkBG.Modbus_OVEN17;Адрес 16;INT (4 bytes);R;ИНР;3;64;;1, 0, , , , , 
+mkBG.Modbus_OVEN18;Адрес 17;INT (4 bytes);R;ИНР;3;68;;1, 0, , , , , 
+mkBG.Modbus_OVEN19;Адрес 18;INT (4 bytes);R;ИНР;3;72;;1, 0, , , , , 
+mkBG.Modbus_OVEN20;Адрес 180;INT (4 bytes);R;ИНР;3;76;;1, 0, , , , , 
+mkBG.Modbus_OVEN21;Адрес 20;INT (4 bytes);R;ИНР;3;80;;1, 0, , , , , 
+mkBG.Modbus_OVEN22;Адрес 21;INT (4 bytes);R;ИНР;3;84;;1, 0, , , , , 
+mkBG.Modbus_OVEN23;Адрес 22;INT (4 bytes);R;ИНР;3;88;;1, 0, , , , , 
+mkBG.Modbus_OVEN24;Адрес 23;INT (4 bytes);R;ИНР;3;92;;1, 0, , , , , 
+mkBG.Modbus_OVEN25;Адрес 24;INT (4 bytes);R;ИНР;3;96;;1, 0, , , , , 
+mkBG.Modbus_OVEN26;Адрес 25;INT (4 bytes);R;ИНР;3;100;;1, 0, , , , , 
+mkBG.Modbus_OVEN27;Адрес 26;INT (4 bytes);R;ИНР;3;104;;1, 0, , , , , 
+mkBG.Modbus_OVEN28;Адрес 27;INT (4 bytes);R;ИНР;3;108;;1, 0, , , , , 
+mkBG.Modbus_OVEN29;Адрес 28;INT (4 bytes);R;ИНР;3;112;;1, 0, , , , , 
+mkBG.Modbus_OVEN30;Адрес 29;INT (4 bytes);R;ИНР;3;116;;1, 0, , , , , 
+mkBG.Modbus_OVEN31;Адрес 30;INT (4 bytes);R;ИНР;3;120;;1, 0, , , , , 
+mkBG.Modbus_OVEN32;Адрес 31;INT (4 bytes);R;ИНР;3;124;;1, 0, , , , , 
+mkBG.Modbus_OVEN33;Адрес 32;INT (4 bytes);R;ИНР;3;128;;1, 0, , , , , 
+mkBG.Modbus_OVEN34;Адрес 33;INT (4 bytes);R;ИНР;3;132;;1, 0, , , , , 
+mkBG.Modbus_OVEN35;Адрес 34;INT (4 bytes);R;ИНР;3;136;;1, 0, , , , , 
+mkBG.Modbus_OVEN36;Адрес 35;INT (4 bytes);R;ИНР;3;140;;1, 0, , , , , 
+mkBG.Modbus_OVEN37;Адрес 36;INT (4 bytes);R;ИНР;3;144;;1, 0, , , , , 
+mkBG.Modbus_OVEN38;Адрес 37;INT (4 bytes);R;ИНР;3;148;;1, 0, , , , , 
+mkBG.Modbus_OVEN39;Адрес 38;INT (4 bytes);R;ИНР;3;152;;1, 0, , , , , 
+mkBG.Modbus_OVEN40;Адрес 164;INT (4 bytes);R;ИНР;3;156;;1, 0, , , , , 
+mkBG.Modbus_OVEN41;Адрес 40;INT (4 bytes);R;ИНР;3;160;;1, 0, , , , , 
+mkBG.Modbus_OVEN42;Адрес 41;INT (4 bytes);R;ИНР;3;164;;1, 0, , , , , 
+mkBG.Modbus_OVEN43;Адрес 42;INT (4 bytes);R;ИНР;3;168;;1, 0, , , , , 
+mkBG.Modbus_OVEN44;Адрес 43;INT (4 bytes);R;ИНР;3;172;;1, 0, , , , , 
+mkBG.Modbus_OVEN45;Адрес 44;INT (4 bytes);R;ИНР;3;176;;1, 0, , , , , 
+mkBG.Modbus_OVEN46;Адрес 45;INT (4 bytes);R;ИНР;3;180;;1, 0, , , , , 
+mkBG.Modbus_OVEN47;Адрес 46;INT (4 bytes);R;ИНР;3;184;;1, 0, , , , , 
+mkBG.Modbus_OVEN48;Адрес 47;INT (4 bytes);R;ИНР;3;188;;1, 0, , , , , 
+mkBG.Modbus_OVEN49;Адрес 48;INT (4 bytes);R;ИНР;3;192;;1, 0, , , , , 
+mkBG.Modbus_OVEN50;Адрес 49;INT (4 bytes);R;ИНР;3;196;;1, 0, , , , , 
+mkBG.Modbus_OVEN51;Адрес 50;INT (4 bytes);R;ИНР;3;200;;1, 0, , , , , 
+mkBG.Modbus_OVEN52;Адрес 51;INT (4 bytes);R;ИНР;3;204;;1, 0, , , , , 
+mkBG.Modbus_OVEN53;Адрес 52;INT (4 bytes);R;ИНР;3;208;;1, 0, , , , , 
+mkBG.Modbus_OVEN54;Адрес 53;INT (4 bytes);R;ИНР;3;212;;1, 0, , , , , 
+mkBG.Modbus_OVEN55;Адрес 54;INT (4 bytes);R;ИНР;3;216;;1, 0, , , , , 
+mkBG.Modbus_OVEN56;Адрес 55;INT (4 bytes);R;ИНР;3;220;;1, 0, , , , , 
+mkBG.Modbus_OVEN57;Адрес 56;INT (4 bytes);R;ИНР;3;224;;1, 0, , , , , 
+mkBG.Modbus_OVEN58;Адрес 57;INT (4 bytes);R;ИНР;3;228;;1, 0, , , , , 
+mkBG.Modbus_OVEN59;Адрес 58;INT (4 bytes);R;ИНР;3;232;;1, 0, , , , , 
+mkBG.Modbus_OVEN60;Адрес 59;INT (4 bytes);R;ИНР;3;236;;1, 0, , , , , 
+mkBG.Modbus_OVEN61;Адрес 60;INT (4 bytes);R;ИНР;3;240;;1, 0, , , , , 
+mkBG.Modbus_OVEN62;Адрес 61;INT (4 bytes);R;ИНР;3;244;;1, 0, , , , , 
+mkBG.Modbus_OVEN63;Адрес 62;INT (4 bytes);R;ИНР;3;248;;1, 0, , , , , 
+mkBG.Modbus_OVEN64;Адрес 63;INT (4 bytes);R;ИНР;3;252;;1, 0, , , , , 
+mkBG.Modbus_OVEN65;Адрес 64;INT (4 bytes);R;ИНР;3;256;;1, 0, , , , , 
+mkBG.Modbus_OVEN66;Адрес 65;INT (4 bytes);R;ИНР;3;260;;1, 0, , , , , 
+mkBG.Modbus_OVEN67;Адрес 66;INT (4 bytes);R;ИНР;3;264;;1, 0, , , , , 
+mkBG.Modbus_OVEN68;Адрес 67;INT (4 bytes);R;ИНР;3;268;;1, 0, , , , , 
+mkBG.Modbus_OVEN69;Адрес 69;INT (4 bytes);R;ИНР;3;272;;1, 0, , , , , 
+mkBG.Modbus_OVEN70;Адрес 71;INT (4 bytes);R;ИНР;3;276;;1, 0, , , , , 
+mkBG.Modbus_OVEN71;Адрес 73;INT (4 bytes);R;ИНР;3;280;;1, 0, , , , , 
+mkBG.Modbus_OVEN72;Адрес 75;INT (4 bytes);R;ИНР;3;284;;1, 0, , , , , 
+mkBG.Modbus_OVEN73;Адрес 77;INT (4 bytes);R;ИНР;3;288;;1, 0, , , , , 
+mkBG.Modbus_OVEN74;Адрес 112;INT (4 bytes);R;ИНР;3;292;;1, 0, , , , , 
+mkBG.Modbus_OVEN75;Адрес 160;INT (4 bytes);R;ИНР;3;296;;1, 0, , , , , 
+mkBG.Modbus_OVEN76;Адрес 152;INT (4 bytes);R;ИНР;3;300;;1, 0, , , , , 
+mkBG.Modbus_OVEN77;Адрес 162;INT (4 bytes);R;ИНР;3;304;;1, 0, , , , , 
+mkBG.Modbus_OVEN78;Адрес 166;INT (4 bytes);R;ИНР;3;308;;1, 0, , , , , 
+mkBG.Modbus_OVEN79;Адрес 168;INT (4 bytes);R;ИНР;3;412;;1, 0, , , , , 
+mkBG.Modbus_OVEN80;Адрес 170;INT (4 bytes);R;ИНР;3;416;;1, 0, , , , , 
+mkBG.Modbus_OVEN81;Адрес 172;INT (4 bytes);R;ИНР;3;420;;1, 0, , , , , 
+mkBG.Modbus_OVEN82;Адрес 174;INT (4 bytes);R;ИНР;3;424;;1, 0, , , , , 
+mkBG.Modbus_OVEN83;Адрес 176;INT (4 bytes);R;ИНР;3;428;;1, 0, , , , , 
+mkBG.Modbus_OVEN84;Адрес 178;INT (4 bytes);R;ИНР;3;432;;1, 0, , , , , 

@@ -1,111 +1,113 @@
-tag_full_name;description;data_type;direction;algoblock_type;algoblock_address;algoblock_offset;selector_mask_nzone;modbus_address
-rashod.E1;Расход смеситель 1;FLOAT (4 bytes);Read;ИНР;0;0;;0
-rashod.E2;Расход смеситель 2;FLOAT (4 bytes);Read;ИНР;0;4;;4
-rashod.E3;Расход смеситель 3;FLOAT (4 bytes);Read;ИНР;0;8;;8
-rashod.E4;Расход подача в город 1000-1;FLOAT (4 bytes);Read;ИНР;0;12;;12
-rashod.E5;Расход подача в город 1000-2;FLOAT (4 bytes);Read;ИНР;0;16;;16
-rashod.E6;Расход подача в город 900;FLOAT (4 bytes);Read;ИНР;0;20;;20
-rashod.E7;Расход подача в город 800;FLOAT (4 bytes);Read;ИНР;0;24;;24
-rashod.E8;Расход подача в город 600;FLOAT (4 bytes);Read;ИНР;0;28;;28
-rashod.E11;Расход подача в город 800-2;FLOAT (4 bytes);Read;ИНР;0;32;;32
-rashod.Esum1;Подъём сумма;FLOAT (4 bytes);Read;ИНР;0;36;;36
-rashod.Esum2;Подача сумма;FLOAT (4 bytes);Read;ИНР;0;40;;40
-rashod.MB1;Ошибка ModBus1;BOOL (1 bit);Read;ИНР;0;44;&h01;44
-rashod.MB2;Ошибка ModBus2;BOOL (1 bit);Read;ИНР;0;48;&h01;48
-rashod.MB3;Ошибка ModBus3;BOOL (1 bit);Read;ИНР;0;52;&h01;52
-rashod.MB4;Ошибка ModBus4;BOOL (1 bit);Read;ИНР;0;56;&h01;56
-rashod.MB5;Ошибка ModBus5;BOOL (1 bit);Read;ИНР;0;60;&h01;60
-rashod.MB6;Ошибка ModBus6;BOOL (1 bit);Read;ИНР;0;64;&h01;64
-rashod.MB7;Ошибка ModBus7;BOOL (1 bit);Read;ИНР;0;68;&h01;68
-rashod.MB8;Ошибка ModBus8;BOOL (1 bit);Read;ИНР;0;72;&h01;72
-rashod.MB9;Ошибка ModBus9;BOOL (1 bit);Read;ИНР;0;76;&h01;76
-rashod.N1(1);номер прибора;INT (4 bytes);Read;ИНР;1;0;;256
-rashod.EA1;Расход мгновенный;FLOAT (4 bytes);Read;ИНР;1;4;;260
-rashod.EA1.(HH);Расход за текущий час;FLOAT (4 bytes);Read;ИНР;1;16;;272
-rashod.EA1.(HH-1);Расход за прошедший час;FLOAT (4 bytes);Read;ИНР;1;20;;276
-rashod.EA1.(DD);Расход за текущие сутки;FLOAT (4 bytes);Read;ИНР;1;24;;280
-rashod.EA1.(DD-1);Расход за прошедшие сутки;FLOAT (4 bytes);Read;ИНР;1;28;;284
-rashod.EA1.(MM);Расход за текущие месяц;FLOAT (4 bytes);Read;ИНР;1;32;;288
-rashod.EA1.(MM-1);Расход за прошедший месяц;FLOAT (4 bytes);Read;ИНР;1;36;;292
-rashod.EA1.(GG);Расход за текущие год;FLOAT (4 bytes);Read;ИНР;1;40;;296
-rashod.EA1.(GG-1);Расход за прошедший год;FLOAT (4 bytes);Read;ИНР;1;44;;300
-rashod.N2(2);номер прибора;INT (4 bytes);Read;ИНР;1;52;;308
-rashod.EA2;Расход мгновенный;FLOAT (4 bytes);Read;ИНР;1;56;;312
-rashod.EA2.(HH);Расход за текущий час;FLOAT (4 bytes);Read;ИНР;1;68;;324
-rashod.EA2.(HH-1);Расход за прошедший час;FLOAT (4 bytes);Read;ИНР;1;72;;328
-rashod.EA2.(DD);Расход за текущие сутки;FLOAT (4 bytes);Read;ИНР;1;76;;332
-rashod.EA2.(DD-1);Расход за прошедшие сутки;FLOAT (4 bytes);Read;ИНР;1;80;;336
-rashod.EA2.(MM);Расход за текущие месяц;FLOAT (4 bytes);Read;ИНР;1;84;;340
-rashod.EA2.(MM-1);Расход за прошедший месяц;FLOAT (4 bytes);Read;ИНР;1;88;;344
-rashod.EA2.(GG);Расход за текущие год;FLOAT (4 bytes);Read;ИНР;1;92;;348
-rashod.EA2.(GG-1);Расход за прошедший год;FLOAT (4 bytes);Read;ИНР;1;96;;352
-rashod.N3(3);номер прибора;INT (4 bytes);Read;ИНР;1;104;;360
-rashod.EA3;Расход мгновенный;FLOAT (4 bytes);Read;ИНР;1;108;;364
-rashod.EA3.(HH);Расход за текущий час;FLOAT (4 bytes);Read;ИНР;1;120;;376
-rashod.EA3.(HH-1);Расход за прошедший час;FLOAT (4 bytes);Read;ИНР;1;124;;380
-rashod.EA3.(DD);Расход за текущие сутки;FLOAT (4 bytes);Read;ИНР;1;128;;384
-rashod.EA3.(DD-1);Расход за прошедшие сутки;FLOAT (4 bytes);Read;ИНР;1;132;;388
-rashod.EA3.(MM);Расход за текущие месяц;FLOAT (4 bytes);Read;ИНР;1;136;;392
-rashod.EA3.(MM-1);Расход за прошедший месяц;FLOAT (4 bytes);Read;ИНР;1;140;;396
-rashod.EA3.(GG);Расход за текущие год;FLOAT (4 bytes);Read;ИНР;1;144;;400
-rashod.EA3.(GG-1);Расход за прошедший год;FLOAT (4 bytes);Read;ИНР;1;148;;404
-rashod.N6(6);номер прибора;INT (4 bytes);Read;ИНР;1;156;;412
-rashod.EA6;Расход мгновенный 900;FLOAT (4 bytes);Read;ИНР;1;160;;416
-rashod.EA6.(HH);Расход за текущий час;FLOAT (4 bytes);Read;ИНР;1;172;;428
-rashod.EA6.(HH-1);Расход за прошедший час;FLOAT (4 bytes);Read;ИНР;1;176;;432
-rashod.EA6.(DD);Расход за текущие сутки;FLOAT (4 bytes);Read;ИНР;1;180;;436
-rashod.EA6.(DD-1);Расход за прошедшие сутки;FLOAT (4 bytes);Read;ИНР;1;184;;440
-rashod.EA6.(MM);Расход за текущие месяц;FLOAT (4 bytes);Read;ИНР;1;188;;444
-rashod.EA6.(MM-1);Расход за прошедший месяц;FLOAT (4 bytes);Read;ИНР;1;192;;448
-rashod.EA6.(GG);Расход за текущие год;FLOAT (4 bytes);Read;ИНР;1;196;;452
-rashod.EA6.(GG-1);Расход за прошедший год;FLOAT (4 bytes);Read;ИНР;1;200;;456
-rashod.N4(4);номер прибора;INT (4 bytes);Read;ИНР;1;208;;464
-rashod.EA4;Расход мгновенный 1000-1;FLOAT (4 bytes);Read;ИНР;1;212;;468
-rashod.EA4.(HH);Расход за текущий час;FLOAT (4 bytes);Read;ИНР;1;224;;480
-rashod.EA4.(HH-1);Расход за прошедший час;FLOAT (4 bytes);Read;ИНР;1;228;;484
-rashod.EA4.(DD);Расход за текущие сутки;FLOAT (4 bytes);Read;ИНР;1;232;;488
-rashod.EA4.(DD-1);Расход за прошедшие сутки;FLOAT (4 bytes);Read;ИНР;1;236;;492
-rashod.EA4.(MM);Расход за текущие месяц;FLOAT (4 bytes);Read;ИНР;1;240;;496
-rashod.EA4.(MM-1);Расход за прошедший месяц;FLOAT (4 bytes);Read;ИНР;1;244;;500
-rashod.EA4.(GG);Расход за текущие год;FLOAT (4 bytes);Read;ИНР;1;248;;504
-rashod.EA4.(GG-1);Расход за прошедший год;FLOAT (4 bytes);Read;ИНР;1;252;;508
-rashod.N5(5);номер прибора;INT (4 bytes);Read;ИНР;1;260;;516
-rashod.EA5;Расход мгновенный 1000-2;FLOAT (4 bytes);Read;ИНР;1;264;;520
-rashod.EA5.(HH);Расход за текущий час;FLOAT (4 bytes);Read;ИНР;1;276;;532
-rashod.EA5.(HH-1);Расход за прошедший час;FLOAT (4 bytes);Read;ИНР;1;280;;536
-rashod.EA5.(DD);Расход за текущие сутки;FLOAT (4 bytes);Read;ИНР;1;284;;540
-rashod.EA5.(DD-1);Расход за прошедшие сутки;FLOAT (4 bytes);Read;ИНР;1;288;;544
-rashod.EA5.(MM);Расход за текущие месяц;FLOAT (4 bytes);Read;ИНР;1;292;;548
-rashod.EA5.(MM-1);Расход за прошедший месяц;FLOAT (4 bytes);Read;ИНР;1;296;;552
-rashod.EA5.(GG);Расход за текущие год;FLOAT (4 bytes);Read;ИНР;1;300;;556
-rashod.EA5.(GG-1);Расход за прошедший год;FLOAT (4 bytes);Read;ИНР;1;304;;560
-rashod.N7(7);номер прибора;INT (4 bytes);Read;ИНР;1;312;;568
-rashod.EA7;Расход мгновенный 800;FLOAT (4 bytes);Read;ИНР;1;316;;572
-rashod.EA7.(HH);Расход за текущий час;FLOAT (4 bytes);Read;ИНР;1;328;;584
-rashod.EA7.(HH-1);Расход за прошедший час;FLOAT (4 bytes);Read;ИНР;1;332;;588
-rashod.EA7.(DD);Расход за текущие сутки;FLOAT (4 bytes);Read;ИНР;1;336;;592
-rashod.EA7.(DD-1);Расход за прошедшие сутки;FLOAT (4 bytes);Read;ИНР;1;340;;596
-rashod.EA7.(MM);Расход за текущие месяц;FLOAT (4 bytes);Read;ИНР;1;344;;600
-rashod.EA7.(MM-1);Расход за прошедший месяц;FLOAT (4 bytes);Read;ИНР;1;348;;604
-rashod.EA7.(GG);Расход за текущие год;FLOAT (4 bytes);Read;ИНР;1;352;;608
-rashod.EA7.(GG-1);Расход за прошедший год;FLOAT (4 bytes);Read;ИНР;1;356;;612
-rashod.N8(8);номер прибора;INT (4 bytes);Read;ИНР;1;364;;620
-rashod.EA8;Расход мгновенный 600;FLOAT (4 bytes);Read;ИНР;1;368;;624
-rashod.EA8.(HH);Расход за текущий час;FLOAT (4 bytes);Read;ИНР;1;380;;636
-rashod.EA8.(HH-1);Расход за прошедший час;FLOAT (4 bytes);Read;ИНР;1;384;;640
-rashod.EA8.(DD);Расход за текущие сутки;FLOAT (4 bytes);Read;ИНР;1;388;;644
-rashod.EA8.(DD-1);Расход за прошедшие сутки;FLOAT (4 bytes);Read;ИНР;1;392;;648
-rashod.EA8.(MM);Расход за текущие месяц;FLOAT (4 bytes);Read;ИНР;1;396;;652
-rashod.EA8.(MM-1);Расход за прошедший месяц;FLOAT (4 bytes);Read;ИНР;1;400;;656
-rashod.EA8.(GG);Расход за текущие год;FLOAT (4 bytes);Read;ИНР;1;404;;660
-rashod.EA8.(GG-1);Расход за прошедший год;FLOAT (4 bytes);Read;ИНР;1;408;;664
-rashod.N11(11);номер прибора;INT (4 bytes);Read;ИНР;1;416;;672
-rashod.EA11;Расход мгновенный 800-2;FLOAT (4 bytes);Read;ИНР;1;420;;676
-rashod.EA11.(HH);Расход за текущий час;FLOAT (4 bytes);Read;ИНР;1;432;;688
-rashod.EA11.(HH-1);Расход за прошедший час;FLOAT (4 bytes);Read;ИНР;1;436;;692
-rashod.EA11.(DD);Расход за текущие сутки;FLOAT (4 bytes);Read;ИНР;1;440;;696
-rashod.EA11.(DD-1);Расход за прошедшие сутки;FLOAT (4 bytes);Read;ИНР;1;444;;700
-rashod.EA11.(MM);Расход за текущие месяц;FLOAT (4 bytes);Read;ИНР;1;448;;704
-rashod.EA11.(MM-1);Расход за прошедший месяц;FLOAT (4 bytes);Read;ИНР;1;452;;708
-rashod.EA11.(GG);Расход за текущие год;FLOAT (4 bytes);Read;ИНР;1;456;;712
-rashod.EA11.(GG-1);Расход за прошедший год;FLOAT (4 bytes);Read;ИНР;1;460;;716
+tag_full_name;description;data_type;direction;ab_type;ab_addr;ab_off;selector;other
+rashod.E1;Расход смеситель 1;FLOAT (4 bytes);R;ИНР;0;0;;1, 0, , 0, 3500, , 
+rashod.E2;Расход смеситель 2;FLOAT (4 bytes);R;ИНР;0;4;;1, 0, , 0, 3500, , 
+rashod.E3;Расход смеситель 3;FLOAT (4 bytes);R;ИНР;0;8;;1, 0, , 0, 3500, , 
+rashod.E4;Расход подача в город 1000-1;FLOAT (4 bytes);R;ИНР;0;12;;1, 0, , 0, 3000, , 
+rashod.E5;Расход подача в город 1000-2;FLOAT (4 bytes);R;ИНР;0;16;;1, 0, , 0, 3000, , 
+rashod.E6;Расход подача в город 900;FLOAT (4 bytes);R;ИНР;0;20;;1, 0, , 0, 3000, , 
+rashod.E7;Расход подача в город 800;FLOAT (4 bytes);R;ИНР;0;24;;1, 0, , 0, 3000, , 
+rashod.E8;Расход подача в город 600;FLOAT (4 bytes);R;ИНР;0;28;;1, 0, , 0, 3000, , 
+rashod.E11;Расход подача в город 800-2;FLOAT (4 bytes);R;ИНР;0;32;;1, 0, , 0, 3000, , 
+rashod.Esum1;Подъём сумма;FLOAT (4 bytes);R;ИНР;0;36;;1, 0, , 0, 8000, , 
+rashod.Esum2;Подача сумма;FLOAT (4 bytes);R;ИНР;0;40;;1, 0, , 0, 10000, , 
+rashod.MB1;Ошибка ModBus1;BOOL (1 bit);R;ИНР;0;44;&h01;, , , , , , 
+rashod.MB2;Ошибка ModBus2;BOOL (1 bit);R;ИНР;0;48;&h01;, , , , , , 
+rashod.MB3;Ошибка ModBus3;BOOL (1 bit);R;ИНР;0;52;&h01;, , , , , , 
+rashod.MB4;Ошибка ModBus4;BOOL (1 bit);R;ИНР;0;56;&h01;, , , , , , 
+rashod.MB5;Ошибка ModBus5;BOOL (1 bit);R;ИНР;0;60;&h01;, , , , , , 
+rashod.MB6;Ошибка ModBus6;BOOL (1 bit);R;ИНР;0;64;&h01;, , , , , , 
+rashod.MB7;Ошибка ModBus7;BOOL (1 bit);R;ИНР;0;68;&h01;, , , , , , 
+rashod.MB8;Ошибка ModBus8;BOOL (1 bit);R;ИНР;0;72;&h01;, , , , , , 
+rashod.MB9;Ошибка ModBus9;BOOL (1 bit);R;ИНР;0;76;&h01;, , , , , , 
+rashod.N1(1);номер прибора;INT (4 bytes);R;ИНР;1;0;;1, 0, , , , , 
+rashod.EA1;Расход мгновенный;FLOAT (4 bytes);R;ИНР;1;4;;1, 0, , , , , 
+rashod.EA1.(HH);Расход за текущий час;FLOAT (4 bytes);R;ИНР;1;16;;1, 0, , , , , 
+rashod.EA1.(HH-1);Расход за прошедший час;FLOAT (4 bytes);R;ИНР;1;20;;1, 0, , , , , 
+rashod.EA1.(DD);Расход за текущие сутки;FLOAT (4 bytes);R;ИНР;1;24;;1, 0, , , , , 
+rashod.EA1.(DD-1);Расход за прошедшие сутки;FLOAT (4 bytes);R;ИНР;1;28;;1, 0, , , , , 
+rashod.EA1.(MM);Расход за текущие месяц;FLOAT (4 bytes);R;ИНР;1;32;;1, 0, , , , , 
+rashod.EA1.(MM-1);Расход за прошедший месяц;FLOAT (4 bytes);R;ИНР;1;36;;1, 0, , , , , 
+rashod.EA1.(GG);Расход за текущие год;FLOAT (4 bytes);R;ИНР;1;40;;1, 0, , , , , 
+rashod.EA1.(GG-1);Расход за прошедший год;FLOAT (4 bytes);R;ИНР;1;44;;1, 0, , , , , 
+rashod.N2(2);номер прибора;INT (4 bytes);R;ИНР;1;52;;1, 0, , , , , 
+rashod.EA2;Расход мгновенный;FLOAT (4 bytes);R;ИНР;1;56;;1, 0, , , , , 
+rashod.EA2.(HH);Расход за текущий час;FLOAT (4 bytes);R;ИНР;1;68;;1, 0, , , , , 
+rashod.EA2.(HH-1);Расход за прошедший час;FLOAT (4 bytes);R;ИНР;1;72;;1, 0, , , , , 
+rashod.EA2.(DD);Расход за текущие сутки;FLOAT (4 bytes);R;ИНР;1;76;;1, 0, , , , , 
+rashod.EA2.(DD-1);Расход за прошедшие сутки;FLOAT (4 bytes);R;ИНР;1;80;;1, 0, , , , , 
+rashod.EA2.(MM);Расход за текущие месяц;FLOAT (4 bytes);R;ИНР;1;84;;1, 0, , , , , 
+rashod.EA2.(MM-1);Расход за прошедший месяц;FLOAT (4 bytes);R;ИНР;1;88;;1, 0, , , , , 
+rashod.EA2.(GG);Расход за текущие год;FLOAT (4 bytes);R;ИНР;1;92;;1, 0, , , , , 
+rashod.EA2.(GG-1);Расход за прошедший год;FLOAT (4 bytes);R;ИНР;1;96;;1, 0, , , , , 
+rashod.N3(3);номер прибора;INT (4 bytes);R;ИНР;1;104;;1, 0, , , , , 
+rashod.EA3;Расход мгновенный;FLOAT (4 bytes);R;ИНР;1;108;;1, 0, , , , , 
+rashod.EA3.(HH);Расход за текущий час;FLOAT (4 bytes);R;ИНР;1;120;;1, 0, , , , , 
+rashod.EA3.(HH-1);Расход за прошедший час;FLOAT (4 bytes);R;ИНР;1;124;;1, 0, , , , , 
+rashod.EA3.(DD);Расход за текущие сутки;FLOAT (4 bytes);R;ИНР;1;128;;1, 0, , , , , 
+rashod.EA3.(DD-1);Расход за прошедшие сутки;FLOAT (4 bytes);R;ИНР;1;132;;1, 0, , , , , 
+rashod.EA3.(MM);Расход за текущие месяц;FLOAT (4 bytes);R;ИНР;1;136;;1, 0, , , , , 
+rashod.EA3.(MM-1);Расход за прошедший месяц;FLOAT (4 bytes);R;ИНР;1;140;;1, 0, , , , , 
+rashod.EA3.(GG);Расход за текущие год;FLOAT (4 bytes);R;ИНР;1;144;;1, 0, , , , , 
+rashod.EA3.(GG-1);Расход за прошедший год;FLOAT (4 bytes);R;ИНР;1;148;;1, 0, , , , , 
+rashod.N6(6);номер прибора;INT (4 bytes);R;ИНР;1;156;;1, 0, , , , , 
+rashod.EA6;Расход мгновенный 900;FLOAT (4 bytes);R;ИНР;1;160;;1, 0, , 0, 3000, , 
+rashod.EA6.(HH);Расход за текущий час;FLOAT (4 bytes);R;ИНР;1;172;;1, 0, , , , , 
+rashod.EA6.(HH-1);Расход за прошедший час;FLOAT (4 bytes);R;ИНР;1;176;;1, 0, , , , , 
+rashod.EA6.(DD);Расход за текущие сутки;FLOAT (4 bytes);R;ИНР;1;180;;1, 0, , , , , 
+rashod.EA6.(DD-1);Расход за прошедшие сутки;FLOAT (4 bytes);R;ИНР;1;184;;1, 0, , , , , 
+rashod.EA6.(MM);Расход за текущие месяц;FLOAT (4 bytes);R;ИНР;1;188;;1, 0, , , , , 
+rashod.EA6.(MM-1);Расход за прошедший месяц;FLOAT (4 bytes);R;ИНР;1;192;;1, 0, , , , , 
+rashod.EA6.(GG);Расход за текущие год;FLOAT (4 bytes);R;ИНР;1;196;;1, 0, , , , , 
+rashod.EA6.(GG-1);Расход за прошедший год;FLOAT (4 bytes);R;ИНР;1;200;;1, 0, , , , , 
+rashod.N4(4);номер прибора;INT (4 bytes);R;ИНР;1;208;;1, 0, , , , , 
+rashod.EA4;Расход мгновенный 1000-1;FLOAT (4 bytes);R;ИНР;1;212;;1, 0, , 0, 3000, , 
+rashod.EA4.(HH);Расход за текущий час;FLOAT (4 bytes);R;ИНР;1;224;;1, 0, , , , , 
+rashod.EA4.(HH-1);Расход за прошедший час;FLOAT (4 bytes);R;ИНР;1;228;;1, 0, , , , , 
+rashod.EA4.(DD);Расход за текущие сутки;FLOAT (4 bytes);R;ИНР;1;232;;1, 0, , , , , 
+rashod.EA4.(DD-1);Расход за прошедшие сутки;FLOAT (4 bytes);R;ИНР;1;236;;1, 0, , , , , 
+rashod.EA4.(MM);Расход за текущие месяц;FLOAT (4 bytes);R;ИНР;1;240;;1, 0, , , , , 
+rashod.EA4.(MM-1);Расход за прошедший месяц;FLOAT (4 bytes);R;ИНР;1;244;;1, 0, , , , , 
+rashod.EA4.(GG);Расход за текущие год;FLOAT (4 bytes);R;ИНР;1;248;;1, 0, , , , , 
+rashod.EA4.(GG-1);Расход за прошедший год;FLOAT (4 bytes);R;ИНР;1;252;;1, 0, , , , , 
+rashod.N5(5);номер прибора;INT (4 bytes);R;ИНР;1;260;;1, 0, , , , , 
+rashod.EA5;Расход мгновенный 1000-2;FLOAT (4 bytes);R;ИНР;1;264;;1, 0, , 0, 3000, , 
+rashod.EA5.(HH);Расход за текущий час;FLOAT (4 bytes);R;ИНР;1;276;;1, 0, , , , , 
+rashod.EA5.(HH-1);Расход за прошедший час;FLOAT (4 bytes);R;ИНР;1;280;;1, 0, , , , , 
+rashod.EA5.(DD);Расход за текущие сутки;FLOAT (4 bytes);R;ИНР;1;284;;1, 0, , , , , 
+rashod.EA5.(DD-1);Расход за прошедшие сутки;FLOAT (4 bytes);R;ИНР;1;288;;1, 0, , , , , 
+rashod.EA5.(MM);Расход за текущие месяц;FLOAT (4 bytes);R;ИНР;1;292;;1, 0, , , , , 
+rashod.EA5.(MM-1);Расход за прошедший месяц;FLOAT (4 bytes);R;ИНР;1;296;;1, 0, , , , , 
+rashod.EA5.(GG);Расход за текущие год;FLOAT (4 bytes);R;ИНР;1;300;;1, 0, , , , , 
+rashod.EA5.(GG-1);Расход за прошедший год;FLOAT (4 bytes);R;ИНР;1;304;;1, 0, , , , , 
+rashod.N7(7);номер прибора;INT (4 bytes);R;ИНР;1;312;;1, 0, , , , , 
+rashod.EA7;Расход мгновенный 800;FLOAT (4 bytes);R;ИНР;1;316;;1, 0, , 0, 3000, , 
+rashod.EA7.(HH);Расход за текущий час;FLOAT (4 bytes);R;ИНР;1;328;;1, 0, , , , , 
+rashod.EA7.(HH-1);Расход за прошедший час;FLOAT (4 bytes);R;ИНР;1;332;;1, 0, , , , , 
+rashod.EA7.(DD);Расход за текущие сутки;FLOAT (4 bytes);R;ИНР;1;336;;1, 0, , , , , 
+rashod.EA7.(DD-1);Расход за прошедшие сутки;FLOAT (4 bytes);R;ИНР;1;340;;1, 0, , , , , 
+rashod.EA7.(MM);Расход за текущие месяц;FLOAT (4 bytes);R;ИНР;1;344;;1, 0, , , , , 
+rashod.EA7.(MM-1);Расход за прошедший месяц;FLOAT (4 bytes);R;ИНР;1;348;;1, 0, , , , , 
+rashod.EA7.(GG);Расход за текущие год;FLOAT (4 bytes);R;ИНР;1;352;;1, 0, , , , , 
+rashod.EA7.(GG-1);Расход за прошедший год;FLOAT (4 bytes);R;ИНР;1;356;;1, 0, , , , , 
+rashod.N8(8);номер прибора;INT (4 bytes);R;ИНР;1;364;;1, 0, , , , , 
+rashod.EA8;Расход мгновенный 600;FLOAT (4 bytes);R;ИНР;1;368;;1, 0, , 0, 3000, , 
+rashod.EA8.(HH);Расход за текущий час;FLOAT (4 bytes);R;ИНР;1;380;;1, 0, , , , , 
+rashod.EA8.(HH-1);Расход за прошедший час;FLOAT (4 bytes);R;ИНР;1;384;;1, 0, , , , , 
+rashod.EA8.(DD);Расход за текущие сутки;FLOAT (4 bytes);R;ИНР;1;388;;1, 0, , , , , 
+rashod.EA8.(DD-1);Расход за прошедшие сутки;FLOAT (4 bytes);R;ИНР;1;392;;1, 0, , , , , 
+rashod.EA8.(MM);Расход за текущие месяц;FLOAT (4 bytes);R;ИНР;1;396;;1, 0, , , , , 
+rashod.EA8.(MM-1);Расход за прошедший месяц;FLOAT (4 bytes);R;ИНР;1;400;;1, 0, , , , , 
+rashod.EA8.(GG);Расход за текущие год;FLOAT (4 bytes);R;ИНР;1;404;;1, 0, , , , , 
+rashod.EA8.(GG-1);Расход за прошедший год;FLOAT (4 bytes);R;ИНР;1;408;;1, 0, , , , , 
+rashod.N11(11);номер прибора;INT (4 bytes);R;ИНР;1;416;;1, 0, , , , , 
+rashod.EA11;Расход мгновенный 800-2;FLOAT (4 bytes);R;ИНР;1;420;;1, 0, , 0, 3000, , 
+rashod.EA11.(HH);Расход за текущий час;FLOAT (4 bytes);R;ИНР;1;432;;1, 0, , , , , 
+rashod.EA11.(HH-1);Расход за прошедший час;FLOAT (4 bytes);R;ИНР;1;436;;1, 0, , , , , 
+rashod.EA11.(DD);Расход за текущие сутки;FLOAT (4 bytes);R;ИНР;1;440;;1, 0, , , , , 
+rashod.EA11.(DD-1);Расход за прошедшие сутки;FLOAT (4 bytes);R;ИНР;1;444;;1, 0, , , , , 
+rashod.EA11.(MM);Расход за текущие месяц;FLOAT (4 bytes);R;ИНР;1;448;;1, 0, , , , , 
+rashod.EA11.(MM-1);Расход за прошедший месяц;FLOAT (4 bytes);R;ИНР;1;452;;1, 0, , , , , 
+rashod.EA11.(GG);Расход за текущие год;FLOAT (4 bytes);R;ИНР;1;456;;1, 0, , , , , 
+rashod.EA11.(GG-1);Расход за прошедший год;FLOAT (4 bytes);R;ИНР;1;460;;1, 0, , , , , 
+rashod.Timer;Таймер/календарь;date;R;TIME;;0;;, , , , , , 
+rashod.Timer;Таймер/календарь;date;W;TIME;;0;;, , , , , , 

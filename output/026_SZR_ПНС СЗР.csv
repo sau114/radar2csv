@@ -1,404 +1,406 @@
-tag_full_name;description;data_type;direction;algoblock_type;algoblock_address;algoblock_offset;selector_mask_nzone;modbus_address
-SZR.ADC1.AI_1;Давление в город;FLOAT (4 bytes);Read;ИНР;0;0;;0
-SZR.P1_500;Давление ул. М.Павлова Университетская;FLOAT (4 bytes);Read;ИНР;0;0;;0
-SZR.ADC1.AI_2;Расход в город;FLOAT (4 bytes);Read;ИНР;0;4;;4
-SZR.E1_500;Расход ул. М.Павлова;FLOAT (4 bytes);Read;ИНР;0;4;;4
-SZR.ADC1.AI_3;Давление Контур;FLOAT (4 bytes);Read;ИНР;0;8;;8
-SZR.P2_500;Давление ул. Университетская;FLOAT (4 bytes);Read;ИНР;0;8;;8
-SZR.ADC1.AI_4;Расход Контур;FLOAT (4 bytes);Read;ИНР;0;12;;12
-SZR.E2_500;Расход ул. Университетская;FLOAT (4 bytes);Read;ИНР;0;12;;12
-SZR.ADC1.AI_5;Нагрузка ПЧ;FLOAT (4 bytes);Read;ИНР;0;16;;16
-SZR.ADC1.AI_6;Нагрузка НА4;FLOAT (4 bytes);Read;ИНР;0;20;;20
-SZR.ADC1.AI_7;Давление вход1;FLOAT (4 bytes);Read;ИНР;0;24;;24
-SZR.P3_VK;Давление от D-800;FLOAT (4 bytes);Read;ИНР;0;24;;24
-SZR.ADC1.AI_8;Давление вход2;FLOAT (4 bytes);Read;ИНР;0;28;;28
-SZR.P4_VK;Давление от D-1000;FLOAT (4 bytes);Read;ИНР;0;28;;28
-SZR.ADC1.DO_1;Резерв;BOOL (1 bit);Read;ИНР;0;32;&h01;32
-SZR.ADC1.DO_2;Резерв;BOOL (1 bit);Read;ИНР;0;32;&h02;32
-SZR.ADC1.DO_3;Резерв;BOOL (1 bit);Read;ИНР;0;32;&h04;32
-SZR.ADC1.DO_4;Резерв;BOOL (1 bit);Read;ИНР;0;32;&h08;32
-SZR.ADC2.AI_1;Нагрузка НА1;FLOAT (4 bytes);Read;ИНР;0;40;;40
-SZR.NA1.I;Ток нагрузки;FLOAT (4 bytes);Read;ИНР;0;40;;40
-SZR.ADC2.AI_2;Нагрузка НА2;FLOAT (4 bytes);Read;ИНР;0;44;;44
-SZR.NA2.I;Ток нагрузки;FLOAT (4 bytes);Read;ИНР;0;44;;44
-SZR.ADC2.AI_3;Нагрузка НА3;FLOAT (4 bytes);Read;ИНР;0;48;;48
-SZR.NA3.I;Ток нагрузки;FLOAT (4 bytes);Read;ИНР;0;48;;48
-SZR.ADC2.AI_4;Нагрузка НА4;FLOAT (4 bytes);Read;ИНР;0;52;;52
-SZR.NA4.I;Ток нагрузки;FLOAT (4 bytes);Read;ИНР;0;52;;52
-SZR.ADC2.AI_5;ВакВсас1;FLOAT (4 bytes);Read;ИНР;0;56;;56
-SZR.ADC2.AI_6;ВакВсас2;FLOAT (4 bytes);Read;ИНР;0;60;;60
-SZR.ADC2.AI_7;Резерв2_7;FLOAT (4 bytes);Read;ИНР;0;64;;64
-SZR.ADC2.AI_8;Резерв2_8;FLOAT (4 bytes);Read;ИНР;0;68;;68
-SZR.ADC2.DO_1;Резерв;BOOL (1 bit);Read;ИНР;0;72;&h01;72
-SZR.ADC2.DO_2;Резерв;BOOL (1 bit);Read;ИНР;0;72;&h02;72
-SZR.ADC2.DO_3;Резерв;BOOL (1 bit);Read;ИНР;0;72;&h04;72
-SZR.ADC2.DO_4;Резерв;BOOL (1 bit);Read;ИНР;0;72;&h08;72
-SZR.DI1.DI(1-8);Дискр_вход 3а;INT (1 byte);Read;ИНР;0;80;;80
-SZR.DI1.DI_1;Питание;BOOL (1 bit);Read;ИНР;0;80;&h01;80
-SZR.DI1.DI_2;Охрана;BOOL (1 bit);Read;ИНР;0;80;&h02;80
-SZR.DI1.DI_3;Пожар;BOOL (1 bit);Read;ИНР;0;80;&h04;80
-SZR.DI1.DI_4;Затопление МЗ;BOOL (1 bit);Read;ИНР;0;80;&h08;80
-SZR.DI1.DI_5;Дренаж1 гот;BOOL (1 bit);Read;ИНР;0;80;&h10;80
-SZR.DI1.DI_6;Дренаж1 включен;BOOL (1 bit);Read;ИНР;0;80;&h20;80
-SZR.DI1.DI_7;Дренаж2 гот;BOOL (1 bit);Read;ИНР;0;80;&h40;80
-SZR.DI1.DI_8;Дренаж2 включен;BOOL (1 bit);Read;ИНР;0;80;&h80;80
-SZR.DI1.DI(9-16);Дискр_вход 3б;INT (1 byte);Read;ИНР;0;81;;81
-SZR.DI1.DI_9;Zвх1 откр;BOOL (1 bit);Read;ИНР;0;81;&h01;81
-SZR.DI1.DI_10;Zвх1 закр;BOOL (1 bit);Read;ИНР;0;81;&h02;81
-SZR.DI1.DI_11;Zвх2 откр;BOOL (1 bit);Read;ИНР;0;81;&h04;81
-SZR.DI1.DI_12;Zвх2 закр;BOOL (1 bit);Read;ИНР;0;81;&h08;81
-SZR.DI1.DI_13;Zвых1 откр;BOOL (1 bit);Read;ИНР;0;81;&h10;81
-SZR.DI1.DI_14;Zвых1 закр;BOOL (1 bit);Read;ИНР;0;81;&h20;81
-SZR.DI1.DI_15;Zвых2 откр;BOOL (1 bit);Read;ИНР;0;81;&h40;81
-SZR.DI1.DI_16;Zвых2 закр;BOOL (1 bit);Read;ИНР;0;81;&h80;81
-SZR.DI2.DI(1-8);Дискр_вход 4а;INT (1 byte);Read;ИНР;0;88;;88
-SZR.DI2.DI_1;НА1 вкл;BOOL (1 bit);Read;ИНР;0;88;&h01;88
-SZR.DI2.DI_2;НА1 гот от сети;BOOL (1 bit);Read;ИНР;0;88;&h02;88
-SZR.DI2.DI_3;НА1 гот от ПЧ;BOOL (1 bit);Read;ИНР;0;88;&h04;88
-SZR.DI2.DI_4;НА1 авария;BOOL (1 bit);Read;ИНР;0;88;&h08;88
-SZR.DI2.DI_5;НА2 вкл;BOOL (1 bit);Read;ИНР;0;88;&h10;88
-SZR.DI2.DI_6;НА2 гот от сети;BOOL (1 bit);Read;ИНР;0;88;&h20;88
-SZR.DI2.DI_7;НА2 гот от ПЧ;BOOL (1 bit);Read;ИНР;0;88;&h40;88
-SZR.DI2.DI_8;НА2 авария;BOOL (1 bit);Read;ИНР;0;88;&h80;88
-SZR.NA1;Насосный агрегат;BOOL (1 bit);Read;ИНР;0;88;&h01;88
-SZR.NA1.B;Всасывающая задвижка;BOOL (1 bit);Read;ИНР;0;88;&h01;88
-SZR.NA1.H;Напорная задвижка;BOOL (1 bit);Read;ИНР;0;88;&h01;88
-SZR.NA2;Насосный агрегат;BOOL (1 bit);Read;ИНР;0;88;&h10;88
-SZR.NA2.B;Всасывающая задвижка;BOOL (1 bit);Read;ИНР;0;88;&h10;88
-SZR.NA2.H;Напорная задвижка;BOOL (1 bit);Read;ИНР;0;88;&h10;88
-SZR.DI2.DI(9-16);Дискр_вход 4б;INT (1 byte);Read;ИНР;0;89;;89
-SZR.DI2.DI_9;НА3 вкл;BOOL (1 bit);Read;ИНР;0;89;&h01;89
-SZR.DI2.DI_10;НА3 гот от сети;BOOL (1 bit);Read;ИНР;0;89;&h02;89
-SZR.DI2.DI_11;НА3 гот от ПЧ;BOOL (1 bit);Read;ИНР;0;89;&h04;89
-SZR.DI2.DI_12;НА3 авария;BOOL (1 bit);Read;ИНР;0;89;&h08;89
-SZR.DI2.DI_13;НА4 вкл;BOOL (1 bit);Read;ИНР;0;89;&h10;89
-SZR.DI2.DI_14;НА4 гот от сети;BOOL (1 bit);Read;ИНР;0;89;&h20;89
-SZR.DI2.DI_15;НА4 гот от ПЧ;BOOL (1 bit);Read;ИНР;0;89;&h40;89
-SZR.DI2.DI_16;НА4 авария;BOOL (1 bit);Read;ИНР;0;89;&h80;89
-SZR.NA3;Насосный агрегат;BOOL (1 bit);Read;ИНР;0;89;&h01;89
-SZR.NA3.B;Всасывающая задвижка;BOOL (1 bit);Read;ИНР;0;89;&h01;89
-SZR.NA3.H;Напорная задвижка;BOOL (1 bit);Read;ИНР;0;89;&h01;89
-SZR.NA4;Насосный агрегат;BOOL (1 bit);Read;ИНР;0;89;&h10;89
-SZR.NA4.B;Всасывающая задвижка;BOOL (1 bit);Read;ИНР;0;89;&h10;89
-SZR.NA4.H;Напорная задвижка;BOOL (1 bit);Read;ИНР;0;89;&h10;89
-SZR.DI3.DI(1-8);Дискр_вход 5а;INT (1 byte);Read;ИНР;0;96;;96
-SZR.DI3.DI_1;Вс НА1 откр;BOOL (1 bit);Read;ИНР;0;96;&h01;96
-SZR.DI3.DI_2;Вс НА1 закр;BOOL (1 bit);Read;ИНР;0;96;&h02;96
-SZR.DI3.DI_3;Нп НА1 откр;BOOL (1 bit);Read;ИНР;0;96;&h04;96
-SZR.DI3.DI_4;Нп НА1 закр;BOOL (1 bit);Read;ИНР;0;96;&h08;96
-SZR.DI3.DI_5;Вс НА2 откр;BOOL (1 bit);Read;ИНР;0;96;&h10;96
-SZR.DI3.DI_6;Вс НА2 закр;BOOL (1 bit);Read;ИНР;0;96;&h20;96
-SZR.DI3.DI_7;Нп НА2 откр;BOOL (1 bit);Read;ИНР;0;96;&h40;96
-SZR.DI3.DI_8;Нп НА2 закр;BOOL (1 bit);Read;ИНР;0;96;&h80;96
-SZR.DI3.DI(9-16);Дискр_вход 5б;INT (1 byte);Read;ИНР;0;97;;97
-SZR.DI3.DI_9;Вс НА3 откр;BOOL (1 bit);Read;ИНР;0;97;&h01;97
-SZR.DI3.DI_10;Вс НА3 закр;BOOL (1 bit);Read;ИНР;0;97;&h02;97
-SZR.DI3.DI_11;Нп НА3 откр;BOOL (1 bit);Read;ИНР;0;97;&h04;97
-SZR.DI3.DI_12;Нп НА3 закр;BOOL (1 bit);Read;ИНР;0;97;&h08;97
-SZR.DI3.DI_13;Вс НА4 откр;BOOL (1 bit);Read;ИНР;0;97;&h10;97
-SZR.DI3.DI_14;Вс НА4 закр;BOOL (1 bit);Read;ИНР;0;97;&h20;97
-SZR.DI3.DI_15;Нп НА4 откр;BOOL (1 bit);Read;ИНР;0;97;&h40;97
-SZR.DI3.DI_16;Нп НА4 закр;BOOL (1 bit);Read;ИНР;0;97;&h80;97
-SZR.DI4.DI(1-8);Дискр_вход 6а;INT (1 byte);Read;ИНР;0;104;;104
-SZR.DI4.DI_1;Авария WILO;BOOL (1 bit);Read;ИНР;0;104;&h01;104
-SZR.DI4.DI_2;Резерв;BOOL (1 bit);Read;ИНР;0;104;&h02;104
-SZR.DI4.DI_3;Резерв;BOOL (1 bit);Read;ИНР;0;104;&h04;104
-SZR.DI4.DI_4;Резерв;BOOL (1 bit);Read;ИНР;0;104;&h08;104
-SZR.DI4.DI_5;Резерв;BOOL (1 bit);Read;ИНР;0;104;&h10;104
-SZR.DI4.DI_6;Резерв;BOOL (1 bit);Read;ИНР;0;104;&h20;104
-SZR.DI4.DI_7;Резерв;BOOL (1 bit);Read;ИНР;0;104;&h40;104
-SZR.DI4.DI_8;Резерв;BOOL (1 bit);Read;ИНР;0;104;&h80;104
-SZR.DI4.DI(9-16);Дискр_вход 6б;INT (1 byte);Read;ИНР;0;105;;105
-SZR.DI4.DI_9;Резерв;BOOL (1 bit);Read;ИНР;0;105;&h01;105
-SZR.DI4.DI_10;Резерв;BOOL (1 bit);Read;ИНР;0;105;&h02;105
-SZR.DI4.DI_11;Резерв;BOOL (1 bit);Read;ИНР;0;105;&h04;105
-SZR.DI4.DI_12;Резерв;BOOL (1 bit);Read;ИНР;0;105;&h08;105
-SZR.DI4.DI_13;Резерв;BOOL (1 bit);Read;ИНР;0;105;&h10;105
-SZR.DI4.DI_14;Резерв;BOOL (1 bit);Read;ИНР;0;105;&h20;105
-SZR.DI4.DI_15;Резерв;BOOL (1 bit);Read;ИНР;0;105;&h40;105
-SZR.DI4.DI_16;Резерв;BOOL (1 bit);Read;ИНР;0;105;&h80;105
-SZR.Upr1;Пуск1  в ДКМ Byte 0 (30);INT (1 byte);Read;ИНР;0;120;;120
-SZR.Upr2;Стоп1  в ДКМ Byte 0 (30);INT (1 byte);Read;ИНР;0;124;;124
-SZR.Upr3;Пуск2  в ДКМ Byte 0 (30);INT (1 byte);Read;ИНР;0;128;;128
-SZR.Upr4;Стоп2  в ДКМ Byte 0 (30);INT (1 byte);Read;ИНР;0;132;;132
-SZR.P33_VK;Давление от D-800;FLOAT (4 bytes);Read;ИНР;0;140;;140
-SZR.P43_VK;Давление от D-1000;FLOAT (4 bytes);Read;ИНР;0;144;;144
-SZR.1t_m;Температура вмашзале;FLOAT (4 bytes);Read;ИНР;0;148;;148
-SZR.2t_sh;Температура в щитовой;FLOAT (4 bytes);Read;ИНР;0;152;;152
-SZR.NZ4;%открытия NZ4;FLOAT (4 bytes);Read;ИНР;0;156;;156
-SZR.NZ4.b0;закрыто;BOOL (1 bit);Read;ИНР;0;160;&h01;160
-SZR.NZ4.b1;движ на закр;BOOL (1 bit);Read;ИНР;0;160;&h02;160
-SZR.NZ4.b2;движ на открытие;BOOL (1 bit);Read;ИНР;0;160;&h04;160
-SZR.NZ4.b3;открыто;BOOL (1 bit);Read;ИНР;0;160;&h08;160
-SZR.NZ4.b4;авария;BOOL (1 bit);Read;ИНР;0;160;&h10;160
-SZR.NZ4.b5;перегруз;BOOL (1 bit);Read;ИНР;0;160;&h20;160
-SZR.NZ4.b6;проскальзование;BOOL (1 bit);Read;ИНР;0;160;&h40;160
-SZR.NZ4.b7;режим управления;BOOL (1 bit);Read;ИНР;0;160;&h80;160
-SZR.NZ3;%открытия NZ3;FLOAT (4 bytes);Read;ИНР;0;164;;164
-SZR.NZ3.b0;закрыто;BOOL (1 bit);Read;ИНР;0;168;&h01;168
-SZR.NZ3.b1;движ на закр;BOOL (1 bit);Read;ИНР;0;168;&h02;168
-SZR.NZ3.b2;движ на открытие;BOOL (1 bit);Read;ИНР;0;168;&h04;168
-SZR.NZ3.b3;открыто;BOOL (1 bit);Read;ИНР;0;168;&h08;168
-SZR.NZ3.b4;авария;BOOL (1 bit);Read;ИНР;0;168;&h10;168
-SZR.NZ3.b5;перегруз;BOOL (1 bit);Read;ИНР;0;168;&h20;168
-SZR.NZ3.b6;проскальзование;BOOL (1 bit);Read;ИНР;0;168;&h40;168
-SZR.NZ3.b7;режим управления;BOOL (1 bit);Read;ИНР;0;168;&h80;168
-SZR.NZ2;%открытия NZ2;FLOAT (4 bytes);Read;ИНР;0;172;;172
-SZR.NZ2.b0;закрыто;BOOL (1 bit);Read;ИНР;0;176;&h01;176
-SZR.NZ2.b1;движ на закр;BOOL (1 bit);Read;ИНР;0;176;&h02;176
-SZR.NZ2.b2;движ на открытие;BOOL (1 bit);Read;ИНР;0;176;&h04;176
-SZR.NZ2.b3;открыто;BOOL (1 bit);Read;ИНР;0;176;&h08;176
-SZR.NZ2.b4;авария;BOOL (1 bit);Read;ИНР;0;176;&h10;176
-SZR.NZ2.b5;перегруз;BOOL (1 bit);Read;ИНР;0;176;&h20;176
-SZR.NZ2.b6;проскальзование;BOOL (1 bit);Read;ИНР;0;176;&h40;176
-SZR.NZ2.b7;режим управления;BOOL (1 bit);Read;ИНР;0;176;&h80;176
-SZR.NZ1;%открытия NZ1;FLOAT (4 bytes);Read;ИНР;0;180;;180
-SZR.NZ1.b0;закрыто;BOOL (1 bit);Read;ИНР;0;184;&h01;184
-SZR.NZ1.b1;движ на закр;BOOL (1 bit);Read;ИНР;0;184;&h02;184
-SZR.NZ1.b2;движ на открытие;BOOL (1 bit);Read;ИНР;0;184;&h04;184
-SZR.NZ1.b3;открыто;BOOL (1 bit);Read;ИНР;0;184;&h08;184
-SZR.NZ1.b4;авария;BOOL (1 bit);Read;ИНР;0;184;&h10;184
-SZR.NZ1.b5;перегруз;BOOL (1 bit);Read;ИНР;0;184;&h20;184
-SZR.NZ1.b6;проскальзование;BOOL (1 bit);Read;ИНР;0;184;&h40;184
-SZR.NZ1.b7;режим управления;BOOL (1 bit);Read;ИНР;0;184;&h80;184
-SZR.NK1;%открытия NK1;FLOAT (4 bytes);Read;ИНР;0;188;;188
-SZR.NK1.b0;закрыто;BOOL (1 bit);Read;ИНР;0;192;&h01;192
-SZR.NK1.b1;движ на закр;BOOL (1 bit);Read;ИНР;0;192;&h02;192
-SZR.NK1.b2;движ на открытие;BOOL (1 bit);Read;ИНР;0;192;&h04;192
-SZR.NK1.b3;открыто;BOOL (1 bit);Read;ИНР;0;192;&h08;192
-SZR.NK1.b4;авария;BOOL (1 bit);Read;ИНР;0;192;&h10;192
-SZR.NK1.b5;перегруз;BOOL (1 bit);Read;ИНР;0;192;&h20;192
-SZR.NK1.b6;проскальзование;BOOL (1 bit);Read;ИНР;0;192;&h40;192
-SZR.NK1.b7;режим управления;BOOL (1 bit);Read;ИНР;0;192;&h80;192
-SZR.NK2;%открытия NK2;FLOAT (4 bytes);Read;ИНР;0;196;;196
-SZR.NK2.b0;закрыто;BOOL (1 bit);Read;ИНР;0;200;&h01;200
-SZR.NK2.b1;движ на закр;BOOL (1 bit);Read;ИНР;0;200;&h02;200
-SZR.NK2.b2;движ на открытие;BOOL (1 bit);Read;ИНР;0;200;&h04;200
-SZR.NK2.b3;открыто;BOOL (1 bit);Read;ИНР;0;200;&h08;200
-SZR.NK2.b4;авария;BOOL (1 bit);Read;ИНР;0;200;&h10;200
-SZR.NK2.b5;перегруз;BOOL (1 bit);Read;ИНР;0;200;&h20;200
-SZR.NK2.b6;проскальзование;BOOL (1 bit);Read;ИНР;0;200;&h40;200
-SZR.NK2.b7;режим управления;BOOL (1 bit);Read;ИНР;0;200;&h80;200
-SZR.NK3;%открытия NK3;FLOAT (4 bytes);Read;ИНР;0;204;;204
-SZR.NK3.b0;закрыто;BOOL (1 bit);Read;ИНР;0;208;&h01;208
-SZR.NK3.b1;движ на закр;BOOL (1 bit);Read;ИНР;0;208;&h02;208
-SZR.NK3.b2;движ на открытие;BOOL (1 bit);Read;ИНР;0;208;&h04;208
-SZR.NK3.b3;открыто;BOOL (1 bit);Read;ИНР;0;208;&h08;208
-SZR.NK3.b4;авария;BOOL (1 bit);Read;ИНР;0;208;&h10;208
-SZR.NK3.b5;перегруз;BOOL (1 bit);Read;ИНР;0;208;&h20;208
-SZR.NK3.b6;проскальзование;BOOL (1 bit);Read;ИНР;0;208;&h40;208
-SZR.NK3.b7;режим управления;BOOL (1 bit);Read;ИНР;0;208;&h80;208
-SZR.PCH3_G;Готовность ПЧ;BOOL (1 bit);Read;ИНР;0;216;&h01;216
-SZR.PCH3_W;Работа ПЧ;BOOL (1 bit);Read;ИНР;0;220;&h01;220
-SZR.PCH3_A;Авария ПЧ;BOOL (1 bit);Read;ИНР;0;228;&h01;228
-SZR.PCH3;Нагрузка ПЧ;INT (4 bytes);Read;ИНР;0;248;;248
-SZR.PCH31;Нагрузка ПЧ;FLOAT (4 bytes);Read;ИНР;0;252;;252
-SZR.PCH4_G;Готовность ПЧ;BOOL (1 bit);Read;ИНР;0;256;&h01;256
-SZR.PCH4_W;Работа ПЧ;BOOL (1 bit);Read;ИНР;0;260;&h01;260
-SZR.PCH4_A;Авария ПЧ;BOOL (1 bit);Read;ИНР;0;268;&h01;268
-SZR.PCH4;Нагрузка ПЧ;INT (4 bytes);Read;ИНР;0;288;;288
-SZR.PCH41;Нагрузка ПЧ;FLOAT (4 bytes);Read;ИНР;0;292;;292
-SZR.PCH2_G;Готовность ПЧ;BOOL (1 bit);Read;ИНР;1;4;&h01;260
-SZR.PCH2_W;Работа ПЧ;BOOL (1 bit);Read;ИНР;1;8;&h01;264
-SZR.PCH2_A;Авария ПЧ;BOOL (1 bit);Read;ИНР;1;16;&h01;272
-SZR.PCH2;Нагрузка ПЧ 2;INT (4 bytes);Read;ИНР;1;36;;292
-SZR.PCH21;Нагрузка ПЧ 2;FLOAT (4 bytes);Read;ИНР;1;40;;296
-SZR.PCH1_G;Готовность ПЧ;BOOL (1 bit);Read;ИНР;1;56;&h01;312
-SZR.PCH1_W;Работа ПЧ;BOOL (1 bit);Read;ИНР;1;60;&h01;316
-SZR.PCH1_A;Авария ПЧ;BOOL (1 bit);Read;ИНР;1;68;&h01;324
-SZR.PCH1;Нагрузка ПЧ 1;INT (4 bytes);Read;ИНР;1;88;;344
-SZR.PCH11;Нагрузка ПЧ 1;FLOAT (4 bytes);Read;ИНР;1;92;;348
-SZR.P1_500.P(HH);Давление за текущий час;FLOAT (4 bytes);Read;ИНР;1;116;;372
-SZR.P1_500.P(HH-1);Давление за прошедший час;FLOAT (4 bytes);Read;ИНР;1;120;;376
-SZR.P2_500.P(HH);Давление за текущий час;FLOAT (4 bytes);Read;ИНР;1;124;;380
-SZR.P2_500.P(HH-1);Давление за прошедший час;FLOAT (4 bytes);Read;ИНР;1;128;;384
-SZR.P3_VK.P(HH);Давление за текущий час;FLOAT (4 bytes);Read;ИНР;1;132;;388
-SZR.P3_VK.P(HH-1);Давление за прошедший час;FLOAT (4 bytes);Read;ИНР;1;136;;392
-SZR.P4_VK.P(HH);Давление за текущий час;FLOAT (4 bytes);Read;ИНР;1;140;;396
-SZR.P4_VK.P(HH-1);Давление за прошедший час;FLOAT (4 bytes);Read;ИНР;1;144;;400
-SZR.E1_500.Q(HH);Объем за текущий час;FLOAT (4 bytes);Read;ИНР;1;148;;404
-SZR.E1_500.Q(HH-1);Объем за прошедший час;FLOAT (4 bytes);Read;ИНР;1;152;;408
-SZR.E1_500.Q(DD);Объем за текущие сутки;FLOAT (4 bytes);Read;ИНР;1;156;;412
-SZR.E1_500.Q(DD-1);Объем за прошедшие сутки;FLOAT (4 bytes);Read;ИНР;1;160;;416
-SZR.E1_500.Q(MM);Объем за текущие месяц;FLOAT (4 bytes);Read;ИНР;1;164;;420
-SZR.E1_500.Q(MM-1);Объем за прошедший месяц;FLOAT (4 bytes);Read;ИНР;1;168;;424
-SZR.E1_500.Q(GG);Объем за текущие год;FLOAT (4 bytes);Read;ИНР;1;172;;428
-SZR.E1_500.Q(GG-1);Объем за прошедший год;FLOAT (4 bytes);Read;ИНР;1;176;;432
-SZR.E2_500.Q(HH);Объем за текущий час;FLOAT (4 bytes);Read;ИНР;1;180;;436
-SZR.E2_500.Q(HH-1);Объем за прошедший час;FLOAT (4 bytes);Read;ИНР;1;184;;440
-SZR.E2_500.Q(DD);Объем за текущие сутки;FLOAT (4 bytes);Read;ИНР;1;188;;444
-SZR.E2_500.Q(DD-1);Объем за прошедшие сутки;FLOAT (4 bytes);Read;ИНР;1;192;;448
-SZR.E2_500.Q(MM);Объем за текущие месяц;FLOAT (4 bytes);Read;ИНР;1;196;;452
-SZR.E2_500.Q(MM-1);Объем за прошедший месяц;FLOAT (4 bytes);Read;ИНР;1;200;;456
-SZR.E2_500.Q(GG);Объем за текущие год;FLOAT (4 bytes);Read;ИНР;1;204;;460
-SZR.E2_500.Q(GG-1);Объем за прошедший год;FLOAT (4 bytes);Read;ИНР;1;208;;464
-SZR.NA1.T;Время за текущий час;INT (4 bytes);Read;ИНР;1;216;;472
-SZR.NA1.T.(HH);Время за текущий час;INT (4 bytes);Read;ИНР;1;216;;472
-SZR.NA1.T.(HH-1);Время за прошедший час;INT (4 bytes);Read;ИНР;1;220;;476
-SZR.NA1.T.(DD);Время за текущие сутки;INT (4 bytes);Read;ИНР;1;224;;480
-SZR.NA1.T.(DD-1);Время за прошедшие сутки;INT (4 bytes);Read;ИНР;1;228;;484
-SZR.NA1.T.(MM);Время за текущие месяц;INT (4 bytes);Read;ИНР;1;232;;488
-SZR.NA1.T.(MM-1);Время за прошедший месяц;INT (4 bytes);Read;ИНР;1;236;;492
-SZR.NA1.T.(GG);Время за текущие год;INT (4 bytes);Read;ИНР;1;240;;496
-SZR.NA1.T.(GG-1);Время за прошедший год;INT (4 bytes);Read;ИНР;1;244;;500
-SZR.NA2.T;Время за текущий час;INT (4 bytes);Read;ИНР;1;248;;504
-SZR.NA2.T.(HH);Время за текущий час;INT (4 bytes);Read;ИНР;1;248;;504
-SZR.NA2.T.(HH-1);Время за прошедший час;INT (4 bytes);Read;ИНР;1;252;;508
-SZR.NA2.T.(DD);Время за текущие сутки;INT (4 bytes);Read;ИНР;1;256;;512
-SZR.NA2.T.(DD-1);Время за прошедшие сутки;INT (4 bytes);Read;ИНР;1;260;;516
-SZR.NA2.T.(MM);Время за текущие месяц;INT (4 bytes);Read;ИНР;1;264;;520
-SZR.NA2.T.(MM-1);Время за прошедший месяц;INT (4 bytes);Read;ИНР;1;268;;524
-SZR.NA2.T.(GG);Время за текущие год;INT (4 bytes);Read;ИНР;1;272;;528
-SZR.NA2.T.(GG-1);Время за прошедший год;INT (4 bytes);Read;ИНР;1;276;;532
-SZR.NA3.T;Время за текущий час;INT (4 bytes);Read;ИНР;1;280;;536
-SZR.NA3.T.(HH);Время за текущий час;INT (4 bytes);Read;ИНР;1;280;;536
-SZR.NA3.T.(HH-1);Время за прошедший час;INT (4 bytes);Read;ИНР;1;284;;540
-SZR.NA3.T.(DD);Время за текущие сутки;INT (4 bytes);Read;ИНР;1;288;;544
-SZR.NA3.T.(DD-1);Время за прошедшие сутки;INT (4 bytes);Read;ИНР;1;292;;548
-SZR.NA3.T.(MM);Время за текущие месяц;INT (4 bytes);Read;ИНР;1;296;;552
-SZR.NA3.T.(MM-1);Время за прошедший месяц;INT (4 bytes);Read;ИНР;1;300;;556
-SZR.NA3.T.(GG);Время за текущие год;INT (4 bytes);Read;ИНР;1;304;;560
-SZR.NA3.T.(GG-1);Время за прошедший год;INT (4 bytes);Read;ИНР;1;308;;564
-SZR.NA4.T;Время за текущий час;INT (4 bytes);Read;ИНР;1;312;;568
-SZR.NA4.T.(HH);Время за текущий час;INT (4 bytes);Read;ИНР;1;312;;568
-SZR.NA4.T.(HH-1);Время за прошедший час;INT (4 bytes);Read;ИНР;1;316;;572
-SZR.NA4.T.(DD);Время за текущие сутки;INT (4 bytes);Read;ИНР;1;320;;576
-SZR.NA4.T.(DD-1);Время за прошедшие сутки;INT (4 bytes);Read;ИНР;1;324;;580
-SZR.NA4.T.(MM);Время за текущие месяц;INT (4 bytes);Read;ИНР;1;328;;584
-SZR.NA4.T.(MM-1);Время за прошедший месяц;INT (4 bytes);Read;ИНР;1;332;;588
-SZR.NA4.T.(GG);Время за текущие год;INT (4 bytes);Read;ИНР;1;336;;592
-SZR.NA4.T.(GG-1);Время за прошедший год;INT (4 bytes);Read;ИНР;1;340;;596
-SZR.NA1.T.(DDh);в часах за текущие сутки;FLOAT (4 bytes);Read;ИНР;1;356;;612
-SZR.NA1.T.(DDh-1);в часах за прошедшие сутки;FLOAT (4 bytes);Read;ИНР;1;360;;616
-SZR.NA1.T.(MMh);в часах за текущий мес.;FLOAT (4 bytes);Read;ИНР;1;364;;620
-SZR.NA1.T.(MMh-1);в часах за прошедший мес.;FLOAT (4 bytes);Read;ИНР;1;368;;624
-SZR.NA1.T.(GGh);в часах за текущий год;FLOAT (4 bytes);Read;ИНР;1;372;;628
-SZR.NA1.T.(GGh-1);в часахза прошедший год;FLOAT (4 bytes);Read;ИНР;1;376;;632
-SZR.NA2.T.(DDh);в часах за текущие сутки;FLOAT (4 bytes);Read;ИНР;1;380;;636
-SZR.NA2.T.(DDh-1);в часах за прошедшие сутки;FLOAT (4 bytes);Read;ИНР;1;384;;640
-SZR.NA2.T.(MMh);в часах за текущий мес.;FLOAT (4 bytes);Read;ИНР;1;388;;644
-SZR.NA2.T.(MMh-1);в часах за прошедший мес.;FLOAT (4 bytes);Read;ИНР;1;392;;648
-SZR.NA2.T.(GGh);в часах за текущий год;FLOAT (4 bytes);Read;ИНР;1;396;;652
-SZR.NA2.T.(GGh-1);в часахза прошедший год;FLOAT (4 bytes);Read;ИНР;1;400;;656
-SZR.NA3.T.(DDh);в часах за текущие сутки;FLOAT (4 bytes);Read;ИНР;1;404;;660
-SZR.NA3.T.(DDh-1);в часах за прошедшие сутки;FLOAT (4 bytes);Read;ИНР;1;408;;664
-SZR.NA3.T.(MMh);в часах за текущий мес.;FLOAT (4 bytes);Read;ИНР;1;412;;668
-SZR.NA3.T.(MMh-1);в часах за прошедший мес.;FLOAT (4 bytes);Read;ИНР;1;416;;672
-SZR.NA3.T.(GGh);в часах за текущий год;FLOAT (4 bytes);Read;ИНР;1;420;;676
-SZR.NA3.T.(GGh-1);в часахза прошедший год;FLOAT (4 bytes);Read;ИНР;1;424;;680
-SZR.NA4.T.(DDh);в часах за текущие сутки;FLOAT (4 bytes);Read;ИНР;1;428;;684
-SZR.NA4.T.(DDh-1);в часах за прошедшие сутки;FLOAT (4 bytes);Read;ИНР;1;432;;688
-SZR.NA4.T.(MMh);в часах за текущий мес.;FLOAT (4 bytes);Read;ИНР;1;436;;692
-SZR.NA4.T.(MMh-1);в часах за прошедший мес.;FLOAT (4 bytes);Read;ИНР;1;440;;696
-SZR.NA4.T.(GGh);в часах за текущий год;FLOAT (4 bytes);Read;ИНР;1;444;;700
-SZR.NA4.T.(GGh-1);в часахза прошедший год;FLOAT (4 bytes);Read;ИНР;1;448;;704
-SZR.Schetchik1.UA;Напряжение А;FLOAT (4 bytes);Read;ИНР;2;0;;512
-SZR.Schetchik1.UB;Напряжение B;FLOAT (4 bytes);Read;ИНР;2;4;;516
-SZR.Schetchik1.UC;Напряжение C;FLOAT (4 bytes);Read;ИНР;2;8;;520
-SZR.Schetchik1.P;Активная мощность;FLOAT (4 bytes);Read;ИНР;2;12;;524
-SZR.Schetchik1.Q;Реактивная мощность;FLOAT (4 bytes);Read;ИНР;2;16;;528
-SZR.Schetchik1.S;Полная мощность;FLOAT (4 bytes);Read;ИНР;2;20;;532
-SZR.Schetchik1.IA;Ток А;FLOAT (4 bytes);Read;ИНР;2;24;;536
-SZR.Schetchik1.IB;Ток B;FLOAT (4 bytes);Read;ИНР;2;28;;540
-SZR.Schetchik1.IC;Ток C;FLOAT (4 bytes);Read;ИНР;2;32;;544
-SZR.Schetchik1.F;Частота сети;FLOAT (4 bytes);Read;ИНР;2;36;;548
-SZR.Schetchik1.SS;Секунды;INT (1 byte);Read;ИНР;2;40;;552
-SZR.Schetchik1.NN;Минуты;INT (1 byte);Read;ИНР;2;44;;556
-SZR.Schetchik1.HH;Часы;INT (1 byte);Read;ИНР;2;48;;560
-SZR.Schetchik1.DD;Число;INT (1 byte);Read;ИНР;2;52;;564
-SZR.Schetchik1.MM;Месяц;INT (1 byte);Read;ИНР;2;56;;568
-SZR.Schetchik1.YY;Год;INT (1 byte);Read;ИНР;2;60;;572
-SZR.Schetchik1.t;температура;INT (1 byte);Read;ИНР;2;64;;576
-SZR.Schetchik1.MBS1;Ошибка обмена Сч1;BOOL (1 bit);Read;ИНР;2;68;&h01;580
-SZR.Schetchik1;Э/счетчик;FLOAT (4 bytes);Read;ИНР;2;76;;588
-SZR.Schetchik1.A+;Накопл. акт. в прям.;FLOAT (4 bytes);Read;ИНР;2;76;;588
-SZR.Schetchik1.R+;Накопл. реакт. в прям.;FLOAT (4 bytes);Read;ИНР;2;80;;592
-SZR.Schetchik1.A+(YY);Тек. год акт. в прям.;FLOAT (4 bytes);Read;ИНР;2;84;;596
-SZR.Schetchik1.R+(YY);Тек. год реакт. в прям.;FLOAT (4 bytes);Read;ИНР;2;88;;600
-SZR.Schetchik1.A+(YY-1);Пред. год акт. в прям.;FLOAT (4 bytes);Read;ИНР;2;92;;604
-SZR.Schetchik1.R+(YY-1);Пред. год реакт. в прям.;FLOAT (4 bytes);Read;ИНР;2;96;;608
-SZR.Schetchik1.A+(DD);Тек. сут. акт. в прям.;FLOAT (4 bytes);Read;ИНР;2;100;;612
-SZR.Schetchik1.R+(DD);Тек. сут. реакт. в прям.;FLOAT (4 bytes);Read;ИНР;2;104;;616
-SZR.Schetchik1.A+(DD-1);Пред. сут. акт. в прям.;FLOAT (4 bytes);Read;ИНР;2;108;;620
-SZR.Schetchik1.R+(DD-1);Пред. сут. реакт. в прям.;FLOAT (4 bytes);Read;ИНР;2;112;;624
-SZR.Schetchik1.A+(MM_1);Янв. акт. в прям.;FLOAT (4 bytes);Read;ИНР;2;116;;628
-SZR.Schetchik1.R+(MM_1);Янв. реакт. в прям.;FLOAT (4 bytes);Read;ИНР;2;120;;632
-SZR.Schetchik1.A+(MM_2);Фев. акт. в прям.;FLOAT (4 bytes);Read;ИНР;2;124;;636
-SZR.Schetchik1.R+(MM_2);Фев. реакт. в прям.;FLOAT (4 bytes);Read;ИНР;2;128;;640
-SZR.Schetchik1.A+(MM_3);Мар. акт. в прям.;FLOAT (4 bytes);Read;ИНР;2;132;;644
-SZR.Schetchik1.R+(MM_3);Мар. реакт. в прям.;FLOAT (4 bytes);Read;ИНР;2;136;;648
-SZR.Schetchik1.A+(MM_4);Апр. акт. в прям.;FLOAT (4 bytes);Read;ИНР;2;140;;652
-SZR.Schetchik1.R+(MM_4);Апр. реакт. в прям.;FLOAT (4 bytes);Read;ИНР;2;144;;656
-SZR.Schetchik1.A+(MM_5);Май акт. в прям.;FLOAT (4 bytes);Read;ИНР;2;148;;660
-SZR.Schetchik1.R+(MM_5);Май реакт. в прям.;FLOAT (4 bytes);Read;ИНР;2;152;;664
-SZR.Schetchik1.A+(MM_6);Июн акт. в прям.;FLOAT (4 bytes);Read;ИНР;2;156;;668
-SZR.Schetchik1.R+(MM_6);Июн реакт. в прям.;FLOAT (4 bytes);Read;ИНР;2;160;;672
-SZR.Schetchik1.A+(MM_7);Июл акт. в прям.;FLOAT (4 bytes);Read;ИНР;2;164;;676
-SZR.Schetchik1.R+(MM_7);Июл реакт. в прям.;FLOAT (4 bytes);Read;ИНР;2;168;;680
-SZR.Schetchik1.A+(MM_8);Авг. акт. в прям.;FLOAT (4 bytes);Read;ИНР;2;172;;684
-SZR.Schetchik1.R+(MM_8);Авг. реакт. в прям.;FLOAT (4 bytes);Read;ИНР;2;176;;688
-SZR.Schetchik1.A+(MM_9);Сен. акт. в прям.;FLOAT (4 bytes);Read;ИНР;2;180;;692
-SZR.Schetchik1.R+(MM_9);Сен. реакт. в прям.;FLOAT (4 bytes);Read;ИНР;2;184;;696
-SZR.Schetchik1.A+(MM_10);Окт. акт. в прям.;FLOAT (4 bytes);Read;ИНР;2;188;;700
-SZR.Schetchik1.R+(MM_10);Окт. реакт. в прям.;FLOAT (4 bytes);Read;ИНР;2;192;;704
-SZR.Schetchik1.A+(MM_11);Ноя. акт. в прям.;FLOAT (4 bytes);Read;ИНР;2;196;;708
-SZR.Schetchik1.R+(MM_11);Ноя. реакт. в прям.;FLOAT (4 bytes);Read;ИНР;2;200;;712
-SZR.Schetchik1.A+(MM_12);Дек. акт. в прям.;FLOAT (4 bytes);Read;ИНР;2;204;;716
-SZR.Schetchik1.R+(MM_12);Дек. реакт. в прям.;FLOAT (4 bytes);Read;ИНР;2;208;;720
-SZR.Schetchik2.UA;Напряжение А;FLOAT (4 bytes);Read;ИНР;3;0;;768
-SZR.Schetchik2.UB;Напряжение B;FLOAT (4 bytes);Read;ИНР;3;4;;772
-SZR.Schetchik2.UC;Напряжение C;FLOAT (4 bytes);Read;ИНР;3;8;;776
-SZR.Schetchik2.P;Активная мощность;FLOAT (4 bytes);Read;ИНР;3;12;;780
-SZR.Schetchik2.Q;Реактивная мощность;FLOAT (4 bytes);Read;ИНР;3;16;;784
-SZR.Schetchik2.S;Полная мощность;FLOAT (4 bytes);Read;ИНР;3;20;;788
-SZR.Schetchik2.IA;Ток А;FLOAT (4 bytes);Read;ИНР;3;24;;792
-SZR.Schetchik2.IB;Ток B;FLOAT (4 bytes);Read;ИНР;3;28;;796
-SZR.Schetchik2.IC;Ток C;FLOAT (4 bytes);Read;ИНР;3;32;;800
-SZR.Schetchik2.F;Частота сети;FLOAT (4 bytes);Read;ИНР;3;36;;804
-SZR.Schetchik2.SS;Секунды;INT (1 byte);Read;ИНР;3;40;;808
-SZR.Schetchik2.NN;Минуты;INT (1 byte);Read;ИНР;3;44;;812
-SZR.Schetchik2.HH;Часы;INT (1 byte);Read;ИНР;3;48;;816
-SZR.Schetchik2.DD;Число;INT (1 byte);Read;ИНР;3;52;;820
-SZR.Schetchik2.MM;Месяц;INT (1 byte);Read;ИНР;3;56;;824
-SZR.Schetchik2.YY;Год;INT (1 byte);Read;ИНР;3;60;;828
-SZR.Schetchik2.t;температура;INT (1 byte);Read;ИНР;3;64;;832
-SZR.Schetchik2.MBS2;Ошибка обмена Сч2;BOOL (1 bit);Read;ИНР;3;68;&h01;836
-SZR.Schetchik2;Э/счетчик;FLOAT (4 bytes);Read;ИНР;3;76;;844
-SZR.Schetchik2.A+;Накопл. акт. в прям.;FLOAT (4 bytes);Read;ИНР;3;76;;844
-SZR.Schetchik2.R+;Накопл. реакт. в прям.;FLOAT (4 bytes);Read;ИНР;3;80;;848
-SZR.Schetchik2.A+(YY);Тек. год акт. в прям.;FLOAT (4 bytes);Read;ИНР;3;84;;852
-SZR.Schetchik2.R+(YY);Тек. год реакт. в прям.;FLOAT (4 bytes);Read;ИНР;3;88;;856
-SZR.Schetchik2.A+(YY-1);Пред. год акт. в прям.;FLOAT (4 bytes);Read;ИНР;3;92;;860
-SZR.Schetchik2.R+(YY-1);Пред. год реакт. в прям.;FLOAT (4 bytes);Read;ИНР;3;96;;864
-SZR.Schetchik2.A+(DD);Тек. сут. акт. в прям.;FLOAT (4 bytes);Read;ИНР;3;100;;868
-SZR.Schetchik2.R+(DD);Тек. сут. реакт. в прям.;FLOAT (4 bytes);Read;ИНР;3;104;;872
-SZR.Schetchik2.A+(DD-1);Пред. сут. акт. в прям.;FLOAT (4 bytes);Read;ИНР;3;108;;876
-SZR.Schetchik2.R+(DD-1);Пред. сут. реакт. в прям.;FLOAT (4 bytes);Read;ИНР;3;112;;880
-SZR.Schetchik2.A+(MM_1);Янв. акт. в прям.;FLOAT (4 bytes);Read;ИНР;3;116;;884
-SZR.Schetchik2.R+(MM_1);Янв. реакт. в прям.;FLOAT (4 bytes);Read;ИНР;3;120;;888
-SZR.Schetchik2.A+(MM_2);Фев. акт. в прям.;FLOAT (4 bytes);Read;ИНР;3;124;;892
-SZR.Schetchik2.R+(MM_2);Фев. реакт. в прям.;FLOAT (4 bytes);Read;ИНР;3;128;;896
-SZR.Schetchik2.A+(MM_3);Мар. акт. в прям.;FLOAT (4 bytes);Read;ИНР;3;132;;900
-SZR.Schetchik2.R+(MM_3);Мар. реакт. в прям.;FLOAT (4 bytes);Read;ИНР;3;136;;904
-SZR.Schetchik2.A+(MM_4);Апр. акт. в прям.;FLOAT (4 bytes);Read;ИНР;3;140;;908
-SZR.Schetchik2.R+(MM_4);Апр. реакт. в прям.;FLOAT (4 bytes);Read;ИНР;3;144;;912
-SZR.Schetchik2.A+(MM_5);Май акт. в прям.;FLOAT (4 bytes);Read;ИНР;3;148;;916
-SZR.Schetchik2.R+(MM_5);Май реакт. в прям.;FLOAT (4 bytes);Read;ИНР;3;152;;920
-SZR.Schetchik2.A+(MM_6);Июн акт. в прям.;FLOAT (4 bytes);Read;ИНР;3;156;;924
-SZR.Schetchik2.R+(MM_6);Июн реакт. в прям.;FLOAT (4 bytes);Read;ИНР;3;160;;928
-SZR.Schetchik2.A+(MM_7);Июл акт. в прям.;FLOAT (4 bytes);Read;ИНР;3;164;;932
-SZR.Schetchik2.R+(MM_7);Июл реакт. в прям.;FLOAT (4 bytes);Read;ИНР;3;168;;936
-SZR.Schetchik2.A+(MM_8);Авг. акт. в прям.;FLOAT (4 bytes);Read;ИНР;3;172;;940
-SZR.Schetchik2.R+(MM_8);Авг. реакт. в прям.;FLOAT (4 bytes);Read;ИНР;3;176;;944
-SZR.Schetchik2.A+(MM_9);Сен. акт. в прям.;FLOAT (4 bytes);Read;ИНР;3;180;;948
-SZR.Schetchik2.R+(MM_9);Сен. реакт. в прям.;FLOAT (4 bytes);Read;ИНР;3;184;;952
-SZR.Schetchik2.A+(MM_10);Окт. акт. в прям.;FLOAT (4 bytes);Read;ИНР;3;188;;956
-SZR.Schetchik2.R+(MM_10);Окт. реакт. в прям.;FLOAT (4 bytes);Read;ИНР;3;192;;960
-SZR.Schetchik2.A+(MM_11);Ноя. акт. в прям.;FLOAT (4 bytes);Read;ИНР;3;196;;964
-SZR.Schetchik2.R+(MM_11);Ноя. реакт. в прям.;FLOAT (4 bytes);Read;ИНР;3;200;;968
-SZR.Schetchik2.A+(MM_12);Дек. акт. в прям.;FLOAT (4 bytes);Read;ИНР;3;204;;972
-SZR.Schetchik2.R+(MM_12);Дек. реакт. в прям.;FLOAT (4 bytes);Read;ИНР;3;208;;976
-SZR.Upr1;Пуск1  в ДКМ Byte 0 (30);INT (1 byte);Write;ДКМ;30 //Работает;0;;-1
-SZR.Upr2;Стоп1  в ДКМ Byte 0 (30);INT (1 byte);Write;ДКМ;30 //Работает;0;;-1
-SZR.Upr3;Пуск2  в ДКМ Byte 0 (30);INT (1 byte);Write;ДКМ;30 //Работает;0;;-1
-SZR.Upr4;Стоп2  в ДКМ Byte 0 (30);INT (1 byte);Write;ДКМ;30 //Работает;0;;-1
+tag_full_name;description;data_type;direction;ab_type;ab_addr;ab_off;selector;other
+SZR.ADC1.AI_1;Давление в город;FLOAT (4 bytes);R;ИНР;0;0;;1, 0, , 0, 100, , 
+SZR.P1_500;Давление ул. М.Павлова Университетская;FLOAT (4 bytes);R;ИНР;0;0;;0.1, 0, , 0, 10, , 
+SZR.ADC1.AI_2;Расход в город;FLOAT (4 bytes);R;ИНР;0;4;;1, 0, , 0, 100, , 
+SZR.E1_500;Расход ул. М.Павлова;FLOAT (4 bytes);R;ИНР;0;4;;20, 0, , 0, 2000, , 
+SZR.ADC1.AI_3;Давление Контур;FLOAT (4 bytes);R;ИНР;0;8;;1, 0, , 0, 100, , 
+SZR.P2_500;Давление ул. Университетская;FLOAT (4 bytes);R;ИНР;0;8;;0.1, 0, , 0, 10, , 
+SZR.ADC1.AI_4;Расход Контур;FLOAT (4 bytes);R;ИНР;0;12;;1, 0, , 0, 100, , 
+SZR.E2_500;Расход ул. Университетская;FLOAT (4 bytes);R;ИНР;0;12;;20, 0, , 0, 2000, , 
+SZR.ADC1.AI_5;Нагрузка ПЧ;FLOAT (4 bytes);R;ИНР;0;16;;1, 0, , 0, 100, , 
+SZR.ADC1.AI_6;Нагрузка НА4;FLOAT (4 bytes);R;ИНР;0;20;;1, 0, , 0, 400, , 
+SZR.ADC1.AI_7;Давление вход1;FLOAT (4 bytes);R;ИНР;0;24;;1, 0, , 0, 100, , 
+SZR.P3_VK;Давление от D-800;FLOAT (4 bytes);R;ИНР;0;24;;0.1, 0, , 0, 10, , 
+SZR.ADC1.AI_8;Давление вход2;FLOAT (4 bytes);R;ИНР;0;28;;1, 0, , 0, 100, , 
+SZR.P4_VK;Давление от D-1000;FLOAT (4 bytes);R;ИНР;0;28;;0.1, 0, , 0, 10, , 
+SZR.ADC1.DO_1;Резерв;BOOL (1 bit);R;ИНР;0;32;&h01;, , , , , , 
+SZR.ADC1.DO_2;Резерв;BOOL (1 bit);R;ИНР;0;32;&h02;, , , , , , 
+SZR.ADC1.DO_3;Резерв;BOOL (1 bit);R;ИНР;0;32;&h04;, , , , , , 
+SZR.ADC1.DO_4;Резерв;BOOL (1 bit);R;ИНР;0;32;&h08;, , , , , , 
+SZR.ADC2.AI_1;Нагрузка НА1;FLOAT (4 bytes);R;ИНР;0;40;;1, 0, , 0, 400, , 
+SZR.NA1.I;Ток нагрузки;FLOAT (4 bytes);R;ИНР;0;40;;4, 0, , 0, 300, , 
+SZR.ADC2.AI_2;Нагрузка НА2;FLOAT (4 bytes);R;ИНР;0;44;;1, 0, , 0, 400, , 
+SZR.NA2.I;Ток нагрузки;FLOAT (4 bytes);R;ИНР;0;44;;4, 0, , 0, 300, , 
+SZR.ADC2.AI_3;Нагрузка НА3;FLOAT (4 bytes);R;ИНР;0;48;;1, 0, , 0, 400, , 
+SZR.NA3.I;Ток нагрузки;FLOAT (4 bytes);R;ИНР;0;48;;4, 0, , 0, 300, , 
+SZR.ADC2.AI_4;Нагрузка НА4;FLOAT (4 bytes);R;ИНР;0;52;;1, 0, , 0, 400, , 
+SZR.NA4.I;Ток нагрузки;FLOAT (4 bytes);R;ИНР;0;52;;4, 0, , 0, 350, , 
+SZR.ADC2.AI_5;ВакВсас1;FLOAT (4 bytes);R;ИНР;0;56;;1, 0, , 0, 100, , 
+SZR.ADC2.AI_6;ВакВсас2;FLOAT (4 bytes);R;ИНР;0;60;;1, 0, , 0, 100, , 
+SZR.ADC2.AI_7;Резерв2_7;FLOAT (4 bytes);R;ИНР;0;64;;1, 0, , 0, 100, , 
+SZR.ADC2.AI_8;Резерв2_8;FLOAT (4 bytes);R;ИНР;0;68;;1, 0, , 0, 100, , 
+SZR.ADC2.DO_1;Резерв;BOOL (1 bit);R;ИНР;0;72;&h01;, , , , , , 
+SZR.ADC2.DO_2;Резерв;BOOL (1 bit);R;ИНР;0;72;&h02;, , , , , , 
+SZR.ADC2.DO_3;Резерв;BOOL (1 bit);R;ИНР;0;72;&h04;, , , , , , 
+SZR.ADC2.DO_4;Резерв;BOOL (1 bit);R;ИНР;0;72;&h08;, , , , , , 
+SZR.DI1.DI(1-8);Дискр_вход 3а;INT (1 byte);R;ИНР;0;80;;, , , , , , 
+SZR.DI1.DI_1;Питание;BOOL (1 bit);R;ИНР;0;80;&h01;, , , , , , 
+SZR.DI1.DI_2;Охрана;BOOL (1 bit);R;ИНР;0;80;&h02;, , , , , , 
+SZR.DI1.DI_3;Пожар;BOOL (1 bit);R;ИНР;0;80;&h04;, , , , , , 
+SZR.DI1.DI_4;Затопление МЗ;BOOL (1 bit);R;ИНР;0;80;&h08;, , , , , , 
+SZR.DI1.DI_5;Дренаж1 гот;BOOL (1 bit);R;ИНР;0;80;&h10;, , , , , , 
+SZR.DI1.DI_6;Дренаж1 включен;BOOL (1 bit);R;ИНР;0;80;&h20;, , , , , , 
+SZR.DI1.DI_7;Дренаж2 гот;BOOL (1 bit);R;ИНР;0;80;&h40;, , , , , , 
+SZR.DI1.DI_8;Дренаж2 включен;BOOL (1 bit);R;ИНР;0;80;&h80;, , , , , , 
+SZR.DI1.DI(9-16);Дискр_вход 3б;INT (1 byte);R;ИНР;0;81;;, , , , , , 
+SZR.DI1.DI_9;Zвх1 откр;BOOL (1 bit);R;ИНР;0;81;&h01;, , , , , , 
+SZR.DI1.DI_10;Zвх1 закр;BOOL (1 bit);R;ИНР;0;81;&h02;, , , , , , 
+SZR.DI1.DI_11;Zвх2 откр;BOOL (1 bit);R;ИНР;0;81;&h04;, , , , , , 
+SZR.DI1.DI_12;Zвх2 закр;BOOL (1 bit);R;ИНР;0;81;&h08;, , , , , , 
+SZR.DI1.DI_13;Zвых1 откр;BOOL (1 bit);R;ИНР;0;81;&h10;, , , , , , 
+SZR.DI1.DI_14;Zвых1 закр;BOOL (1 bit);R;ИНР;0;81;&h20;, , , , , , 
+SZR.DI1.DI_15;Zвых2 откр;BOOL (1 bit);R;ИНР;0;81;&h40;, , , , , , 
+SZR.DI1.DI_16;Zвых2 закр;BOOL (1 bit);R;ИНР;0;81;&h80;, , , , , , 
+SZR.DI2.DI(1-8);Дискр_вход 4а;INT (1 byte);R;ИНР;0;88;;, , , , , , 
+SZR.DI2.DI_1;НА1 вкл;BOOL (1 bit);R;ИНР;0;88;&h01;, , , , , , 
+SZR.DI2.DI_2;НА1 гот от сети;BOOL (1 bit);R;ИНР;0;88;&h02;, , , , , , 
+SZR.DI2.DI_3;НА1 гот от ПЧ;BOOL (1 bit);R;ИНР;0;88;&h04;, , , , , , 
+SZR.DI2.DI_4;НА1 авария;BOOL (1 bit);R;ИНР;0;88;&h08;, , , , , , 
+SZR.DI2.DI_5;НА2 вкл;BOOL (1 bit);R;ИНР;0;88;&h10;, , , , , , 
+SZR.DI2.DI_6;НА2 гот от сети;BOOL (1 bit);R;ИНР;0;88;&h20;, , , , , , 
+SZR.DI2.DI_7;НА2 гот от ПЧ;BOOL (1 bit);R;ИНР;0;88;&h40;, , , , , , 
+SZR.DI2.DI_8;НА2 авария;BOOL (1 bit);R;ИНР;0;88;&h80;, , , , , , 
+SZR.NA1;Насосный агрегат;BOOL (1 bit);R;ИНР;0;88;&h01;, , , , , , 
+SZR.NA1.B;Всасывающая задвижка;BOOL (1 bit);R;ИНР;0;88;&h01;, , , , , , 
+SZR.NA1.H;Напорная задвижка;BOOL (1 bit);R;ИНР;0;88;&h01;, , , , , , 
+SZR.NA2;Насосный агрегат;BOOL (1 bit);R;ИНР;0;88;&h10;, , , , , , 
+SZR.NA2.B;Всасывающая задвижка;BOOL (1 bit);R;ИНР;0;88;&h10;, , , , , , 
+SZR.NA2.H;Напорная задвижка;BOOL (1 bit);R;ИНР;0;88;&h10;, , , , , , 
+SZR.DI2.DI(9-16);Дискр_вход 4б;INT (1 byte);R;ИНР;0;89;;, , , , , , 
+SZR.DI2.DI_9;НА3 вкл;BOOL (1 bit);R;ИНР;0;89;&h01;, , , , , , 
+SZR.DI2.DI_10;НА3 гот от сети;BOOL (1 bit);R;ИНР;0;89;&h02;, , , , , , 
+SZR.DI2.DI_11;НА3 гот от ПЧ;BOOL (1 bit);R;ИНР;0;89;&h04;, , , , , , 
+SZR.DI2.DI_12;НА3 авария;BOOL (1 bit);R;ИНР;0;89;&h08;, , , , , , 
+SZR.DI2.DI_13;НА4 вкл;BOOL (1 bit);R;ИНР;0;89;&h10;, , , , , , 
+SZR.DI2.DI_14;НА4 гот от сети;BOOL (1 bit);R;ИНР;0;89;&h20;, , , , , , 
+SZR.DI2.DI_15;НА4 гот от ПЧ;BOOL (1 bit);R;ИНР;0;89;&h40;, , , , , , 
+SZR.DI2.DI_16;НА4 авария;BOOL (1 bit);R;ИНР;0;89;&h80;, , , , , , 
+SZR.NA3;Насосный агрегат;BOOL (1 bit);R;ИНР;0;89;&h01;, , , , , , 
+SZR.NA3.B;Всасывающая задвижка;BOOL (1 bit);R;ИНР;0;89;&h01;, , , , , , 
+SZR.NA3.H;Напорная задвижка;BOOL (1 bit);R;ИНР;0;89;&h01;, , , , , , 
+SZR.NA4;Насосный агрегат;BOOL (1 bit);R;ИНР;0;89;&h10;, , , , , , 
+SZR.NA4.B;Всасывающая задвижка;BOOL (1 bit);R;ИНР;0;89;&h10;, , , , , , 
+SZR.NA4.H;Напорная задвижка;BOOL (1 bit);R;ИНР;0;89;&h10;, , , , , , 
+SZR.DI3.DI(1-8);Дискр_вход 5а;INT (1 byte);R;ИНР;0;96;;, , , , , , 
+SZR.DI3.DI_1;Вс НА1 откр;BOOL (1 bit);R;ИНР;0;96;&h01;, , , , , , 
+SZR.DI3.DI_2;Вс НА1 закр;BOOL (1 bit);R;ИНР;0;96;&h02;, , , , , , 
+SZR.DI3.DI_3;Нп НА1 откр;BOOL (1 bit);R;ИНР;0;96;&h04;, , , , , , 
+SZR.DI3.DI_4;Нп НА1 закр;BOOL (1 bit);R;ИНР;0;96;&h08;, , , , , , 
+SZR.DI3.DI_5;Вс НА2 откр;BOOL (1 bit);R;ИНР;0;96;&h10;, , , , , , 
+SZR.DI3.DI_6;Вс НА2 закр;BOOL (1 bit);R;ИНР;0;96;&h20;, , , , , , 
+SZR.DI3.DI_7;Нп НА2 откр;BOOL (1 bit);R;ИНР;0;96;&h40;, , , , , , 
+SZR.DI3.DI_8;Нп НА2 закр;BOOL (1 bit);R;ИНР;0;96;&h80;, , , , , , 
+SZR.DI3.DI(9-16);Дискр_вход 5б;INT (1 byte);R;ИНР;0;97;;, , , , , , 
+SZR.DI3.DI_9;Вс НА3 откр;BOOL (1 bit);R;ИНР;0;97;&h01;, , , , , , 
+SZR.DI3.DI_10;Вс НА3 закр;BOOL (1 bit);R;ИНР;0;97;&h02;, , , , , , 
+SZR.DI3.DI_11;Нп НА3 откр;BOOL (1 bit);R;ИНР;0;97;&h04;, , , , , , 
+SZR.DI3.DI_12;Нп НА3 закр;BOOL (1 bit);R;ИНР;0;97;&h08;, , , , , , 
+SZR.DI3.DI_13;Вс НА4 откр;BOOL (1 bit);R;ИНР;0;97;&h10;, , , , , , 
+SZR.DI3.DI_14;Вс НА4 закр;BOOL (1 bit);R;ИНР;0;97;&h20;, , , , , , 
+SZR.DI3.DI_15;Нп НА4 откр;BOOL (1 bit);R;ИНР;0;97;&h40;, , , , , , 
+SZR.DI3.DI_16;Нп НА4 закр;BOOL (1 bit);R;ИНР;0;97;&h80;, , , , , , 
+SZR.DI4.DI(1-8);Дискр_вход 6а;INT (1 byte);R;ИНР;0;104;;, , , , , , 
+SZR.DI4.DI_1;Авария WILO;BOOL (1 bit);R;ИНР;0;104;&h01;, , , , , , 
+SZR.DI4.DI_2;Резерв;BOOL (1 bit);R;ИНР;0;104;&h02;, , , , , , 
+SZR.DI4.DI_3;Резерв;BOOL (1 bit);R;ИНР;0;104;&h04;, , , , , , 
+SZR.DI4.DI_4;Резерв;BOOL (1 bit);R;ИНР;0;104;&h08;, , , , , , 
+SZR.DI4.DI_5;Резерв;BOOL (1 bit);R;ИНР;0;104;&h10;, , , , , , 
+SZR.DI4.DI_6;Резерв;BOOL (1 bit);R;ИНР;0;104;&h20;, , , , , , 
+SZR.DI4.DI_7;Резерв;BOOL (1 bit);R;ИНР;0;104;&h40;, , , , , , 
+SZR.DI4.DI_8;Резерв;BOOL (1 bit);R;ИНР;0;104;&h80;, , , , , , 
+SZR.DI4.DI(9-16);Дискр_вход 6б;INT (1 byte);R;ИНР;0;105;;, , , , , , 
+SZR.DI4.DI_9;Резерв;BOOL (1 bit);R;ИНР;0;105;&h01;, , , , , , 
+SZR.DI4.DI_10;Резерв;BOOL (1 bit);R;ИНР;0;105;&h02;, , , , , , 
+SZR.DI4.DI_11;Резерв;BOOL (1 bit);R;ИНР;0;105;&h04;, , , , , , 
+SZR.DI4.DI_12;Резерв;BOOL (1 bit);R;ИНР;0;105;&h08;, , , , , , 
+SZR.DI4.DI_13;Резерв;BOOL (1 bit);R;ИНР;0;105;&h10;, , , , , , 
+SZR.DI4.DI_14;Резерв;BOOL (1 bit);R;ИНР;0;105;&h20;, , , , , , 
+SZR.DI4.DI_15;Резерв;BOOL (1 bit);R;ИНР;0;105;&h40;, , , , , , 
+SZR.DI4.DI_16;Резерв;BOOL (1 bit);R;ИНР;0;105;&h80;, , , , , , 
+SZR.Upr1;Пуск1  в ДКМ Byte 0 (30);INT (1 byte);R;ИНР;0;120;;, , , , , , 
+SZR.Upr1;Пуск1  в ДКМ Byte 0 (30);INT (1 byte);W;ДКМ;30 //Работает;0;;, , , , , , Byte
+SZR.Upr2;Стоп1  в ДКМ Byte 0 (30);INT (1 byte);R;ИНР;0;124;;, , , , , , 
+SZR.Upr2;Стоп1  в ДКМ Byte 0 (30);INT (1 byte);W;ДКМ;30 //Работает;0;;, , , , , , Byte
+SZR.Upr3;Пуск2  в ДКМ Byte 0 (30);INT (1 byte);R;ИНР;0;128;;, , , , , , 
+SZR.Upr3;Пуск2  в ДКМ Byte 0 (30);INT (1 byte);W;ДКМ;30 //Работает;0;;, , , , , , Byte
+SZR.Upr4;Стоп2  в ДКМ Byte 0 (30);INT (1 byte);R;ИНР;0;132;;, , , , , , 
+SZR.Upr4;Стоп2  в ДКМ Byte 0 (30);INT (1 byte);W;ДКМ;30 //Работает;0;;, , , , , , Byte
+SZR.P33_VK;Давление от D-800;FLOAT (4 bytes);R;ИНР;0;140;;0.01, 0, , 0, 10, , 
+SZR.P43_VK;Давление от D-1000;FLOAT (4 bytes);R;ИНР;0;144;;0.01, 0, , 0, 10, , 
+SZR.1t_m;Температура вмашзале;FLOAT (4 bytes);R;ИНР;0;148;;1, 0, , 0, 100, , 
+SZR.2t_sh;Температура в щитовой;FLOAT (4 bytes);R;ИНР;0;152;;1, 0, , 0, 100, , 
+SZR.NZ4;%открытия NZ4;FLOAT (4 bytes);R;ИНР;0;156;;1, 0, , , , , 
+SZR.NZ4.b0;закрыто;BOOL (1 bit);R;ИНР;0;160;&h01;, , , , , , 
+SZR.NZ4.b1;движ на закр;BOOL (1 bit);R;ИНР;0;160;&h02;, , , , , , 
+SZR.NZ4.b2;движ на открытие;BOOL (1 bit);R;ИНР;0;160;&h04;, , , , , , 
+SZR.NZ4.b3;открыто;BOOL (1 bit);R;ИНР;0;160;&h08;, , , , , , 
+SZR.NZ4.b4;авария;BOOL (1 bit);R;ИНР;0;160;&h10;, , , , , , 
+SZR.NZ4.b5;перегруз;BOOL (1 bit);R;ИНР;0;160;&h20;, , , , , , 
+SZR.NZ4.b6;проскальзование;BOOL (1 bit);R;ИНР;0;160;&h40;, , , , , , 
+SZR.NZ4.b7;режим управления;BOOL (1 bit);R;ИНР;0;160;&h80;, , , , , , 
+SZR.NZ3;%открытия NZ3;FLOAT (4 bytes);R;ИНР;0;164;;1, 0, , , , , 
+SZR.NZ3.b0;закрыто;BOOL (1 bit);R;ИНР;0;168;&h01;, , , , , , 
+SZR.NZ3.b1;движ на закр;BOOL (1 bit);R;ИНР;0;168;&h02;, , , , , , 
+SZR.NZ3.b2;движ на открытие;BOOL (1 bit);R;ИНР;0;168;&h04;, , , , , , 
+SZR.NZ3.b3;открыто;BOOL (1 bit);R;ИНР;0;168;&h08;, , , , , , 
+SZR.NZ3.b4;авария;BOOL (1 bit);R;ИНР;0;168;&h10;, , , , , , 
+SZR.NZ3.b5;перегруз;BOOL (1 bit);R;ИНР;0;168;&h20;, , , , , , 
+SZR.NZ3.b6;проскальзование;BOOL (1 bit);R;ИНР;0;168;&h40;, , , , , , 
+SZR.NZ3.b7;режим управления;BOOL (1 bit);R;ИНР;0;168;&h80;, , , , , , 
+SZR.NZ2;%открытия NZ2;FLOAT (4 bytes);R;ИНР;0;172;;1, 0, , , , , 
+SZR.NZ2.b0;закрыто;BOOL (1 bit);R;ИНР;0;176;&h01;, , , , , , 
+SZR.NZ2.b1;движ на закр;BOOL (1 bit);R;ИНР;0;176;&h02;, , , , , , 
+SZR.NZ2.b2;движ на открытие;BOOL (1 bit);R;ИНР;0;176;&h04;, , , , , , 
+SZR.NZ2.b3;открыто;BOOL (1 bit);R;ИНР;0;176;&h08;, , , , , , 
+SZR.NZ2.b4;авария;BOOL (1 bit);R;ИНР;0;176;&h10;, , , , , , 
+SZR.NZ2.b5;перегруз;BOOL (1 bit);R;ИНР;0;176;&h20;, , , , , , 
+SZR.NZ2.b6;проскальзование;BOOL (1 bit);R;ИНР;0;176;&h40;, , , , , , 
+SZR.NZ2.b7;режим управления;BOOL (1 bit);R;ИНР;0;176;&h80;, , , , , , 
+SZR.NZ1;%открытия NZ1;FLOAT (4 bytes);R;ИНР;0;180;;1, 0, , , , , 
+SZR.NZ1.b0;закрыто;BOOL (1 bit);R;ИНР;0;184;&h01;, , , , , , 
+SZR.NZ1.b1;движ на закр;BOOL (1 bit);R;ИНР;0;184;&h02;, , , , , , 
+SZR.NZ1.b2;движ на открытие;BOOL (1 bit);R;ИНР;0;184;&h04;, , , , , , 
+SZR.NZ1.b3;открыто;BOOL (1 bit);R;ИНР;0;184;&h08;, , , , , , 
+SZR.NZ1.b4;авария;BOOL (1 bit);R;ИНР;0;184;&h10;, , , , , , 
+SZR.NZ1.b5;перегруз;BOOL (1 bit);R;ИНР;0;184;&h20;, , , , , , 
+SZR.NZ1.b6;проскальзование;BOOL (1 bit);R;ИНР;0;184;&h40;, , , , , , 
+SZR.NZ1.b7;режим управления;BOOL (1 bit);R;ИНР;0;184;&h80;, , , , , , 
+SZR.NK1;%открытия NK1;FLOAT (4 bytes);R;ИНР;0;188;;1, 0, , , , , 
+SZR.NK1.b0;закрыто;BOOL (1 bit);R;ИНР;0;192;&h01;, , , , , , 
+SZR.NK1.b1;движ на закр;BOOL (1 bit);R;ИНР;0;192;&h02;, , , , , , 
+SZR.NK1.b2;движ на открытие;BOOL (1 bit);R;ИНР;0;192;&h04;, , , , , , 
+SZR.NK1.b3;открыто;BOOL (1 bit);R;ИНР;0;192;&h08;, , , , , , 
+SZR.NK1.b4;авария;BOOL (1 bit);R;ИНР;0;192;&h10;, , , , , , 
+SZR.NK1.b5;перегруз;BOOL (1 bit);R;ИНР;0;192;&h20;, , , , , , 
+SZR.NK1.b6;проскальзование;BOOL (1 bit);R;ИНР;0;192;&h40;, , , , , , 
+SZR.NK1.b7;режим управления;BOOL (1 bit);R;ИНР;0;192;&h80;, , , , , , 
+SZR.NK2;%открытия NK2;FLOAT (4 bytes);R;ИНР;0;196;;1, 0, , , , , 
+SZR.NK2.b0;закрыто;BOOL (1 bit);R;ИНР;0;200;&h01;, , , , , , 
+SZR.NK2.b1;движ на закр;BOOL (1 bit);R;ИНР;0;200;&h02;, , , , , , 
+SZR.NK2.b2;движ на открытие;BOOL (1 bit);R;ИНР;0;200;&h04;, , , , , , 
+SZR.NK2.b3;открыто;BOOL (1 bit);R;ИНР;0;200;&h08;, , , , , , 
+SZR.NK2.b4;авария;BOOL (1 bit);R;ИНР;0;200;&h10;, , , , , , 
+SZR.NK2.b5;перегруз;BOOL (1 bit);R;ИНР;0;200;&h20;, , , , , , 
+SZR.NK2.b6;проскальзование;BOOL (1 bit);R;ИНР;0;200;&h40;, , , , , , 
+SZR.NK2.b7;режим управления;BOOL (1 bit);R;ИНР;0;200;&h80;, , , , , , 
+SZR.NK3;%открытия NK3;FLOAT (4 bytes);R;ИНР;0;204;;1, 0, , , , , 
+SZR.NK3.b0;закрыто;BOOL (1 bit);R;ИНР;0;208;&h01;, , , , , , 
+SZR.NK3.b1;движ на закр;BOOL (1 bit);R;ИНР;0;208;&h02;, , , , , , 
+SZR.NK3.b2;движ на открытие;BOOL (1 bit);R;ИНР;0;208;&h04;, , , , , , 
+SZR.NK3.b3;открыто;BOOL (1 bit);R;ИНР;0;208;&h08;, , , , , , 
+SZR.NK3.b4;авария;BOOL (1 bit);R;ИНР;0;208;&h10;, , , , , , 
+SZR.NK3.b5;перегруз;BOOL (1 bit);R;ИНР;0;208;&h20;, , , , , , 
+SZR.NK3.b6;проскальзование;BOOL (1 bit);R;ИНР;0;208;&h40;, , , , , , 
+SZR.NK3.b7;режим управления;BOOL (1 bit);R;ИНР;0;208;&h80;, , , , , , 
+SZR.PCH3_G;Готовность ПЧ;BOOL (1 bit);R;ИНР;0;216;&h01;, , , , , , 
+SZR.PCH3_W;Работа ПЧ;BOOL (1 bit);R;ИНР;0;220;&h01;, , , , , , 
+SZR.PCH3_A;Авария ПЧ;BOOL (1 bit);R;ИНР;0;228;&h01;, , , , , , 
+SZR.PCH3;Нагрузка ПЧ;INT (4 bytes);R;ИНР;0;248;;1, 0, , 0, 100, , 
+SZR.PCH31;Нагрузка ПЧ;FLOAT (4 bytes);R;ИНР;0;252;;1, 0, , 0, 100, , 
+SZR.PCH4_G;Готовность ПЧ;BOOL (1 bit);R;ИНР;0;256;&h01;, , , , , , 
+SZR.PCH4_W;Работа ПЧ;BOOL (1 bit);R;ИНР;0;260;&h01;, , , , , , 
+SZR.PCH4_A;Авария ПЧ;BOOL (1 bit);R;ИНР;0;268;&h01;, , , , , , 
+SZR.PCH4;Нагрузка ПЧ;INT (4 bytes);R;ИНР;0;288;;1, 0, , 0, 100, , 
+SZR.PCH41;Нагрузка ПЧ;FLOAT (4 bytes);R;ИНР;0;292;;1, 0, , 0, 100, , 
+SZR.PCH2_G;Готовность ПЧ;BOOL (1 bit);R;ИНР;1;4;&h01;, , , , , , 
+SZR.PCH2_W;Работа ПЧ;BOOL (1 bit);R;ИНР;1;8;&h01;, , , , , , 
+SZR.PCH2_A;Авария ПЧ;BOOL (1 bit);R;ИНР;1;16;&h01;, , , , , , 
+SZR.PCH2;Нагрузка ПЧ 2;INT (4 bytes);R;ИНР;1;36;;1, 0, , 0, 100, , 
+SZR.PCH21;Нагрузка ПЧ 2;FLOAT (4 bytes);R;ИНР;1;40;;1, 0, , 0, 100, , 
+SZR.PCH1_G;Готовность ПЧ;BOOL (1 bit);R;ИНР;1;56;&h01;, , , , , , 
+SZR.PCH1_W;Работа ПЧ;BOOL (1 bit);R;ИНР;1;60;&h01;, , , , , , 
+SZR.PCH1_A;Авария ПЧ;BOOL (1 bit);R;ИНР;1;68;&h01;, , , , , , 
+SZR.PCH1;Нагрузка ПЧ 1;INT (4 bytes);R;ИНР;1;88;;1, 0, , 0, 100, , 
+SZR.PCH11;Нагрузка ПЧ 1;FLOAT (4 bytes);R;ИНР;1;92;;1, 0, , 0, 100, , 
+SZR.P1_500.P(HH);Давление за текущий час;FLOAT (4 bytes);R;ИНР;1;116;;0.1, 0, , , , , 
+SZR.P1_500.P(HH-1);Давление за прошедший час;FLOAT (4 bytes);R;ИНР;1;120;;0.1, 0, , , , , 
+SZR.P2_500.P(HH);Давление за текущий час;FLOAT (4 bytes);R;ИНР;1;124;;0.1, 0, , , , , 
+SZR.P2_500.P(HH-1);Давление за прошедший час;FLOAT (4 bytes);R;ИНР;1;128;;0.1, 0, , , , , 
+SZR.P3_VK.P(HH);Давление за текущий час;FLOAT (4 bytes);R;ИНР;1;132;;0.1, 0, , , , , 
+SZR.P3_VK.P(HH-1);Давление за прошедший час;FLOAT (4 bytes);R;ИНР;1;136;;0.1, 0, , , , , 
+SZR.P4_VK.P(HH);Давление за текущий час;FLOAT (4 bytes);R;ИНР;1;140;;0.1, 0, , , , , 
+SZR.P4_VK.P(HH-1);Давление за прошедший час;FLOAT (4 bytes);R;ИНР;1;144;;0.1, 0, , , , , 
+SZR.E1_500.Q(HH);Объем за текущий час;FLOAT (4 bytes);R;ИНР;1;148;;20, 0, , , , , 
+SZR.E1_500.Q(HH-1);Объем за прошедший час;FLOAT (4 bytes);R;ИНР;1;152;;20, 0, , , , , 
+SZR.E1_500.Q(DD);Объем за текущие сутки;FLOAT (4 bytes);R;ИНР;1;156;;20, 0, , , , , 
+SZR.E1_500.Q(DD-1);Объем за прошедшие сутки;FLOAT (4 bytes);R;ИНР;1;160;;20, 0, , , , , 
+SZR.E1_500.Q(MM);Объем за текущие месяц;FLOAT (4 bytes);R;ИНР;1;164;;20, 0, , , , , 
+SZR.E1_500.Q(MM-1);Объем за прошедший месяц;FLOAT (4 bytes);R;ИНР;1;168;;20, 0, , , , , 
+SZR.E1_500.Q(GG);Объем за текущие год;FLOAT (4 bytes);R;ИНР;1;172;;20, 0, , , , , 
+SZR.E1_500.Q(GG-1);Объем за прошедший год;FLOAT (4 bytes);R;ИНР;1;176;;20, 0, , , , , 
+SZR.E2_500.Q(HH);Объем за текущий час;FLOAT (4 bytes);R;ИНР;1;180;;20, 0, , , , , 
+SZR.E2_500.Q(HH-1);Объем за прошедший час;FLOAT (4 bytes);R;ИНР;1;184;;20, 0, , , , , 
+SZR.E2_500.Q(DD);Объем за текущие сутки;FLOAT (4 bytes);R;ИНР;1;188;;20, 0, , , , , 
+SZR.E2_500.Q(DD-1);Объем за прошедшие сутки;FLOAT (4 bytes);R;ИНР;1;192;;20, 0, , , , , 
+SZR.E2_500.Q(MM);Объем за текущие месяц;FLOAT (4 bytes);R;ИНР;1;196;;20, 0, , , , , 
+SZR.E2_500.Q(MM-1);Объем за прошедший месяц;FLOAT (4 bytes);R;ИНР;1;200;;20, 0, , , , , 
+SZR.E2_500.Q(GG);Объем за текущие год;FLOAT (4 bytes);R;ИНР;1;204;;20, 0, , , , , 
+SZR.E2_500.Q(GG-1);Объем за прошедший год;FLOAT (4 bytes);R;ИНР;1;208;;20, 0, , , , , 
+SZR.NA1.T;Время за текущий час;INT (4 bytes);R;ИНР;1;216;;1, 0, , , , , 
+SZR.NA1.T.(HH);Время за текущий час;INT (4 bytes);R;ИНР;1;216;;1, 0, , , , , 
+SZR.NA1.T.(HH-1);Время за прошедший час;INT (4 bytes);R;ИНР;1;220;;1, 0, , , , , 
+SZR.NA1.T.(DD);Время за текущие сутки;INT (4 bytes);R;ИНР;1;224;;1, 0, , , , , 
+SZR.NA1.T.(DD-1);Время за прошедшие сутки;INT (4 bytes);R;ИНР;1;228;;1, 0, , , , , 
+SZR.NA1.T.(MM);Время за текущие месяц;INT (4 bytes);R;ИНР;1;232;;1, 0, , , , , 
+SZR.NA1.T.(MM-1);Время за прошедший месяц;INT (4 bytes);R;ИНР;1;236;;1, 0, , , , , 
+SZR.NA1.T.(GG);Время за текущие год;INT (4 bytes);R;ИНР;1;240;;1, 0, , , , , 
+SZR.NA1.T.(GG-1);Время за прошедший год;INT (4 bytes);R;ИНР;1;244;;1, 0, , , , , 
+SZR.NA2.T;Время за текущий час;INT (4 bytes);R;ИНР;1;248;;1, 0, , , , , 
+SZR.NA2.T.(HH);Время за текущий час;INT (4 bytes);R;ИНР;1;248;;1, 0, , , , , 
+SZR.NA2.T.(HH-1);Время за прошедший час;INT (4 bytes);R;ИНР;1;252;;1, 0, , , , , 
+SZR.NA2.T.(DD);Время за текущие сутки;INT (4 bytes);R;ИНР;1;256;;1, 0, , , , , 
+SZR.NA2.T.(DD-1);Время за прошедшие сутки;INT (4 bytes);R;ИНР;1;260;;1, 0, , , , , 
+SZR.NA2.T.(MM);Время за текущие месяц;INT (4 bytes);R;ИНР;1;264;;1, 0, , , , , 
+SZR.NA2.T.(MM-1);Время за прошедший месяц;INT (4 bytes);R;ИНР;1;268;;1, 0, , , , , 
+SZR.NA2.T.(GG);Время за текущие год;INT (4 bytes);R;ИНР;1;272;;1, 0, , , , , 
+SZR.NA2.T.(GG-1);Время за прошедший год;INT (4 bytes);R;ИНР;1;276;;1, 0, , , , , 
+SZR.NA3.T;Время за текущий час;INT (4 bytes);R;ИНР;1;280;;1, 0, , , , , 
+SZR.NA3.T.(HH);Время за текущий час;INT (4 bytes);R;ИНР;1;280;;1, 0, , , , , 
+SZR.NA3.T.(HH-1);Время за прошедший час;INT (4 bytes);R;ИНР;1;284;;1, 0, , , , , 
+SZR.NA3.T.(DD);Время за текущие сутки;INT (4 bytes);R;ИНР;1;288;;1, 0, , , , , 
+SZR.NA3.T.(DD-1);Время за прошедшие сутки;INT (4 bytes);R;ИНР;1;292;;1, 0, , , , , 
+SZR.NA3.T.(MM);Время за текущие месяц;INT (4 bytes);R;ИНР;1;296;;1, 0, , , , , 
+SZR.NA3.T.(MM-1);Время за прошедший месяц;INT (4 bytes);R;ИНР;1;300;;1, 0, , , , , 
+SZR.NA3.T.(GG);Время за текущие год;INT (4 bytes);R;ИНР;1;304;;1, 0, , , , , 
+SZR.NA3.T.(GG-1);Время за прошедший год;INT (4 bytes);R;ИНР;1;308;;1, 0, , , , , 
+SZR.NA4.T;Время за текущий час;INT (4 bytes);R;ИНР;1;312;;1, 0, , , , , 
+SZR.NA4.T.(HH);Время за текущий час;INT (4 bytes);R;ИНР;1;312;;1, 0, , , , , 
+SZR.NA4.T.(HH-1);Время за прошедший час;INT (4 bytes);R;ИНР;1;316;;1, 0, , , , , 
+SZR.NA4.T.(DD);Время за текущие сутки;INT (4 bytes);R;ИНР;1;320;;1, 0, , , , , 
+SZR.NA4.T.(DD-1);Время за прошедшие сутки;INT (4 bytes);R;ИНР;1;324;;1, 0, , , , , 
+SZR.NA4.T.(MM);Время за текущие месяц;INT (4 bytes);R;ИНР;1;328;;1, 0, , , , , 
+SZR.NA4.T.(MM-1);Время за прошедший месяц;INT (4 bytes);R;ИНР;1;332;;1, 0, , , , , 
+SZR.NA4.T.(GG);Время за текущие год;INT (4 bytes);R;ИНР;1;336;;1, 0, , , , , 
+SZR.NA4.T.(GG-1);Время за прошедший год;INT (4 bytes);R;ИНР;1;340;;1, 0, , , , , 
+SZR.NA1.T.(DDh);в часах за текущие сутки;FLOAT (4 bytes);R;ИНР;1;356;;1, 0, , , , , 
+SZR.NA1.T.(DDh-1);в часах за прошедшие сутки;FLOAT (4 bytes);R;ИНР;1;360;;1, 0, , , , , 
+SZR.NA1.T.(MMh);в часах за текущий мес.;FLOAT (4 bytes);R;ИНР;1;364;;1, 0, , , , , 
+SZR.NA1.T.(MMh-1);в часах за прошедший мес.;FLOAT (4 bytes);R;ИНР;1;368;;1, 0, , , , , 
+SZR.NA1.T.(GGh);в часах за текущий год;FLOAT (4 bytes);R;ИНР;1;372;;1, 0, , , , , 
+SZR.NA1.T.(GGh-1);в часахза прошедший год;FLOAT (4 bytes);R;ИНР;1;376;;1, 0, , , , , 
+SZR.NA2.T.(DDh);в часах за текущие сутки;FLOAT (4 bytes);R;ИНР;1;380;;1, 0, , , , , 
+SZR.NA2.T.(DDh-1);в часах за прошедшие сутки;FLOAT (4 bytes);R;ИНР;1;384;;1, 0, , , , , 
+SZR.NA2.T.(MMh);в часах за текущий мес.;FLOAT (4 bytes);R;ИНР;1;388;;1, 0, , , , , 
+SZR.NA2.T.(MMh-1);в часах за прошедший мес.;FLOAT (4 bytes);R;ИНР;1;392;;1, 0, , , , , 
+SZR.NA2.T.(GGh);в часах за текущий год;FLOAT (4 bytes);R;ИНР;1;396;;1, 0, , , , , 
+SZR.NA2.T.(GGh-1);в часахза прошедший год;FLOAT (4 bytes);R;ИНР;1;400;;1, 0, , , , , 
+SZR.NA3.T.(DDh);в часах за текущие сутки;FLOAT (4 bytes);R;ИНР;1;404;;1, 0, , , , , 
+SZR.NA3.T.(DDh-1);в часах за прошедшие сутки;FLOAT (4 bytes);R;ИНР;1;408;;1, 0, , , , , 
+SZR.NA3.T.(MMh);в часах за текущий мес.;FLOAT (4 bytes);R;ИНР;1;412;;1, 0, , , , , 
+SZR.NA3.T.(MMh-1);в часах за прошедший мес.;FLOAT (4 bytes);R;ИНР;1;416;;1, 0, , , , , 
+SZR.NA3.T.(GGh);в часах за текущий год;FLOAT (4 bytes);R;ИНР;1;420;;1, 0, , , , , 
+SZR.NA3.T.(GGh-1);в часахза прошедший год;FLOAT (4 bytes);R;ИНР;1;424;;1, 0, , , , , 
+SZR.NA4.T.(DDh);в часах за текущие сутки;FLOAT (4 bytes);R;ИНР;1;428;;1, 0, , , , , 
+SZR.NA4.T.(DDh-1);в часах за прошедшие сутки;FLOAT (4 bytes);R;ИНР;1;432;;1, 0, , , , , 
+SZR.NA4.T.(MMh);в часах за текущий мес.;FLOAT (4 bytes);R;ИНР;1;436;;1, 0, , , , , 
+SZR.NA4.T.(MMh-1);в часах за прошедший мес.;FLOAT (4 bytes);R;ИНР;1;440;;1, 0, , , , , 
+SZR.NA4.T.(GGh);в часах за текущий год;FLOAT (4 bytes);R;ИНР;1;444;;1, 0, , , , , 
+SZR.NA4.T.(GGh-1);в часахза прошедший год;FLOAT (4 bytes);R;ИНР;1;448;;1, 0, , , , , 
+SZR.Timer;Таймер/календарь;date;R;TIME;;0;;, , , , , , 
+SZR.Timer;Таймер/календарь;date;W;TIME;;0;;, , , , , , 
+SZR.Schetchik1.UA;Напряжение А;FLOAT (4 bytes);R;ИНР;2;0;;0.1038, 0, , 5.7, 6.2, , 
+SZR.Schetchik1.UB;Напряжение B;FLOAT (4 bytes);R;ИНР;2;4;;0.1038, 0, , 5.7, 6.2, , 
+SZR.Schetchik1.UC;Напряжение C;FLOAT (4 bytes);R;ИНР;2;8;;0.1038, 0, , 5.7, 6.2, , 
+SZR.Schetchik1.P;Активная мощность;FLOAT (4 bytes);R;ИНР;2;12;;1, 0, , 0, 100, , 
+SZR.Schetchik1.Q;Реактивная мощность;FLOAT (4 bytes);R;ИНР;2;16;;1, 0, , 0, 100, , 
+SZR.Schetchik1.S;Полная мощность;FLOAT (4 bytes);R;ИНР;2;20;;1, 0, , 0, 100, , 
+SZR.Schetchik1.IA;Ток А;FLOAT (4 bytes);R;ИНР;2;24;;0.01, 0, , 0, 100, , 
+SZR.Schetchik1.IB;Ток B;FLOAT (4 bytes);R;ИНР;2;28;;0.01, 0, , 0, 100, , 
+SZR.Schetchik1.IC;Ток C;FLOAT (4 bytes);R;ИНР;2;32;;0.01, 0, , 0, 100, , 
+SZR.Schetchik1.F;Частота сети;FLOAT (4 bytes);R;ИНР;2;36;;1, 0, , 0, 100, , 
+SZR.Schetchik1.SS;Секунды;INT (1 byte);R;ИНР;2;40;;, , , , , , 
+SZR.Schetchik1.NN;Минуты;INT (1 byte);R;ИНР;2;44;;, , , , , , 
+SZR.Schetchik1.HH;Часы;INT (1 byte);R;ИНР;2;48;;, , , , , , 
+SZR.Schetchik1.DD;Число;INT (1 byte);R;ИНР;2;52;;, , , , , , 
+SZR.Schetchik1.MM;Месяц;INT (1 byte);R;ИНР;2;56;;, , , , , , 
+SZR.Schetchik1.YY;Год;INT (1 byte);R;ИНР;2;60;;, , , , , , 
+SZR.Schetchik1.t;температура;INT (1 byte);R;ИНР;2;64;;, , , , , , 
+SZR.Schetchik1.MBS1;Ошибка обмена Сч1;BOOL (1 bit);R;ИНР;2;68;&h01;, , , , , , 
+SZR.Schetchik1;Э/счетчик;FLOAT (4 bytes);R;ИНР;2;76;;1, 0, , 0, 1.0E38, , 
+SZR.Schetchik1.A+;Накопл. акт. в прям.;FLOAT (4 bytes);R;ИНР;2;76;;1, 0, , 0, 1.0E38, , 
+SZR.Schetchik1.R+;Накопл. реакт. в прям.;FLOAT (4 bytes);R;ИНР;2;80;;1, 0, , 0, 1.0E38, , 
+SZR.Schetchik1.A+(YY);Тек. год акт. в прям.;FLOAT (4 bytes);R;ИНР;2;84;;1, 0, , 0, 1.0E38, , 
+SZR.Schetchik1.R+(YY);Тек. год реакт. в прям.;FLOAT (4 bytes);R;ИНР;2;88;;1, 0, , 0, 1.0E38, , 
+SZR.Schetchik1.A+(YY-1);Пред. год акт. в прям.;FLOAT (4 bytes);R;ИНР;2;92;;1, 0, , 0, 1.0E38, , 
+SZR.Schetchik1.R+(YY-1);Пред. год реакт. в прям.;FLOAT (4 bytes);R;ИНР;2;96;;1, 0, , 0, 1.0E38, , 
+SZR.Schetchik1.A+(DD);Тек. сут. акт. в прям.;FLOAT (4 bytes);R;ИНР;2;100;;1, 0, , 0, 1.0E38, , 
+SZR.Schetchik1.R+(DD);Тек. сут. реакт. в прям.;FLOAT (4 bytes);R;ИНР;2;104;;1, 0, , 0, 1.0E38, , 
+SZR.Schetchik1.A+(DD-1);Пред. сут. акт. в прям.;FLOAT (4 bytes);R;ИНР;2;108;;1, 0, , 0, 1.0E38, , 
+SZR.Schetchik1.R+(DD-1);Пред. сут. реакт. в прям.;FLOAT (4 bytes);R;ИНР;2;112;;1, 0, , 0, 1.0E38, , 
+SZR.Schetchik1.A+(MM_1);Янв. акт. в прям.;FLOAT (4 bytes);R;ИНР;2;116;;1, 0, , 0, 1.0E38, , 
+SZR.Schetchik1.R+(MM_1);Янв. реакт. в прям.;FLOAT (4 bytes);R;ИНР;2;120;;1, 0, , 0, 1.0E38, , 
+SZR.Schetchik1.A+(MM_2);Фев. акт. в прям.;FLOAT (4 bytes);R;ИНР;2;124;;1, 0, , 0, 1.0E38, , 
+SZR.Schetchik1.R+(MM_2);Фев. реакт. в прям.;FLOAT (4 bytes);R;ИНР;2;128;;1, 0, , 0, 1.0E38, , 
+SZR.Schetchik1.A+(MM_3);Мар. акт. в прям.;FLOAT (4 bytes);R;ИНР;2;132;;1, 0, , 0, 1.0E38, , 
+SZR.Schetchik1.R+(MM_3);Мар. реакт. в прям.;FLOAT (4 bytes);R;ИНР;2;136;;1, 0, , 0, 1.0E38, , 
+SZR.Schetchik1.A+(MM_4);Апр. акт. в прям.;FLOAT (4 bytes);R;ИНР;2;140;;1, 0, , 0, 1.0E38, , 
+SZR.Schetchik1.R+(MM_4);Апр. реакт. в прям.;FLOAT (4 bytes);R;ИНР;2;144;;1, 0, , 0, 1.0E38, , 
+SZR.Schetchik1.A+(MM_5);Май акт. в прям.;FLOAT (4 bytes);R;ИНР;2;148;;1, 0, , 0, 1.0E38, , 
+SZR.Schetchik1.R+(MM_5);Май реакт. в прям.;FLOAT (4 bytes);R;ИНР;2;152;;1, 0, , 0, 1.0E38, , 
+SZR.Schetchik1.A+(MM_6);Июн акт. в прям.;FLOAT (4 bytes);R;ИНР;2;156;;1, 0, , 0, 1.0E38, , 
+SZR.Schetchik1.R+(MM_6);Июн реакт. в прям.;FLOAT (4 bytes);R;ИНР;2;160;;1, 0, , 0, 1.0E38, , 
+SZR.Schetchik1.A+(MM_7);Июл акт. в прям.;FLOAT (4 bytes);R;ИНР;2;164;;1, 0, , 0, 1.0E38, , 
+SZR.Schetchik1.R+(MM_7);Июл реакт. в прям.;FLOAT (4 bytes);R;ИНР;2;168;;1, 0, , 0, 1.0E38, , 
+SZR.Schetchik1.A+(MM_8);Авг. акт. в прям.;FLOAT (4 bytes);R;ИНР;2;172;;1, 0, , 0, 1.0E38, , 
+SZR.Schetchik1.R+(MM_8);Авг. реакт. в прям.;FLOAT (4 bytes);R;ИНР;2;176;;1, 0, , 0, 1.0E38, , 
+SZR.Schetchik1.A+(MM_9);Сен. акт. в прям.;FLOAT (4 bytes);R;ИНР;2;180;;1, 0, , 0, 1.0E38, , 
+SZR.Schetchik1.R+(MM_9);Сен. реакт. в прям.;FLOAT (4 bytes);R;ИНР;2;184;;1, 0, , 0, 1.0E38, , 
+SZR.Schetchik1.A+(MM_10);Окт. акт. в прям.;FLOAT (4 bytes);R;ИНР;2;188;;1, 0, , 0, 1.0E38, , 
+SZR.Schetchik1.R+(MM_10);Окт. реакт. в прям.;FLOAT (4 bytes);R;ИНР;2;192;;1, 0, , 0, 1.0E38, , 
+SZR.Schetchik1.A+(MM_11);Ноя. акт. в прям.;FLOAT (4 bytes);R;ИНР;2;196;;1, 0, , 0, 1.0E38, , 
+SZR.Schetchik1.R+(MM_11);Ноя. реакт. в прям.;FLOAT (4 bytes);R;ИНР;2;200;;1, 0, , 0, 1.0E38, , 
+SZR.Schetchik1.A+(MM_12);Дек. акт. в прям.;FLOAT (4 bytes);R;ИНР;2;204;;1, 0, , 0, 1.0E38, , 
+SZR.Schetchik1.R+(MM_12);Дек. реакт. в прям.;FLOAT (4 bytes);R;ИНР;2;208;;1, 0, , 0, 1.0E38, , 
+SZR.Schetchik2.UA;Напряжение А;FLOAT (4 bytes);R;ИНР;3;0;;0.1038, 0, , 5.7, 6.2, , 
+SZR.Schetchik2.UB;Напряжение B;FLOAT (4 bytes);R;ИНР;3;4;;0.1038, 0, , 5.7, 6.2, , 
+SZR.Schetchik2.UC;Напряжение C;FLOAT (4 bytes);R;ИНР;3;8;;0.1038, 0, , 5.7, 6.2, , 
+SZR.Schetchik2.P;Активная мощность;FLOAT (4 bytes);R;ИНР;3;12;;1, 0, , 0, 100, , 
+SZR.Schetchik2.Q;Реактивная мощность;FLOAT (4 bytes);R;ИНР;3;16;;1, 0, , 0, 100, , 
+SZR.Schetchik2.S;Полная мощность;FLOAT (4 bytes);R;ИНР;3;20;;1, 0, , 0, 100, , 
+SZR.Schetchik2.IA;Ток А;FLOAT (4 bytes);R;ИНР;3;24;;0.01, 0, , 0, 100, , 
+SZR.Schetchik2.IB;Ток B;FLOAT (4 bytes);R;ИНР;3;28;;0.01, 0, , 0, 100, , 
+SZR.Schetchik2.IC;Ток C;FLOAT (4 bytes);R;ИНР;3;32;;0.01, 0, , 0, 100, , 
+SZR.Schetchik2.F;Частота сети;FLOAT (4 bytes);R;ИНР;3;36;;1, 0, , 0, 100, , 
+SZR.Schetchik2.SS;Секунды;INT (1 byte);R;ИНР;3;40;;, , , , , , 
+SZR.Schetchik2.NN;Минуты;INT (1 byte);R;ИНР;3;44;;, , , , , , 
+SZR.Schetchik2.HH;Часы;INT (1 byte);R;ИНР;3;48;;, , , , , , 
+SZR.Schetchik2.DD;Число;INT (1 byte);R;ИНР;3;52;;, , , , , , 
+SZR.Schetchik2.MM;Месяц;INT (1 byte);R;ИНР;3;56;;, , , , , , 
+SZR.Schetchik2.YY;Год;INT (1 byte);R;ИНР;3;60;;, , , , , , 
+SZR.Schetchik2.t;температура;INT (1 byte);R;ИНР;3;64;;, , , , , , 
+SZR.Schetchik2.MBS2;Ошибка обмена Сч2;BOOL (1 bit);R;ИНР;3;68;&h01;, , , , , , 
+SZR.Schetchik2;Э/счетчик;FLOAT (4 bytes);R;ИНР;3;76;;1, 0, , 0, 1.0E38, , 
+SZR.Schetchik2.A+;Накопл. акт. в прям.;FLOAT (4 bytes);R;ИНР;3;76;;1, 0, , 0, 1.0E38, , 
+SZR.Schetchik2.R+;Накопл. реакт. в прям.;FLOAT (4 bytes);R;ИНР;3;80;;1, 0, , 0, 1.0E38, , 
+SZR.Schetchik2.A+(YY);Тек. год акт. в прям.;FLOAT (4 bytes);R;ИНР;3;84;;1, 0, , 0, 1.0E38, , 
+SZR.Schetchik2.R+(YY);Тек. год реакт. в прям.;FLOAT (4 bytes);R;ИНР;3;88;;1, 0, , 0, 1.0E38, , 
+SZR.Schetchik2.A+(YY-1);Пред. год акт. в прям.;FLOAT (4 bytes);R;ИНР;3;92;;1, 0, , 0, 1.0E38, , 
+SZR.Schetchik2.R+(YY-1);Пред. год реакт. в прям.;FLOAT (4 bytes);R;ИНР;3;96;;1, 0, , 0, 1.0E38, , 
+SZR.Schetchik2.A+(DD);Тек. сут. акт. в прям.;FLOAT (4 bytes);R;ИНР;3;100;;1, 0, , 0, 1.0E38, , 
+SZR.Schetchik2.R+(DD);Тек. сут. реакт. в прям.;FLOAT (4 bytes);R;ИНР;3;104;;1, 0, , 0, 1.0E38, , 
+SZR.Schetchik2.A+(DD-1);Пред. сут. акт. в прям.;FLOAT (4 bytes);R;ИНР;3;108;;1, 0, , 0, 1.0E38, , 
+SZR.Schetchik2.R+(DD-1);Пред. сут. реакт. в прям.;FLOAT (4 bytes);R;ИНР;3;112;;1, 0, , 0, 1.0E38, , 
+SZR.Schetchik2.A+(MM_1);Янв. акт. в прям.;FLOAT (4 bytes);R;ИНР;3;116;;1, 0, , 0, 1.0E38, , 
+SZR.Schetchik2.R+(MM_1);Янв. реакт. в прям.;FLOAT (4 bytes);R;ИНР;3;120;;1, 0, , 0, 1.0E38, , 
+SZR.Schetchik2.A+(MM_2);Фев. акт. в прям.;FLOAT (4 bytes);R;ИНР;3;124;;1, 0, , 0, 1.0E38, , 
+SZR.Schetchik2.R+(MM_2);Фев. реакт. в прям.;FLOAT (4 bytes);R;ИНР;3;128;;1, 0, , 0, 1.0E38, , 
+SZR.Schetchik2.A+(MM_3);Мар. акт. в прям.;FLOAT (4 bytes);R;ИНР;3;132;;1, 0, , 0, 1.0E38, , 
+SZR.Schetchik2.R+(MM_3);Мар. реакт. в прям.;FLOAT (4 bytes);R;ИНР;3;136;;1, 0, , 0, 1.0E38, , 
+SZR.Schetchik2.A+(MM_4);Апр. акт. в прям.;FLOAT (4 bytes);R;ИНР;3;140;;1, 0, , 0, 1.0E38, , 
+SZR.Schetchik2.R+(MM_4);Апр. реакт. в прям.;FLOAT (4 bytes);R;ИНР;3;144;;1, 0, , 0, 1.0E38, , 
+SZR.Schetchik2.A+(MM_5);Май акт. в прям.;FLOAT (4 bytes);R;ИНР;3;148;;1, 0, , 0, 1.0E38, , 
+SZR.Schetchik2.R+(MM_5);Май реакт. в прям.;FLOAT (4 bytes);R;ИНР;3;152;;1, 0, , 0, 1.0E38, , 
+SZR.Schetchik2.A+(MM_6);Июн акт. в прям.;FLOAT (4 bytes);R;ИНР;3;156;;1, 0, , 0, 1.0E38, , 
+SZR.Schetchik2.R+(MM_6);Июн реакт. в прям.;FLOAT (4 bytes);R;ИНР;3;160;;1, 0, , 0, 1.0E38, , 
+SZR.Schetchik2.A+(MM_7);Июл акт. в прям.;FLOAT (4 bytes);R;ИНР;3;164;;1, 0, , 0, 1.0E38, , 
+SZR.Schetchik2.R+(MM_7);Июл реакт. в прям.;FLOAT (4 bytes);R;ИНР;3;168;;1, 0, , 0, 1.0E38, , 
+SZR.Schetchik2.A+(MM_8);Авг. акт. в прям.;FLOAT (4 bytes);R;ИНР;3;172;;1, 0, , 0, 1.0E38, , 
+SZR.Schetchik2.R+(MM_8);Авг. реакт. в прям.;FLOAT (4 bytes);R;ИНР;3;176;;1, 0, , 0, 1.0E38, , 
+SZR.Schetchik2.A+(MM_9);Сен. акт. в прям.;FLOAT (4 bytes);R;ИНР;3;180;;1, 0, , 0, 1.0E38, , 
+SZR.Schetchik2.R+(MM_9);Сен. реакт. в прям.;FLOAT (4 bytes);R;ИНР;3;184;;1, 0, , 0, 1.0E38, , 
+SZR.Schetchik2.A+(MM_10);Окт. акт. в прям.;FLOAT (4 bytes);R;ИНР;3;188;;1, 0, , 0, 1.0E38, , 
+SZR.Schetchik2.R+(MM_10);Окт. реакт. в прям.;FLOAT (4 bytes);R;ИНР;3;192;;1, 0, , 0, 1.0E38, , 
+SZR.Schetchik2.A+(MM_11);Ноя. акт. в прям.;FLOAT (4 bytes);R;ИНР;3;196;;1, 0, , 0, 1.0E38, , 
+SZR.Schetchik2.R+(MM_11);Ноя. реакт. в прям.;FLOAT (4 bytes);R;ИНР;3;200;;1, 0, , 0, 1.0E38, , 
+SZR.Schetchik2.A+(MM_12);Дек. акт. в прям.;FLOAT (4 bytes);R;ИНР;3;204;;1, 0, , 0, 1.0E38, , 
+SZR.Schetchik2.R+(MM_12);Дек. реакт. в прям.;FLOAT (4 bytes);R;ИНР;3;208;;1, 0, , 0, 1.0E38, , 

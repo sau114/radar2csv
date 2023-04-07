@@ -1,47 +1,48 @@
-tag_full_name;description;data_type;direction;algoblock_type;algoblock_address;algoblock_offset;selector_mask_nzone;modbus_address
-USR.HA1_Rdy;Насос1 Готовность;BOOL (1 bit);Read;ИНР;0;0;&h01;0
-USR.HA1_Run;Насос1 Работа;BOOL (1 bit);Read;ИНР;0;0;&h02;0
-USR.HA1_Alr;Насос1 Авария;BOOL (1 bit);Read;ИНР;0;0;&h04;0
-USR.HA1_Rem;Насос1 Местное/Дистанционное;BOOL (1 bit);Read;ИНР;0;0;&h08;0
-USR.G1;Питание G1;BOOL (1 bit);Read;ИНР;0;1;&h01;1
-USR.G2;Питание G2;BOOL (1 bit);Read;ИНР;0;1;&h02;1
-USR.RZV1_LUp;Ёмк1УровеньВерх;BOOL (1 bit);Read;ИНР;0;1;&h04;1
-USR.RZV1_LHalf;Ёмк1УровеньСред;BOOL (1 bit);Read;ИНР;0;1;&h08;1
-USR.RZV1_LMin;Ёмк1УровеньМин;BOOL (1 bit);Read;ИНР;0;1;&h10;1
-USR.HA2_Rdy;Насос3 Готовность;BOOL (1 bit);Read;ИНР;0;1;&h20;1
-USR.HA2_Run;Насос3 Работа;BOOL (1 bit);Read;ИНР;0;1;&h40;1
-USR.HA2_Alr;Насос3 Авария;BOOL (1 bit);Read;ИНР;0;1;&h80;1
-USR.HA2_Rem;Насос3 Местное/Дистанционное;BOOL (1 bit);Read;ИНР;0;2;&h01;2
-USR.HA1_Main;Насос1 Основной/Резервный;BOOL (1 bit);Read;ИНР;0;3;&h01;3
-USR.HA2_Main;Насос2 Основной/Резервный;BOOL (1 bit);Read;ИНР;0;3;&h02;3
-USR.RZV1_Max;Ёмк1УровеньАвар;BOOL (1 bit);Read;ИНР;0;3;&h10;3
-USR.RZV2_LUp;Ёмк2УровеньВерх;BOOL (1 bit);Read;ИНР;0;3;&h20;3
-USR.RZV2_LHalf;Ёмк2УровеньСред;BOOL (1 bit);Read;ИНР;0;3;&h40;3
-USR.RZV2_LMin;Ёмк2УровеньМин;BOOL (1 bit);Read;ИНР;0;3;&h80;3
-USR.RZV2_Max;Ёмк2УровеньАвар;BOOL (1 bit);Read;ИНР;0;4;&h01;4
-USR.DR_Max;ДренажУровеньАвар;BOOL (1 bit);Read;ИНР;0;4;&h02;4
-USR.Z4_opn;Затвор 4 открыт;BOOL (1 bit);Read;ИНР;0;5;&h01;5
-USR.Z4_cls;Затвор 4 закрыт;BOOL (1 bit);Read;ИНР;0;5;&h02;5
-USR.Z4_rem;Затвор 4 Местное/Дистанционное;BOOL (1 bit);Read;ИНР;0;5;&h04;5
-USR.Z4_alr;Затвор 4 Авария;BOOL (1 bit);Read;ИНР;0;5;&h08;5
-USR.HA1_P;Давление после НА 1;FLOAT (4 bytes);Read;ИНР;0;40;;40
-USR.HA2_P;Давление после НА 2;FLOAT (4 bytes);Read;ИНР;0;44;;44
-USR.F1;Расходомер;FLOAT (4 bytes);Read;ИНР;0;52;;52
-USR.HA1_I;Ток НА1;FLOAT (4 bytes);Read;ИНР;0;56;;56
-USR.HA2_I;Ток НА2;FLOAT (4 bytes);Read;ИНР;0;60;;60
-USR.HA1;НА 1 состояние;INT (2 bytes);Read;ИНР;0;80;;80
-USR.HA2;НА 2 состояние;INT (2 bytes);Read;ИНР;0;82;;82
-USR.Z4_pos;Затвор 4 положение;INT (2 bytes);Read;ИНР;0;104;;104
-USR.Z4_stat;Затвор 4 состояние;INT (2 bytes);Read;ИНР;0;106;;106
-USR.USR_mode;Режим откл. по мин. уровню 0-нет 1- Сг1. 2-Сг2. 3 - Сг1 и Сг2;FLOAT (4 bytes);Read;ИНР;0;156;;156
-USR.MCR_A1;МЦР1_аналог1;FLOAT (4 bytes);Read;ИНР;1;0;;256
-USR.MCR_A2;МЦР1_аналог2;FLOAT (4 bytes);Read;ИНР;1;4;;260
-USR.MCR_A3;МЦР1_аналог3;FLOAT (4 bytes);Read;ИНР;1;8;;264
-USR.MCR_A4;МЦР1_аналог4;FLOAT (4 bytes);Read;ИНР;1;12;;268
-USR.MCR_A5;МЦР1_аналог5;FLOAT (4 bytes);Read;ИНР;1;16;;272
-USR.MCR_A6;МЦР1_аналог6;FLOAT (4 bytes);Read;ИНР;1;20;;276
-USR.MCR_A7;МЦР1_аналог7;FLOAT (4 bytes);Read;ИНР;1;24;;280
-USR.MCR_A8;МЦР1_аналог8;FLOAT (4 bytes);Read;ИНР;1;28;;284
-USR.Z4_stat;Затвор 4 состояние;INT (2 bytes);Write;ДКМ;32;0;;-1
-USR.HA1;НА 1 состояние;INT (2 bytes);Write;ДКМ;32;0;;-1
-USR.HA2;НА 2 состояние;INT (2 bytes);Write;ДКМ;32;0;;-1
+tag_full_name;description;data_type;direction;ab_type;ab_addr;ab_off;selector;other
+USR.HA1_Rdy;Насос1 Готовность;BOOL (1 bit);R;ИНР;0;0;&h01;, , , , , , 
+USR.HA1_Run;Насос1 Работа;BOOL (1 bit);R;ИНР;0;0;&h02;, , , , , , 
+USR.HA1_Alr;Насос1 Авария;BOOL (1 bit);R;ИНР;0;0;&h04;, , , , , , 
+USR.HA1_Rem;Насос1 Местное/Дистанционное;BOOL (1 bit);R;ИНР;0;0;&h08;, , , , , , 
+USR.G1;Питание G1;BOOL (1 bit);R;ИНР;0;1;&h01;, , , , , , 
+USR.G2;Питание G2;BOOL (1 bit);R;ИНР;0;1;&h02;, , , , , , 
+USR.RZV1_LUp;Ёмк1УровеньВерх;BOOL (1 bit);R;ИНР;0;1;&h04;, , , , , , 
+USR.RZV1_LHalf;Ёмк1УровеньСред;BOOL (1 bit);R;ИНР;0;1;&h08;, , , , , , 
+USR.RZV1_LMin;Ёмк1УровеньМин;BOOL (1 bit);R;ИНР;0;1;&h10;, , , , , , 
+USR.HA2_Rdy;Насос3 Готовность;BOOL (1 bit);R;ИНР;0;1;&h20;, , , , , , 
+USR.HA2_Run;Насос3 Работа;BOOL (1 bit);R;ИНР;0;1;&h40;, , , , , , 
+USR.HA2_Alr;Насос3 Авария;BOOL (1 bit);R;ИНР;0;1;&h80;, , , , , , 
+USR.HA2_Rem;Насос3 Местное/Дистанционное;BOOL (1 bit);R;ИНР;0;2;&h01;, , , , , , 
+USR.HA1_Main;Насос1 Основной/Резервный;BOOL (1 bit);R;ИНР;0;3;&h01;, , , , , , 
+USR.HA2_Main;Насос2 Основной/Резервный;BOOL (1 bit);R;ИНР;0;3;&h02;, , , , , , 
+USR.RZV1_Max;Ёмк1УровеньАвар;BOOL (1 bit);R;ИНР;0;3;&h10;, , , , , , 
+USR.RZV2_LUp;Ёмк2УровеньВерх;BOOL (1 bit);R;ИНР;0;3;&h20;, , , , , , 
+USR.RZV2_LHalf;Ёмк2УровеньСред;BOOL (1 bit);R;ИНР;0;3;&h40;, , , , , , 
+USR.RZV2_LMin;Ёмк2УровеньМин;BOOL (1 bit);R;ИНР;0;3;&h80;, , , , , , 
+USR.RZV2_Max;Ёмк2УровеньАвар;BOOL (1 bit);R;ИНР;0;4;&h01;, , , , , , 
+USR.DR_Max;ДренажУровеньАвар;BOOL (1 bit);R;ИНР;0;4;&h02;, , , , , , 
+USR.Z4_opn;Затвор 4 открыт;BOOL (1 bit);R;ИНР;0;5;&h01;, , , , , , 
+USR.Z4_cls;Затвор 4 закрыт;BOOL (1 bit);R;ИНР;0;5;&h02;, , , , , , 
+USR.Z4_rem;Затвор 4 Местное/Дистанционное;BOOL (1 bit);R;ИНР;0;5;&h04;, , , , , , 
+USR.Z4_alr;Затвор 4 Авария;BOOL (1 bit);R;ИНР;0;5;&h08;, , , , , , 
+USR.HA1_P;Давление после НА 1;FLOAT (4 bytes);R;ИНР;0;40;;1, 0, , 1, 100, , 
+USR.HA2_P;Давление после НА 2;FLOAT (4 bytes);R;ИНР;0;44;;1, 0, , 1, 100, , 
+USR.F1;Расходомер;FLOAT (4 bytes);R;ИНР;0;52;;10, 0, , 1, 100, , 
+USR.HA1_I;Ток НА1;FLOAT (4 bytes);R;ИНР;0;56;;1, 0, , 1, 100, , 
+USR.HA2_I;Ток НА2;FLOAT (4 bytes);R;ИНР;0;60;;1, 0, , 1, 100, , 
+USR.HA1;НА 1 состояние;INT (2 bytes);R;ИНР;0;80;;, , , , , , 
+USR.HA1;НА 1 состояние;INT (2 bytes);W;ДКМ;32;0;;, , , , , , 
+USR.HA2;НА 2 состояние;INT (2 bytes);R;ИНР;0;82;;, , , , , , 
+USR.HA2;НА 2 состояние;INT (2 bytes);W;ДКМ;32;0;;, , , , , , 
+USR.Z4_pos;Затвор 4 положение;INT (2 bytes);R;ИНР;0;104;;, , , , , , 
+USR.Z4_stat;Затвор 4 состояние;INT (2 bytes);R;ИНР;0;106;;, , , , , , 
+USR.Z4_stat;Затвор 4 состояние;INT (2 bytes);W;ДКМ;32;0;;, , , , , , 
+USR.USR_mode;Режим откл. по мин. уровню 0-нет 1- Сг1. 2-Сг2. 3 - Сг1 и Сг2;FLOAT (4 bytes);R;ИНР;0;156;;, , , , , , 
+USR.USR_mode;Режим откл. по мин. уровню 0-нет 1- Сг1. 2-Сг2. 3 - Сг1 и Сг2;FLOAT (4 bytes);W;ANY;30;40;;, , , , , , 
+USR.MCR_A1;МЦР1_аналог1;FLOAT (4 bytes);R;ИНР;1;0;;1, 0, , 1, 100, , 
+USR.MCR_A2;МЦР1_аналог2;FLOAT (4 bytes);R;ИНР;1;4;;1, 0, , 1, 100, , 
+USR.MCR_A3;МЦР1_аналог3;FLOAT (4 bytes);R;ИНР;1;8;;1, 0, , 1, 100, , 
+USR.MCR_A4;МЦР1_аналог4;FLOAT (4 bytes);R;ИНР;1;12;;1, 0, , 1, 100, , 
+USR.MCR_A5;МЦР1_аналог5;FLOAT (4 bytes);R;ИНР;1;16;;1, 0, , 1, 100, , 
+USR.MCR_A6;МЦР1_аналог6;FLOAT (4 bytes);R;ИНР;1;20;;6, 0, , 1, 500, , 
+USR.MCR_A7;МЦР1_аналог7;FLOAT (4 bytes);R;ИНР;1;24;;6, 0, , 1, 500, , 
+USR.MCR_A8;МЦР1_аналог8;FLOAT (4 bytes);R;ИНР;1;28;;1, 0, , 1, 100, , 

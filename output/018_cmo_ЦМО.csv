@@ -1,97 +1,97 @@
-tag_full_name;description;data_type;direction;algoblock_type;algoblock_address;algoblock_offset;selector_mask_nzone;modbus_address
-CMO.LG1_Rdy;Ленточный сгуститель 1 Готовность;BOOL (1 bit);Read;ИНР;0;0;&h01;0
-CMO.LG1_Run;Ленточный сгуститель 1 Работа;BOOL (1 bit);Read;ИНР;0;0;&h02;0
-CMO.LG2_Rdy;Ленточный сгуститель 2 Готовность;BOOL (1 bit);Read;ИНР;0;0;&h10;0
-CMO.LG2_Run;Ленточный сгуститель 2 Работа;BOOL (1 bit);Read;ИНР;0;0;&h20;0
-CMO.LG12_ctl;LG1 LG2 управление;INT (1 byte);Read;ИНР;0;0;;0
-CMO.FP1_Rdy;Фильтр-пресс 1 Готовность;BOOL (1 bit);Read;ИНР;0;1;&h01;1
-CMO.FP1_Run;Фильтр-пресс 1 Работа;BOOL (1 bit);Read;ИНР;0;1;&h02;1
-CMO.LP1_Rdy;Лент. пресс 1 Готовность;BOOL (1 bit);Read;ИНР;0;1;&h04;1
-CMO.LP1_Run;Лент. пресс 1 Работа;BOOL (1 bit);Read;ИНР;0;1;&h08;1
-CMO.FP2_Rdy;Фильтр-пресс 2 Готовность;BOOL (1 bit);Read;ИНР;0;1;&h10;1
-CMO.FP2_Run;Фильтр-пресс 2 Работа;BOOL (1 bit);Read;ИНР;0;1;&h20;1
-CMO.LP2_Rdy;Лент.пресс 2 Готовность;BOOL (1 bit);Read;ИНР;0;1;&h40;1
-CMO.LP2_Run;Лент.пресс 2 Работа;BOOL (1 bit);Read;ИНР;0;1;&h80;1
-CMO.HD20_Rdy;НД20 Готовность;BOOL (1 bit);Read;ИНР;0;2;&h01;2
-CMO.HD20_Run;НД20 Работа;BOOL (1 bit);Read;ИНР;0;2;&h02;2
-CMO.HD20_Alr;НД20 Авария;BOOL (1 bit);Read;ИНР;0;2;&h04;2
-CMO.HD21_Rdy;НД21 Готовность;BOOL (1 bit);Read;ИНР;0;2;&h10;2
-CMO.HD21_Run;НД21 Работа;BOOL (1 bit);Read;ИНР;0;2;&h20;2
-CMO.HD21_Alr;НД21 Авария;BOOL (1 bit);Read;ИНР;0;2;&h40;2
-CMO.HD22_Rdy;НД22 Готовность;BOOL (1 bit);Read;ИНР;0;3;&h01;3
-CMO.HD22_Run;НД22 Работа;BOOL (1 bit);Read;ИНР;0;3;&h02;3
-CMO.HD22_Alr;НД22 Авария;BOOL (1 bit);Read;ИНР;0;3;&h04;3
-CMO.HD23_Rdy;НД23 Готовность;BOOL (1 bit);Read;ИНР;0;3;&h10;3
-CMO.HD23_Run;НД23 Работа;BOOL (1 bit);Read;ИНР;0;3;&h20;3
-CMO.HD23_Alr;НД23 Авария;BOOL (1 bit);Read;ИНР;0;3;&h40;3
-CMO.HD24_Rdy;НД24 Готовность;BOOL (1 bit);Read;ИНР;0;4;&h01;4
-CMO.HD24_Run;НД24 Работа;BOOL (1 bit);Read;ИНР;0;4;&h02;4
-CMO.HD24_Alr;НД24 Авария;BOOL (1 bit);Read;ИНР;0;4;&h04;4
-CMO.KEK_Rdy;выгрузка кека Готовность;BOOL (1 bit);Read;ИНР;0;4;&h10;4
-CMO.KEK_Snek;выгрузка кека Работа шнеков;BOOL (1 bit);Read;ИНР;0;4;&h20;4
-CMO.KEK_Alr;выгрузка кека Авария;BOOL (1 bit);Read;ИНР;0;4;&h40;4
-CMO.KEK_Sbros;выгрузка кека выгрузка;BOOL (1 bit);Read;ИНР;0;4;&h40;4
-CMO.FLOK1_Rdy;приготовл. флок.1 Готовность;BOOL (1 bit);Read;ИНР;0;5;&h01;5
-CMO.FLOK1_Run;приготовл. флок.1 Работа;BOOL (1 bit);Read;ИНР;0;5;&h02;5
-CMO.FLOK2_Rdy;приготовл. флок.2 Готовность;BOOL (1 bit);Read;ИНР;0;5;&h04;5
-CMO.FLOK2_Run;приготовл. флок.2 Работа;BOOL (1 bit);Read;ИНР;0;5;&h08;5
-CMO.HA5_Rdy;насос 5 Готовность;BOOL (1 bit);Read;ИНР;0;5;&h10;5
-CMO.HA5_Run;насос 5 Работа;BOOL (1 bit);Read;ИНР;0;5;&h20;5
-CMO.HA6_Rdy;насос 6 Готовность;BOOL (1 bit);Read;ИНР;0;6;&h01;6
-CMO.HA6_Run;насос 6 Работа;BOOL (1 bit);Read;ИНР;0;6;&h02;6
-CMO.LK1_Rdy;Ленточный конв. 1 Готовность;BOOL (1 bit);Read;ИНР;0;6;&h10;6
-CMO.LK1_Run;Ленточный конв. 1 Работа;BOOL (1 bit);Read;ИНР;0;6;&h20;6
-CMO.LK2_Rdy;Ленточный конв. 2 Готовность;BOOL (1 bit);Read;ИНР;0;7;&h01;7
-CMO.LK2_Run;Ленточный конв. 2 Работа;BOOL (1 bit);Read;ИНР;0;7;&h02;7
-CMO.DN15_Rdy;ДН15 Готовность;BOOL (1 bit);Read;ИНР;0;7;&h10;7
-CMO.DN15_Run;ДН15 Работа;BOOL (1 bit);Read;ИНР;0;7;&h20;7
-CMO.DN15_Alr;ДН15 Авария;BOOL (1 bit);Read;ИНР;0;7;&h40;7
-CMO.PU_Rdy;приточная устан. Готовность;BOOL (1 bit);Read;ИНР;0;8;&h01;8
-CMO.PU_Run;приточная устан. Работа;BOOL (1 bit);Read;ИНР;0;8;&h02;8
-CMO.PU_Alr;приточная устан. Авария;BOOL (1 bit);Read;ИНР;0;8;&h04;8
-CMO.V27_Run;Вент. 27 работа;BOOL (1 bit);Read;ИНР;0;8;&h10;8
-CMO.V28_Run;Вент. 28 работа;BOOL (1 bit);Read;ИНР;0;8;&h20;8
-CMO.V29_Run;Вент. 29 работа;BOOL (1 bit);Read;ИНР;0;8;&h40;8
-CMO.V30_Run;Вент. 30 работа;BOOL (1 bit);Read;ИНР;0;8;&h80;8
-CMO.DR_Max;Ур. дрен. макс.;BOOL (1 bit);Read;ИНР;0;9;&h01;9
-CMO.DR_Half;Ур. дрен. сред.;BOOL (1 bit);Read;ИНР;0;9;&h02;9
-CMO.DR_Min;Ур. дрен. мин.;BOOL (1 bit);Read;ИНР;0;9;&h04;9
-CMO.BF12_Max;Ур. фильтрата. макс.;BOOL (1 bit);Read;ИНР;0;9;&h10;9
-CMO.BF12_Half;Ур. фильтрата. сред.;BOOL (1 bit);Read;ИНР;0;9;&h20;9
-CMO.BF12_Min;Ур. фильтрата. мин.;BOOL (1 bit);Read;ИНР;0;9;&h40;9
-CMO.BO_Max;Ур. бункер осадка макс.;BOOL (1 bit);Read;ИНР;0;10;&h01;10
-CMO.BO_Half;Ур. бункер осадка сред.;BOOL (1 bit);Read;ИНР;0;10;&h02;10
-CMO.BO_Min;Ур. бункер осадка мин.;BOOL (1 bit);Read;ИНР;0;10;&h04;10
-CMO.RO1_Max;Ур. рез. осадка1 макс.;BOOL (1 bit);Read;ИНР;0;10;&h10;10
-CMO.RO1_Half;Ур. рез. осадка1 сред.;BOOL (1 bit);Read;ИНР;0;10;&h20;10
-CMO.RO1_Min;Ур. рез. осадка1 мин.;BOOL (1 bit);Read;ИНР;0;10;&h40;10
-CMO.RO2_Max;Ур. рез. осадка2 макс.;BOOL (1 bit);Read;ИНР;0;11;&h01;11
-CMO.RO2_Half;Ур. рез. осадка2 сред.;BOOL (1 bit);Read;ИНР;0;11;&h02;11
-CMO.RO2_Min;Ур. рез. осадка2 мин.;BOOL (1 bit);Read;ИНР;0;11;&h04;11
-CMO.FLOK1_Alr;приготовл. флок.1 Авария;BOOL (1 bit);Read;ИНР;0;11;&h10;11
-CMO.FLOK2_Alr;приготовл. флок.2 Авария;BOOL (1 bit);Read;ИНР;0;11;&h20;11
-CMO.HP1_Run;промывной насос 1 вкл.;BOOL (1 bit);Read;ИНР;0;12;&h01;12
-CMO.HP2_Run;промывной насос 2 вкл.;BOOL (1 bit);Read;ИНР;0;12;&h02;12
-CMO.HP3_Run;промывной насос 3 вкл.;BOOL (1 bit);Read;ИНР;0;12;&h04;12
-CMO.HP4_Run;промывной насос 4 вкл.;BOOL (1 bit);Read;ИНР;0;12;&h08;12
-CMO.Line1_Run;Линия 1 вкл.;BOOL (1 bit);Read;ИНР;0;12;&h10;12
-CMO.Line1_Alr;Линия 1 авар.;BOOL (1 bit);Read;ИНР;0;12;&h20;12
-CMO.Line1_Rem;Линия 1 дистанц.;BOOL (1 bit);Read;ИНР;0;12;&h40;12
-CMO.Line2_Run;Линия 2 вкл.;BOOL (1 bit);Read;ИНР;0;13;&h01;13
-CMO.Line2_Alr;Линия 2 авар.;BOOL (1 bit);Read;ИНР;0;13;&h02;13
-CMO.Line2_Rem;Линия 2 дистанц.;BOOL (1 bit);Read;ИНР;0;13;&h04;13
-CMO.Line1_KMR;Линия 1 контактор.;BOOL (1 bit);Read;ИНР;0;13;&h10;13
-CMO.Line2_KMR;Линия 2 контактор.;BOOL (1 bit);Read;ИНР;0;13;&h20;13
-CMO.P_LG1;давление на Лг.1;FLOAT (4 bytes);Read;ИНР;0;40;;40
-CMO.P_LG2;давление на Лг.2;FLOAT (4 bytes);Read;ИНР;0;44;;44
-CMO.P_FP1;давление на ФП 1;FLOAT (4 bytes);Read;ИНР;0;48;;48
-CMO.P_FP2;давление на ФП 2;FLOAT (4 bytes);Read;ИНР;0;52;;52
-CMO.FO_LG1;расход осадка на Лг. 1;FLOAT (4 bytes);Read;ИНР;0;56;;56
-CMO.FO_LG2;расход осадка на Лг. 2;FLOAT (4 bytes);Read;ИНР;0;60;;60
-CMO.FF_LG1;расход флок на Лг. 1;FLOAT (4 bytes);Read;ИНР;0;64;;64
-CMO.FF_LG2;расход флок на Лг. 2;FLOAT (4 bytes);Read;ИНР;0;68;;68
-CMO.FF_1;расход флок линия 1;FLOAT (4 bytes);Read;ИНР;0;72;;72
-CMO.FF_2;расход флок линия 2;FLOAT (4 bytes);Read;ИНР;0;76;;76
-CMO.PO_FP1;давление осадок ФП 1;FLOAT (4 bytes);Read;ИНР;0;80;;80
-CMO.PO_FP2;давление осадок ФП 2;FLOAT (4 bytes);Read;ИНР;0;84;;84
-CMO.LG12_ctl;LG1 LG2 управление;INT (1 byte);Write;ДКМ;32;0;;-1
+tag_full_name;description;data_type;direction;ab_type;ab_addr;ab_off;selector;other
+CMO.LG1_Rdy;Ленточный сгуститель 1 Готовность;BOOL (1 bit);R;ИНР;0;0;&h01;, , , , , , 
+CMO.LG1_Run;Ленточный сгуститель 1 Работа;BOOL (1 bit);R;ИНР;0;0;&h02;, , , , , , 
+CMO.LG2_Rdy;Ленточный сгуститель 2 Готовность;BOOL (1 bit);R;ИНР;0;0;&h10;, , , , , , 
+CMO.LG2_Run;Ленточный сгуститель 2 Работа;BOOL (1 bit);R;ИНР;0;0;&h20;, , , , , , 
+CMO.LG12_ctl;LG1 LG2 управление;INT (1 byte);R;ИНР;0;0;;, , , , , , 
+CMO.LG12_ctl;LG1 LG2 управление;INT (1 byte);W;ДКМ;32;0;;, , , , , , 
+CMO.FP1_Rdy;Фильтр-пресс 1 Готовность;BOOL (1 bit);R;ИНР;0;1;&h01;, , , , , , 
+CMO.FP1_Run;Фильтр-пресс 1 Работа;BOOL (1 bit);R;ИНР;0;1;&h02;, , , , , , 
+CMO.LP1_Rdy;Лент. пресс 1 Готовность;BOOL (1 bit);R;ИНР;0;1;&h04;, , , , , , 
+CMO.LP1_Run;Лент. пресс 1 Работа;BOOL (1 bit);R;ИНР;0;1;&h08;, , , , , , 
+CMO.FP2_Rdy;Фильтр-пресс 2 Готовность;BOOL (1 bit);R;ИНР;0;1;&h10;, , , , , , 
+CMO.FP2_Run;Фильтр-пресс 2 Работа;BOOL (1 bit);R;ИНР;0;1;&h20;, , , , , , 
+CMO.LP2_Rdy;Лент.пресс 2 Готовность;BOOL (1 bit);R;ИНР;0;1;&h40;, , , , , , 
+CMO.LP2_Run;Лент.пресс 2 Работа;BOOL (1 bit);R;ИНР;0;1;&h80;, , , , , , 
+CMO.HD20_Rdy;НД20 Готовность;BOOL (1 bit);R;ИНР;0;2;&h01;, , , , , , 
+CMO.HD20_Run;НД20 Работа;BOOL (1 bit);R;ИНР;0;2;&h02;, , , , , , 
+CMO.HD20_Alr;НД20 Авария;BOOL (1 bit);R;ИНР;0;2;&h04;, , , , , , 
+CMO.HD21_Rdy;НД21 Готовность;BOOL (1 bit);R;ИНР;0;2;&h10;, , , , , , 
+CMO.HD21_Run;НД21 Работа;BOOL (1 bit);R;ИНР;0;2;&h20;, , , , , , 
+CMO.HD21_Alr;НД21 Авария;BOOL (1 bit);R;ИНР;0;2;&h40;, , , , , , 
+CMO.HD22_Rdy;НД22 Готовность;BOOL (1 bit);R;ИНР;0;3;&h01;, , , , , , 
+CMO.HD22_Run;НД22 Работа;BOOL (1 bit);R;ИНР;0;3;&h02;, , , , , , 
+CMO.HD22_Alr;НД22 Авария;BOOL (1 bit);R;ИНР;0;3;&h04;, , , , , , 
+CMO.HD23_Rdy;НД23 Готовность;BOOL (1 bit);R;ИНР;0;3;&h10;, , , , , , 
+CMO.HD23_Run;НД23 Работа;BOOL (1 bit);R;ИНР;0;3;&h20;, , , , , , 
+CMO.HD23_Alr;НД23 Авария;BOOL (1 bit);R;ИНР;0;3;&h40;, , , , , , 
+CMO.HD24_Rdy;НД24 Готовность;BOOL (1 bit);R;ИНР;0;4;&h01;, , , , , , 
+CMO.HD24_Run;НД24 Работа;BOOL (1 bit);R;ИНР;0;4;&h02;, , , , , , 
+CMO.HD24_Alr;НД24 Авария;BOOL (1 bit);R;ИНР;0;4;&h04;, , , , , , 
+CMO.KEK_Rdy;выгрузка кека Готовность;BOOL (1 bit);R;ИНР;0;4;&h10;, , , , , , 
+CMO.KEK_Snek;выгрузка кека Работа шнеков;BOOL (1 bit);R;ИНР;0;4;&h20;, , , , , , 
+CMO.KEK_Alr;выгрузка кека Авария;BOOL (1 bit);R;ИНР;0;4;&h40;, , , , , , 
+CMO.KEK_Sbros;выгрузка кека выгрузка;BOOL (1 bit);R;ИНР;0;4;&h40;, , , , , , 
+CMO.FLOK1_Rdy;приготовл. флок.1 Готовность;BOOL (1 bit);R;ИНР;0;5;&h01;, , , , , , 
+CMO.FLOK1_Run;приготовл. флок.1 Работа;BOOL (1 bit);R;ИНР;0;5;&h02;, , , , , , 
+CMO.FLOK2_Rdy;приготовл. флок.2 Готовность;BOOL (1 bit);R;ИНР;0;5;&h04;, , , , , , 
+CMO.FLOK2_Run;приготовл. флок.2 Работа;BOOL (1 bit);R;ИНР;0;5;&h08;, , , , , , 
+CMO.HA5_Rdy;насос 5 Готовность;BOOL (1 bit);R;ИНР;0;5;&h10;, , , , , , 
+CMO.HA5_Run;насос 5 Работа;BOOL (1 bit);R;ИНР;0;5;&h20;, , , , , , 
+CMO.HA6_Rdy;насос 6 Готовность;BOOL (1 bit);R;ИНР;0;6;&h01;, , , , , , 
+CMO.HA6_Run;насос 6 Работа;BOOL (1 bit);R;ИНР;0;6;&h02;, , , , , , 
+CMO.LK1_Rdy;Ленточный конв. 1 Готовность;BOOL (1 bit);R;ИНР;0;6;&h10;, , , , , , 
+CMO.LK1_Run;Ленточный конв. 1 Работа;BOOL (1 bit);R;ИНР;0;6;&h20;, , , , , , 
+CMO.LK2_Rdy;Ленточный конв. 2 Готовность;BOOL (1 bit);R;ИНР;0;7;&h01;, , , , , , 
+CMO.LK2_Run;Ленточный конв. 2 Работа;BOOL (1 bit);R;ИНР;0;7;&h02;, , , , , , 
+CMO.DN15_Rdy;ДН15 Готовность;BOOL (1 bit);R;ИНР;0;7;&h10;, , , , , , 
+CMO.DN15_Run;ДН15 Работа;BOOL (1 bit);R;ИНР;0;7;&h20;, , , , , , 
+CMO.DN15_Alr;ДН15 Авария;BOOL (1 bit);R;ИНР;0;7;&h40;, , , , , , 
+CMO.PU_Rdy;приточная устан. Готовность;BOOL (1 bit);R;ИНР;0;8;&h01;, , , , , , 
+CMO.PU_Run;приточная устан. Работа;BOOL (1 bit);R;ИНР;0;8;&h02;, , , , , , 
+CMO.PU_Alr;приточная устан. Авария;BOOL (1 bit);R;ИНР;0;8;&h04;, , , , , , 
+CMO.V27_Run;Вент. 27 работа;BOOL (1 bit);R;ИНР;0;8;&h10;, , , , , , 
+CMO.V28_Run;Вент. 28 работа;BOOL (1 bit);R;ИНР;0;8;&h20;, , , , , , 
+CMO.V29_Run;Вент. 29 работа;BOOL (1 bit);R;ИНР;0;8;&h40;, , , , , , 
+CMO.V30_Run;Вент. 30 работа;BOOL (1 bit);R;ИНР;0;8;&h80;, , , , , , 
+CMO.DR_Max;Ур. дрен. макс.;BOOL (1 bit);R;ИНР;0;9;&h01;, , , , , , 
+CMO.DR_Half;Ур. дрен. сред.;BOOL (1 bit);R;ИНР;0;9;&h02;, , , , , , 
+CMO.DR_Min;Ур. дрен. мин.;BOOL (1 bit);R;ИНР;0;9;&h04;, , , , , , 
+CMO.BF12_Max;Ур. фильтрата. макс.;BOOL (1 bit);R;ИНР;0;9;&h10;, , , , , , 
+CMO.BF12_Half;Ур. фильтрата. сред.;BOOL (1 bit);R;ИНР;0;9;&h20;, , , , , , 
+CMO.BF12_Min;Ур. фильтрата. мин.;BOOL (1 bit);R;ИНР;0;9;&h40;, , , , , , 
+CMO.BO_Max;Ур. бункер осадка макс.;BOOL (1 bit);R;ИНР;0;10;&h01;, , , , , , 
+CMO.BO_Half;Ур. бункер осадка сред.;BOOL (1 bit);R;ИНР;0;10;&h02;, , , , , , 
+CMO.BO_Min;Ур. бункер осадка мин.;BOOL (1 bit);R;ИНР;0;10;&h04;, , , , , , 
+CMO.RO1_Max;Ур. рез. осадка1 макс.;BOOL (1 bit);R;ИНР;0;10;&h10;, , , , , , 
+CMO.RO1_Half;Ур. рез. осадка1 сред.;BOOL (1 bit);R;ИНР;0;10;&h20;, , , , , , 
+CMO.RO1_Min;Ур. рез. осадка1 мин.;BOOL (1 bit);R;ИНР;0;10;&h40;, , , , , , 
+CMO.RO2_Max;Ур. рез. осадка2 макс.;BOOL (1 bit);R;ИНР;0;11;&h01;, , , , , , 
+CMO.RO2_Half;Ур. рез. осадка2 сред.;BOOL (1 bit);R;ИНР;0;11;&h02;, , , , , , 
+CMO.RO2_Min;Ур. рез. осадка2 мин.;BOOL (1 bit);R;ИНР;0;11;&h04;, , , , , , 
+CMO.FLOK1_Alr;приготовл. флок.1 Авария;BOOL (1 bit);R;ИНР;0;11;&h10;, , , , , , 
+CMO.FLOK2_Alr;приготовл. флок.2 Авария;BOOL (1 bit);R;ИНР;0;11;&h20;, , , , , , 
+CMO.HP1_Run;промывной насос 1 вкл.;BOOL (1 bit);R;ИНР;0;12;&h01;, , , , , , 
+CMO.HP2_Run;промывной насос 2 вкл.;BOOL (1 bit);R;ИНР;0;12;&h02;, , , , , , 
+CMO.HP3_Run;промывной насос 3 вкл.;BOOL (1 bit);R;ИНР;0;12;&h04;, , , , , , 
+CMO.HP4_Run;промывной насос 4 вкл.;BOOL (1 bit);R;ИНР;0;12;&h08;, , , , , , 
+CMO.Line1_Run;Линия 1 вкл.;BOOL (1 bit);R;ИНР;0;12;&h10;, , , , , , 
+CMO.Line1_Alr;Линия 1 авар.;BOOL (1 bit);R;ИНР;0;12;&h20;, , , , , , 
+CMO.Line1_Rem;Линия 1 дистанц.;BOOL (1 bit);R;ИНР;0;12;&h40;, , , , , , 
+CMO.Line2_Run;Линия 2 вкл.;BOOL (1 bit);R;ИНР;0;13;&h01;, , , , , , 
+CMO.Line2_Alr;Линия 2 авар.;BOOL (1 bit);R;ИНР;0;13;&h02;, , , , , , 
+CMO.Line2_Rem;Линия 2 дистанц.;BOOL (1 bit);R;ИНР;0;13;&h04;, , , , , , 
+CMO.Line1_KMR;Линия 1 контактор.;BOOL (1 bit);R;ИНР;0;13;&h10;, , , , , , 
+CMO.Line2_KMR;Линия 2 контактор.;BOOL (1 bit);R;ИНР;0;13;&h20;, , , , , , 
+CMO.P_LG1;давление на Лг.1;FLOAT (4 bytes);R;ИНР;0;40;;1, 0, , 1, 100, , 
+CMO.P_LG2;давление на Лг.2;FLOAT (4 bytes);R;ИНР;0;44;;1, 0, , 1, 100, , 
+CMO.P_FP1;давление на ФП 1;FLOAT (4 bytes);R;ИНР;0;48;;1, 0, , 1, 100, , 
+CMO.P_FP2;давление на ФП 2;FLOAT (4 bytes);R;ИНР;0;52;;1, 0, , 1, 100, , 
+CMO.FO_LG1;расход осадка на Лг. 1;FLOAT (4 bytes);R;ИНР;0;56;;1, 0, , 1, 100, , 
+CMO.FO_LG2;расход осадка на Лг. 2;FLOAT (4 bytes);R;ИНР;0;60;;1, 0, , 1, 100, , 
+CMO.FF_LG1;расход флок на Лг. 1;FLOAT (4 bytes);R;ИНР;0;64;;1, 0, , 1, 100, , 
+CMO.FF_LG2;расход флок на Лг. 2;FLOAT (4 bytes);R;ИНР;0;68;;1, 0, , 1, 100, , 
+CMO.FF_1;расход флок линия 1;FLOAT (4 bytes);R;ИНР;0;72;;1, 0, , 1, 100, , 
+CMO.FF_2;расход флок линия 2;FLOAT (4 bytes);R;ИНР;0;76;;1, 0, , 1, 100, , 
+CMO.PO_FP1;давление осадок ФП 1;FLOAT (4 bytes);R;ИНР;0;80;;1, 0, , 1, 100, , 
+CMO.PO_FP2;давление осадок ФП 2;FLOAT (4 bytes);R;ИНР;0;84;;1, 0, , 1, 100, , 

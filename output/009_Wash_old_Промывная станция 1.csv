@@ -1,139 +1,154 @@
-tag_full_name;description;data_type;direction;algoblock_type;algoblock_address;algoblock_offset;selector_mask_nzone;modbus_address
-Wash_old.NA1.H.PosA;Положение %;FLOAT (4 bytes);Read;ИНР;0;0;;0
-Wash_old.NA2.H.PosA;Положение %;FLOAT (4 bytes);Read;ИНР;0;4;;4
-Wash_old.NA1.I;Ток;FLOAT (4 bytes);Read;ИНР;0;32;;32
-Wash_old.NA2.I;Ток;FLOAT (4 bytes);Read;ИНР;0;36;;36
-Wash_old.NA1.H.Open;Открыта;BOOL (1 bit);Read;ИНР;0;64;&h10;64
-Wash_old.NA1.H.Close;Закрыта;BOOL (1 bit);Read;ИНР;0;64;&h20;64
-Wash_old.NA1.H.In open;Открывается;BOOL (1 bit);Read;ИНР;0;64;&h40;64
-Wash_old.NA1.H.In close;Закрывается;BOOL (1 bit);Read;ИНР;0;64;&h80;64
-Wash_old.NA1.B;Задвижка B1;INT (1 byte);Read;ИНР;0;64;&h00,0, &h01,1, &h02,2, &h03, 3;64
-Wash_old.NA1.B.Open;Открыта;BOOL (1 bit);Read;ИНР;0;64;&h01;64
-Wash_old.NA1.B.Close;Закрыта;BOOL (1 bit);Read;ИНР;0;64;&h02;64
-Wash_old.NA2.B;Задвижка B2;INT (1 byte);Read;ИНР;0;64;&h00,0, &h04,1, &h08,2, &h0C, 3;64
-Wash_old.NA2.B.Open;Открыта;BOOL (1 bit);Read;ИНР;0;64;&h04;64
-Wash_old.NA2.B.Close;Закрыта;BOOL (1 bit);Read;ИНР;0;64;&h08;64
-Wash_old.Sirena;Охранная сигнализация промывной НС;BOOL (1 bit);Read;ИНР;0;65;&h40;65
-Wash_old.Zat;Затопление промывной НС;BOOL (1 bit);Read;ИНР;0;65;&h80;65
-Wash_old.NA2.H.Open;Открыта;BOOL (1 bit);Read;ИНР;0;65;&h01;65
-Wash_old.NA2.H.Close;Закрыта;BOOL (1 bit);Read;ИНР;0;65;&h02;65
-Wash_old.NA2.H.In open;Открывается;BOOL (1 bit);Read;ИНР;0;65;&h04;65
-Wash_old.NA2.H.In close;Закрывается;BOOL (1 bit);Read;ИНР;0;65;&h08;65
-Wash_old.NA1.Got;Готовность НА1;BOOL (1 bit);Read;ИНР;0;66;&h01;66
-Wash_old.NA1.V/O;Вкл/Откл насоса;BOOL (1 bit);Read;ИНР;0;66;&h02;66
-Wash_old.NA1.Avr;Авария насоса;BOOL (1 bit);Read;ИНР;0;66;&h04;66
-Wash_old.NA2.Got;Готовность НА2;BOOL (1 bit);Read;ИНР;0;66;&h10;66
-Wash_old.NA2.V/O;Вкл/Откл насоса;BOOL (1 bit);Read;ИНР;0;66;&h20;66
-Wash_old.NA2.Avr;Авария насоса;BOOL (1 bit);Read;ИНР;0;66;&h40;66
-Wash_old.Error HC;Ошибка обмена с ШМК промывной НС;BOOL (1 bit);Read;ИНР;0;68;&h01;68
-Wash_old.Error RP;Ошибка обмена с ШМК РП-6кВ;BOOL (1 bit);Read;ИНР;0;68;&h02;68
-Wash_old.NA1.I.top;Диапазан max значение;FLOAT (4 bytes);Read;ИНР;0;80;;80
-Wash_old.NA2.I.top;Диапазан max значение;FLOAT (4 bytes);Read;ИНР;0;84;;84
-Wash_old.NA1.H.Zd PosA;Задание положения;FLOAT (4 bytes);Read;ИНР;0;88;;88
-Wash_old.NA2.H.Zd PosA;Задание положения;FLOAT (4 bytes);Read;ИНР;0;92;;92
-Wash_old.NA1.H.Time PosA;Время полного хода задвижки;FLOAT (4 bytes);Read;ИНР;0;96;;96
-Wash_old.NA2.H.Time PosA;Время полного хода задвижки;FLOAT (4 bytes);Read;ИНР;0;100;;100
-Wash_old.NA1.H;Задвижка H1;INT (1 byte);Read;ИНР;0;120;;120
-Wash_old.NA1.H.Motor;Привод;INT (1 byte);Read;ИНР;0;122;;122
-Wash_old.NA2.H;Задвижка H1;INT (1 byte);Read;ИНР;0;124;;124
-Wash_old.NA2.H.Motor;Привод;INT (1 byte);Read;ИНР;0;126;;126
-Wash_old.NA1;Вкл/Откл насоса;INT (1 byte);Read;ИНР;0;128;;128
-Wash_old.NA2;Вкл/Откл насоса;INT (1 byte);Read;ИНР;0;130;;130
-Wash_old.NA1.H.State;Неверная команда или комбинация команд;BOOL (1 bit);Read;ИНР;0;132;&h40;132
-Wash_old.NA1.H.State.Open;Открытие;BOOL (1 bit);Read;ИНР;0;132;&h01;132
-Wash_old.NA1.H.State.Close;Закрытие;BOOL (1 bit);Read;ИНР;0;132;&h02;132
-Wash_old.NA1.H.State.Time open;Таймаут Вкл. контактора;BOOL (1 bit);Read;ИНР;0;132;&h04;132
-Wash_old.NA1.H.State.Time sensor;Таймаут датчика;BOOL (1 bit);Read;ИНР;0;132;&h08;132
-Wash_old.NA1.H.State.Time valve;Таумаут полного хода;BOOL (1 bit);Read;ИНР;0;132;&h10;132
-Wash_old.NA1.H.State.Error valve;Неверное исходное состояние задвижки;BOOL (1 bit);Read;ИНР;0;132;&h20;132
-Wash_old.NA2.H.State;Неверная команда или комбинация команд;BOOL (1 bit);Read;ИНР;0;133;&h40;133
-Wash_old.NA2.H.State.Open;Открытие;BOOL (1 bit);Read;ИНР;0;133;&h01;133
-Wash_old.NA2.H.State.Close;Закрытие;BOOL (1 bit);Read;ИНР;0;133;&h02;133
-Wash_old.NA2.H.State.Time open;Таймаут Вкл. контактора;BOOL (1 bit);Read;ИНР;0;133;&h04;133
-Wash_old.NA2.H.State.Time sensor;Таймаут датчика;BOOL (1 bit);Read;ИНР;0;133;&h08;133
-Wash_old.NA2.H.State.Time valve;Таумаут полного хода;BOOL (1 bit);Read;ИНР;0;133;&h10;133
-Wash_old.NA2.H.State.Error valve;Неверное исходное состояние задвижки;BOOL (1 bit);Read;ИНР;0;133;&h20;133
-Wash_old.NA1.State;Состояние НА1;INT (1 byte);Read;ИНР;0;134;;134
-Wash_old.NA1.State.Drive;Нет операции;BOOL (1 bit);Read;ИНР;0;134;&h01;134
-Wash_old.NA1.State.Open;Насос отключается;BOOL (1 bit);Read;ИНР;0;134;&h02;134
-Wash_old.NA1.State.Close;Насос включается;BOOL (1 bit);Read;ИНР;0;134;&h04;134
-Wash_old.NA1.State.Time open;Таймаут сигнала включения;BOOL (1 bit);Read;ИНР;0;134;&h08;134
-Wash_old.NA1.State.Time sensor;Таймаут сигнала нагрузки;BOOL (1 bit);Read;ИНР;0;134;&h10;134
-Wash_old.NA1.State.Time rot;Таумаут сигнала вращения ротораа;BOOL (1 bit);Read;ИНР;0;134;&h20;134
-Wash_old.NA1.State.Time valve;Таумаут управления напорной задвижкой;BOOL (1 bit);Read;ИНР;0;134;&h40;134
-Wash_old.NA1.State.Error НА;Неверное исходное состояние;BOOL (1 bit);Read;ИНР;0;134;&h80;134
-Wash_old.NA2.State;Состояние НА2;INT (1 byte);Read;ИНР;0;135;;135
-Wash_old.NA2.State.Drive;Нет операции;BOOL (1 bit);Read;ИНР;0;135;&h01;135
-Wash_old.NA2.State.Open;Насос отключается;BOOL (1 bit);Read;ИНР;0;135;&h02;135
-Wash_old.NA2.State.Close;Насос включается;BOOL (1 bit);Read;ИНР;0;135;&h04;135
-Wash_old.NA2.State.Time open;Таймаут сигнала включения;BOOL (1 bit);Read;ИНР;0;135;&h08;135
-Wash_old.NA2.State.Time sensor;Таймаут сигнала нагрузки;BOOL (1 bit);Read;ИНР;0;135;&h10;135
-Wash_old.NA2.State.Time rot;Таумаут сигнала вращения ротораа;BOOL (1 bit);Read;ИНР;0;135;&h20;135
-Wash_old.NA2.State.Time valve;Таумаут управления напорной задвижкой;BOOL (1 bit);Read;ИНР;0;135;&h40;135
-Wash_old.NA2.State.Error НА;Неверное исходное состояние;BOOL (1 bit);Read;ИНР;0;135;&h80;135
-Wash_old.P_Col;Давление на промывном коллекторе;FLOAT (4 bytes);Read;ИНР;1;0;;256
-Wash_old.C3.PosA;Положение %;FLOAT (4 bytes);Read;ИНР;1;0;;256
-Wash_old.C1.Mode;Готовность С1;INT (1 byte);Read;ИНР;1;32;&h00,1, &h01,1, &h02,1, &h03, 0;288
-Wash_old.C1.Open;Открыта;BOOL (1 bit);Read;ИНР;1;32;&h01;288
-Wash_old.C1.Close;Закрыта;BOOL (1 bit);Read;ИНР;1;32;&h02;288
-Wash_old.C1.In open;Открывается;BOOL (1 bit);Read;ИНР;1;32;&h04;288
-Wash_old.C1.In close;Закрывается;BOOL (1 bit);Read;ИНР;1;32;"&h08
+tag_full_name;description;data_type;direction;ab_type;ab_addr;ab_off;selector;other
+Wash_old.NA1.H.PosA;Положение %;FLOAT (4 bytes);R;ИНР;0;0;;1, 0, , -1, 101, , 
+Wash_old.NA2.H.PosA;Положение %;FLOAT (4 bytes);R;ИНР;0;4;;1, 0, , -1, 101, , 
+Wash_old.NA1.I;Ток;FLOAT (4 bytes);R;ИНР;0;32;;1, 0, , 50, 100, , 
+Wash_old.NA2.I;Ток;FLOAT (4 bytes);R;ИНР;0;36;;1, 0, , 50, 100, , 
+Wash_old.NA1.H.Open;Открыта;BOOL (1 bit);R;ИНР;0;64;&h10;, , , , , , 
+Wash_old.NA1.H.Close;Закрыта;BOOL (1 bit);R;ИНР;0;64;&h20;, , , , , , 
+Wash_old.NA1.H.In open;Открывается;BOOL (1 bit);R;ИНР;0;64;&h40;, , , , , , 
+Wash_old.NA1.H.In close;Закрывается;BOOL (1 bit);R;ИНР;0;64;&h80;, , , , , , 
+Wash_old.NA1.B;Задвижка B1;INT (1 byte);R;ИНР;0;64;&h00,0, &h01,1, &h02,2, &h03, 3;, , , , , , 
+Wash_old.NA1.B.Open;Открыта;BOOL (1 bit);R;ИНР;0;64;&h01;, , , , , , 
+Wash_old.NA1.B.Close;Закрыта;BOOL (1 bit);R;ИНР;0;64;&h02;, , , , , , 
+Wash_old.NA2.B;Задвижка B2;INT (1 byte);R;ИНР;0;64;&h00,0, &h04,1, &h08,2, &h0C, 3;, , , , , , 
+Wash_old.NA2.B.Open;Открыта;BOOL (1 bit);R;ИНР;0;64;&h04;, , , , , , 
+Wash_old.NA2.B.Close;Закрыта;BOOL (1 bit);R;ИНР;0;64;&h08;, , , , , , 
+Wash_old.Sirena;Охранная сигнализация промывной НС;BOOL (1 bit);R;ИНР;0;65;&h40;, , , , , , 
+Wash_old.Zat;Затопление промывной НС;BOOL (1 bit);R;ИНР;0;65;&h80;, , , , , , 
+Wash_old.NA2.H.Open;Открыта;BOOL (1 bit);R;ИНР;0;65;&h01;, , , , , , 
+Wash_old.NA2.H.Close;Закрыта;BOOL (1 bit);R;ИНР;0;65;&h02;, , , , , , 
+Wash_old.NA2.H.In open;Открывается;BOOL (1 bit);R;ИНР;0;65;&h04;, , , , , , 
+Wash_old.NA2.H.In close;Закрывается;BOOL (1 bit);R;ИНР;0;65;&h08;, , , , , , 
+Wash_old.NA1.Got;Готовность НА1;BOOL (1 bit);R;ИНР;0;66;&h01;, , , , , , 
+Wash_old.NA1.V/O;Вкл/Откл насоса;BOOL (1 bit);R;ИНР;0;66;&h02;, , , , , , 
+Wash_old.NA1.Avr;Авария насоса;BOOL (1 bit);R;ИНР;0;66;&h04;, , , , , , 
+Wash_old.NA2.Got;Готовность НА2;BOOL (1 bit);R;ИНР;0;66;&h10;, , , , , , 
+Wash_old.NA2.V/O;Вкл/Откл насоса;BOOL (1 bit);R;ИНР;0;66;&h20;, , , , , , 
+Wash_old.NA2.Avr;Авария насоса;BOOL (1 bit);R;ИНР;0;66;&h40;, , , , , , 
+Wash_old.Error HC;Ошибка обмена с ШМК промывной НС;BOOL (1 bit);R;ИНР;0;68;&h01;, , , , , , 
+Wash_old.Error RP;Ошибка обмена с ШМК РП-6кВ;BOOL (1 bit);R;ИНР;0;68;&h02;, , , , , , 
+Wash_old.NA1.I.top;Диапазан max значение;FLOAT (4 bytes);R;ИНР;0;80;;, , , , , , 
+Wash_old.NA1.I.top;Диапазан max значение;FLOAT (4 bytes);W;ANY;29;21;;, , , , , , Single
+Wash_old.NA2.I.top;Диапазан max значение;FLOAT (4 bytes);R;ИНР;0;84;;, , , , , , 
+Wash_old.NA2.I.top;Диапазан max значение;FLOAT (4 bytes);W;ANY;29;22;;, , , , , , Single
+Wash_old.NA1.H.Zd PosA;Задание положения;FLOAT (4 bytes);R;ИНР;0;88;;, , , , , , 
+Wash_old.NA1.H.Zd PosA;Задание положения;FLOAT (4 bytes);W;ANY;29;23;;, , , , , , Single
+Wash_old.NA2.H.Zd PosA;Задание положения;FLOAT (4 bytes);R;ИНР;0;92;;, , , , , , 
+Wash_old.NA2.H.Zd PosA;Задание положения;FLOAT (4 bytes);W;ANY;29;24;;, , , , , , Single
+Wash_old.NA1.H.Time PosA;Время полного хода задвижки;FLOAT (4 bytes);R;ИНР;0;96;;, , , , , , 
+Wash_old.NA1.H.Time PosA;Время полного хода задвижки;FLOAT (4 bytes);W;ANY;29;25;;, , , , , , Single
+Wash_old.NA2.H.Time PosA;Время полного хода задвижки;FLOAT (4 bytes);R;ИНР;0;100;;, , , , , , 
+Wash_old.NA2.H.Time PosA;Время полного хода задвижки;FLOAT (4 bytes);W;ANY;29;26;;, , , , , , Single
+Wash_old.NA1.H;Задвижка H1;INT (1 byte);R;ИНР;0;120;;, , , , , , 
+Wash_old.NA1.H.Motor;Привод;INT (1 byte);R;ИНР;0;122;;, , , , , , 
+Wash_old.NA1.H.Motor;Привод;INT (1 byte);W;ДКМ;20;0;;, , , , , , Byte
+Wash_old.NA2.H;Задвижка H1;INT (1 byte);R;ИНР;0;124;;, , , , , , 
+Wash_old.NA2.H.Motor;Привод;INT (1 byte);R;ИНР;0;126;;, , , , , , 
+Wash_old.NA2.H.Motor;Привод;INT (1 byte);W;ДКМ;20;0;;, , , , , , Byte
+Wash_old.NA1;Вкл/Откл насоса;INT (1 byte);R;ИНР;0;128;;, , , , , , 
+Wash_old.NA1;Вкл/Откл насоса;INT (1 byte);W;ДКМ;20;0;;, , , , , , Byte
+Wash_old.NA2;Вкл/Откл насоса;INT (1 byte);R;ИНР;0;130;;, , , , , , 
+Wash_old.NA2;Вкл/Откл насоса;INT (1 byte);W;ДКМ;20;0;;, , , , , , Byte
+Wash_old.NA1.H.State;Неверная команда или комбинация команд;BOOL (1 bit);R;ИНР;0;132;&h40;, , , , , , 
+Wash_old.NA1.H.State.Open;Открытие;BOOL (1 bit);R;ИНР;0;132;&h01;, , , , , , 
+Wash_old.NA1.H.State.Close;Закрытие;BOOL (1 bit);R;ИНР;0;132;&h02;, , , , , , 
+Wash_old.NA1.H.State.Time open;Таймаут Вкл. контактора;BOOL (1 bit);R;ИНР;0;132;&h04;, , , , , , 
+Wash_old.NA1.H.State.Time sensor;Таймаут датчика;BOOL (1 bit);R;ИНР;0;132;&h08;, , , , , , 
+Wash_old.NA1.H.State.Time valve;Таумаут полного хода;BOOL (1 bit);R;ИНР;0;132;&h10;, , , , , , 
+Wash_old.NA1.H.State.Error valve;Неверное исходное состояние задвижки;BOOL (1 bit);R;ИНР;0;132;&h20;, , , , , , 
+Wash_old.NA2.H.State;Неверная команда или комбинация команд;BOOL (1 bit);R;ИНР;0;133;&h40;, , , , , , 
+Wash_old.NA2.H.State.Open;Открытие;BOOL (1 bit);R;ИНР;0;133;&h01;, , , , , , 
+Wash_old.NA2.H.State.Close;Закрытие;BOOL (1 bit);R;ИНР;0;133;&h02;, , , , , , 
+Wash_old.NA2.H.State.Time open;Таймаут Вкл. контактора;BOOL (1 bit);R;ИНР;0;133;&h04;, , , , , , 
+Wash_old.NA2.H.State.Time sensor;Таймаут датчика;BOOL (1 bit);R;ИНР;0;133;&h08;, , , , , , 
+Wash_old.NA2.H.State.Time valve;Таумаут полного хода;BOOL (1 bit);R;ИНР;0;133;&h10;, , , , , , 
+Wash_old.NA2.H.State.Error valve;Неверное исходное состояние задвижки;BOOL (1 bit);R;ИНР;0;133;&h20;, , , , , , 
+Wash_old.NA1.State;Состояние НА1;INT (1 byte);R;ИНР;0;134;;, , , , , , 
+Wash_old.NA1.State.Drive;Нет операции;BOOL (1 bit);R;ИНР;0;134;&h01;, , , , , , 
+Wash_old.NA1.State.Open;Насос отключается;BOOL (1 bit);R;ИНР;0;134;&h02;, , , , , , 
+Wash_old.NA1.State.Close;Насос включается;BOOL (1 bit);R;ИНР;0;134;&h04;, , , , , , 
+Wash_old.NA1.State.Time open;Таймаут сигнала включения;BOOL (1 bit);R;ИНР;0;134;&h08;, , , , , , 
+Wash_old.NA1.State.Time sensor;Таймаут сигнала нагрузки;BOOL (1 bit);R;ИНР;0;134;&h10;, , , , , , 
+Wash_old.NA1.State.Time rot;Таумаут сигнала вращения ротораа;BOOL (1 bit);R;ИНР;0;134;&h20;, , , , , , 
+Wash_old.NA1.State.Time valve;Таумаут управления напорной задвижкой;BOOL (1 bit);R;ИНР;0;134;&h40;, , , , , , 
+Wash_old.NA1.State.Error НА;Неверное исходное состояние;BOOL (1 bit);R;ИНР;0;134;&h80;, , , , , , 
+Wash_old.NA2.State;Состояние НА2;INT (1 byte);R;ИНР;0;135;;, , , , , , 
+Wash_old.NA2.State.Drive;Нет операции;BOOL (1 bit);R;ИНР;0;135;&h01;, , , , , , 
+Wash_old.NA2.State.Open;Насос отключается;BOOL (1 bit);R;ИНР;0;135;&h02;, , , , , , 
+Wash_old.NA2.State.Close;Насос включается;BOOL (1 bit);R;ИНР;0;135;&h04;, , , , , , 
+Wash_old.NA2.State.Time open;Таймаут сигнала включения;BOOL (1 bit);R;ИНР;0;135;&h08;, , , , , , 
+Wash_old.NA2.State.Time sensor;Таймаут сигнала нагрузки;BOOL (1 bit);R;ИНР;0;135;&h10;, , , , , , 
+Wash_old.NA2.State.Time rot;Таумаут сигнала вращения ротораа;BOOL (1 bit);R;ИНР;0;135;&h20;, , , , , , 
+Wash_old.NA2.State.Time valve;Таумаут управления напорной задвижкой;BOOL (1 bit);R;ИНР;0;135;&h40;, , , , , , 
+Wash_old.NA2.State.Error НА;Неверное исходное состояние;BOOL (1 bit);R;ИНР;0;135;&h80;, , , , , , 
+Wash_old.P_Col;Давление на промывном коллекторе;FLOAT (4 bytes);R;ИНР;1;0;;0.5, 0, , 0, 1000, , 
+Wash_old.C3.PosA;Положение %;FLOAT (4 bytes);R;ИНР;1;0;;1, 0, , -1, 101, , 
+Wash_old.C1.Mode;Готовность С1;INT (1 byte);R;ИНР;1;32;&h00,1, &h01,1, &h02,1, &h03, 0;, , , , , , 
+Wash_old.C1.Open;Открыта;BOOL (1 bit);R;ИНР;1;32;&h01;, , , , , , 
+Wash_old.C1.Close;Закрыта;BOOL (1 bit);R;ИНР;1;32;&h02;, , , , , , 
+Wash_old.C1.In open;Открывается;BOOL (1 bit);R;ИНР;1;32;&h04;, , , , , , 
+Wash_old.C1.In close;Закрывается;BOOL (1 bit);R;ИНР;1;32;"&h08
 
 
-+--- Для ДКМ не используется";288
-Wash_old.C2.Mode;Готовность С2;INT (1 byte);Read;ИНР;1;32;&h00,1, &h10,1, &h20,1, &h30, 0;288
-Wash_old.C2.Open;Открыта;BOOL (1 bit);Read;ИНР;1;32;&h10;288
-Wash_old.C2.Close;Закрыта;BOOL (1 bit);Read;ИНР;1;32;&h20;288
-Wash_old.C2.In open;Открывается;BOOL (1 bit);Read;ИНР;1;32;&h40;288
-Wash_old.C2.In close;Закрывается;BOOL (1 bit);Read;ИНР;1;32;"&h80
++--- Для ДКМ не используется";, , , , , , 
+Wash_old.C2.Mode;Готовность С2;INT (1 byte);R;ИНР;1;32;&h00,1, &h10,1, &h20,1, &h30, 0;, , , , , , 
+Wash_old.C2.Open;Открыта;BOOL (1 bit);R;ИНР;1;32;&h10;, , , , , , 
+Wash_old.C2.Close;Закрыта;BOOL (1 bit);R;ИНР;1;32;&h20;, , , , , , 
+Wash_old.C2.In open;Открывается;BOOL (1 bit);R;ИНР;1;32;&h40;, , , , , , 
+Wash_old.C2.In close;Закрывается;BOOL (1 bit);R;ИНР;1;32;"&h80
 
 
-+--- Для ДКМ не используется";288
-Wash_old.C3.Open;Открыта;BOOL (1 bit);Read;ИНР;1;32;&h01;288
-Wash_old.C3.Close;Закрыта;BOOL (1 bit);Read;ИНР;1;32;&h02;288
-Wash_old.C3.Drive;Вкл/Откл привода;BOOL (1 bit);Read;ИНР;1;32;&h04;288
-Wash_old.C3.Mode;Режим А/Р;BOOL (1 bit);Read;ИНР;1;33;&h08;289
-Wash_old.C3.In open;Открывается;BOOL (1 bit);Read;ИНР;1;34;&h40;290
-Wash_old.C3.In close;Закрывается;BOOL (1 bit);Read;ИНР;1;34;&h80;290
-Wash_old.Error PTK;Ошибка обмена с модулями ТПК;BOOL (1 bit);Read;ИНР;1;36;&h01;292
-Wash_old.P_Col.top;Диапазан max значение;FLOAT (4 bytes);Read;ИНР;1;48;;304
-Wash_old.C1.Zd PosA;Задание положения;FLOAT (4 bytes);Read;ИНР;1;52;;308
-Wash_old.C2.Zd PosA;Задание положения;FLOAT (4 bytes);Read;ИНР;1;56;;312
-Wash_old.C3.Zd PosA;Задание положения;FLOAT (4 bytes);Read;ИНР;1;60;;316
-Wash_old.C1.Time PosA;Время полного хода задвижки;FLOAT (4 bytes);Read;ИНР;1;64;;320
-Wash_old.C2.Time PosA;Время полного хода задвижки;FLOAT (4 bytes);Read;ИНР;1;68;;324
-Wash_old.C3.Time PosA;Время полного хода задвижки;FLOAT (4 bytes);Read;ИНР;1;72;;328
-Wash_old.C1;Задвижка С1;INT (1 byte);Read;ИНР;1;104;;360
-Wash_old.C1.Motor;Привод;INT (1 byte);Read;ИНР;1;106;;362
-Wash_old.C2;Задвижка С2;INT (1 byte);Read;ИНР;1;108;;364
-Wash_old.C2.Motor;Привод;INT (1 byte);Read;ИНР;1;110;;366
-Wash_old.C3;Задвижка C3;INT (1 byte);Read;ИНР;1;112;;368
-Wash_old.C3.Motor;Привод;INT (1 byte);Read;ИНР;1;114;;370
-Wash_old.C1.State;Неверная команда или комбинация команд;BOOL (1 bit);Read;ИНР;1;116;&h40;372
-Wash_old.C1.State.Open;Открытие;BOOL (1 bit);Read;ИНР;1;116;&h01;372
-Wash_old.C1.State.Close;Закрытие;BOOL (1 bit);Read;ИНР;1;116;&h02;372
-Wash_old.C1.State.Time open;Таймаут Вкл. контактора;BOOL (1 bit);Read;ИНР;1;116;&h04;372
-Wash_old.C1.State.Time sensor;Таймаут датчика;BOOL (1 bit);Read;ИНР;1;116;&h08;372
-Wash_old.C1.State.Time valve;Таумаут полного хода;BOOL (1 bit);Read;ИНР;1;116;&h10;372
-Wash_old.C1.State.Error valve;Неверное исходное состояние задвижки;BOOL (1 bit);Read;ИНР;1;116;&h20;372
-Wash_old.C2.State;Неверная команда или комбинация команд;BOOL (1 bit);Read;ИНР;1;117;&h40;373
-Wash_old.C2.State.Open;Открытие;BOOL (1 bit);Read;ИНР;1;117;&h01;373
-Wash_old.C2.State.Close;Закрытие;BOOL (1 bit);Read;ИНР;1;117;&h02;373
-Wash_old.C2.State.Time open;Таймаут Вкл. контактора;BOOL (1 bit);Read;ИНР;1;117;&h04;373
-Wash_old.C2.State.Time sensor;Таймаут датчика;BOOL (1 bit);Read;ИНР;1;117;&h08;373
-Wash_old.C2.State.Time valve;Таумаут полного хода;BOOL (1 bit);Read;ИНР;1;117;&h10;373
-Wash_old.C2.State.Error valve;Неверное исходное состояние задвижки;BOOL (1 bit);Read;ИНР;1;117;&h20;373
-Wash_old.C3.State;Неверная команда или комбинация команд;BOOL (1 bit);Read;ИНР;1;118;&h40;374
-Wash_old.C3.State.Open;Открытие;BOOL (1 bit);Read;ИНР;1;118;&h01;374
-Wash_old.C3.State.Close;Закрытие;BOOL (1 bit);Read;ИНР;1;118;&h02;374
-Wash_old.C3.State.Time open;Таймаут Вкл. контактора;BOOL (1 bit);Read;ИНР;1;118;&h04;374
-Wash_old.C3.State.Time sensor;Таймаут датчика;BOOL (1 bit);Read;ИНР;1;118;&h08;374
-Wash_old.C3.State.Time valve;Таумаут полного хода;BOOL (1 bit);Read;ИНР;1;118;&h10;374
-Wash_old.C3.State.Error valve;Неверное исходное состояние задвижки;BOOL (1 bit);Read;ИНР;1;118;&h20;374
-Wash_old.NA1;Вкл/Откл насоса;INT (1 byte);Write;ДКМ;20;0;;-1
-Wash_old.NA1.H.Motor;Привод;INT (1 byte);Write;ДКМ;20;0;;-1
-Wash_old.NA2;Вкл/Откл насоса;INT (1 byte);Write;ДКМ;20;0;;-1
-Wash_old.NA2.H.Motor;Привод;INT (1 byte);Write;ДКМ;20;0;;-1
-Wash_old.C1.Motor;Привод;INT (1 byte);Write;ДКМ;66;0;;-1
-Wash_old.C2.Motor;Привод;INT (1 byte);Write;ДКМ;66;0;;-1
-Wash_old.C3.Motor;Привод;INT (1 byte);Write;ДКМ;66;0;;-1
++--- Для ДКМ не используется";, , , , , , 
+Wash_old.C3.Open;Открыта;BOOL (1 bit);R;ИНР;1;32;&h01;, , , , , , 
+Wash_old.C3.Close;Закрыта;BOOL (1 bit);R;ИНР;1;32;&h02;, , , , , , 
+Wash_old.C3.Drive;Вкл/Откл привода;BOOL (1 bit);R;ИНР;1;32;&h04;, , , , , , 
+Wash_old.C3.Mode;Режим А/Р;BOOL (1 bit);R;ИНР;1;33;&h08;, , , , , , 
+Wash_old.C3.In open;Открывается;BOOL (1 bit);R;ИНР;1;34;&h40;, , , , , , 
+Wash_old.C3.In close;Закрывается;BOOL (1 bit);R;ИНР;1;34;&h80;, , , , , , 
+Wash_old.Error PTK;Ошибка обмена с модулями ТПК;BOOL (1 bit);R;ИНР;1;36;&h01;, , , , , , 
+Wash_old.P_Col.top;Диапазан max значение;FLOAT (4 bytes);R;ИНР;1;48;;, , , , , , 
+Wash_old.P_Col.top;Диапазан max значение;FLOAT (4 bytes);W;ANY;75;13;;, , , , , , Single
+Wash_old.C1.Zd PosA;Задание положения;FLOAT (4 bytes);R;ИНР;1;52;;, , , , , , 
+Wash_old.C1.Zd PosA;Задание положения;FLOAT (4 bytes);W;ANY;75;14;;, , , , , , Single
+Wash_old.C2.Zd PosA;Задание положения;FLOAT (4 bytes);R;ИНР;1;56;;, , , , , , 
+Wash_old.C2.Zd PosA;Задание положения;FLOAT (4 bytes);W;ANY;75;15;;, , , , , , Single
+Wash_old.C3.Zd PosA;Задание положения;FLOAT (4 bytes);R;ИНР;1;60;;, , , , , , 
+Wash_old.C3.Zd PosA;Задание положения;FLOAT (4 bytes);W;ANY;75;16;;, , , , , , Single
+Wash_old.C1.Time PosA;Время полного хода задвижки;FLOAT (4 bytes);R;ИНР;1;64;;, , , , , , 
+Wash_old.C1.Time PosA;Время полного хода задвижки;FLOAT (4 bytes);W;ANY;75;17;;, , , , , , Single
+Wash_old.C2.Time PosA;Время полного хода задвижки;FLOAT (4 bytes);R;ИНР;1;68;;, , , , , , 
+Wash_old.C2.Time PosA;Время полного хода задвижки;FLOAT (4 bytes);W;ANY;75;18;;, , , , , , Single
+Wash_old.C3.Time PosA;Время полного хода задвижки;FLOAT (4 bytes);R;ИНР;1;72;;, , , , , , 
+Wash_old.C3.Time PosA;Время полного хода задвижки;FLOAT (4 bytes);W;ANY;75;19;;, , , , , , Single
+Wash_old.C1;Задвижка С1;INT (1 byte);R;ИНР;1;104;;, , , , , , 
+Wash_old.C1.Motor;Привод;INT (1 byte);R;ИНР;1;106;;, , , , , , 
+Wash_old.C1.Motor;Привод;INT (1 byte);W;ДКМ;66;0;;, , , , , , Byte
+Wash_old.C2;Задвижка С2;INT (1 byte);R;ИНР;1;108;;, , , , , , 
+Wash_old.C2.Motor;Привод;INT (1 byte);R;ИНР;1;110;;, , , , , , 
+Wash_old.C2.Motor;Привод;INT (1 byte);W;ДКМ;66;0;;, , , , , , Byte
+Wash_old.C3;Задвижка C3;INT (1 byte);R;ИНР;1;112;;, , , , , , 
+Wash_old.C3.Motor;Привод;INT (1 byte);R;ИНР;1;114;;, , , , , , 
+Wash_old.C3.Motor;Привод;INT (1 byte);W;ДКМ;66;0;;, , , , , , Byte
+Wash_old.C1.State;Неверная команда или комбинация команд;BOOL (1 bit);R;ИНР;1;116;&h40;, , , , , , 
+Wash_old.C1.State.Open;Открытие;BOOL (1 bit);R;ИНР;1;116;&h01;, , , , , , 
+Wash_old.C1.State.Close;Закрытие;BOOL (1 bit);R;ИНР;1;116;&h02;, , , , , , 
+Wash_old.C1.State.Time open;Таймаут Вкл. контактора;BOOL (1 bit);R;ИНР;1;116;&h04;, , , , , , 
+Wash_old.C1.State.Time sensor;Таймаут датчика;BOOL (1 bit);R;ИНР;1;116;&h08;, , , , , , 
+Wash_old.C1.State.Time valve;Таумаут полного хода;BOOL (1 bit);R;ИНР;1;116;&h10;, , , , , , 
+Wash_old.C1.State.Error valve;Неверное исходное состояние задвижки;BOOL (1 bit);R;ИНР;1;116;&h20;, , , , , , 
+Wash_old.C2.State;Неверная команда или комбинация команд;BOOL (1 bit);R;ИНР;1;117;&h40;, , , , , , 
+Wash_old.C2.State.Open;Открытие;BOOL (1 bit);R;ИНР;1;117;&h01;, , , , , , 
+Wash_old.C2.State.Close;Закрытие;BOOL (1 bit);R;ИНР;1;117;&h02;, , , , , , 
+Wash_old.C2.State.Time open;Таймаут Вкл. контактора;BOOL (1 bit);R;ИНР;1;117;&h04;, , , , , , 
+Wash_old.C2.State.Time sensor;Таймаут датчика;BOOL (1 bit);R;ИНР;1;117;&h08;, , , , , , 
+Wash_old.C2.State.Time valve;Таумаут полного хода;BOOL (1 bit);R;ИНР;1;117;&h10;, , , , , , 
+Wash_old.C2.State.Error valve;Неверное исходное состояние задвижки;BOOL (1 bit);R;ИНР;1;117;&h20;, , , , , , 
+Wash_old.C3.State;Неверная команда или комбинация команд;BOOL (1 bit);R;ИНР;1;118;&h40;, , , , , , 
+Wash_old.C3.State.Open;Открытие;BOOL (1 bit);R;ИНР;1;118;&h01;, , , , , , 
+Wash_old.C3.State.Close;Закрытие;BOOL (1 bit);R;ИНР;1;118;&h02;, , , , , , 
+Wash_old.C3.State.Time open;Таймаут Вкл. контактора;BOOL (1 bit);R;ИНР;1;118;&h04;, , , , , , 
+Wash_old.C3.State.Time sensor;Таймаут датчика;BOOL (1 bit);R;ИНР;1;118;&h08;, , , , , , 
+Wash_old.C3.State.Time valve;Таумаут полного хода;BOOL (1 bit);R;ИНР;1;118;&h10;, , , , , , 
+Wash_old.C3.State.Error valve;Неверное исходное состояние задвижки;BOOL (1 bit);R;ИНР;1;118;&h20;, , , , , , 
+Wash_old.Timer;Таймер/календар;date;R;TIME;;0;;, , , , , , 
+Wash_old.Timer;Таймер/календар;date;W;TIME;;0;;, , , , , , 
